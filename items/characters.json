@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Zale",
+    "type": "toggle",
+    "img": "images/items/character_zale.png",
+    "codes": "character_zale"
+  },
+  {
+    "name": "Valere",
+    "type": "toggle",
+    "img": "images/items/character_valere.png",
+    "codes": "character_valere"
+  },
+  {
+    "name": "Garl",
+    "type": "toggle",
+    "img": "images/items/character_garl.png",
+    "codes": "character_garl"
+  },
+  {
+    "name": "Seraï",
+    "type": "toggle",
+    "img": "images/items/character_serai.png",
+    "codes": "character_serai"
+  },
+  {
+    "name": "Resh'an",
+    "type": "toggle",
+    "img": "images/items/character_reshan.png",
+    "codes": "character_reshan"
+  },
+  {
+    "name": "B'st",
+    "type": "toggle",
+    "img": "images/items/character_bst.png",
+    "codes": "character_bst"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Skylands",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Cloud Kingdom",
+        "sections": [
+          {
+            "name": "Inn Room",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Bardcore Stage",
+            "item_count": 1
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          },
+          {
+            "name": "Merchant's Hammer",
+            "item_count": 1
+          },
+          {
+            "name": "Golem Name",
+            "hosted_item": "golem_puntie"
+          },
+          {
+            "name": "Puntie",
+            "item_count": 1
+          },
+          {
+            "name": "Council of Giants",
+            "item_count": 1
+          },
+          {
+            "name": "Council Room",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1391,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Air Elemental Skylands",
+        "sections": [
+          {
+            "name": "Prism Moon Right",
+            "item_count": 1
+          },
+          {
+            "name": "Scroll Under Prism",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          },
+          {
+            "name": "Chest Under Prism",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Lower Slab",
+            "item_count": 1
+          },
+          {
+            "name": "Upper Slab",
+            "item_count": 1
+          },
+          {
+            "name": "Vertical Gate",
+            "item_count": 1
+          },
+          {
+            "name": "Rope Walk",
+            "item_count": 1
+          },
+          {
+            "name": "Mirror Room",
+            "item_count": 1
+          },
+          {
+            "name": "Crystal Bowl",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1265,
+            "y": 53,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

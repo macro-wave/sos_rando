@@ -1,0 +1,47 @@
+{
+  "party_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 76,
+        "rows": [
+          [
+            "character_zale",
+            "character_valere",
+            "character_garl"
+          ],
+          [
+            "character_serai",
+            "character_reshan",
+            "character_bst"
+          ]
+        ]
+      }
+    ]
+  },
+  "golem_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "3,1",
+        "item_size": 71,
+        "h_alignment": "left",
+        "rows": [
+          [
+            "golem_yeet",
+            "golem_xtol",
+            "golem_khukarr",
+            "golem_puntie"
+          ]
+        ]
+      }
+    ]
+  }
+}

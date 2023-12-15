@@ -1,0 +1,31 @@
+{
+  "options_panel": {
+    "type": "array",
+    "orientation": "vertical",
+    "item_size": 100,
+    "item_margin": "1,0",
+    "content": [
+      {
+        "type": "item",
+        "item": "option_fishing",
+        "h_alignment": "left",
+        "width": 200,
+        "height": 60
+      },
+      {
+        "type": "item",
+        "item": "option_conches",
+        "h_alignment": "left",
+        "width": 190,
+        "height": 60
+      },
+      {
+        "type": "item",
+        "item": "option_merchants",
+        "h_alignment": "left",
+        "width": 150,
+        "height": 60
+      }
+    ]
+  }
+}

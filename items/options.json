@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Shuffle Fishing Rewards",
+    "type": "toggle",
+    "img": "images/options/option_fishing.png",
+    "codes": "option_fishing"
+  },
+  {
+    "name": "Shuffle Conch Rewards",
+    "type": "toggle",
+    "img": "images/options/option_conches.png",
+    "codes": "option_conches"
+  },
+  {
+    "name": "Shuffle Merchants",
+    "type": "toggle",
+    "img": "images/options/option_merchants.png",
+    "codes": "option_merchants"
+  }
+]

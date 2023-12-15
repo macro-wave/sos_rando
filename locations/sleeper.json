@@ -1,0 +1,504 @@
+[
+  {
+    "name": "Sleeper Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "X'tol's Landing",
+        "sections": [
+          {
+            "name": "Mage Ring Cave",
+            "item_count": 1
+          },
+          {
+            "name": "Below Landing",
+            "item_count": 1
+          },
+          {
+            "name": "After Rope",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 335,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "Moorlands",
+        "sections": [
+          {
+            "name": "Blue Crystals",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "access_rules": [
+              "cobalthammer"
+            ]
+          },
+          {
+            "name": "Near Crystals",
+            "item_count": 1
+          },
+          {
+            "name": "Teal Amber Block",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Behind Teal Amber",
+            "item_count": 1
+          },
+          {
+            "name": "Ant Bruiser Den",
+            "item_count": 1
+          },
+          {
+            "name": "Srowers Cave",
+            "item_count": 1
+          },
+          {
+            "name": "Pond",
+            "item_count": 1
+          },
+          {
+            "name": "Celestial Rune",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 380,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Stonemason's Outpost",
+        "sections": [
+          {
+            "name": "Broken Lever House",
+            "item_count": 2
+          },
+          {
+            "name": "Top Left House",
+            "item_count": 1
+          },
+          {
+            "name": "Darro's Studio",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Molekin Bath",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "mistral"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 367,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "name": "Wind Tunnel Mines",
+        "sections": [
+          {
+            "name": "1B East Ladder",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Tunnel Ledge",
+            "item_count": 1
+          },
+          {
+            "name": "Edge Bridge",
+            "item_count": 1
+          },
+          {
+            "name": "Near Edge Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "2B Lobby",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Mistral Chest",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
+          },
+          {
+            "name": "Salamander Room",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Outside Enemies",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "2B Left Side",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Locked Door",
+            "item_count": 1,
+            "access_rules": [
+              "mistral,key_mines"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 367,
+            "y": 295,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Coral Cascades",
+        "sections": [
+          {
+            "name": "Topmost Falls",
+            "item_count": 1
+          },
+          {
+            "name": "Upper Mistral Spinner",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Middle Falls Path",
+            "item_count": 1
+          },
+          {
+            "name": "West Edge",
+            "item_count": 1
+          },
+          {
+            "name": "Lower Mistral Spinner",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Breakable Ground",
+            "item_count": 1
+          },
+          {
+            "name": "Celestial Rune",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          },
+          {
+            "name": "Lowest Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 377,
+            "y": 420
+          }
+        ]
+      },
+      {
+        "name": "Port Town of Brisk",
+        "sections": [
+          {
+            "name": "Entrance Rooftop",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "West Beach",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Hidden Market",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Fishing Kid",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Darro",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Above Item Shop",
+            "item_count": 1
+          },
+          {
+            "name": "Above Above Item Shop",
+            "item_count": 1
+          },
+          {
+            "name": "West Stairs",
+            "item_count": 1
+          },
+          {
+            "name": "Near Mr. Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Mr. Chest Game",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Push Crate",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "visibility_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Rubble Secret",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "visibility_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "East Stairs",
+            "item_count": 1
+          },
+          {
+            "name": "Roulette Roof",
+            "item_count": 1
+          },
+          {
+            "name": "B.S. Roulette",
+            "item_count": 1
+          },
+          {
+            "name": "Eastern Roof",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Under Balcony",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Sand Castles",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Wheels Starter Kit",
+            "item_count": 3
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 450,
+            "y": 390,
+            "force_invisibility_rules": [
+              "event_cataclysm"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cataclysm Brisk",
+        "access_rules": [
+          "event_cataclysm"
+        ],
+        "sections": [
+          {
+            "name": "Crate Villager",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Tavern Villager",
+            "item_count": 1
+          },
+          {
+            "name": "Fountain Villager",
+            "item_count": 1,
+            "access_rules": [
+              "mistral,graplou"
+            ]
+          },
+          {
+            "name": "Feather Hat Guy",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 450,
+            "y": 390,
+            "restrict_visibility_rules": [
+              "event_cataclysm"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Wizard's Lab",
+        "sections": [
+          {
+            "name": "Lobby",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "First Portal",
+            "item_count": 1,
+            "access_rules": [
+              "key_wizlab:1"
+            ]
+          },
+          {
+            "name": "Third Portal",
+            "item_count": 1,
+            "access_rules": [
+              "key_wizlab:2"
+            ]
+          },
+          {
+            "name": "Fishing Lake",
+            "item_count": 1,
+            "access_rules": [
+              "key_crystalred,key_crystalblue"
+            ]
+          },
+          {
+            "name": "Fifth Portal",
+            "item_count": 1,
+            "access_rules": [
+              "key_wizlab:3"
+            ]
+          },
+          {
+            "name": "Sixth Portal",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "key_wizlab:3"
+            ]
+          },
+          {
+            "name": "Teal Portal",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "key_crystalgreen,key_crystalblue"
+            ]
+          },
+          {
+            "name": "Chromatic Apparition",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
+            "access_rules": [
+              "key_wizlab:3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 507,
+            "y": 337,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+﻿{
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "compact_layout"
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Key Items",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Items",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "key": "item_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Dungeon Items",
+                    "content": {
+                      "type": "layout",
+                      "key": "dungeon_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Collectibles",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "collectibles_grid"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Checklists",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Fish Discovered",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "fishing_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Recipes",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "recipe_grid"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Characters",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Party",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "party_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Travel Golems",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "left",
+                      "key": "golem_grid"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "group",
+              "dock": "bottom",
+              "header": "Pinned Locations",
+              "min_height": 121,
+              "max_height": 208,
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            },
+            {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Home World",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "homeworld"
+                    ]
+                  }
+                },
+                {
+                  "title": "Seraï's World",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "seraiworld"
+                    ]
+                  }
+                },
+                {
+                  "title": "Sea of Nightmare",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "nightmare"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Recipe: Basic Salad",
+    "type": "toggle",
+    "img": "images/items/food_basicsalad.png",
+    "codes": "food_basicsalad,food_light"
+  },
+  {
+    "name": "Recipe: Berry Jam",
+    "type": "toggle",
+    "img": "images/items/food_berryjam.png",
+    "codes": "food_berryjam,food_sweet"
+  },
+  {
+    "name": "Recipe: Bouillabaisse",
+    "type": "toggle",
+    "img": "images/items/food_bouillabaisse.png",
+    "codes": "food_bouillabaisse,food_warming,food_water"
+  },
+  {
+    "name": "Recipe: Braisé",
+    "type": "toggle",
+    "img": "images/items/food_braise.png",
+    "codes": "food_braise,food_meaty"
+  },
+  {
+    "name": "Recipe: Champion Omelette",
+    "type": "toggle",
+    "img": "images/items/food_omelette.png",
+    "codes": "food_omelette"
+  },
+  {
+    "name": "Recipe: Chaudrée",
+    "type": "toggle",
+    "img": "images/items/food_chaudree.png",
+    "codes": "food_chaudree,food_warming,food_water"
+  },
+  {
+    "name": "Recipe: Croustade",
+    "type": "toggle",
+    "img": "images/items/food_croustade.png",
+    "codes": "food_croustade,food_sweet"
+  },
+  {
+    "name": "Recipe: Gourmet Burger",
+    "type": "toggle",
+    "img": "images/items/food_burger.png",
+    "codes": "food_burger,food_meaty"
+  },
+  {
+    "name": "Recipe: Hearty Stew",
+    "type": "toggle",
+    "img": "images/items/food_stew.png",
+    "codes": "food_stew,food_warming"
+  },
+  {
+    "name": "Recipe: Herbed Filet",
+    "type": "toggle",
+    "img": "images/items/food_herbedfilet.png",
+    "codes": "food_herbedfilet,food_water"
+  },
+  {
+    "name": "Recipe: Lasagna",
+    "type": "toggle",
+    "img": "images/items/food_lasagna.png",
+    "codes": "food_lasagna"
+  },
+  {
+    "name": "Recipe: Legendary Feast",
+    "type": "toggle",
+    "img": "images/items/food_feast.png",
+    "codes": "food_feast"
+  },
+  {
+    "name": "Recipe: Mooncradle Fish Pie",
+    "type": "toggle",
+    "img": "images/items/food_fishpie.png",
+    "codes": "food_fishpie,food_water"
+  },
+  {
+    "name": "Recipe: Mushroom Scramble",
+    "type": "toggle",
+    "img": "images/items/food_shroomscramble.png",
+    "codes": "food_shroomscramble,food_light"
+  },
+  {
+    "name": "Recipe: Mushroom Soup",
+    "type": "toggle",
+    "img": "images/items/food_shroomsoup.png",
+    "codes": "food_shroomsoup,food_warming"
+  },
+  {
+    "name": "Recipe: Pain Doré",
+    "type": "toggle",
+    "img": "images/items/food_paindore.png",
+    "codes": "food_paindore,food_sweet"
+  },
+  {
+    "name": "Recipe: Papillote",
+    "type": "toggle",
+    "img": "images/items/food_papillotte.png",
+    "codes": "food_papillotte"
+  },
+  {
+    "name": "Recipe: Parfait",
+    "type": "toggle",
+    "img": "images/items/food_parfait.png",
+    "codes": "food_parfait,food_sweet"
+  },
+  {
+    "name": "Recipe: Peach Strudel",
+    "type": "toggle",
+    "img": "images/items/food_strudel.png",
+    "codes": "food_strudel,food_sweet"
+  },
+  {
+    "name": "Recipe: Poutine",
+    "type": "toggle",
+    "img": "images/items/food_poutine.png",
+    "codes": "food_poutine"
+  },
+  {
+    "name": "Recipe: Pudding Chômeur",
+    "type": "toggle",
+    "img": "images/items/food_chomeur.png",
+    "codes": "food_chomeur"
+  },
+  {
+    "name": "Recipe: Roast Sandwich",
+    "type": "toggle",
+    "img": "images/items/food_roastsandwich.png",
+    "codes": "food_roastsandwich,food_meaty"
+  },
+  {
+    "name": "Recipe: Sashimi",
+    "type": "toggle",
+    "img": "images/items/food_sashimi.png",
+    "codes": "food_sashimi,food_water"
+  },
+  {
+    "name": "Recipe: Tataki",
+    "type": "toggle",
+    "img": "images/items/food_tataki.png",
+    "codes": "food_tataki,food_meaty,food_water"
+  },
+  {
+    "name": "Recipe: Tomato Club",
+    "type": "toggle",
+    "img": "images/items/food_tomatoclub.png",
+    "codes": "food_tomatoclub"
+  },
+  {
+    "name": "Recipe: Yakitori Shrimp",
+    "type": "toggle",
+    "img": "images/items/food_yakitorishrimp.png",
+    "codes": "food_yakitorishrimp,food_water"
+  }
+]

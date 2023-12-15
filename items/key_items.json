@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Cookie Jar",
+    "type": "toggle",
+    "img": "images/items/cookiejar.png",
+    "codes": "cookiejar"
+  },
+  {
+    "name": "Mistral Bracelet",
+    "type": "toggle",
+    "img": "images/items/mistral.png",
+    "codes": "mistral,mistral_bracelet,bracelet"
+  },
+  {
+    "name": "Trader's Signet",
+    "type": "toggle",
+    "img": "images/items/tradersignet.png",
+    "codes": "signet,tradersignet"
+  },
+  {
+    "name": "Coin of Undeath Accord",
+    "type": "toggle",
+    "img": "images/items/undeathcoin.png",
+    "codes": "undeathcoin"
+  },
+  {
+    "name": "Graplou",
+    "type": "toggle",
+    "img": "images/items/graplou.png",
+    "codes": "graplou,hookshot,ropedart,grapplebeam"
+  },
+  {
+    "name": "Soul Stone",
+    "type": "toggle",
+    "img": "images/items/soulstone.png",
+    "codes": "soulstone"
+  },
+  {
+    "name": "Turbo Cookie",
+    "type": "toggle",
+    "img": "images/items/turbocookie.png",
+    "codes": "turbocookie,turbo"
+  },
+  {
+    "name": "Hammer",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/items/coralhammer.png",
+        "codes": "hammer,coralhammer"
+      },
+      {
+        "img": "images/items/cobalthammer.png",
+        "codes": "hammer,cobalthammer"
+      }
+    ]
+  },
+  {
+    "name": "Seashell",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/items/seashell.png",
+        "codes": "seashell"
+      },
+      {
+        "img": "images/items/magicseashell.png",
+        "codes": "seashell,magicseashell"
+      }
+    ]
+  },
+  {
+    "name": "Solstice Amulet",
+    "type": "toggle",
+    "img": "images/items/amulet.png",
+    "codes": "amulet"
+  },
+  {
+    "name": "Vial of Time",
+    "type": "toggle",
+    "img": "images/items/vial.png",
+    "codes": "vial"
+  },
+  {
+    "name": "Immaculate Pearl",
+    "type": "toggle",
+    "img": "images/items/immaculatepearl.png",
+    "codes": "immaculatepearl"
+  },
+  {
+    "name": "Probe",
+    "type": "toggle",
+    "img": "images/items/probe.png",
+    "codes": "probe,cedric"
+  },
+  {
+    "name": "Deployable Wheels Table",
+    "type": "toggle",
+    "img": "images/items/wheelstable.png",
+    "codes": "wheelstable"
+  },
+  {
+    "name": "Romaya's Journal",
+    "type": "toggle",
+    "img": "images/items/journal.png",
+    "codes": "journal"
+  },
+  {
+    "name": "Aventry Locket",
+    "type": "toggle",
+    "img": "images/items/locket.png",
+    "codes": "locket"
+  },
+  {
+    "name": "Duke Aventry's Key",
+    "type": "toggle",
+    "img": "images/items/key_aventry.png",
+    "codes": "key_aventry"
+  },
+  {
+    "name": "Hook of Time",
+    "type": "toggle",
+    "img": "images/items/hookoftime.png",
+    "codes": "hookoftime"
+  },
+  {
+    "name": "Data Strips",
+    "type": "consumable",
+    "img": "images/items/datastrip.png",
+    "codes": "datastrips",
+    "max_quantity": 4
+  },
+  {
+    "name": "Rainbow Conches",
+    "type": "consumable",
+    "img": "images/items/conch.png",
+    "codes": "conches",
+    "max_quantity": 60
+  },
+  {
+    "name": "Hortence's Map",
+    "type": "toggle",
+    "img": "images/items/hortencemap.png",
+    "codes": "hortencemap"
+  },
+  {
+    "name": "Green Flame",
+    "type": "toggle",
+    "img": "images/items/flame_green.png",
+    "codes": "flame_green"
+  },
+  {
+    "name": "Yellow Flame",
+    "type": "toggle",
+    "img": "images/items/flame_yellow.png",
+    "codes": "flame_yellow"
+  },
+  {
+    "name": "Ferry Flames",
+    "type": "composite_toggle",
+    "item_left": "flame_green",
+    "item_right": "flame_yellow",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/items/flame_both.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/items/flame_both.png",
+        "img_mods": "@disabled, overlay|images/items/flamehalf_green.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/items/flame_both.png",
+        "img_mods": "@disabled, overlay|images/items/flamehalf_yellow.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/items/flame_both.png"
+      }
+    ],
+    "codes": "flame_both"
+  },
+  {
+    "name": "Shed Key",
+    "type": "toggle",
+    "img": "images/items/key_shed.png",
+    "codes": "key_shed"
+  },
+  {
+    "name": "Evermist Shrine Key",
+    "type": "toggle",
+    "img": "images/items/key_evermistshrine1.png",
+    "codes": "key_evermistshrine"
+  },
+  {
+    "name": "Yomara's Key",
+    "type": "toggle",
+    "img": "images/items/key_yomara.png",
+    "codes": "key_yomara"
+  },
+  {
+    "name": "Moraine's Office Key",
+    "type": "toggle",
+    "img": "images/items/key_moraine1.png",
+    "codes": "key_moraine"
+  },
+  {
+    "name": "Wind Key",
+    "type": "toggle",
+    "img": "images/items/key_wind1.png",
+    "codes": "key_wind"
+  },
+  {
+    "name": "Cypher",
+    "type": "toggle",
+    "img": "images/items/cypher.png",
+    "codes": "cypher"
+  },
+  {
+    "name": "Docarri Seal Fragments",
+    "type": "consumable",
+    "img": "images/items/docarrifragment.png",
+    "codes": "docarrifragment",
+    "max_quantity": 3,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Gilded Invitation",
+    "type": "toggle",
+    "img": "images/items/invitation.png",
+    "codes": "invitation"
+  },
+  {
+    "name": "Joce's Belt Buckle",
+    "type": "toggle",
+    "img": "images/items/jocebuckle.png",
+    "codes": "jocebuckle"
+  },
+  {
+    "name": "Flimsy Hammers",
+    "type": "consumable",
+    "img": "images/items/flimsyhammer.png",
+    "codes": "flimsyhammers",
+    "max_quantity": 4,
+    "display_as_fraction_of_max": false
+  }
+]

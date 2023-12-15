@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Stillpond Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Stillpond",
+        "sections": [
+          {
+            "name": "Foliage",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 756,
+            "y": 855
+          }
+        ]
+      },
+      {
+        "name": "Fishing Dungeon",
+        "sections": [
+          {
+            "name": "Whirlpool Chamber",
+            "item_count": 1
+          },
+          {
+            "name": "\"Catch\"",
+            "item_count": 1
+          },
+          {
+            "name": "Chef Bass",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 740,
+            "y": 855,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

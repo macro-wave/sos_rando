@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Wheels Pieces",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/items/wheel_copper.png",
+        "codes": "wheels_pieces,wheel_copper"
+      },
+      {
+        "img": "images/items/figurine_warrior.png",
+        "codes": "wheels_pieces,figurine_warrior"
+      },
+      {
+        "img": "images/items/figurine_mage.png",
+        "codes": "wheels_pieces,figurine_mage"
+      },
+      {
+        "img": "images/items/figurine_archer.png",
+        "codes": "wheels_pieces,figurine_archer"
+      },
+      {
+        "img": "images/items/wheel_bronze.png",
+        "codes": "wheels_pieces,wheel_bronze"
+      },
+      {
+        "img": "images/items/wheel_silver.png",
+        "codes": "wheels_pieces,wheel_silver"
+      },
+      {
+        "img": "images/items/figurine_engineer.png",
+        "codes": "wheels_pieces,figurine_engineer"
+      },
+      {
+        "img": "images/items/wheel_gold.png",
+        "codes": "wheels_pieces,wheel_gold"
+      },
+      {
+        "img": "images/items/figurine_priest.png",
+        "codes": "wheels_pieces,figurine_priest"
+      },
+      {
+        "img": "images/items/wheel_diamond.png",
+        "codes": "wheels_pieces,wheel_diamond"
+      },
+      {
+        "img": "images/items/figurine_assassin.png",
+        "codes": "wheels_pieces,figurine_assassin"
+      },
+      {
+        "img": "images/items/wheel_platinum.png",
+        "codes": "wheels_pieces,wheel_platinum"
+      }
+    ]
+  },
+  {
+    "name": "Wheel",
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/items/wheel_copper.png",
+        "codes": "wheel,wheel_copper"
+      },
+      {
+        "img": "images/items/wheel_bronze.png",
+        "codes": "wheel,wheel_bronze"
+      },
+      {
+        "img": "images/items/wheel_silver.png",
+        "codes": "wheel,wheel_silver"
+      },
+      {
+        "img": "images/items/wheel_gold.png",
+        "codes": "wheel,wheel_gold"
+      },
+      {
+        "img": "images/items/wheel_diamond.png",
+        "codes": "wheel,wheel_diamond"
+      },
+      {
+        "img": "images/items/wheel_platinum.png",
+        "codes": "wheel,wheel_platinum"
+      }
+    ]
+  },
+  {
+    "name": "Warrior Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_warrior.png",
+    "codes": "figurine,figurine_warrior"
+  },
+  {
+    "name": "Archer Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_archer.png",
+    "codes": "figurine,figurine_archer"
+  },
+  {
+    "name": "Mage Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_mage.png",
+    "codes": "figurine,figurine_mage"
+  },
+  {
+    "name": "Engineer Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_engineer.png",
+    "codes": "figurine,figurine_engineer"
+  },
+  {
+    "name": "Priest Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_priest.png",
+    "codes": "figurine,figurine_priest"
+  },
+  {
+    "name": "Assassin Figurine",
+    "type": "toggle",
+    "img": "images/items/figurine_assassin.png",
+    "codes": "figurine,figurine_assassin"
+  }
+]

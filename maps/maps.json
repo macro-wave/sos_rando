@@ -1,0 +1,20 @@
+[
+  {
+    "name": "homeworld",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/maps/homeworld.png"
+  },
+  {
+    "name": "seraiworld",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/maps/seraiworld.png"
+  },
+  {
+    "name": "nightmare",
+    "location_size": 15,
+    "location_border_thickness": 3,
+    "img": "images/maps/nightmare.png"
+  }
+]

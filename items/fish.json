@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Lunar Trout",
+    "type": "toggle",
+    "img": "images/items/fish_trout.png",
+    "codes": "fish_count,fish_trout"
+  },
+  {
+    "name": "Man o'War",
+    "type": "toggle",
+    "img": "images/items/fish_manowar.png",
+    "codes": "fish_count,fish_manowar"
+  },
+  {
+    "name": "Grass Haddock",
+    "type": "toggle",
+    "img": "images/items/fish_haddock.png",
+    "codes": "fish_count,fish_haddock"
+  },
+  {
+    "name": "Hardshell",
+    "type": "toggle",
+    "img": "images/items/fish_hardshell.png",
+    "codes": "fish_count,fish_hardshell"
+  },
+  {
+    "name": "Spectral Eel",
+    "type": "toggle",
+    "img": "images/items/fish_eel.png",
+    "codes": "fish_count,fish_eel"
+  },
+  {
+    "name": "Ghosturgeon",
+    "type": "toggle",
+    "img": "images/items/fish_sturgeon.png",
+    "codes": "fish_count,fish_sturgeon"
+  },
+  {
+    "name": "Bone Pike",
+    "type": "toggle",
+    "img": "images/items/fish_pike.png",
+    "codes": "fish_count,fish_pike"
+  },
+  {
+    "name": "Crimson Bass",
+    "type": "toggle",
+    "img": "images/items/fish_bass.png",
+    "codes": "fish_count,fish_bass"
+  },
+  {
+    "name": "Seakjaw",
+    "type": "toggle",
+    "img": "images/items/fish_seakjaw.png",
+    "codes": "fish_count,fish_seakjaw"
+  },
+  {
+    "name": "Fluorescent Piranha",
+    "type": "toggle",
+    "img": "images/items/fish_piranha.png",
+    "codes": "fish_count,fish_piranha"
+  },
+  {
+    "name": "Sun Carp",
+    "type": "toggle",
+    "img": "images/items/fish_carp.png",
+    "codes": "fish_count,fish_carp"
+  },
+  {
+    "name": "Viridian Lobster",
+    "type": "toggle",
+    "img": "images/items/fish_lobster.png",
+    "codes": "fish_count,fish_lobster"
+  },
+  {
+    "name": "Clockwork Crab",
+    "type": "toggle",
+    "img": "images/items/fish_crab.png",
+    "codes": "fish_count,fish_crab"
+  },
+  {
+    "name": "Swordfish",
+    "type": "toggle",
+    "img": "images/items/fish_swordfish.png",
+    "codes": "fish_count,fish_swordfish"
+  },
+  {
+    "name": "Ninja Starfish",
+    "type": "toggle",
+    "img": "images/items/fish_starfish.png",
+    "codes": "fish_count,fish_starfish"
+  },
+  {
+    "name": "Rock Shrimp",
+    "type": "toggle",
+    "img": "images/items/fish_shrimp.png",
+    "codes": "fish_count,fish_shrimp"
+  },
+  {
+    "name": "Lava Koi",
+    "type": "toggle",
+    "img": "images/items/fish_koi.png",
+    "codes": "fish_count,fish_koi"
+  },
+  {
+    "name": "Sky Urchin",
+    "type": "toggle",
+    "img": "images/items/fish_urchin.png",
+    "codes": "fish_count,fish_urchin"
+  },
+  {
+    "name": "Cloud Skate",
+    "type": "toggle",
+    "img": "images/items/fish_skate.png",
+    "codes": "fish_count,fish_skate"
+  },
+  {
+    "name": "Laser Burbot",
+    "type": "toggle",
+    "img": "images/items/fish_burbot.png",
+    "codes": "fish_count,fish_burbot"
+  },
+  {
+    "name": "Coil Flounder",
+    "type": "toggle",
+    "img": "images/items/fish_flounder.png",
+    "codes": "fish_count,fish_flounder"
+  },
+  {
+    "name": "Cybernadl Hermite",
+    "type": "toggle",
+    "img": "images/items/fish_hermite.png",
+    "codes": "fish_count,fish_hermite"
+  },
+  {
+    "name": "Silicium Sponge",
+    "type": "toggle",
+    "img": "images/items/fish_sponge.png",
+    "codes": "fish_count,fish_sponge"
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Settlers Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Mirth",
+        "sections": [
+          {
+            "name": "Golem Name",
+            "hosted_item": "golem_yeet"
+          },
+          {
+            "name": "Moraine",
+            "item_count": 2
+          },
+          {
+            "name": "Town Hall Roof",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Dock Ultimate Skill",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          },
+          {
+            "name": "Moraine's House",
+            "item_count": 1
+          },
+          {
+            "name": "Fish Pond",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1085,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Fishing Lodge",
+        "access_rules": [
+          "plan_fishlodge"
+        ],        
+        "sections": [
+          {
+            "name": "4 Fish",
+            "item_count": 1,
+            "access_rules": [
+              "fish_count:4"
+            ]
+          },
+          {
+            "name": "9 Fish",
+            "item_count": 1,
+            "access_rules": [
+              "fish_count:9"
+            ]
+          },
+          {
+            "name": "14 Fish",
+            "item_count": 1,
+            "access_rules": [
+              "fish_count:14"
+            ]
+          },
+          {
+            "name": "23 Fish",
+            "hosted_item": "flimsyhammers",
+            "access_rules": [
+              "fish_count:23"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1105,
+            "y": 180,
+            "restrict_visibility_rules": [
+              "option_fishing"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mirth Shops",
+        "access_rules": [
+          "plan_shop"
+        ],
+        "sections": [
+          {
+            "name": "Equipment Shop",
+            "item_count": 3
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1065,
+            "y": 180,
+            "restrict_visibility_rules": [
+              "option_merchants"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ancient Crypt",
+        "sections": [
+          {
+            "name": "Crypt Walker",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1056,
+            "y": 142
+          }
+        ]
+      }
+    ]
+  }
+]

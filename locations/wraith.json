@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Wraith Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Wraith Island Docks",
+        "sections": [
+          {
+            "name": "Trap Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Tree Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 718,
+            "y": 618
+          }
+        ]
+      },
+      {
+        "name": "Town of Lucent",
+        "sections": [
+          {
+            "name": "Quarreling Portraits",
+            "item_count": 1,
+            "access_rules": [
+              "food_berryjam"
+            ]
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          },
+          {
+            "name": "Behind Shed",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Learned Skill",
+            "item_count": 1,
+            "access_rules": [
+              "soulstone"
+            ]
+          },
+          {
+            "name": "Behind Tavern",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
+            "name": "Tavern Attic",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
+            "name": "Melee Matey",
+            "item_count": 1,
+            "access_rules": [
+              "graplou,turbocookie"
+            ]
+          },
+          {
+            "name": "Quizmaster's Chest",
+            "item_count": 1,
+            "access_rules": [
+              "key_shed"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 808,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "Quizmaster",
+        "access_rules": [
+          "key_shed"
+        ],
+        "sections": [
+          {
+            "name": "Starter Pack",
+            "hosted_item": "qp1"
+          },
+          {
+            "name": "Pack 1",
+            "item_count": 2,
+            "access_rules": [
+              "qp1"
+            ]
+          },
+          {
+            "name": "Pack 2",
+            "item_count": 2,
+            "access_rules": [
+              "qp2"
+            ]
+          },
+          {
+            "name": "Pack 3",
+            "item_count": 2,
+            "access_rules": [
+              "qp3"
+            ]
+          },
+          {
+            "name": "Pack 4",
+            "item_count": 2,
+            "access_rules": [
+              "qp4"
+            ]
+          },
+          {
+            "name": "Pack 5",
+            "item_count": 2,
+            "access_rules": [
+              "qp5"
+            ]
+          },
+          {
+            "name": "Pack 6",
+            "item_count": 2,
+            "access_rules": [
+              "qp6"
+            ]
+          },
+          {
+            "name": "Pack 7",
+            "item_count": 2,
+            "access_rules": [
+              "qp7"
+            ]
+          },
+          {
+            "name": "Pack 8",
+            "item_count": 2,
+            "access_rules": [
+              "qp8"
+            ]
+          },
+          {
+            "name": "Pack 9",
+            "item_count": 2,
+            "access_rules": [
+              "qp9"
+            ]
+          },
+          {
+            "name": "Pack 10",
+            "item_count": 2,
+            "access_rules": [
+              "qp10"
+            ]
+          },
+          {
+            "name": "Pack 11",
+            "item_count": 2,
+            "access_rules": [
+              "qp11"
+            ]
+          },
+          {
+            "name": "Loremaster",
+            "item_count": 1,
+            "access_rules": [
+              "qps:11"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 825,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Cursed Woods",
+        "sections": [
+          {
+            "name": "Arentree Cave",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "NE Boulbe Fight",
+            "item_count": 1
+          },
+          {
+            "name": "NW Boulbe Fight",
+            "item_count": 1
+          },
+          {
+            "name": "Solstice Cache",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 830,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Flooded Graveyard",
+        "access_rules": [
+          "undeathcoin",
+          "flame_green",
+          "dweller_dread,mistral"
+        ],
+        "sections": [
+          {
+            "name": "Solstice Cache",
+            "item_count": 1
+          },
+          {
+            "name": "Roof",
+            "item_count": 1
+          },
+          {
+            "name": "Rafters",
+            "item_count": 1
+          },
+          {
+            "name": "Outside Lair",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Duke Aventry Skill",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Pull Blocks",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
+            "name": "Secret Passage",
+            "item_count": 1,
+            "access_rules": [
+              "dweller_dread,mistral"
+            ]
+          },
+          {
+            "name": "Give Journal",
+            "item_count": 1,
+            "access_rules": [
+              "journal"
+            ]
+          },
+          {
+            "name": "Give Locket",
+            "item_count": 1,
+            "access_rules": [
+              "locket"
+            ]
+          },
+          {
+            "name": "Aventry's Casket",
+            "item_count": 2,
+            "access_rules": [
+              "key_aventry"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 935,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "name": "Necromancer's Lair",
+        "access_rules": [
+          "@Flooded Graveyard,mistral"
+        ],
+        "sections": [
+          {
+            "name": "West Wing",
+            "access_rules": [
+              "graplou"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Fallen Pillar",
+            "item_count": 1
+          },
+          {
+            "name": "East Wing Ladder",
+            "item_count": 1
+          },
+          {
+            "name": "East Wing Octagon",
+            "item_count": 1
+          },
+          {
+            "name": "Graplou Chest",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
+          },
+          {
+            "name": "Mermofwizquards",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
+            "name": "Drawer Stairs",
+            "item_count": 1,
+            "access_rules": [
+              "@Necromancer's Lair/West Wing"
+            ]
+          },
+          {
+            "name": "West Wing Chest",
+            "item_count": 1,
+            "access_rules": [
+              "@Necromancer's Lair/West Wing"
+            ]
+          },
+          {
+            "name": "Bone Pile",
+            "item_count": 1,
+            "access_rules": [
+              "@Necromancer's Lair/West Wing"
+            ]
+          },
+          {
+            "name": "Romaya",
+            "item_count": 2,
+            "access_rules": [
+              "@Necromancer's Lair/West Wing"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 935,
+            "y": 585,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Haunted Mansion",
+        "sections": [
+          {
+            "name": "Beyond Library",
+            "access_rules": [
+              "graplou"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Candle Secret",
+            "item_count": 1
+          },
+          {
+            "name": "Goblet Shelf",
+            "item_count": 1
+          },
+          {
+            "name": "Dining Room Rubble",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "@Haunted Mansion/Beyond Library"
+            ]
+          },
+          {
+            "name": "Cook for Ghost",
+            "item_count": 1
+          },
+          {
+            "name": "King Statue",
+            "item_count": 1
+          },
+          {
+            "name": "Library Balcony",
+            "item_count": 1
+          },
+          {
+            "name": "Bookshelf",
+            "item_count": 1
+          },
+          {
+            "name": "Library Fireplace",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "@Haunted Mansion/Beyond Library"
+            ]
+          },
+          {
+            "name": "Shelf Passage",
+            "item_count": 1,
+            "access_rules": [
+              "@Haunted Mansion/Beyond Library"
+            ]
+          },
+          {
+            "name": "Hedge Maze",
+            "item_count": 1,
+            "access_rules": [
+              "@Haunted Mansion/Beyond Library"
+            ]
+          },
+          {
+            "name": "Rooftop Learned Skill",
+            "item_count": 1,
+            "access_rules": [
+              "@Haunted Mansion/Beyond Library"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 822,
+            "y": 550,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Wraith Solstice Shrine",
+        "access_rules": [
+          "graplou"
+        ],
+        "sections": [
+          {
+            "name": "Lower Pedestal",
+            "item_count": 1
+          },
+          {
+            "name": "Upper Pedestal",
+            "item_count": 1
+          },
+          {
+            "name": "Right Side",
+            "item_count": 1
+          },
+          {
+            "name": "Left Side",
+            "item_count": 1
+          },
+          {
+            "name": "Big Chest",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 885,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "Half-Sunken Tower",
+        "sections": [
+          {
+            "name": "Outside Basket",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Cattails",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Tower Basket",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Tower Drop",
+            "item_count": 1
+          },
+          {
+            "name": "Romaya",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 960,
+            "y": 617
+          }
+        ]
+      }
+    ]
+  }
+]

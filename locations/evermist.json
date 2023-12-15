@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Evermist Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Zenith Academy",
+        "sections": [
+          {
+            "name": "Gifts from Brugaves",
+            "access_rules": [],
+            "item_count": 2
+          },
+          {
+            "name": "Garl's Visit",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Snacks for the Road",
+            "access_rules": [],
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "chest_unopened_img": "images/boxes/basket_closed.png"
+          },
+          {
+            "name": "Moraine's Office",
+            "item_count": 1,
+            "access_rules": [
+              "golem_yeet,key_moraine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 275,
+            "y": 885
+          }
+        ]
+      },
+      {
+        "name": "Graduation Test",
+        "sections": [
+          {
+            "name": "Snacks for the Test",
+            "access_rules": [],
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "chest_unopened_img": "images/boxes/basket_closed.png"
+          },
+          {
+            "name": "First Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Second Chest",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 295,
+            "y": 885
+          }
+        ]
+      },
+      {
+        "name": "Mooncradle",
+        "sections": [
+          {
+            "name": "Return",
+            "access_rules": [
+              "golem_yeet"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Gifts from Moraine",
+            "item_count": 2
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "@Mooncradle/Return,figurine_mage"
+            ]
+          },
+          {
+            "name": "Behind Hall",
+            "item_count": 1,
+            "access_rules": [
+              "@Mooncradle/Return"
+            ]
+          },
+          {
+            "name": "Farm Thorns",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "access_rules": [
+              "@Mooncradle/Return,mistral"
+            ]
+          },
+          {
+            "name": "Celestial Willow",
+            "item_count": 1,
+            "access_rules": [
+              "@Mooncradle/Return"
+            ]
+          },
+          {
+            "name": "Across Gate",
+            "item_count": 1,
+            "access_rules": [
+              "@Mooncradle/Return"
+            ]
+          },
+          {
+            "name": "Rake Leaves",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "access_rules": [
+              "@Mooncradle/Return,mistral"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 270,
+            "y": 845
+          }
+        ]
+      },
+      {
+        "name": "Forbidden Cavern",
+        "sections": [
+          {
+            "name": "Mistral Block",
+            "item_count": 1,
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "access_rules": [
+              "mistral_bracelet"
+            ]
+          },
+          {
+            "name": "Lower Ledge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rising Wall",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Near Scroll Basket",
+            "access_rules": [
+              "key_forbiddencavern"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Scroll",
+            "access_rules": [
+              "key_forbiddencavern"
+            ],
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          },
+          {
+            "name": "Near Scroll Chest",
+            "access_rules": [
+              "key_forbiddencavern"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Rope Walk",
+            "access_rules": [
+              "key_forbiddencavern"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Bosslug",
+            "access_rules": [
+              "key_forbiddencavern"
+            ],
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 255,
+            "y": 800,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Sunglow Lake",
+        "sections": [
+          {
+            "name": "Basket",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 225,
+            "y": 770
+          }
+        ]
+      },
+      {
+        "name": "Garl's Arrival",
+        "sections": [
+          {
+            "name": "Cooking with Garl",
+            "item_count": 1
+          },
+          {
+            "name": "Free Recipes",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 260,
+            "y": 765
+          }
+        ]
+      },
+      {
+        "name": "Evermist Solstice Shrine",
+        "access_rules": [
+          "key_Evermistshrine"
+        ],
+        "sections": [
+          {
+            "name": "Big Chest",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 294,
+            "y": 757
+          }
+        ]
+      },
+      {
+        "name": "Mountain Trail",
+        "sections": [
+          {
+            "name": "Luslug Cave",
+            "item_count": 1
+          },
+          {
+            "name": "Pine Path",
+            "item_count": 1
+          },
+          {
+            "name": "Graplou Island",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
+            "name": "Mist Falls",
+            "item_count": 1
+          },
+          {
+            "name": "Elder Mist 2",
+            "access_rules": [
+              "@Wraith Solstice Shrine,@Evermist Solstice Shrine"
+            ],
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 283,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Elder Mist Trials",
+        "sections": [
+          {
+            "name": "Boost Ability",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
+          },
+          {
+            "name": "Left Trial Mistral Block",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Left Trial Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Middle Trial",
+            "item_count": 1
+          },
+          {
+            "name": "Right Trial",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 283,
+            "y": 700,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Y'eet's Landing",
+        "sections": [
+          {
+            "name": "Golem Name",
+            "hosted_item": "golem_xtol"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 220,
+            "y": 700
+          }
+        ]
+      }
+    ]
+  }
+]

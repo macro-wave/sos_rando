@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Wyrd",
+    "type": "toggle",
+    "img": "images/items/boss_wyrd.png",
+    "codes": "boss_wyrd"
+  },
+  {
+    "name": "Bosslug",
+    "type": "toggle",
+    "img": "images/items/boss_bosslug.png",
+    "codes": "boss_bosslug"
+  },
+  {
+    "name": "Elder Mist (Trials)",
+    "type": "toggle",
+    "img": "images/items/boss_eldermist_1.png",
+    "codes": "boss_eldermist_1"
+  },
+  {
+    "name": "Elder Mist (Shrines)",
+    "type": "toggle",
+    "img": "images/items/boss_eldermist_2.png",
+    "codes": "boss_eldermist_2"
+  },
+  {
+    "name": "Rockie",
+    "type": "toggle",
+    "img": "images/items/boss_rockie.png",
+    "codes": "boss_rockie"
+  },
+  {
+    "name": "Malkomount",
+    "type": "toggle",
+    "img": "images/items/boss_malkomount.png",
+    "codes": "boss_malkomount"
+  },
+  {
+    "name": "Chromatic Apparition",
+    "type": "toggle",
+    "img": "images/items/boss_apparition.png",
+    "codes": "boss_apparition"
+  },
+  {
+    "name": "Duke Aventry",
+    "type": "toggle",
+    "img": "images/items/boss_aventry.png",
+    "codes": "boss_aventry"
+  },
+  {
+    "name": "Romaya",
+    "type": "toggle",
+    "img": "images/items/boss_romaya.png",
+    "codes": "boss_romaya"
+  },
+  {
+    "name": "Botanical Horror",
+    "type": "toggle",
+    "img": "images/items/boss_botanical.png",
+    "codes": "boss_botanical"
+  },
+  {
+    "name": "Stormcaller",
+    "type": "toggle",
+    "img": "images/items/boss_stormcaller.png",
+    "codes": "boss_stormcaller"
+  },
+  {
+    "name": "Hydralion",
+    "type": "toggle",
+    "img": "images/items/boss_hydralion.png",
+    "codes": "boss_hydralion"
+  },
+  {
+    "name": "Leaf Monster",
+    "type": "toggle",
+    "img": "images/items/boss_leaf.png",
+    "codes": "boss_leaf"
+  },
+  {
+    "name": "Toadcano",
+    "type": "toggle",
+    "img": "images/items/boss_toadcano.png",
+    "codes": "boss_toadcano"
+  },
+  {
+    "name": "Guardian",
+    "type": "toggle",
+    "img": "images/items/boss_guardian.png",
+    "codes": "boss_guardian"
+  },
+  {
+    "name": "Meduso",
+    "type": "toggle",
+    "img": "images/items/boss_meduso.png",
+    "codes": "boss_meduso"
+  },
+  {
+    "name": "Triumvirate of Eminence",
+    "type": "toggle",
+    "img": "images/items/boss_triumvirate.png",
+    "codes": "boss_triumvirate"
+  },
+  {
+    "name": "Gun Goddess",
+    "type": "toggle",
+    "img": "images/items/boss_gungoddess.png",
+    "codes": "boss_gungoddess"
+  },
+  {
+    "name": "",
+    "type": "toggle",
+    "img": "images/items/boss_.png",
+    "codes": "boss_"
+  },
+  {
+    "name": "",
+    "type": "toggle",
+    "img": "images/items/boss_.png",
+    "codes": "boss_"
+  },
+  {
+    "name": "",
+    "type": "toggle",
+    "img": "images/items/boss_.png",
+    "codes": "boss_"
+  },
+  {
+    "name": "Acolytes 1 & 3",
+    "type": "toggle",
+    "img": "images/items/boss_one_three.png",
+    "codes": "boss_one_three"
+  },
+  {
+    "name": "Acolytes 2 & 4",
+    "type": "toggle",
+    "img": "images/items/boss_two_four.png",
+    "codes": "boss_two_four"
+  },
+  {
+    "name": "Acolytes",
+    "type": "toggle",
+    "img": "images/items/boss_acolytes.png",
+    "codes": "boss_acolytes"
+  },
+  {
+    "name": "Erlina & Brugaves",
+    "type": "toggle",
+    "img": "images/items/boss_erlina_brugaves.png",
+    "codes": "boss_erlina_brugaves"
+  },
+  {
+    "name": "Dweller of Woe",
+    "type": "toggle",
+    "img": "images/items/boss_dow.png",
+    "codes": "boss_dweller,boss_dow"
+  },
+  {
+    "name": "Dweller of Torment",
+    "type": "toggle",
+    "img": "images/items/boss_dot.png",
+    "codes": "boss_dweller,boss_dot"
+  },
+  {
+    "name": "Dweller of Strife",
+    "type": "toggle",
+    "img": "images/items/boss_dos.png",
+    "codes": "boss_dweller,boss_dos"
+  },
+  {
+    "name": "Dweller of Dread",
+    "type": "toggle",
+    "img": "images/items/boss_dod.png",
+    "codes": "boss_dweller,boss_dod"
+  },
+  {
+    "name": "Elysan'darëlle",
+    "type": "toggle",
+    "img": "images/items/boss_elysan.png",
+    "codes": "boss_elysan"
+  },
+  {
+    "name": "Aephorul",
+    "type": "toggle",
+    "img": "images/items/boss_aephorul.png",
+    "codes": "boss_aephorul,boss_fleshmancer"
+  },
+  {
+    "name": "World Eater",
+    "type": "toggle",
+    "img": "images/items/boss_worldeater.png",
+    "codes": "boss_worldeater"
+  }
+]

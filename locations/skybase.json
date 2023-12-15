@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Sky Base",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "children": [
+      {
+        "name": "Sky Base",
+        "sections": [
+          {
+            "name": "Remote Control Cubes",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Graplou Stump",
+            "item_count": 2
+          },
+          {
+            "name": "Save Book",
+            "item_count": 1
+          },
+          {
+            "name": "Elevator",
+            "item_count": 1
+          },
+          {
+            "name": "Slidevator Right",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1226,
+            "y": 200,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

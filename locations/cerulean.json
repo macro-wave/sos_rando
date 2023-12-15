@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Cerulean Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "children": [
+      {
+        "name": "Derelict Factory",
+        "sections": [
+          {
+            "name": "Crane",
+            "access_rules": [
+              "key_factoryidcard"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Kybermesh Battery",
+            "access_rules": [
+              "key_factorypowerunit,key_factoryblueprint,key_factorykyber"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Entrance",
+            "item_count": 1
+          },
+          // DUNGEON LOCK //
+          {
+            "name": "Quad Turrets",
+            "item_count": 1
+          },
+          {
+            "name": "Card Dispenser",
+            "item_count": 1
+          },
+          {
+            "name": "Crane",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            "name": "Mining Laser",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane,graplou"
+            ]
+          },
+          {
+            "name": "LTTP Room",
+            "item_count": 2,
+            "access_rules": [
+              "@Derelict Factory/Crane,mistral"
+            ]
+          },
+          {
+            "name": "Power Unit Fabricator",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane,@Derelict Factory/Kybermesh Battery"
+            ]
+          },
+          {
+            "name": "Dispenser Left",
+            "item_count": 1,
+            "access_rules": [
+              "key_factoryidcard"
+            ]
+          },
+          {
+            "name": "Dispenser Right",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "access_rules": [
+              "key_factoryidcard"
+            ]
+          } /*,
+
+          //Questionable Checks
+          {
+            //Fabricator room left
+            "name": "Regular Dispenser A",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            //Fabricator room right
+            "name": "Regular Dispenser B",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            //Fabricator room middle
+            "name": "Regular Dispenser C",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            //Dispenser room far left
+            "name": "Regular Dispenser D",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            //Dispenser room far right
+            "name": "Regular Dispenser E",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            //LTTP room right
+            "name": "Regular Dispenser F",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane,mistral"
+            ]
+          }
+          */
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1050,
+            "y": 530,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Reservoir",
+        "sections": [
+          {
+            "name": "Reservoir Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1148,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Repine",
+        "sections": [
+          {
+            "name": "Chomper",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "food_sweet,food_warming,food_meaty,food_light,food_water"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Alley Corner",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Side Alley",
+            "item_count": 1
+          },
+          {
+            "name": "Left Rooftop",
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Equipment Shop",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Back Room",
+            "item_count": 2,
+            "access_rules": [
+              "cypher"
+            ]
+          },
+          {
+            "name": "Cedric's Probe",
+            "item_count": 1
+          },
+          {
+            "name": "Craft Cypher",
+            "hosted_item": "cypher",
+            "access_rules": [
+              "datastrips:4"
+            ]
+          },
+          {
+            "name": "Wheels Chapmion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1106,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Expanse",
+        "sections": [
+          {
+            "name": "NE Pointer",
+            "item_count": 1
+          },
+          {
+            "name": "North Pointer",
+            "item_count": 1
+          },
+          {
+            "name": "NW Pointer",
+            "item_count": 1
+          },
+          {
+            "name": "Oasis",
+            "item_count": 3
+          },
+          {
+            "name": "Oasis Conch",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1170,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Lost Ones Hamlet",
+        "sections": [
+          {
+            "name": "Soul Lab",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1210,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Throne of The Queen That Was",
+        "sections": [
+          {
+            "name": "Speedball",
+            "item_count": 1
+          },
+          {
+            "name": "Stairs",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Gun Goddess",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1225,
+            "y": 455
+          }
+        ]
+      }
+    ]
+  }
+]
