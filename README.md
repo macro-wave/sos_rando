@@ -55,7 +55,7 @@ The *Coral/Cobalt Hammer* and the *Seashell/Magic Seashell* have been respective
 **Other Notes**\
 The names of *Travel Golems* (represented by their icons in the *Characters* tab) have been included as possible logical items, as they restrict travel between islands. Shuffling the names may be a possible feature in an implemented randomizer.
 
-The*`Nightmare Vespertine* and *Cataclysm Brisk* areas are unique in that they cannot be revisited outside their respective chapters. Cataclysm Brisk is not currently implemented. Nightmare Vespertine will currently change to normal on the Home World map after obtaining the Map item. Frankly I have no idea how to deal with this logic.
+The *Nightmare Vespertine* and *Cataclysm Brisk* areas are unique in that they cannot be revisited outside their respective chapters. Cataclysm Brisk is not currently implemented. Nightmare Vespertine will currently change to normal on the Home World map after obtaining the Map item. Frankly I have no idea how to deal with this logic.
 
 ***
 
