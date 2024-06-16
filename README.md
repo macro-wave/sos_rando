@@ -38,7 +38,7 @@ Check [ToDo.md](ToDo.md) for my current list of desirable features, or feel free
 ## Helpful tracker info
 
 **Shuffle options**\
-The options panel drops down from the gear icon in the top left tabbed section. LEft-click to enable those options; right-click to disable.
+The options panel drops down from the gear icon in the top left tabbed section. Left-click to enable those options; right-click to disable.
 
 **Fishing and Recipes**\
 The *Checklists* tab has item grids for fish discovered and for recipes obtained.

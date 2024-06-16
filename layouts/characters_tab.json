@@ -1,7 +1,6 @@
 {
   "party_grid": {
-    "type": "array",
-    "orientation": "vertical",
+    "type": "container",
     "margin": "0,0",
     "content": [
       {
@@ -24,8 +23,7 @@
     ]
   },
   "golem_grid": {
-    "type": "array",
-    "orientation": "vertical",
+    "type": "container",
     "margin": "0,0",
     "content": [
       {

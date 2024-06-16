@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Sea of Nightmare",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Nightmare Vespertine",
+        "chest_unopened_img": "images/boxes/basket_closed.png",
+        "chest_opened_img": "images/boxes/basket_open.png",
+        "sections": [
+          {
+            "name": "Foremast",
+            "item_count": 1
+          },
+          {
+            "name": "Captain's Quarters",
+            "item_count": 1
+          },
+          {
+            "name": "Stern",
+            "item_count": 1
+          },
+          {
+            "name": "Hull Bow",
+            "item_count": 1
+          },
+          {
+            "name": "Crew Quarters",
+            "item_count": 1
+          },
+          {
+            "name": "Galley",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+            "chest_opened_img": "images/boxes/treasure_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "nightmare",
+            "x": 670,
+            "y": 545
+          },
+          {
+            "map": "homeworld",
+            "x": 670,
+            "y": 545,
+            "force_invisibility_rules": [
+              "hortencemap"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sea of Nightmare Southwest",
+        "access_rules": [
+          "hortencemap"
+        ],
+        "sections": [
+          {
+            "name": "Ropewalk",
+            "item_count": 1
+          },
+          {
+            "name": "Tiny Island",
+            "item_count": 1
+          },
+          {
+            "name": "3 Enemies",
+            "item_count": 1
+          },
+          {
+            "name": "Push Crates",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Land Bridge",
+            "item_count": 1
+          },
+          {
+            "name": "Gunner Guard",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "nightmare",
+            "x": 465,
+            "y": 660,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Maelstrom Point",
+        "sections": [
+          {
+            "name": "Stormcaller",
+            "hosted_item": "boss_stormcaller",
+            "access_rules": [
+              "key_doubloon:6"
+            ]
+          },
+          {
+            "name": "Immaculate Pearl",
+            "item_count": 1,
+            "access_rules": [
+              "boss_dweller_strife"
+            ]
+          },
+          {
+            "name": "Combo from Hortence",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "boss_dweller_strife"
+            ]
+          },
+          {
+            "name": "Hydralion",
+            "hosted_item": "boss_hydralion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "nightmare",
+            "x": 710,
+            "y": 415
+          }
+        ]
+      }
+    ]
+  }
+]

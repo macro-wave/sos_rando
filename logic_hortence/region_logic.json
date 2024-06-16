@@ -1,0 +1,59 @@
+[
+  {
+    "name": "reg_evermist",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "reg_evermist_beyondcavern",
+        "access_rules": [
+        ]
+      },
+      {
+        "name": "reg_evermist_return",
+        "access_rules": [
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reg_sleeper",
+    "access_rules": [
+      "hortencemap"
+    ],
+    "children": [
+      {
+        "name": "reg_sleeper_heights",
+        "access_rules": []
+      },
+      {
+        "name": "reg_sleeper_sealevel",
+        "access_rules": [
+          "hortencemap"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reg_wraith",
+    "access_rules": [
+      "hortencemap"
+    ]
+  },
+  {
+    "name": "reg_skylands",
+    "access_rules": [
+      "hortencemap, option_skybridge_open",
+      "hortencemap, option_skybridge_dos, boss_dweller_strife"
+    ]
+  },
+  {
+    "name": "reg_seraiworld",
+    "access_rules": [
+      "hortencemap, magicseashell"
+    ]
+  },
+  {
+    "name": "reg_shrineislands",
+    "access_rules": []
+  }
+]

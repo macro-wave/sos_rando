@@ -1,21 +1,22 @@
 if HAS_MAP then
 
     Tracker:AddMaps("maps/maps.json")
-
-    Tracker:AddLocations("locations/basalt.json")
-    Tracker:AddLocations("locations/cerulean.json")
-    Tracker:AddLocations("locations/home_overworld.json")
-    Tracker:AddLocations("locations/sea_nightmare.json")
-    Tracker:AddLocations("locations/sacrosanct.json")
-    Tracker:AddLocations("locations/serai_overworld.json")
-    Tracker:AddLocations("locations/settlers.json")
-    Tracker:AddLocations("locations/skybase.json")
-    Tracker:AddLocations("locations/skylands.json")
-    Tracker:AddLocations("locations/sleeper.json")
-    Tracker:AddLocations("locations/watcher.json")
-    Tracker:AddLocations("locations/mesa.json")
-    Tracker:AddLocations("locations/wraith.json")
-    Tracker:AddLocations("locations/evermist.json")
-    Tracker:AddLocations("locations/stillpond.json")
+    
+    Tracker:AddLocations(LOGIC_DIR .. "/region_logic.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/basalt.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/cerulean.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/home_overworld.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/sea_nightmare.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/sacrosanct.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/serai_overworld.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/settlers.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/skybase.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/skylands.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/sleeper.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/watcher.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/mesa.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/wraith.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/evermist.json")
+    Tracker:AddLocations(LOGIC_DIR .. "/stillpond.json")
 
 end

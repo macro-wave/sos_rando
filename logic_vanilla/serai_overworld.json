@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Serai Overworld",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "children": [
+      {
+        "name": "Speedball Network Station",
+        "sections": [
+          {
+            "name": "Network Station",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 745,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Infinite Abyss",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dweller of Dread",
+            "hosted_item": "boss_dweller_dread"
+          },
+          {
+            "name": "Flight",
+            "hosted_item": "flight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1045,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Solstice Shrine Island",
+        "sections": [
+          {
+            "name": "Shrine Reward",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 350,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Fleshmancer's Lair",
+        "sections": [
+          {
+            "name": "Eye Roll",
+            "item_count": 1
+          },
+          {
+            "name": "LeJugg",
+            "hosted_item": "boss_lejugg"
+          },
+          {
+            "name": "Halls of Illusion Maze",
+            "item_count": 2
+          },
+          {
+            "name": "After Maze",
+            "item_count": 1
+          },
+          {
+            "name": "Big Jars",
+            "item_count": 3
+          },
+          {
+            "name": "Mines Illusion",
+            "item_count": 1
+          },
+          {
+            "name": "Catch Fish?",
+            "item_count": 1
+          },
+          {
+            "name": "Fish Illusion",
+            "item_count": 1
+          },
+          {
+            "name": "Before Room of Sending",
+            "item_count": 1
+          },
+          {
+            "name": "Phase Reaper",
+            "hosted_item": "boss_phasereaper"
+          },
+          {
+            "name": "Summoner's Campfire",
+            "item_count": 1
+          },
+          {
+            "name": "Elysan'darëlle",
+            "hosted_item": "boss_elysandarelle"
+          },
+          {
+            "name": "Aephorul",
+            "hosted_item": "boss_aephorul"
+          },
+          {
+            "name": "True Ending",
+            "hosted_item": "flimsyhammers"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 840,
+            "y": 250,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

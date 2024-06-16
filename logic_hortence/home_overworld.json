@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Home Overworld",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Solstice Shrine Islands",
+        "access_rules": [
+          "boss_dweller_dread"
+        ],
+        "children": [
+          {
+            "name": "Western Solstice Shrine Island",
+            "access_rules": [
+              "amulet"
+            ],
+            "sections": [
+              {
+                "name": "Shrine Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+                "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 395,
+                "y": 570
+              }
+            ]
+          },
+          {
+            "name": "Eastern Solstice Shrine Island",
+            "access_rules": [
+              "amulet"
+            ],
+            "sections": [
+              {
+                "name": "Shrine Reward",
+                "item_count": 1,
+                "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+                "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 1050,
+                "y": 275
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sunken Docarri Ruins",
+        "access_rules": [
+          "boss_dweller_dread, amulet, magicseashell"
+        ],
+        "children": [
+          {
+            "name": "Northwest Docarri Ruin",
+            "access_rules": [
+              "hammer"
+            ],
+            "sections": [
+              {
+                "name": "Chest",
+                "access_rules": [
+                  "mistral"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Fragment",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 250,
+                "y": 145
+              }
+            ]
+          },
+          {
+            "name": "Southwest Docarri Ruin",
+            "access_rules": [
+              "hammer"
+            ],
+            "sections": [
+              {
+                "name": "Fragment",
+                "access_rules": [
+                  "mistral"
+                ],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 405,
+                "y": 780
+              }
+            ]
+          },
+          {
+            "name": "East Docarri Ruin",
+            "access_rules": [
+              "hammer"
+            ],
+            "sections": [
+              {
+                "name": "Fragment",
+                "item_count": 1,
+                "access_rules": [
+                  "mistral, graplou"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 1150,
+                "y": 445
+              }
+            ]
+          },
+          {
+            "name": "Sealed Docarri Ruins",
+            "access_rules": [
+              "docarrifragment:3"
+            ],
+            "sections": [
+              {
+                "name": "Resh'an's Turban",
+                "item_count": 1
+              },
+              {
+                "name": "Sea Slug",
+                "hosted_item": "boss_seaslug"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "homeworld",
+                "x": 1210,
+                "y": 175
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vespertine",
+        "sections": [
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "hortencemap,figurine_mage"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 670,
+            "y": 545,
+            "restrict_visibility_rules": [
+              "hortencemap"
+            ]
+          },
+          {
+            "map": "seraiworld",
+            "x": 670,
+            "y": 545,
+            "restrict_visibility_rules": [
+              "hortencemap"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

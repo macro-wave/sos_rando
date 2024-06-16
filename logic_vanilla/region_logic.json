@@ -1,0 +1,65 @@
+[
+  {
+    "name": "reg_evermist",
+    "access_rules": [],
+    "children": [
+      {
+        "name": "reg_evermist_beyondcavern",
+        "access_rules": [
+            "boss_bosslug",
+            "golem_yeet"
+        ]
+      },
+      {
+        "name": "reg_evermist_return",
+        "access_rules": [
+          "golem_yeet"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reg_sleeper",
+    "access_rules": [
+      "golem_xtol",
+      "hortencemap"
+    ],
+    "children": [
+      {
+        "name": "reg_sleeper_heights",
+        "access_rules": []
+      },
+      {
+        "name": "reg_sleeper_sealevel",
+        "access_rules": [
+          "mistral",
+          "hortencemap"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reg_wraith",
+    "access_rules": [
+      "@reg_sleeper_sealevel,undeathcoin",
+      "hortencemap"
+    ]
+  },
+  {
+    "name": "reg_skylands",
+    "access_rules": [
+      "hortencemap",
+      "golem_puntie"
+    ]
+  },
+  {
+    "name": "reg_seraiworld",
+    "access_rules": [
+      "seaofstars"
+    ]
+  },
+  {
+    "name": "reg_shrineislands",
+    "access_rules": []
+  }
+]

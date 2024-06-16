@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Live Mana Boost",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "boost"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "flight"
+  },
+  {
+    "name": "Sea of Stars",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "seaofstars"
+  },
+  {
+    "name": "Speedball Network",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "speedball"
+  },
+  {
+    "name": "Chronophage",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "chronophage"
+  }
+]
