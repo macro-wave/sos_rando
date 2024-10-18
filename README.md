@@ -33,6 +33,9 @@ Check [ToDo.md](ToDo.md) for my current list of desirable features, or feel free
 - [Sea of Stars wiki](https://seaofstars.fandom.com/wiki/Sea_of_Stars_Wiki)
 - [A compendium of game items and locations](https://docs.google.com/spreadsheets/d/1pMN6Ia4cQehQ_SDULeH43F3FtbKHTe2eAo8T-NpG1K8/edit#gid=0)
 
+*For discussion of randomizer logic*
+- [Hortence's Map Proposal document](https://docs.google.com/document/d/1eDbHA0zWLB7t9fOg8bG-UCCM7DUDjTEQvR3vE5-dGeg/edit?tab=t.0#heading=h.68oe92wtz2iq)
+
 ***
 
 ## Helpful tracker info
