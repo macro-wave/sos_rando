@@ -99,7 +99,8 @@
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "@Autumn Hills/Past Prism,magicseashell"
+          "@Autumn Hills/Past Prism,magicseashell",
+          "boss_dweller_of_dread"
         ],
         "sections": [
           {
@@ -124,7 +125,8 @@
       {
         "name": "Songshroom Marsh",
         "access_rules": [
-          "vial,graplou,magicseashell"
+          "@Autumn Hills/Past Prism,magicseashell",
+          "boss_dweller_of_dread"
         ],
         "sections": [
           {

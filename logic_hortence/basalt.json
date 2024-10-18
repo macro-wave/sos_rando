@@ -5,9 +5,6 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
-    "access_rules": [
-      "boss_dweller_strife"
-    ],
     "children": [
       {
         "name": "Kiln Mountain",
@@ -19,20 +16,32 @@
           {
             "name": "Boulder Bowling 1",
             "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Boulder Bowling 2",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "Hole in the Wall",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "Toadcano",
-            "hosted_item": "boss_toadcano"
+            "hosted_item": "boss_toadcano",
+            "access_rules": [
+              "mistral"
+            ]
           }
         ],
         "map_locations": [

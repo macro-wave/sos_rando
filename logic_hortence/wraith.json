@@ -547,34 +547,62 @@
         ],
         "sections": [
           {
+            "name": "Tower Interior",
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "access_rules": [
+              "mistral, graplou"
+            ],
+            "item_count": 1
+          },
+          {
             "name": "Outside Basket",
             "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ],
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "Cattails",
+            "name": "Marsh",
             "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Tower Basket",
             "item_count": 1,
+            "access_rules": [
+              "@Half-Sunken Tower/Tower Interior"
+            ],
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
             "name": "Tower Drop",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "@Half-Sunken Tower/Tower Interior"
+            ]
           },
           {
             "name": "Romaya",
-            "hosted_item": "boss_romaya_2"
+            "hosted_item": "boss_romaya_2",
+            "access_rules": [
+              "@Half-Sunken Tower/Tower Interior, magicseashell"
+            ]
           },
           {
             "name": "Defeat Romaya",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "@Half-Sunken Tower/Tower Interior, magicseashell"
+            ]
           }
         ],
         "map_locations": [
