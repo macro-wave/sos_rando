@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Serai Overworld",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "access_rules": [
+      "@reg_seraiworld"
+    ],
+    "children": [
+      {
+        "name": "Sea of Stars",
+        "access_rules": [
+          
+        ],
+        "sections": [
+          {
+            "name": "Guardian",
+            "hosted_item": "boss_guardian"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 837,
+            "y": 404
+          },
+          {
+            "map": "seraiworld",
+            "x": 740,
+            "y": 603
+          }
+        ]
+      },
+      {
+        "name": "Speedball Network Station",
+        "sections": [
+          {
+            "name": "Network Station",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 745,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Infinite Abyss",
+        "access_rules": [
+          "boss_catalyst"
+        ],
+        "sections": [
+          {
+            "name": "Dweller of Dread",
+            "hosted_item": "boss_dweller_dread"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1045,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Solstice Shrine Island",
+        "access_rules": [
+          "boss_dweller_dread"
+        ],
+        "sections": [
+          {
+            "name": "Shrine Reward",
+            "item_count": 1,
+            "access_rules": [
+              "amulet, mistral"
+            ],
+            "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
+            "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 350,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Fleshmancer's Lair",
+        "access_rules": [
+          "boss_dweller_dread, mistral"
+        ],
+        "sections": [
+          {
+            "name": "Eye Roll",
+            "item_count": 1
+          },
+          {
+            "name": "LeJugg",
+            "hosted_item": "boss_lejugg"
+          },
+          {
+            "name": "Halls of Illusion Maze",
+            "item_count": 2
+          },
+          {
+            "name": "After Maze",
+            "item_count": 1
+          },
+          {
+            "name": "Big Jars",
+            "item_count": 3
+          },
+          {
+            "name": "Mines Illusion",
+            "item_count": 1,
+            "access_rules": [
+              "key_bigjar:3"
+            ]
+          },
+          {
+            "name": "Catch Fish?",
+            "item_count": 1,
+            "access_rules": [
+              "key_bigjar:3"
+            ]
+          },
+          {
+            "name": "Fish Illusion",
+            "item_count": 1,
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "Before Room of Sending",
+            "item_count": 1,
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "Phase Reaper",
+            "hosted_item": "boss_phasereaper",
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "Summoner's Campfire",
+            "item_count": 1,
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "Elysan'darëlle",
+            "hosted_item": "boss_elysandarelle",
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "Aephorul",
+            "hosted_item": "boss_aephorul",
+            "access_rules": [
+              "boss_elysandarelle, key_bigjar:3, key_susfish"
+            ]
+          },
+          {
+            "name": "True Ending",
+            "hosted_item": "flimsyhammers",
+            "access_rules": [
+              "boss_elysandarelle, key_bigjar:3, key_susfish"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 840,
+            "y": 250,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

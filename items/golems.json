@@ -2,25 +2,25 @@
   {
     "name": "X'Tol",
     "type": "toggle",
-    "img": "images/items/golem_xtol.png",
+    "img": "images/characters/golem_xtol.png",
     "codes": "golem_xtol"
   },
   {
     "name": "Y'eet",
     "type": "toggle",
-    "img": "images/items/golem_yeet.png",
+    "img": "images/characters/golem_yeet.png",
     "codes": "golem_yeet"
   },
   {
     "name": "Khukarr",
     "type": "toggle",
-    "img": "images/items/golem_khukarr.png",
+    "img": "images/characters/golem_khukarr.png",
     "codes": "golem_khukarr"
   },
   {
     "name": "Puntie",
     "type": "toggle",
-    "img": "images/items/golem_puntie.png",
+    "img": "images/characters/golem_puntie.png",
     "codes": "golem_puntie"
   }
 ]

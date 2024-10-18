@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Sacrosanct Spires",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "access_rules": [
+      "@reg_seraiworld, character_bst"
+    ],
+    "children": [
+      {
+        "name": "Southwest Spire",
+        "sections": [
+          {
+            "name": "SW Spire Top",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 360,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Hunting Fields",
+        "access_rules": [
+          "graplou"
+        ],
+        "sections": [
+          {
+            "name": "Wind Magic",
+            "item_count": 1,
+            "access_rules": [
+              "graplou, mistral"
+            ]
+          },
+          {
+            "name": "Wabbit Season",
+            "item_count": 1,
+            "access_rules": [
+              "graplou, mistral"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 440,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Southeast Spire",
+        "access_rules": [
+          "graplou, mistral"
+        ],
+        "sections": [
+          {
+            "name": "SE Spire Top",
+            "item_count": 1,
+            "access_rules": [
+              "graplou"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 528,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Northeast Spire",
+        "access_rules": [
+          "graplou, mistral"
+        ],
+        "sections": [
+          {
+            "name": "Basement Left",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Right Ledge",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          },
+          {
+            "name": "Right Floor",
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 540,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Seat of the Triumvirate",
+        "access_rules": [
+          "graplou, mistral, key_spiresegg"
+        ],
+        "sections": [
+            {
+              "name": "Teleporter",
+              "item_count": 1,
+              "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+              "chest_opened_img": "images/boxes/conch_chest_open.png"
+            },
+            {
+              "name": "Stairs",
+              "item_count": 1
+            },
+            {
+              "name": "Triumvirate of Eminence",
+              "hosted_item": "boss_triumvirate"
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 363,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Es'tristae's Lookout",
+        "access_rules": [
+          "boss_triumvirate"
+        ],
+        "sections": [
+          {
+            "name": "Lookout",
+            "item_count": 1
+          },
+          {
+            "name": "Activate Speedball Network",
+            "hosted_item": "speedball"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 442,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  }
+]

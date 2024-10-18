@@ -7,6 +7,12 @@
 - A few configurable shuffle settings
 - Some ugly sprite work
 
+## Version 0.0.2 : ??/??/2024
+
+- Minor doc corrections
+- Begin moving towards relative logic in place of absolute location rules
+- Added gold watch into logic
+
 ***
 
 # CREDITS

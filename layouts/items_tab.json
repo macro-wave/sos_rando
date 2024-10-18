@@ -1,7 +1,6 @@
 {
   "item_grid": {
-    "type": "array",
-    "orientation": "horizontal",
+    "type": "container",
     "margin": "0,0",
     "content": [
       {
@@ -52,15 +51,15 @@
             "docarrifragment",
             "cypher",
             "probe",
-            "jocebuckle"
+            "jocebuckle",
+            "rainbowstar"
           ]
         ]
       }
     ]
   },
   "dungeon_grid": {
-    "type": "array",
-    "orientation": "vertical",
+    "type": "container",
     "margin": "0,0",
     "content": [
       {
@@ -117,8 +116,7 @@
     ]
   },
   "collectibles_grid": {
-    "type": "array",
-    "orientation": "vertical",
+    "type": "container",
     "margin": "0,0",
     "content": [
       {

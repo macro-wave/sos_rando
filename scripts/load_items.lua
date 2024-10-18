@@ -1,3 +1,4 @@
+Tracker:AddItems("items/logic_events.json")
 Tracker:AddItems("items/key_items.json")
 Tracker:AddItems("items/dungeon_keys.json")
 Tracker:AddItems("items/question_packs.json")
@@ -8,5 +9,6 @@ Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/mirth_builder.json")
 Tracker:AddItems("items/fish.json")
 Tracker:AddItems("items/characters.json")
+Tracker:AddItems("items/bosses.json")
 
 Tracker:AddItems("items/options.json")

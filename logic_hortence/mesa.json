@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Mesa Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "children": [
+      {
+        "name": "Mesa Hike",
+        "access_rules": [
+          "hortencemap"
+        ],
+        "sections": [
+          {
+            "name": "Golem Name",
+            "hosted_item": "golem_khukarr",
+            "access_rules": [
+              "vial"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1245,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Autumn Hills",
+        "access_rules": [
+          "@Mesa Hike,vial,graplou"
+        ],
+        "sections": [
+          {
+            "name": "Past Prism",
+            "access_rules": [
+              "amulet,mistral"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Under Bridge",
+            "item_count": 1
+          },
+          {
+            "name": "Prism Moons",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "amulet,mistral"
+            ]
+          },
+          {
+            "name": "Graplou Push Block",
+            "item_count": 1,
+            "access_rules": [
+              "@Autumn Hills/Past Prism"
+            ]
+          },
+          {
+            "name": "Tree Fort",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "@Autumn Hills/Past Prism"
+            ]
+          },
+          {
+            "name": "Ninja Swim",
+            "item_count": 1,
+            "access_rules": [
+              "@Autumn Hills/Past Prism,magicseashell"
+            ]
+          },
+          {
+            "name": "Leaf Monster",
+            "hosted_item": "boss_leaf",
+            "access_rules": [
+              "@Autumn Hills/Past Prism,magicseashell"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1245,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Bamboo Creek",
+        "access_rules": [
+          "@Autumn Hills/Past Prism,magicseashell",
+          "boss_dweller_of_dread"
+        ],
+        "sections": [
+          {
+            "name": "Ground",
+            "item_count": 1
+          },
+          {
+            "name": "Water",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1300,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Songshroom Marsh",
+        "access_rules": [
+          "@Autumn Hills/Past Prism,magicseashell",
+          "boss_dweller_of_dread"
+        ],
+        "sections": [
+          {
+            "name": "Past Crate",
+            "access_rules": [
+              "mistral"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Yomara's Gate",
+            "access_rules": [
+              "mistral,key_yomara"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Pull Bridge",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Shroomy Fort Left",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Shroomy Fort Basement",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Shroomy Fort Top",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Yomara",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Yomara's Yard",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Past Gate",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Yomara's Gate"
+            ]
+          },
+          {
+            "name": "Tall Shroom Cave",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Yomara's Gate"
+            ]
+          },
+          {
+            "name": "Fungtoise Cave",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Yomara's Gate"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1320,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "name": "Clockwork Castle Grounds",
+        "access_rules": [
+          "@Songshroom Marsh/Yomara's Gate"
+        ],
+        "sections": [
+          {
+            "name": "Outside Right",
+            "item_count": 1
+          },
+          {
+            "name": "Outside Left",
+            "item_count": 1
+          },
+          {
+            "name": "Erlina & Brugaves",
+            "hosted_item": "boss_erlina_brugaves"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1373,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Clockwork Castle",
+        "access_rules": [
+          "@Clockwork Castle Grounds"
+        ],
+        "sections": [
+          {
+            "name": "Beyond Garden",
+            "access_rules": [
+              "key_castlegarden,graplou,mistral"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Garden Right",
+            "item_count": 1
+          },
+          {
+            "name": "2F Left",
+            "item_count": 1,
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden"
+            ]
+          },
+          {
+            "name": "2F Left",
+            "item_count": 1,
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden"
+            ]
+          },
+          {
+            "name": "2F Left",
+            "item_count": 1,
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden"
+            ]
+          },
+          {
+            "name": "2F Left",
+            "item_count": 1,
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden"
+            ]
+          },
+          {
+            "name": "Fleshmancer Acolytes",
+            "hosted_item": "boss_acolytes",
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden,key_castlemaster"
+            ]
+          },
+          {
+            "name": "Dweller of Strife",
+            "hosted_item": "boss_dweller_strife",
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden,key_castlemaster"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1373,
+            "y": 287,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Glacial Peak",
+        "access_rules": [
+          "@The Great Archives,graplou,mistral"
+        ],
+        "sections": [
+          {
+            "name": "Early Prism",
+            "item_count": 1
+          },
+          {
+            "name": "Down Ladder",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "amulet"
+            ]
+          },
+          {
+            "name": "Acolytes Two & Four",
+            "hosted_item": "boss_two_four"
+          },
+          {
+            "name": "Peak",
+            "item_count": 1
+          },
+          {
+            "name": "Under Dance Floor",
+            "item_count": 1
+          },
+          {
+            "name": "Frozen Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Frozen Scroll",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1374,
+            "y": 250
+          }
+        ]
+      }
+    ]
+  }
+]

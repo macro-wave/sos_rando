@@ -1,0 +1,279 @@
+[
+  {
+    "name": "Cerulean Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/serai_box_open.png",
+    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "access_rules": [
+      "@reg_seraiworld"
+    ],
+    "children": [
+      {
+        "name": "Derelict Factory",
+        "sections": [
+          {
+            "name": "Crane",
+            "access_rules": [
+              "key_factoryidcard"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Entrance",
+            "item_count": 1
+          },
+          {
+            "name": "Quad Turrets",
+            "item_count": 1
+          },
+          
+          {
+            "name": "Fabricator Room Left",
+            "item_count": 1
+          },
+          {
+            "name": "Fabricator Room Right",
+            "item_count": 1
+          },
+          {
+            "name": "Card Dispenser",
+            "item_count": 1
+          },
+          {
+            "name": "Crane",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            "name": "Laser Dispenser",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            "name": "Mining Laser",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane,graplou"
+            ]
+          },
+          {
+            "name": "LTTP Room",
+            "item_count": 3,
+            "access_rules": [
+              "@Derelict Factory/Crane,mistral"
+            ]
+          },
+          {
+            "name": "Storage Room",
+            "item_count": 4,
+            "access_rules": [
+              "@Derelict Factory/Crane"
+            ]
+          },
+          {
+            "name": "Power Unit Fabricator",
+            "item_count": 1,
+            "access_rules": [
+              "@Derelict Factory/Crane,key_factorywireplate"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1050,
+            "y": 530,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Reservoir",
+        "sections": [
+          {
+            "name": "Reservoir Chest",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1148,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Repine",
+        "sections": [
+          {
+            "name": "Chomper",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "food_sweet,food_warming,food_meaty,food_light,food_water"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Alley Corner",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Side Alley",
+            "item_count": 1
+          },
+          {
+            "name": "Left Rooftop",
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Equipment Shop",
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "Back Room",
+            "item_count": 2,
+            "access_rules": [
+              "cypher"
+            ]
+          },
+          {
+            "name": "Cedric's Probe",
+            "item_count": 1
+          },
+          {
+            "name": "Craft Cypher",
+            "hosted_item": "cypher",
+            "access_rules": [
+              "datastrips:4"
+            ]
+          },
+          {
+            "name": "Wheels Chapmion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1106,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Expanse",
+        "sections": [
+          {
+            "name": "NE Pointer (2) Bottom Left",
+            "item_count": 1,
+            "access_rules": [
+              "probe"
+            ]
+          },
+          {
+            "name": "North Pointer (4) Bottom Left",
+            "item_count": 1,
+            "access_rules": [
+              "probe"
+            ]
+          },
+          {
+            "name": "NW Pointer (5) Upper Right",
+            "item_count": 1,
+            "access_rules": [
+              "probe"
+            ]
+          },
+          {
+            "name": "Oasis",
+            "item_count": 4
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1170,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Lost Ones Hamlet",
+        "access_rules": [
+          "probe"
+        ],
+        "sections": [
+          {
+            "name": "Soul Lab",
+            "item_count": 1
+          },
+          {
+            "name": "Meduso",
+            "hosted_item": "boss_meduso"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1210,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Throne of The Queen That Was",
+        "access_rules": [
+          "[jocebuckle]"
+        ],
+        "sections": [
+          {
+            "name": "Speedball",
+            "item_count": 1
+          },
+          {
+            "name": "Stairs",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Gun Goddess",
+            "hosted_item": "boss_gungoddess"
+          },
+          {
+            "name": "Defeat Queen",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seraiworld",
+            "x": 1225,
+            "y": 455
+          }
+        ]
+      }
+    ]
+  }
+]

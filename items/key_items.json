@@ -9,13 +9,13 @@
     "name": "Mistral Bracelet",
     "type": "toggle",
     "img": "images/items/mistral.png",
-    "codes": "mistral,mistral_bracelet,bracelet"
+    "codes": "mistral,"
   },
   {
     "name": "Trader's Signet",
     "type": "toggle",
-    "img": "images/items/tradersignet.png",
-    "codes": "signet,tradersignet"
+    "img": "images/items/signet.png",
+    "codes": "signet"
   },
   {
     "name": "Coin of Undeath Accord",
@@ -244,6 +244,12 @@
     "type": "toggle",
     "img": "images/items/jocebuckle.png",
     "codes": "jocebuckle"
+  },
+  {
+    "name": "Rainbow Star",
+    "type": "toggle",
+    "img": "images/items/rainbowstar.png",
+    "codes": "rainbowstar"
   },
   {
     "name": "Flimsy Hammers",
