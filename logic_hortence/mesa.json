@@ -192,27 +192,6 @@
             "access_rules": [
               "@Songshroom Marsh/Past Crate"
             ]
-          },
-          {
-            "name": "Past Gate",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Tall Shroom Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Fungtoise Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
           }
         ],
         "map_locations": [

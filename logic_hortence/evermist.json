@@ -314,6 +314,12 @@
         ],
         "sections": [
           {
+            "name": "Early Basket",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
             "name": "Luslug Cave",
             "item_count": 1
           },
