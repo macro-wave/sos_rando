@@ -142,6 +142,12 @@
             ],
             "sections": [
               {
+                "name": "Conch",
+                "chest_unopened_img":"images/boxes/conch_chest_closed.png",
+                "chest_opened_img":"images/boxes/conch_chest_open.png",
+                "item_count": 1
+              },
+              {
                 "name": "Resh'an's Turban",
                 "item_count": 1
               },
