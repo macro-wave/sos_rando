@@ -132,7 +132,7 @@
           {
             "name": "Past Crate",
             "access_rules": [
-              "mistral"
+              "graplou,mistral"
             ],
             "visibility_rules": [
               "__subregion__"
@@ -140,9 +140,20 @@
             "item_count": 1
           },
           {
-            "name": "Yomara's Gate",
+            "name": "Yomara's House",
             "access_rules": [
-              "mistral,key_yomara"
+              "graplou,mistral",
+              "key_yomara"
+            ],
+            "visibility_rules": [
+              "__subregion__"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Beyond Yomara's Gate",
+            "access_rules": [
+              "graplou,mistral,key_yomara"
             ],
             "visibility_rules": [
               "__subregion__"
@@ -180,38 +191,42 @@
             ]
           },
           {
-            "name": "Yomara",
+            "name": "Down the Vine",
             "item_count": 1,
             "access_rules": [
               "@Songshroom Marsh/Past Crate"
+            ]
+          },
+          {
+            "name": "Mushroom Landing",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "@Songshroom Marsh/Yomara's House"
+            ]
+          },
+          {
+            "name": "Yomara",
+            "item_count": 1,
+            "access_rules": [
+              "@Songshroom Marsh/Yomara's House"
             ]
           },
           {
             "name": "Yomara's Yard",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "@Songshroom Marsh/Yomara's House"
             ]
           },
           {
-            "name": "Past Gate",
+            "name": "Yomara's Garden",
             "item_count": 1,
             "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Tall Shroom Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Fungtoise Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
+              "@Songshroom Marsh/Yomara's House"
             ]
           }
         ],
@@ -226,7 +241,7 @@
       {
         "name": "Clockwork Castle Grounds",
         "access_rules": [
-          "@Songshroom Marsh/Yomara's Gate",
+          "@Songshroom Marsh/Beyond Yomara's Gate",
           "boss_dweller_dread"
         ],
         "sections": [
