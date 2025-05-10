@@ -75,11 +75,11 @@
             "item_count": 1
           },
           {
-            "name": "Srowers Cave",
+            "name": "Pond",
             "item_count": 1
           },
           {
-            "name": "Pond",
+            "name": "Srowers Cave",
             "item_count": 1
           },
           {
@@ -125,6 +125,13 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
               "mistral"
+            ]
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "access_rules": [
+              "figurine_mage"
             ]
           },
           {
@@ -204,6 +211,8 @@
           {
             "name": "2B Left Side",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "mistral"
             ]
@@ -217,7 +226,10 @@
           },
           {
             "name": "Malkomount",
-            "hosted_item": "boss_malkomount"
+            "hosted_item": "boss_malkomount",
+            "access_rules": [
+              "mistral"
+            ]
           }
         ],
         "map_locations": [
@@ -254,7 +266,9 @@
           },
           {
             "name": "West Edge",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
             "name": "Lower Mistral Spinner",
@@ -347,21 +361,18 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Push Crate",
+            "name": "Fireplace Top",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "visibility_rules": [
-              ""
-            ]
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Rubble Secret",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "visibility_rules": [
-              ""
+            "access_rules": [
+              "[mistral]"
             ]
           },
           {
@@ -403,6 +414,13 @@
             "item_count": 1,
             "access_rules": [
               "figurine_mage"
+            ]
+          },
+          {
+            "name": "Golden Pelican",
+            "item_count": 2,
+            "access_rules": [
+              "invitation"
             ]
           }
         ],
@@ -457,6 +475,41 @@
             "restrict_visibility_rules": [
               "event_cataclysm"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Dweller's Fall Arena",
+        "access_rules": [
+          "@reg_sleeper_sealevel,boss_dweller_dread"
+        ],
+        "sections": [
+          {
+            "name": "Rank",
+            "hosted_item": "boss_arena"
+          },
+          {
+            "name": "Bronze",
+            "item_count": 1
+          },
+          {
+            "name": "Silver",
+            "item_count": 1
+          },
+          {
+            "name": "Gold",
+            "item_count": 1
+          },
+          {
+            "name": "Special",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 465,
+            "y": 390
           }
         ]
       },

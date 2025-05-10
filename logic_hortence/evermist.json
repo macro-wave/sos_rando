@@ -31,7 +31,7 @@
             "item_count": 1,
             "chest_opened_img": "images/boxes/basket_open.png",
             "chest_unopened_img": "images/boxes/basket_closed.png",
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_skip_prologue_off"
             ]
           },
@@ -267,11 +267,18 @@
         "sections": [
           {
             "name": "Cooking with Garl",
-            "item_count": 1
+            "hosted_item": "food_berryjam"
           },
           {
             "name": "Free Recipes",
             "item_count": 4
+          },
+          {
+            "name": "Reclamation",
+            "item_count": 1,
+            "access_rules": [
+              "boss_elysandarelle,rainbowstar,locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
+            ]
           }
         ],
         "map_locations": [
@@ -324,15 +331,21 @@
             "item_count": 1
           },
           {
+            "name": "Graplou Island",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "graplou"
+            ]
+          },
+          {
             "name": "Pine Path",
             "item_count": 1
           },
           {
-            "name": "Graplou Island",
-            "item_count": 1,
-            "access_rules": [
-              "graplou"
-            ]
+            "name": "Rope Cave",
+            "item_count": 1
           },
           {
             "name": "Mist Falls",

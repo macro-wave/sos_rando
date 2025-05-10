@@ -100,7 +100,7 @@
         "name": "Bamboo Creek",
         "access_rules": [
           "@Autumn Hills/Past Prism,magicseashell",
-          "boss_dweller_of_dread"
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -241,7 +241,8 @@
       {
         "name": "Clockwork Castle Grounds",
         "access_rules": [
-          "@Songshroom Marsh/Beyond Yomara's Gate"
+          "@Songshroom Marsh/Beyond Yomara's Gate",
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -293,24 +294,39 @@
             ]
           },
           {
-            "name": "2F Left",
+            "name": "Push Ladder",
             "item_count": 1,
             "access_rules": [
               "@Clockwork Castle/Beyond Garden"
             ]
           },
           {
-            "name": "2F Left",
+            "name": "3F Right",
             "item_count": 1,
             "access_rules": [
               "@Clockwork Castle/Beyond Garden"
             ]
           },
           {
-            "name": "2F Left",
+            "name": "Watchmaker's Workshop",
             "item_count": 1,
             "access_rules": [
               "@Clockwork Castle/Beyond Garden"
+            ]
+          },
+          {
+            "name": "Buy From Watchmaker",
+            "item_count": 1,
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden,@reg_seraiworld"
+            ]
+          },
+          {
+            "name": "Wheels Master",
+            "item_count": 1,
+            "hosted_item": "flimsyhammers",
+            "access_rules": [
+              "@Clockwork Castle/Beyond Garden,wheel_platinum,wheelstable"
             ]
           },
           {
