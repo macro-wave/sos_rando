@@ -32,15 +32,24 @@
         "sections": [
           {
             "name": "Whirlpool Chamber",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "magicseashell"
+            ]
           },
           {
             "name": "\"Catch\"",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "key_fishingdungeon"
+            ]
           },
           {
             "name": "Chef Bass",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "key_fishingdungeon,key_fish"
+            ]
           }
         ],
         "map_locations": [

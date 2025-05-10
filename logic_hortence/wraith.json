@@ -188,6 +188,7 @@
           {
             "name": "Loremaster",
             "item_count": 1,
+            "hosted_item": "flimsyhammers",
             "access_rules": [
               "qps:11"
             ]
@@ -236,7 +237,7 @@
         "access_rules": [
           "undeathcoin",
           "flame_green",
-          "dweller_dread,mistral"
+          "boss_dweller_dread,mistral"
         ],
         "sections": [
           {
@@ -279,7 +280,7 @@
             "name": "Secret Passage",
             "item_count": 1,
             "access_rules": [
-              "flight,mistral"
+              "boss_dweller_dread,mistral"
             ]
           },
           {
@@ -505,11 +506,11 @@
             "item_count": 1
           },
           {
-            "name": "Upper Pedestal",
+            "name": "Right Side",
             "item_count": 1
           },
           {
-            "name": "Right Side",
+            "name": "Upper Pedestal",
             "item_count": 1,
             "access_rules": [
               "key_wraithshrine"
