@@ -361,7 +361,7 @@
           {
             "name": "Elder Dissed",
             "access_rules": [
-              "@Wraith Solstice Shrine,@Evermist Solstice Shrine"
+              "@Wraith Solstice Shrine,@Evermist Solstice Shrine,boss_dweller_dread,amulet,mistral"
             ],
             "item_count": 2
           }
