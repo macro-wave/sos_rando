@@ -6,7 +6,7 @@
 - Fix missing locations in Mountain Trail, Stonemasons Outpost, Brisk
 - Fix some incorrect location icons
 - Fix misnamed locations in Clockwork Castle
-- Change any locations dependant on Flight to Dweller of Dread
+- Change any locations dependent on Flight to Dweller of Dread
 - Change Songshroom Marsh locations and logic to align with Dawn of Equinox Update
 - Change order of some locations to make them easier to find
 - Add basket to Mountain Trail from DoE update
