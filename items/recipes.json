@@ -57,7 +57,7 @@
     "name": "Recipe: Herbed Filet",
     "type": "toggle",
     "img": "images/items/food_herbedfilet.png",
-    "codes": "food_herbedfilet,food_water"
+    "codes": "food_herbedfilet,food_light,food_water"
   },
   {
     "name": "Recipe: Lasagna",
