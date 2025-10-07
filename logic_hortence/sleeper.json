@@ -555,7 +555,8 @@
             "name": "Fifth Portal",
             "item_count": 1,
             "access_rules": [
-              "key_wizlab:3"
+              "key_wizlab:3,mistral",
+              "key_wizlab:3,key_goldwatch"
             ]
           },
           {
@@ -564,7 +565,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "key_wizlab:3,key_goldwatch"
+              "key_wizlab:3,key_goldwatch,mistral"
             ]
           },
           {
