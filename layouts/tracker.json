@@ -101,55 +101,36 @@
                 "type": "dock",
                 "content": [
                   {
-                    "type": "group",
+                    "type": "array",
                     "dock": "top",
-                    "header": "Party",
-                    "header_content": {
-                      "type": "button_popup",
-                      "style": "settings",
-                      "popup_background": "#FF212121",
-                      "layout": "options_panel"
-                    },
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "party_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Yeet Bros",
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "left",
-                      "key": "golem_grid"
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Events",
-              "type": "container",
-              "content": {
-                "type": "dock",
-                "content": [
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Progression",
-                    "header_content": {
-                      "type": "button_popup",
-                      "style": "settings",
-                      "popup_background": "#FF212121",
-                      "layout": "options_panel"
-                    },
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "event_grid"
-                    }
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "group",
+                        "header": "Party",
+                        "content": {
+                          "type": "layout",
+                          "h_alignment": "center",
+                          "key": "party_grid"
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "Yeet Golems",
+                        "min_width": 146,
+                        "header_content": {
+                          "type": "button_popup",
+                          "style": "settings",
+                          "popup_background": "#FF212121",
+                          "layout": "options_panel"
+                        },
+                        "content": {
+                          "type": "layout",
+                          "h_alignment": "left",
+                          "key": "golem_grid"
+                        }
+                      }
+                    ]
                   },
                   {
                     "type": "group",

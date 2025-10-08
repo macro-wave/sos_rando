@@ -5,11 +5,14 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_home_overworld"
+    ],
     "children": [
       {
         "name": "Solstice Shrine Islands",
         "access_rules": [
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "children": [
           {
@@ -62,7 +65,7 @@
       {
         "name": "Sunken Docarri Ruins",
         "access_rules": [
-          "boss_dweller_dread, amulet, magicseashell"
+          "@rule_can_sail,@rule_can_fly,amulet,magicseashell"
         ],
         "children": [
           {
@@ -173,7 +176,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "hortencemap,figurine_mage"
+              "@rule_can_sail,figurine_mage"
             ]
           }
         ],
@@ -183,7 +186,7 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           },
           {
@@ -191,7 +194,7 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           }
         ]

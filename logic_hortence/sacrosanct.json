@@ -6,7 +6,7 @@
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
     "access_rules": [
-      "@reg_seraiworld"
+      "@reg_sacrosanct"
     ],
     "children": [
       {
@@ -17,7 +17,7 @@
             "item_count": 1,
             "access_rules": [
               "graplou",
-              "boss_dweller_dread"
+              "@rule_can_fly"
             ]
           }
         ],
@@ -33,7 +33,7 @@
         "name": "Hunting Fields",
         "access_rules": [
           "graplou",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -47,8 +47,8 @@
             "name": "Wabbit Season",
             "item_count": 1,
             "access_rules": [
-              "graplou, mistral",
-              "boss_dweller_dread"
+              "mistral",
+              "@rule_can_fly"
             ]
           }
         ],
@@ -64,16 +64,12 @@
         "name": "Southeast Spire",
         "access_rules": [
           "graplou, mistral",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
             "name": "SE Spire Top",
-            "item_count": 1,
-            "access_rules": [
-              "graplou",
-              "boss_dweller_dread"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -88,7 +84,7 @@
         "name": "Northeast Spire",
         "access_rules": [
           "graplou, mistral",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -125,7 +121,7 @@
         "name": "Seat of the Triumvirate",
         "access_rules": [
           "graplou, mistral, key_spiresegg",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
             {

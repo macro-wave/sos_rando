@@ -12,7 +12,8 @@
       {
         "name": "X'tol's Landing",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -41,7 +42,8 @@
       {
         "name": "Moorlands",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -87,13 +89,6 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
-            "name": "Activate Chronophage",
-            "hosted_item": "chronophage",
-            "access_rules": [
-              "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry,boss_worldeater"
-            ]
           }
         ],
         "map_locations": [
@@ -107,7 +102,8 @@
       {
         "name": "Stonemason's Outpost",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -171,7 +167,8 @@
       {
         "name": "Wind Tunnel Mines",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -276,7 +273,8 @@
       {
         "name": "Coral Cascades",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "@rule_can_sail"
         ],
         "sections": [
           {
@@ -337,7 +335,8 @@
       {
         "name": "Port Town of Brisk",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "@rule_can_sail"
         ],
         "sections": [
           {
@@ -421,7 +420,11 @@
             "name": "Darro",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "golem_xtol",
+              "@rule_can_fly"
+            ]
           },
           {
             "name": "Above Item Shop",
@@ -457,7 +460,8 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "[mistral]"
+              "mistral",
+              "boss_dweller_woe"
             ]
           },
           {
@@ -513,60 +517,15 @@
           {
             "map": "homeworld",
             "x": 450,
-            "y": 390,
-            "force_invisibility_rules": [
-              "event_cataclysm"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Cataclysm Brisk",
-        "access_rules": [
-          "@reg_sleeper_sealevel,event_cataclysm"
-        ],
-        "sections": [
-          {
-            "name": "Crate Villager",
-            "item_count": 1,
-            "access_rules": [
-              "mistral"
-            ]
-          },
-          {
-            "name": "Tavern Villager",
-            "item_count": 1
-          },
-          {
-            "name": "Fountain Villager",
-            "item_count": 1,
-            "access_rules": [
-              "mistral,graplou"
-            ]
-          },
-          {
-            "name": "Feather Hat Guy",
-            "item_count": 1,
-            "access_rules": [
-              "graplou"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 450,
-            "y": 390,
-            "restrict_visibility_rules": [
-              "event_cataclysm"
-            ]
+            "y": 390
           }
         ]
       },
       {
         "name": "Dweller's Fall Arena",
         "access_rules": [
-          "@reg_sleeper_sealevel,boss_dweller_dread"
+          "@rule_can_fly,golem_xtol,mistral,boss_dweller_woe",
+          "@rule_can_sail,@rule_can_fly,boss_dweller_woe"
         ],
         "sections": [
           {
@@ -601,7 +560,8 @@
       {
         "name": "Abandoned Wizard's Lab",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "@rule_can_sail"
         ],
         "sections": [
           {

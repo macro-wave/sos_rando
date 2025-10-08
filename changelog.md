@@ -1,5 +1,16 @@
 # RELEASES
 
+## Version 0.0.5 : 10/08/2025
+
+- Fix soulstone/mansion missing requirement
+- Fix minor naming and typos
+- Fix logic with Darro check in Brisk to require access to Outpost
+- Change how regional logic is handled to use more absolute logic
+- Change boss grid to characters tab
+- Add configurable logical access rules like `can_sail` and `can_boost`
+- Remove a skill location
+- Remove the temporary "event" items from the layout
+
 ## Version 0.0.4 : 10/07/2025
 
 - Fix a logic error in Abandoned Wizard's Lab that overlooked a mistral requirement

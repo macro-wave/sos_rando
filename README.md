@@ -47,6 +47,11 @@ The options panel drops down from the gear icon in the top left tabbed section. 
 This mode adds slots from the various merchants and shopkeepers to the shuffled locations.
 - *"Unique"* will only add one-time purchase slots as checks. These include recipes, music sheets, and relics (alumni tokens).
 - *"All"* will add every shop slot, including ingredients, snacks, and equipment slots.
+- Some shops are transient (they disappear permantently after some game event). These are:
+    - Cataclysm Brisk Merchant
+    - Hortence at Maelstrom Point
+    - Locket at Clockwork Castle
+  Transient shops are not included as rando locations regardless of the options.
 
 **Fishing and Recipes**\
 The *Checklists* tab has item grids for fish discovered and for recipes obtained.

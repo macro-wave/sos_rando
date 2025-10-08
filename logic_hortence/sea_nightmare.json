@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_sea_nightmare"
+    ],
     "children": [
       {
         "name": "Nightmare Vespertine",
@@ -49,7 +52,7 @@
             "x": 670,
             "y": 545,
             "force_invisibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           }
         ]
@@ -57,7 +60,7 @@
       {
         "name": "Sea of Nightmare Southwest",
         "access_rules": [
-          "hortencemap"
+          "@rule_can_sail"
         ],
         "sections": [
           {

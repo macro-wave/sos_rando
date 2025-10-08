@@ -108,7 +108,7 @@
         "name": "Bamboo Creek",
         "access_rules": [
           "graplou,amulet,mistral,magicseashell",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -134,7 +134,7 @@
         "name": "Songshroom Marsh",
         "access_rules": [
           "graplou,amulet,mistral,magicseashell",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -236,7 +236,7 @@
         "name": "Clockwork Castle Grounds",
         "access_rules": [
           "magicseashell,graplou,mistral,amulet,key_yomara",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -264,7 +264,7 @@
         "name": "Clockwork Castle",
         "access_rules": [
           "magicseashell,graplou,mistral,amulet,key_yomara",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -303,13 +303,12 @@
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral,@reg_seraiworld"
+              "@rule_can_cross_sea_of_stars,key_castlegarden,graplou,mistral,"
             ]
           },
           {
             "name": "Wheels Master",
             "item_count": 1,
-            "hosted_item": "flimsyhammers",
             "access_rules": [
               "key_castlegarden,graplou,mistral,wheel_platinum,wheelstable"
             ]
