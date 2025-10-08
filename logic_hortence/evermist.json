@@ -249,6 +249,14 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
+          },
+          {
+            "name": "Merchant",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           }
         ],
         "map_locations": [
@@ -342,6 +350,21 @@
           {
             "name": "Pine Path",
             "item_count": 1
+          },
+          {
+            "name": "Merchant",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 12,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           },
           {
             "name": "Rope Cave",

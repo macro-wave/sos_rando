@@ -6,14 +6,11 @@
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
     "access_rules": [
-      "vial"
+      "@reg_mesa"
     ],
     "children": [
       {
         "name": "Mesa Hike",
-        "access_rules": [
-          "hortencemap"
-        ],
         "sections": [
           {
             "name": "Golem Name",
@@ -45,6 +42,27 @@
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
               "amulet,mistral"
+            ]
+          },
+          {
+            "name": "Aspiring Shopkeeper",
+            "item_count": 1,
+            "access_rules": [
+              "amulet,mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Aspiring Shopkeeper",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "amulet,mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
             ]
           },
           {
@@ -177,6 +195,17 @@
             ]
           },
           {
+            "name": "Yomara's Shop",
+            "item_count": 6,
+            "clear_as_group": false,
+            "access_rules": [
+              "amulet,mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Yomara's Yard",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
@@ -306,56 +335,6 @@
             "x": 1373,
             "y": 287,
             "size": 20
-          }
-        ]
-      },
-      {
-        "name": "Glacial Peak",
-        "access_rules": [
-          "@The Great Archives,graplou,mistral"
-        ],
-        "sections": [
-          {
-            "name": "Early Prism",
-            "item_count": 1
-          },
-          {
-            "name": "Down Ladder",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "access_rules": [
-              "amulet"
-            ]
-          },
-          {
-            "name": "Acolytes Two & Four",
-            "hosted_item": "boss_two_four"
-          },
-          {
-            "name": "Peak",
-            "item_count": 1
-          },
-          {
-            "name": "Under Dance Floor",
-            "item_count": 1
-          },
-          {
-            "name": "Frozen Chest",
-            "item_count": 1
-          },
-          {
-            "name": "Frozen Scroll",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 1374,
-            "y": 250
           }
         ]
       }

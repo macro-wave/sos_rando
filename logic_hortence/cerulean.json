@@ -30,7 +30,6 @@
             "name": "Quad Turrets",
             "item_count": 1
           },
-          
           {
             "name": "Fabricator Room Left",
             "item_count": 1
@@ -142,7 +141,30 @@
             "item_count": 1
           },
           {
+            "name": "Item Shop",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 10,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Equipment Shop",
+            "item_count": 4,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop Chest",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "item_count": 1
@@ -224,6 +246,22 @@
           "probe"
         ],
         "sections": [
+          {
+            "name": "Merchant",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 10,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
           {
             "name": "Soul Lab",
             "item_count": 1

@@ -6,8 +6,7 @@
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
     "access_rules": [
-      "hortencemap",
-      "boss_dod"
+      "@reg_watcher"
     ],
     "children": [
       {
@@ -69,9 +68,6 @@
       },
       {
         "name": "Lake Docarria",
-        "access_rules": [
-          "graplou"
-        ],
         "sections": [
           {
             "name": "Temple Servant",
@@ -134,9 +130,32 @@
       {
         "name": "Docarri Village",
         "access_rules": [
-          "magicseashell"
+          "hammer,magicseashell"
         ],
         "sections": [
+          {
+            "name": "Item Shop",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 4,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 5,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
           {
             "name": "Wheels Champion",
             "item_count": 1,
@@ -408,6 +427,56 @@
             "map": "homeworld",
             "x": 1039,
             "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Glacial Peak",
+        "access_rules": [
+          "@The Great Archives,graplou,mistral"
+        ],
+        "sections": [
+          {
+            "name": "Early Prism",
+            "item_count": 1
+          },
+          {
+            "name": "Down Ladder",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "amulet"
+            ]
+          },
+          {
+            "name": "Acolytes Two & Four",
+            "hosted_item": "boss_two_four"
+          },
+          {
+            "name": "Peak",
+            "item_count": 1
+          },
+          {
+            "name": "Under Dance Floor",
+            "item_count": 1
+          },
+          {
+            "name": "Frozen Chest",
+            "item_count": 1
+          },
+          {
+            "name": "Frozen Scroll",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1374,
+            "y": 250
           }
         ]
       },

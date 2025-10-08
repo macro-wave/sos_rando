@@ -166,6 +166,28 @@
             ]
           },
           {
+            "name": "Merchant",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 12,
+            "clear_as_group": false,
+            "access_rules": [
+              "key_bigjar:3, key_susfish"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Elysan'darëlle",
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
@@ -181,7 +203,7 @@
           },
           {
             "name": "True Ending",
-            "hosted_item": "flimsyhammers",
+            "item_count": 1,
             "access_rules": [
               "boss_elysandarelle, key_bigjar:3, key_susfish"
             ]
