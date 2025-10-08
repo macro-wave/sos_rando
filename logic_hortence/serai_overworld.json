@@ -76,7 +76,7 @@
             "name": "Shrine Reward",
             "item_count": 1,
             "access_rules": [
-              "amulet, mistral"
+              "amulet,mistral"
             ],
             "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
@@ -93,7 +93,7 @@
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "boss_dweller_dread, mistral"
+          "boss_dweller_dread,mistral"
         ],
         "sections": [
           {
@@ -127,42 +127,42 @@
             "name": "Mines Illusion",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Fish Illusion",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Before Room of Sending",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Phase Reaper",
             "hosted_item": "boss_phasereaper",
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Soul Curator",
             "hosted_item": "boss_curator",
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Summoner's Campfire",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
@@ -170,7 +170,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -181,7 +181,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -191,21 +191,21 @@
             "name": "Elysan'darëlle",
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
-              "key_bigjar:3, key_susfish"
+              "key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "boss_elysandarelle, key_bigjar:3, key_susfish"
+              "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
             ]
           },
           {
             "name": "True Ending",
             "item_count": 1,
             "access_rules": [
-              "boss_elysandarelle, key_bigjar:3, key_susfish"
+              "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
             ]
           }
         ],

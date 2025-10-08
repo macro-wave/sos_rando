@@ -89,13 +89,6 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
-            "name": "Activate Chronophage",
-            "hosted_item": "chronophage",
-            "access_rules": [
-              "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry,boss_worldeater"
-            ]
           }
         ],
         "map_locations": [
@@ -519,54 +512,7 @@
           {
             "map": "homeworld",
             "x": 450,
-            "y": 390,
-            "force_invisibility_rules": [
-              "event_cataclysm"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Cataclysm Brisk",
-        "access_rules": [
-          "golem_xtol,mistral,event_cataclysm",
-          "hortencemap,event_cataclysm"
-        ],
-        "sections": [
-          {
-            "name": "Crate Villager",
-            "item_count": 1,
-            "access_rules": [
-              "mistral"
-            ]
-          },
-          {
-            "name": "Tavern Villager",
-            "item_count": 1
-          },
-          {
-            "name": "Fountain Villager",
-            "item_count": 1,
-            "access_rules": [
-              "mistral,graplou"
-            ]
-          },
-          {
-            "name": "Feather Hat Guy",
-            "item_count": 1,
-            "access_rules": [
-              "graplou"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 450,
-            "y": 390,
-            "restrict_visibility_rules": [
-              "event_cataclysm"
-            ]
+            "y": 390
           }
         ]
       },
