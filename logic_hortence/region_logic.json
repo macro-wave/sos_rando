@@ -1,41 +1,31 @@
 [
   {
+    "name": "reg_home_overworld",
+    "access_rules": []
+  },
+  {
     "name": "reg_evermist",
-    "access_rules": [],
-    "children": [
-      {
-        "name": "reg_evermist_beyondcavern",
-        "access_rules": [
-        ]
-      },
-      {
-        "name": "reg_evermist_return",
-        "access_rules": [
-        ]
-      }
-    ]
+    "access_rules": []
   },
   {
     "name": "reg_sleeper",
-    "children": [
-      {
-        "name": "reg_sleeper_heights",
-        "access_rules": [
-          "golem_xtol",
-          "boss_dweller_dread"
-        ]
-      },
-      {
-        "name": "reg_sleeper_sealevel",
-        "access_rules": [
-          "golem_xtol,mistral",
-          "hortencemap"
-        ]
-      }
-    ]
+    "children": []
   },
   {
     "name": "reg_wraith",
+    "access_rules": [
+      "hortencemap",
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "reg_sea_nightmare",
+    "access_rules": [
+      "hortencemap"
+    ]
+  },
+  {
+    "name": "reg_settlers",
     "access_rules": [
       "hortencemap",
       "boss_dweller_dread"
@@ -58,18 +48,46 @@
   {
     "name": "reg_skylands",
     "access_rules": [
-      "hortencemap, option_skybridge_open",
-      "hortencemap, option_skybridge_dos, boss_dweller_strife"
+      "hortencemap,option_skybridge_open",
+      "hortencemap,option_skybridge_dos,boss_dweller_strife"
     ]
   },
   {
-    "name": "reg_seraiworld",
+    "name": "reg_basalt",
     "access_rules": [
-      "hortencemap, magicseashell"
+      "hortencemap",
+      "boss_dweller_dread"
     ]
   },
   {
-    "name": "reg_shrineislands",
-    "access_rules": []
+    "name": "reg_stillpond",
+    "access_rules": [
+      "hortencemap",
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "reg_serai_overworld",
+    "access_rules": [
+      "hortencemap,magicseashell"
+    ]
+  },
+  {
+    "name": "reg_cerulean",
+    "access_rules": [
+      "hortencemap,magicseashell"
+    ]
+  },
+  {
+    "name": "reg_sacrosanct",
+    "access_rules": [
+      "hortencemap,magicseashell"
+    ]
+  },
+  {
+    "name": "reg_sky_base",
+    "access_rules": [
+      "hortencemap,magicseashell"
+    ]
   }
 ]

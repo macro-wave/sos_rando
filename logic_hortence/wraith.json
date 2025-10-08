@@ -380,19 +380,11 @@
       {
         "name": "Necromancer's Lair",
         "access_rules": [
-          "@Flooded Graveyard,mistral"
+          "undeathcoin,mistral",
+          "flame_green,mistral",
+          "boss_dweller_dread,mistral"
         ],
         "sections": [
-          {
-            "name": "West Wing",
-            "access_rules": [
-              "graplou"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
           {
             "name": "Fallen Pillar",
             "item_count": 1
@@ -424,35 +416,35 @@
             "name": "Drawer Stairs",
             "item_count": 1,
             "access_rules": [
-              "@Necromancer's Lair/West Wing"
+              "graplou"
             ]
           },
           {
             "name": "West Wing Chest",
             "item_count": 1,
             "access_rules": [
-              "@Necromancer's Lair/West Wing"
+              "graplou"
             ]
           },
           {
             "name": "Bone Pile",
             "item_count": 1,
             "access_rules": [
-              "@Necromancer's Lair/West Wing"
+              "graplou"
             ]
           },
           {
             "name": "Romaya",
             "hosted_item": "boss_romaya_1",
             "access_rules": [
-              "@Necromancer's Lair/West Wing"
+              "graplou"
             ]
           },
           {
             "name": "Defeat Romaya",
             "item_count": 2,
             "access_rules": [
-              "@Necromancer's Lair/West Wing"
+              "graplou"
             ]
           }
         ],
@@ -468,16 +460,6 @@
       {
         "name": "Haunted Mansion",
         "sections": [
-          {
-            "name": "Beyond Library",
-            "access_rules": [
-              "graplou"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
           {
             "name": "Candle Secret",
             "item_count": 1
@@ -500,7 +482,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Haunted Mansion/Beyond Library"
+              "graplou"
             ]
           },
           {
@@ -525,21 +507,21 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "@Haunted Mansion/Beyond Library"
+              "graplou"
             ]
           },
           {
             "name": "Shelf Passage",
             "item_count": 1,
             "access_rules": [
-              "@Haunted Mansion/Beyond Library"
+              "graplou"
             ]
           },
           {
             "name": "Hedge Maze",
             "item_count": 1,
             "access_rules": [
-              "@Haunted Mansion/Beyond Library"
+              "graplou"
             ]
           },
           {
@@ -550,7 +532,7 @@
             "name": "Rooftop Learned Skill",
             "item_count": 1,
             "access_rules": [
-              "@Haunted Mansion/Beyond Library"
+              "graplou"
             ]
           },
           {
@@ -620,16 +602,6 @@
         ],
         "sections": [
           {
-            "name": "Tower Interior",
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "access_rules": [
-              "mistral, graplou"
-            ],
-            "item_count": 1
-          },
-          {
             "name": "Outside Basket",
             "item_count": 1,
             "access_rules": [
@@ -651,7 +623,7 @@
             "name": "Tower Basket",
             "item_count": 1,
             "access_rules": [
-              "@Half-Sunken Tower/Tower Interior"
+              "mistral,graplou"
             ],
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
@@ -660,21 +632,21 @@
             "name": "Tower Drop",
             "item_count": 1,
             "access_rules": [
-              "@Half-Sunken Tower/Tower Interior"
+              "mistral,graplou"
             ]
           },
           {
             "name": "Romaya",
             "hosted_item": "boss_romaya_2",
             "access_rules": [
-              "@Half-Sunken Tower/Tower Interior, magicseashell"
+              "mistral,graplou,magicseashell"
             ]
           },
           {
             "name": "Defeat Romaya",
             "item_count": 1,
             "access_rules": [
-              "@Half-Sunken Tower/Tower Interior, magicseashell"
+              "mistral,graplou,magicseashell"
             ]
           }
         ],

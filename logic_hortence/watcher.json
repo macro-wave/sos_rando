@@ -201,7 +201,7 @@
       {
         "name": "Mirna (Conches)",
         "access_rules": [
-          "magicseashell"
+          "hammer,magicseashell"
         ],
         "sections": [
           {
@@ -282,7 +282,7 @@
       {
         "name": "Outside Antsudlo",
         "access_rules": [
-          "@Docarri Village"
+          "hammer,magicseashell"
         ],
         "sections": [
           {
@@ -309,7 +309,7 @@
       {
         "name": "Tower of Antsudlo",
         "access_rules": [
-          "@Outside Antsudlo,key_sapphire:2"
+          "hammer,magicseashell,key_sapphire:2"
         ],
         "sections": [
           {
@@ -325,7 +325,7 @@
           {
             "name": "3F",
             "access_rules": [
-              "@Tower of Antsudlo/2F,key_pearlpurple,key_pearlgreen"
+              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen"
             ],
             "visibility_rules": [
               "__subregion__"
@@ -344,49 +344,49 @@
             "name": "Pipe Bridge",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F"
+              "key_pearlpink,key_pearlyellow"
             ]
           },
           {
             "name": "Green Pedestal",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F"
+              "key_pearlpink,key_pearlyellow"
             ]
           },
           {
             "name": "Purple Pedestal",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F,mistral,graplou"
+              "key_pearlpink,key_pearlyellow,mistral,graplou"
             ]
           },
           {
             "name": "Raft Room",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F,mistral,graplou"
+              "key_pearlpink,key_pearlyellow,mistral,graplou"
             ]
           },
           {
             "name": "Lowest Pipe Freestanding Valve",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/3F"
+              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen"
             ]
           },
           {
             "name": "Blue Pedestal",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:1"
+              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:1"
             ]
           },
           {
             "name": "Middle Pipe Freestanding Valve",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:1"
+              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:1"
             ]
           },
           {
@@ -395,7 +395,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:2"
+              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:2"
             ]
           }
         ],
@@ -409,31 +409,9 @@
         ]
       },
       {
-        "name": "The Great Archives",
-        "access_rules": [
-          "@Tower of Antsudlo,key_antsudlopearl:5"
-        ],
-        "sections": [
-          {
-            "name": "Subregion",
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 1039,
-            "y": 720
-          }
-        ]
-      },
-      {
         "name": "Glacial Peak",
         "access_rules": [
-          "@The Great Archives,graplou,mistral"
+          "hammer,magicseashell,key_sapphire:2,key_antsudlopearl:5,graplou,mistral"
         ],
         "sections": [
           {

@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_settlers"
+    ],
     "children": [
       {
         "name": "Mirth",
