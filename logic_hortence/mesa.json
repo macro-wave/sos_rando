@@ -309,7 +309,6 @@
           {
             "name": "Wheels Master",
             "item_count": 1,
-            "hosted_item": "flimsyhammers",
             "access_rules": [
               "key_castlegarden,graplou,mistral,wheel_platinum,wheelstable"
             ]
