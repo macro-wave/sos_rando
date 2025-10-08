@@ -43,6 +43,11 @@ Check [ToDo.md](ToDo.md) for my current list of desirable features, or feel free
 **Shuffle options**\
 The options panel drops down from the gear icon in the top left tabbed section. Left-click to enable those options; right-click to disable.
 
+**Shopsanity**\
+This mode adds slots from the various merchants and shopkeepers to the shuffled locations.
+- *"Unique"* will only add one-time purchase slots as checks. These include recipes, music sheets, and relics (alumni tokens).
+- *"All"* will add every shop slot, including ingredients, snacks, and equipment slots.
+
 **Fishing and Recipes**\
 The *Checklists* tab has item grids for fish discovered and for recipes obtained.
 Fish clicked counts towards the fishing lodge checks on Settlers Island (only visible with *Shuffle Fishing Rewards* active).

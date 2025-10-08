@@ -28,8 +28,8 @@
 - [ ] Custom Shuffle Logic Options (which I would love to see in an actual randomizer)
     - [x] Shuffle Fishing Rewards
     - [x] Shuffle Rainbow Conch Rewards
-    - [ ] Shuffle Quiz Rewards
-    - [ ] Shuffle Merchants
+    - [x] Shuffle Quiz Rewards
+    - [x] Shuffle Merchants
     - [ ] Shuffle Travel Golem names
     - [ ] Item skips (e.g. access Throne of TQTW without Joce's Belt Buckle)
     - [ ] Shuffle initial character skills, armor, weapons

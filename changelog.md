@@ -1,5 +1,15 @@
 # RELEASES
 
+## Version 0.0.4 : 10/07/2025
+
+- Fix a logic error in Abandoned Wizard's Lab that overlooked a mistral requirement
+- Fix logic in Songshroom Marsh to account for flight
+- Fix Mesa Island access to be dependent on Vial of Time
+- Change minor appearance code
+- Change the way some regional logic is handled
+- Add shops and merchants as checks, with "unique" and "all" slot options
+- Add quizsanity option functionality to quiz checks
+
 ## Version 0.0.3 : 05/09/2025
 
 - Fix a number of logic errors across the game map
