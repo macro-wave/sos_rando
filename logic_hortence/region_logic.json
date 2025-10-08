@@ -17,17 +17,18 @@
   },
   {
     "name": "reg_sleeper",
-    "access_rules": [
-      "hortencemap"
-    ],
     "children": [
       {
         "name": "reg_sleeper_heights",
-        "access_rules": []
+        "access_rules": [
+          "golem_xtol",
+          "boss_dweller_dread"
+        ]
       },
       {
         "name": "reg_sleeper_sealevel",
         "access_rules": [
+          "golem_xtol,mistral",
           "hortencemap"
         ]
       }
@@ -36,7 +37,22 @@
   {
     "name": "reg_wraith",
     "access_rules": [
-      "hortencemap"
+      "hortencemap",
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "reg_watcher",
+    "access_rules": [
+      "hortencemap",
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "reg_mesa",
+    "access_rules": [
+      "hortencemap,vial",
+      "boss_dweller_dread,vial"
     ]
   },
   {

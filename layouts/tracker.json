@@ -174,7 +174,7 @@
               "dock": "bottom",
               "header": "Pinned Locations",
               "min_height": 121,
-              "max_height": 208,
+              "max_height": 230,
               "content": {
                 "type": "recentpins",
                 "style": "wrap",

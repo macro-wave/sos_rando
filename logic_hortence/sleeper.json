@@ -142,6 +142,22 @@
             "access_rules": [
               "mistral"
             ]
+          },
+          {
+            "name": "Shop",
+            "item_count": 5,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Shop",
+            "item_count": 15,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           }
         ],
         "map_locations": [
@@ -158,6 +174,22 @@
           "@reg_sleeper_heights"
         ],
         "sections": [
+          {
+            "name": "Merchant",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 10,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
           {
             "name": "1B East Ladder",
             "item_count": 1,
@@ -309,6 +341,37 @@
         ],
         "sections": [
           {
+            "name": "Item Shop",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 4,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Entrance Rooftop",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
@@ -321,10 +384,32 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Hidden Market",
+            "name": "Hidden Market Chest",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Hidden Market Merchant",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "signet"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Hidden Market Merchant",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "signet"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           },
           {
             "name": "Fishing Kid",
