@@ -86,13 +86,6 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Learned Skill",
-            "item_count": 1,
-            "access_rules": [
-              "soulstone"
-            ]
-          },
-          {
             "name": "Behind Tavern",
             "item_count": 1,
             "access_rules": [
@@ -270,7 +263,7 @@
         "name": "Cursed Woods",
         "sections": [
           {
-            "name": "Arentree Cave",
+            "name": "Arentee Cave",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
@@ -459,6 +452,9 @@
       },
       {
         "name": "Haunted Mansion",
+        "access_rules": [
+          "soulstone"
+        ],
         "sections": [
           {
             "name": "Candle Secret",
