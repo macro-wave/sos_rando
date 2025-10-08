@@ -1,8 +1,0 @@
-[
-  {
-    "name": "Cataclysm",
-    "type": "toggle",
-    "img": "images/items/conch.png",
-    "codes": "event_cataclysm"
-  }
-]

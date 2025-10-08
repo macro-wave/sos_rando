@@ -4,7 +4,6 @@ if HAS_MAP then
     Tracker:FindObjectForCode("character_valere").Active = true
     Tracker:FindObjectForCode("boss_wyrd").Active = true
     Tracker:FindObjectForCode("hortencemap").Active = true
-    -- Tracker:FindObjectForCode("boost").Active = true
 
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 1
     Tracker:FindObjectForCode("option_skybridge").CurrentStage = 1
