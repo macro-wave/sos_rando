@@ -1,5 +1,11 @@
 # RELEASES
 
+## Version 0.0.5 : tbd
+
+- Fix soulstone/mansion missing requirement
+- Fix a typo
+- Remove a skill location
+
 ## Version 0.0.4 : 10/07/2025
 
 - Fix a logic error in Abandoned Wizard's Lab that overlooked a mistral requirement
