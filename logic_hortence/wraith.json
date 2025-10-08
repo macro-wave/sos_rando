@@ -35,6 +35,37 @@
         "name": "Town of Lucent",
         "sections": [
           {
+            "name": "Equipment Shop",
+            "item_count": 5,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Quarreling Portraits",
             "item_count": 1,
             "access_rules": [
@@ -109,88 +140,121 @@
             "hosted_item": "qp1"
           },
           {
-            "name": "Pack 1",
+            "name": "Quiz 1",
             "item_count": 2,
             "access_rules": [
               "qp1"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 2",
+            "name": "Quiz 2",
             "item_count": 2,
             "access_rules": [
               "qp2"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 3",
+            "name": "Quiz 3",
             "item_count": 2,
             "access_rules": [
               "qp3"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 4",
+            "name": "Quiz 4",
             "item_count": 2,
             "access_rules": [
               "qp4"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 5",
+            "name": "Quiz 5",
             "item_count": 2,
             "access_rules": [
               "qp5"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 6",
+            "name": "Quiz 6",
             "item_count": 2,
             "access_rules": [
               "qp6"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 7",
+            "name": "Quiz 7",
             "item_count": 2,
             "access_rules": [
               "qp7"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 8",
+            "name": "Quiz 8",
             "item_count": 2,
             "access_rules": [
               "qp8"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 9",
+            "name": "Quiz 9",
             "item_count": 2,
             "access_rules": [
               "qp9"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 10",
+            "name": "Quiz 10",
             "item_count": 2,
             "access_rules": [
               "qp10"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
-            "name": "Pack 11",
+            "name": "Quiz 11",
             "item_count": 2,
             "access_rules": [
               "qp11"
+            ],
+            "visibility_rules": [
+              "option_quizsanity_on"
             ]
           },
           {
             "name": "Loremaster",
             "item_count": 1,
-            "hosted_item": "flimsyhammers",
             "access_rules": [
-              "qps:11"
+              "qps:11",
+              "qp1,option_quizsanity_off"
             ]
           }
         ],
@@ -417,6 +481,14 @@
           {
             "name": "Candle Secret",
             "item_count": 1
+          },
+          {
+            "name": "Ghost Merchant",
+            "item_count": 11,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           },
           {
             "name": "Goblet Shelf",
