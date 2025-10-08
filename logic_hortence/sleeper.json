@@ -420,7 +420,11 @@
             "name": "Darro",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "golem_xtol",
+              "boss_dweller_dread"
+            ]
           },
           {
             "name": "Above Item Shop",
