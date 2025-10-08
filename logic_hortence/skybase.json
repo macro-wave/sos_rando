@@ -6,7 +6,7 @@
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
     "access_rules": [
-      "@reg_seraiworld"
+      "@reg_sky_base"
     ],
     "children": [
       {

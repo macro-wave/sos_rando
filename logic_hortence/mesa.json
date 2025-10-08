@@ -303,7 +303,7 @@
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral,@reg_seraiworld"
+              "key_castlegarden,graplou,mistral,hortencemap,magicseashell"
             ]
           },
           {

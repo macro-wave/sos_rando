@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_home_overworld"
+    ],
     "children": [
       {
         "name": "Solstice Shrine Islands",
@@ -62,7 +65,7 @@
       {
         "name": "Sunken Docarri Ruins",
         "access_rules": [
-          "boss_dweller_dread, amulet, magicseashell"
+          "boss_dweller_dread,amulet,magicseashell"
         ],
         "children": [
           {

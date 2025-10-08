@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_evermist"
+    ],
     "children": [
       {
         "name": "Zenith Academy",
@@ -110,9 +113,6 @@
       },
       {
         "name": "Return to Mooncradle",
-        "access_rules": [
-          "@reg_evermist_return"
-        ],
         "sections": [
           {
             "name": "Wheels Champion",
@@ -240,9 +240,6 @@
       },
       {
         "name": "Sunglow Lake",
-        "access_rules": [
-          "@reg_evermist_beyondcavern"
-        ],
         "sections": [
           {
             "name": "Basket",
@@ -269,9 +266,6 @@
       },
       {
         "name": "Garl's Arrival",
-        "access_rules": [
-          "@reg_evermist_beyondcavern"
-        ],
         "sections": [
           {
             "name": "Cooking with Garl",
@@ -300,7 +294,7 @@
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "@reg_evermist_beyondcavern,key_evermistshrine"
+          "key_evermistshrine"
         ],
         "sections": [
           {
@@ -324,9 +318,6 @@
       },
       {
         "name": "Mountain Trail",
-        "access_rules": [
-          "@reg_evermist_beyondcavern"
-        ],
         "sections": [
           {
             "name": "Early Basket",
@@ -399,9 +390,6 @@
       },
       {
         "name": "Elder Mist Trials",
-        "access_rules": [
-          "@reg_evermist_beyondcavern"
-        ],
         "sections": [
           {
             "name": "Left Trial Mistral Block",

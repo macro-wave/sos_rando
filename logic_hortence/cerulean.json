@@ -6,22 +6,12 @@
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
     "access_rules": [
-      "@reg_seraiworld"
+      "@reg_cerulean"
     ],
     "children": [
       {
         "name": "Derelict Factory",
         "sections": [
-          {
-            "name": "Crane",
-            "access_rules": [
-              "key_factoryidcard"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
           {
             "name": "Entrance",
             "item_count": 1
@@ -48,42 +38,42 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Derelict Factory/Crane"
+              "key_factoryidcard"
             ]
           },
           {
             "name": "Laser Dispenser",
             "item_count": 1,
             "access_rules": [
-              "@Derelict Factory/Crane"
+              "key_factoryidcard"
             ]
           },
           {
             "name": "Mining Laser",
             "item_count": 1,
             "access_rules": [
-              "@Derelict Factory/Crane,graplou"
+              "key_factoryidcard,graplou"
             ]
           },
           {
             "name": "LTTP Room",
             "item_count": 3,
             "access_rules": [
-              "@Derelict Factory/Crane,mistral"
+              "key_factoryidcard,mistral"
             ]
           },
           {
             "name": "Storage Room",
             "item_count": 4,
             "access_rules": [
-              "@Derelict Factory/Crane"
+              "key_factoryidcard"
             ]
           },
           {
             "name": "Power Unit Fabricator",
             "item_count": 1,
             "access_rules": [
-              "@Derelict Factory/Crane,key_factorywireplate"
+              "key_factoryidcard,key_factorywireplate"
             ]
           }
         ],

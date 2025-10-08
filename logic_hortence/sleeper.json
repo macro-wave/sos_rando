@@ -12,7 +12,8 @@
       {
         "name": "X'tol's Landing",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -41,7 +42,8 @@
       {
         "name": "Moorlands",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -107,7 +109,8 @@
       {
         "name": "Stonemason's Outpost",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -171,7 +174,8 @@
       {
         "name": "Wind Tunnel Mines",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol",
+          "boss_dweller_dread"
         ],
         "sections": [
           {
@@ -276,7 +280,8 @@
       {
         "name": "Coral Cascades",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "hortencemap"
         ],
         "sections": [
           {
@@ -337,7 +342,8 @@
       {
         "name": "Port Town of Brisk",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "hortencemap"
         ],
         "sections": [
           {
@@ -523,7 +529,8 @@
       {
         "name": "Cataclysm Brisk",
         "access_rules": [
-          "@reg_sleeper_sealevel,event_cataclysm"
+          "golem_xtol,mistral,event_cataclysm",
+          "hortencemap,event_cataclysm"
         ],
         "sections": [
           {
@@ -566,7 +573,8 @@
       {
         "name": "Dweller's Fall Arena",
         "access_rules": [
-          "@reg_sleeper_sealevel,boss_dweller_dread"
+          "golem_xtol,mistral,boss_dweller_dread",
+          "hortencemap,boss_dweller_dread"
         ],
         "sections": [
           {
@@ -601,7 +609,8 @@
       {
         "name": "Abandoned Wizard's Lab",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,mistral",
+          "hortencemap"
         ],
         "sections": [
           {
