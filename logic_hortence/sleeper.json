@@ -13,7 +13,7 @@
         "name": "X'tol's Landing",
         "access_rules": [
           "golem_xtol",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -43,7 +43,7 @@
         "name": "Moorlands",
         "access_rules": [
           "golem_xtol",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -103,7 +103,7 @@
         "name": "Stonemason's Outpost",
         "access_rules": [
           "golem_xtol",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -168,7 +168,7 @@
         "name": "Wind Tunnel Mines",
         "access_rules": [
           "golem_xtol",
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -274,7 +274,7 @@
         "name": "Coral Cascades",
         "access_rules": [
           "golem_xtol,mistral",
-          "hortencemap"
+          "@rule_can_sail"
         ],
         "sections": [
           {
@@ -336,7 +336,7 @@
         "name": "Port Town of Brisk",
         "access_rules": [
           "golem_xtol,mistral",
-          "hortencemap"
+          "@rule_can_sail"
         ],
         "sections": [
           {
@@ -423,7 +423,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
               "golem_xtol",
-              "boss_dweller_dread"
+              "@rule_can_fly"
             ]
           },
           {
@@ -460,7 +460,8 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "[mistral]"
+              "mistral",
+              "boss_dweller_woe"
             ]
           },
           {
@@ -523,8 +524,8 @@
       {
         "name": "Dweller's Fall Arena",
         "access_rules": [
-          "golem_xtol,mistral,boss_dweller_dread",
-          "hortencemap,boss_dweller_dread"
+          "@rule_can_fly,golem_xtol,mistral,boss_dweller_woe",
+          "@rule_can_sail,@rule_can_fly,boss_dweller_woe"
         ],
         "sections": [
           {
@@ -560,7 +561,7 @@
         "name": "Abandoned Wizard's Lab",
         "access_rules": [
           "golem_xtol,mistral",
-          "hortencemap"
+          "@rule_can_sail"
         ],
         "sections": [
           {

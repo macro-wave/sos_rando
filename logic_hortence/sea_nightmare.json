@@ -52,7 +52,7 @@
             "x": 670,
             "y": 545,
             "force_invisibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           }
         ]
@@ -60,7 +60,7 @@
       {
         "name": "Sea of Nightmare Southwest",
         "access_rules": [
-          "hortencemap"
+          "@rule_can_sail"
         ],
         "sections": [
           {

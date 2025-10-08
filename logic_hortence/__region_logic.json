@@ -9,85 +9,85 @@
   },
   {
     "name": "reg_sleeper",
-    "children": []
+    "access_rules": []
   },
   {
     "name": "reg_wraith",
     "access_rules": [
-      "hortencemap",
-      "boss_dweller_dread"
+      "@rule_can_sail",
+      "@rule_can_fly"
     ]
   },
   {
     "name": "reg_sea_nightmare",
     "access_rules": [
-      "hortencemap"
+      "@rule_can_sail"
     ]
   },
   {
     "name": "reg_settlers",
     "access_rules": [
-      "hortencemap",
-      "boss_dweller_dread"
+      "@rule_can_sail",
+      "@rule_can_fly"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "hortencemap",
-      "boss_dweller_dread"
+      "@rule_can_sail",
+      "@rule_can_fly"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "hortencemap,vial",
-      "boss_dweller_dread,vial"
+      "@rule_can_sail,vial",
+      "@rule_can_fly,vial"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "hortencemap,option_skybridge_open",
-      "hortencemap,option_skybridge_dos,boss_dweller_strife"
+      "@rule_can_sail,option_skybridge_open",
+      "@rule_can_sail,option_skybridge_dos,boss_dweller_strife"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "hortencemap",
-      "boss_dweller_dread"
+      "@rule_can_sail",
+      "@rule_can_fly"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "hortencemap",
-      "boss_dweller_dread"
+      "@rule_can_sail",
+      "@rule_can_fly"
     ]
   },
   {
     "name": "reg_serai_overworld",
     "access_rules": [
-      "hortencemap,magicseashell"
+      "@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_cerulean",
     "access_rules": [
-      "hortencemap,magicseashell"
+      "@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sacrosanct",
     "access_rules": [
-      "hortencemap,magicseashell"
+      "@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sky_base",
     "access_rules": [
-      "hortencemap,magicseashell"
+      "@rule_can_cross_sea_of_stars"
     ]
   }
 ]
