@@ -69,7 +69,7 @@
       {
         "name": "Solstice Shrine Island",
         "access_rules": [
-          "boss_dweller_dread"
+          "@rule_can_fly"
         ],
         "sections": [
           {
@@ -93,7 +93,7 @@
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "boss_dweller_dread,mistral"
+          "@rule_can_fly,mistral"
         ],
         "sections": [
           {
@@ -198,14 +198,14 @@
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
+              "@rule_can_open_chronophage,boss_elysandarelle"
             ]
           },
           {
             "name": "True Ending",
             "item_count": 1,
             "access_rules": [
-              "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
+              "@rule_can_open_chronophage,boss_elysandarelle"
             ]
           }
         ],

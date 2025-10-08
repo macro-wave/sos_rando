@@ -294,7 +294,7 @@
         "access_rules": [
           "undeathcoin",
           "flame_green",
-          "boss_dweller_dread,mistral"
+          "@rule_can_fly,mistral"
         ],
         "sections": [
           {
@@ -337,7 +337,7 @@
             "name": "Secret Passage",
             "item_count": 1,
             "access_rules": [
-              "boss_dweller_dread,mistral"
+              "@rule_can_fly,mistral"
             ]
           },
           {
@@ -375,7 +375,7 @@
         "access_rules": [
           "undeathcoin,mistral",
           "flame_green,mistral",
-          "boss_dweller_dread,mistral"
+          "@rule_can_fly,mistral"
         ],
         "sections": [
           {

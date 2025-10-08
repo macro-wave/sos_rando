@@ -1,0 +1,28 @@
+[
+  {
+    "name": "rule_can_boost_live_mana",
+    "access_rules": []
+  },
+  {
+    "name": "rule_can_sail",
+    "access_rules": []
+  },
+  {
+    "name": "rule_can_cross_sea_of_stars",
+    "access_rules": [
+      "@rule_can_sail,magicseashell"
+    ]
+  },
+  {
+    "name": "rule_can_fly",
+    "access_rules": [
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "rule_can_open_chronophage",
+    "access_rules": [
+      "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
+    ]
+  }
+]
