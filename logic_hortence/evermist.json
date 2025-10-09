@@ -16,7 +16,7 @@
             "name": "Gifts from Brugaves",
             "access_rules": [],
             "item_count": 2,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_skip_prologue_off"
             ]
           },
@@ -24,7 +24,7 @@
             "name": "Garl's Visit",
             "access_rules": [],
             "item_count": 1,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_skip_prologue_off"
             ]
           },
@@ -107,7 +107,10 @@
           {
             "map": "homeworld",
             "x": 255,
-            "y": 845
+            "y": 845,
+            "restrict_visibility_rules": [
+              "option_skip_prologue_off"
+            ]
           }
         ]
       },
