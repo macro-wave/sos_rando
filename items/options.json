@@ -1,5 +1,11 @@
 [
   {
+    "name": "Placeholder",
+    "type": "toggle",
+    "img": "images/items/key_generic.png",
+    "codes": "option_placeholder"
+  },
+  {
     "name": "Skip Prologue",
     "type": "progressive",
     "allow_disabled": false,
@@ -101,6 +107,23 @@
       {
         "img": "images/options/option_fishing_rewards_on.png",
         "codes": "option_fishing_rewards,option_fishing_rewards_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Forbidden Cavern",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/key_generic.png",
+        "img_mods": "@disabled",
+        "codes": "option_cavern,option_cavern_closed"
+      },
+      {
+        "img": "images/items/key_generic.png",
+        "codes": "option_cavern,option_cavern_open",
         "inherit_codes": false
       }
     ]

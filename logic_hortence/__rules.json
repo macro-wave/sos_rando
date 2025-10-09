@@ -29,5 +29,12 @@
       "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,flame_green",
       "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,mistral"
     ]
+  },
+  {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "boss_bosslug",
+      "option_cavern_bridge_open"
+    ]
   }
 ]
