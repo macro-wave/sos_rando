@@ -1,7 +1,9 @@
 [
   {
     "name": "reg_home_overworld",
-    "access_rules": []
+    "access_rules": [
+      "@rule_can_leave_cavern"
+    ]
   },
   {
     "name": "reg_evermist",
@@ -9,85 +11,87 @@
   },
   {
     "name": "reg_sleeper",
-    "access_rules": []
+    "access_rules": [
+      "@rule_can_leave_cavern"
+    ]
   },
   {
     "name": "reg_wraith",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,@rule_can_sail",
+      "@rule_can_leave_cavern,@rule_can_fly"
     ]
   },
   {
     "name": "reg_sea_nightmare",
     "access_rules": [
-      "@rule_can_sail"
+      "@rule_can_leave_cavern,@rule_can_sail"
     ]
   },
   {
     "name": "reg_settlers",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,@rule_can_sail",
+      "@rule_can_leave_cavern,@rule_can_fly"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,@rule_can_sail",
+      "@rule_can_leave_cavern,@rule_can_fly"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_sail,vial",
-      "@rule_can_fly,vial"
+      "@rule_can_leave_cavern,@rule_can_sail,vial",
+      "@rule_can_leave_cavern,@rule_can_fly,vial"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "@rule_can_sail,option_skybridge_open",
-      "@rule_can_sail,option_skybridge_dos,boss_dweller_strife"
+      "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_open",
+      "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_dos,boss_dweller_strife"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,@rule_can_sail",
+      "@rule_can_leave_cavern,@rule_can_fly"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,@rule_can_sail",
+      "@rule_can_leave_cavern,@rule_can_fly"
     ]
   },
   {
     "name": "reg_serai_overworld",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@rule_can_leave_cavern,@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_cerulean",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@rule_can_leave_cavern,@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sacrosanct",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@rule_can_leave_cavern,@rule_can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sky_base",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@rule_can_leave_cavern,@rule_can_cross_sea_of_stars"
     ]
   }
 ]

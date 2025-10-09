@@ -24,5 +24,12 @@
     "access_rules": [
       "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
     ]
+  },
+  {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "boss_bosslug",
+      "option_cavern_bridge_open"
+    ]
   }
 ]

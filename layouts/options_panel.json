@@ -10,6 +10,13 @@
         "content": [
           {
             "type": "item",
+            "item": "option_placeholder",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 35
+          },
+          {
+            "type": "item",
             "item": "option_skip_prologue",
             "h_alignment": "left",
             "width": 300,

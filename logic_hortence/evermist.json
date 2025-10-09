@@ -113,6 +113,9 @@
       },
       {
         "name": "Return to Mooncradle",
+        "access_rules": [
+          "@rule_can_leave_cavern"
+        ],
         "sections": [
           {
             "name": "Wheels Champion",
@@ -218,13 +221,15 @@
             "name": "Bosslug",
             "hosted_item": "boss_bosslug",
             "access_rules": [
-              "key_forbiddencavern"
+              "key_forbiddencavern",
+              "option_cavern_open"
             ]
           },
           {
             "name": "Defeat Bosslug",
             "access_rules": [
-              "key_forbiddencavern"
+              "key_forbiddencavern",
+              "option_cavern_open"
             ],
             "item_count": 2
           }
@@ -240,6 +245,9 @@
       },
       {
         "name": "Sunglow Lake",
+        "access_rules": [
+          "@rule_can_leave_cavern"
+        ],
         "sections": [
           {
             "name": "Basket",
@@ -266,6 +274,9 @@
       },
       {
         "name": "Garl's Arrival",
+        "access_rules": [
+          "@rule_can_leave_cavern"
+        ],
         "sections": [
           {
             "name": "Cooking with Garl",
@@ -294,7 +305,7 @@
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "key_evermistshrine"
+          "@rule_can_leave_cavern,key_evermistshrine"
         ],
         "sections": [
           {
@@ -318,6 +329,9 @@
       },
       {
         "name": "Mountain Trail",
+        "access_rules": [
+          "@rule_can_leave_cavern"
+        ],
         "sections": [
           {
             "name": "Early Basket",
@@ -390,6 +404,9 @@
       },
       {
         "name": "Elder Mist Trials",
+        "access_rules": [
+          "@rule_can_leave_cavern,@rule_can_boost_live_mana"
+        ],
         "sections": [
           {
             "name": "Left Trial Mistral Block",
@@ -428,6 +445,9 @@
       },
       {
         "name": "Y'eet's Landing",
+        "access_rules": [
+          "@rule_can_leave_cavern"
+        ],
         "sections": [
           {
             "name": "Golem Name",
