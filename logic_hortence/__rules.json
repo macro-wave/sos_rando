@@ -1,5 +1,3 @@
-// To avoid reference-before-load bugs, keep these rules IN ORDER
-// & load this file FIRST before any region files
 [
   {
     "name": "rule_can_leave_cavern",

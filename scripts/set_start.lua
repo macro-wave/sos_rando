@@ -9,6 +9,7 @@ if HAS_MAP then
     Tracker:FindObjectForCode("option_elevator").CurrentStage = 1
     Tracker:FindObjectForCode("option_sos").CurrentStage = 1
     Tracker:FindObjectForCode("option_speedball").CurrentStage = 1
+    Tracker:FindObjectForCode("option_abyss").CurrentStage = 0
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 1
     Tracker:FindObjectForCode("option_skybridge").CurrentStage = 1
     Tracker:FindObjectForCode("option_quizsanity").CurrentStage = 1

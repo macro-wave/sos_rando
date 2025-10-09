@@ -50,7 +50,8 @@
       {
         "name": "Infinite Abyss",
         "access_rules": [
-          "boss_catalyst"
+          "boss_catalyst",
+          "option_abyss_open"
         ],
         "sections": [
           {
