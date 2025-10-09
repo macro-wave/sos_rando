@@ -199,5 +199,22 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Fleshmancer's Lair Skip Portal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/key_generic.png",
+        "img_mods": "@disabled",
+        "codes": "option_lair_portal,option_lair_portal_off"
+      },
+      {
+        "img": "images/items/key_generic.png",
+        "codes": "option_lair_portal,option_lair_portal_on",
+        "inherit_codes": false
+      }
+    ]
   }
 ]
