@@ -144,5 +144,27 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Sea of Stars",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/key_generic.png",
+        "img_mods": "@disabled",
+        "codes": "option_sos,option_sos_closed"
+      },
+      {
+        "img": "images/items/magicseashell.png",
+        "codes": "option_sos,option_sos_mshell",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/hortencemap.png",
+        "codes": "option_sos,option_sos_open",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

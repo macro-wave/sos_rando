@@ -5,12 +5,20 @@
   },
   {
     "name": "rule_can_sail",
-    "access_rules": ["hortencemap"]
+    "access_rules": []
+  },
+  {
+    "name": "rule_can_get_zephyr",
+    "access_rules": [
+      "key_wind,cobalthammer"
+    ]
   },
   {
     "name": "rule_can_cross_sea_of_stars",
     "access_rules": [
-      "@rule_can_sail,magicseashell"
+      "@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,magicseashell",
+      "@rule_can_sail,option_sos_mshell,magicseashell",
+      "@rule_can_sail,option_sos_open"
     ]
   },
   {
