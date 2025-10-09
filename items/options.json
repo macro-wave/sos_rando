@@ -166,5 +166,22 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Speedball Network",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/key_generic.png",
+        "img_mods": "@disabled",
+        "codes": "option_speedball,option_speedball_closed"
+      },
+      {
+        "img": "images/items/key_generic.png",
+        "codes": "option_speedball,option_speedball_open",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

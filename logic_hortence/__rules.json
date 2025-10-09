@@ -1,4 +1,13 @@
+// To avoid reference-before-load bugs, keep these rules IN ORDER
+// & load this file FIRST before any region files
 [
+  {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "boss_bosslug",
+      "option_cavern_open"
+    ]
+  },
   {
     "name": "rule_can_boost_live_mana",
     "access_rules": []
@@ -6,6 +15,12 @@
   {
     "name": "rule_can_sail",
     "access_rules": []
+  },
+  {
+    "name": "rule_can_fly",
+    "access_rules": [
+      "boss_dweller_dread"
+    ]
   },
   {
     "name": "rule_can_get_zephyr",
@@ -22,9 +37,11 @@
     ]
   },
   {
-    "name": "rule_can_fly",
+    "name": "rule_can_use_speedball",
     "access_rules": [
-      "boss_dweller_dread"
+      "graplou,mistral,key_spiresegg",
+      "@rule_can_fly",
+      "option_speedball_open"
     ]
   },
   {
@@ -36,13 +53,6 @@
       "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,undeathcoin",
       "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,flame_green",
       "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,mistral"
-    ]
-  },
-  {
-    "name": "rule_can_leave_cavern",
-    "access_rules": [
-      "boss_bosslug",
-      "option_cavern_open"
     ]
   }
 ]

@@ -1,3 +1,4 @@
+// To avoid reference-before-load bugs, load this file SECOND after __rules
 [
   {
     "name": "reg_home_overworld",
