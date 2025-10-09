@@ -22,7 +22,12 @@
   {
     "name": "rule_can_open_chronophage",
     "access_rules": [
-      "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,undeathcoin",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,flame_green",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,mistral",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,undeathcoin",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,flame_green",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,mistral"
     ]
   }
 ]
