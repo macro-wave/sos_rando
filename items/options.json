@@ -183,5 +183,21 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Infinite Abyss",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/characters/boss_catalyst.png",
+        "codes": "option_abyss,option_abyss_catalyst"
+      },
+      {
+        "img": "images/characters/boss_dweller_dread.png",
+        "codes": "option_abyss,option_abyss_open",
+        "inherit_codes": false
+      }
+    ]
   }
 ]
