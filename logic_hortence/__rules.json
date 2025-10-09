@@ -5,7 +5,7 @@
   },
   {
     "name": "rule_can_sail",
-    "access_rules": []
+    "access_rules": ["hortencemap"]
   },
   {
     "name": "rule_can_cross_sea_of_stars",
@@ -34,7 +34,7 @@
     "name": "rule_can_leave_cavern",
     "access_rules": [
       "boss_bosslug",
-      "option_cavern_bridge_open"
+      "option_cavern_open"
     ]
   }
 ]

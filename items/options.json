@@ -127,5 +127,22 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Sleeper Elevator",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/key_generic.png",
+        "img_mods": "@disabled",
+        "codes": "option_elevator,option_elevator_closed"
+      },
+      {
+        "img": "images/items/key_generic.png",
+        "codes": "option_elevator,option_elevator_open",
+        "inherit_codes": false
+      }
+    ]
   }
 ]
