@@ -53,6 +53,7 @@
     "name": "reg_skylands",
     "access_rules": [
       "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife",
+      "@rule_can_leave_cavern,@rule_can_sail,golem_puntie",
       "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_open"
     ]
   },

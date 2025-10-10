@@ -155,7 +155,7 @@
         }
       },
       {
-        "title": "Sequence skips",
+        "title": "Sequence Skips",
         "content": {
           "type": "layout",
           "key": "subpanel_skips",
