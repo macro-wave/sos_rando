@@ -180,7 +180,7 @@
             "clear_as_group": false,
             "access_rules": [
               "mistral,graplou,key_bigjar:3,key_susfish",
-              "option_lair_portal_on"
+              "option_lair_warp_on"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -191,7 +191,7 @@
             "item_count": 1,
             "access_rules": [
               "mistral,graplou,key_bigjar:3,key_susfish",
-              "option_lair_portal_on"
+              "option_lair_warp_on"
             ]
           },
           {
@@ -200,7 +200,7 @@
             "clear_as_group": false,
             "access_rules": [
               "mistral,graplou,key_bigjar:3,key_susfish",
-              "option_lair_portal_on"
+              "option_lair_warp_on"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -211,7 +211,7 @@
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
               "mistral,graplou,key_bigjar:3,key_susfish",
-              "option_lair_portal_on"
+              "option_lair_warp_on"
             ]
           },
           {
