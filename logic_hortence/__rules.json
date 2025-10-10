@@ -1,5 +1,12 @@
 [
   {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "boss_bosslug",
+      "option_cavern_open"
+    ]
+  },
+  {
     "name": "rule_can_boost_live_mana",
     "access_rules": []
   },
@@ -8,21 +15,42 @@
     "access_rules": []
   },
   {
-    "name": "rule_can_cross_sea_of_stars",
-    "access_rules": [
-      "@rule_can_sail,magicseashell"
-    ]
-  },
-  {
     "name": "rule_can_fly",
     "access_rules": [
       "boss_dweller_dread"
     ]
   },
   {
+    "name": "rule_can_get_zephyr",
+    "access_rules": [
+      "key_wind,cobalthammer"
+    ]
+  },
+  {
+    "name": "rule_can_cross_sea_of_stars",
+    "access_rules": [
+      "@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,magicseashell",
+      "@rule_can_sail,option_sos_mshell,magicseashell",
+      "@rule_can_sail,option_sos_open"
+    ]
+  },
+  {
+    "name": "rule_can_use_speedball",
+    "access_rules": [
+      "graplou,mistral,key_spiresegg",
+      "@rule_can_fly",
+      "option_speedball_open"
+    ]
+  },
+  {
     "name": "rule_can_open_chronophage",
     "access_rules": [
-      "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry"
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,undeathcoin",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,flame_green",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,mistral",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,undeathcoin",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,flame_green",
+      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,mistral"
     ]
   }
 ]

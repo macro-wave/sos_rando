@@ -63,7 +63,7 @@
       {
         "name": "Southeast Spire",
         "access_rules": [
-          "graplou, mistral",
+          "graplou,mistral",
           "@rule_can_fly"
         ],
         "sections": [
@@ -83,7 +83,7 @@
       {
         "name": "Northeast Spire",
         "access_rules": [
-          "graplou, mistral",
+          "graplou,mistral",
           "@rule_can_fly"
         ],
         "sections": [
@@ -120,24 +120,24 @@
       {
         "name": "Seat of the Triumvirate",
         "access_rules": [
-          "graplou, mistral, key_spiresegg",
+          "graplou,mistral,key_spiresegg",
           "@rule_can_fly"
         ],
         "sections": [
-            {
-              "name": "Teleporter",
-              "item_count": 1,
-              "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-              "chest_opened_img": "images/boxes/conch_chest_open.png"
-            },
-            {
-              "name": "Stairs",
-              "item_count": 1
-            },
-            {
-              "name": "Triumvirate of Eminence",
-              "hosted_item": "boss_triumvirate"
-            }
+          {
+            "name": "Teleporter",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Stairs",
+            "item_count": 1
+          },
+          {
+            "name": "Triumvirate of Eminence",
+            "hosted_item": "boss_triumvirate"
+          }
         ],
         "map_locations": [
           {
@@ -149,6 +149,11 @@
       },
       {
         "name": "Es'tristae's Lookout",
+        "access_rules": [
+          "graplou,mistral,key_spiresegg",
+          "@rule_can_fly",
+          "@rule_can_use_speedball"
+        ],
         "sections": [
           {
             "name": "Lookout",

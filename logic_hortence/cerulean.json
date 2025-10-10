@@ -88,6 +88,11 @@
       },
       {
         "name": "Cerulean Reservoir",
+        "access_rules": [
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "@rule_can_use_speedball",
+          "@rule_can_fly"
+        ],
         "sections": [
           {
             "name": "Reservoir Chest",
@@ -104,6 +109,11 @@
       },
       {
         "name": "Repine",
+        "access_rules": [
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "@rule_can_use_speedball",
+          "@rule_can_fly"
+        ],
         "sections": [
           {
             "name": "Chomper",
@@ -195,6 +205,11 @@
       },
       {
         "name": "Cerulean Expanse",
+        "access_rules": [
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "@rule_can_use_speedball",
+          "@rule_can_fly"
+        ],
         "sections": [
           {
             "name": "NE Pointer (2) Bottom Left",
@@ -233,7 +248,9 @@
       {
         "name": "Lost Ones Hamlet",
         "access_rules": [
-          "probe"
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,probe",
+          "@rule_can_use_speedball,probe",
+          "@rule_can_fly,probe"
         ],
         "sections": [
           {
@@ -272,7 +289,12 @@
       {
         "name": "Throne of The Queen That Was",
         "access_rules": [
-          "[jocebuckle]"
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,[jocebuckle]",
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,option_logic_jocebuckle",
+          "@rule_can_use_speedball,[jocebuckle]",
+          "@rule_can_use_speedball,option_logic_jocebuckle",
+          "@rule_can_fly,[jocebuckle]",
+          "@rule_can_fly,option_logic_jocebuckle"
         ],
         "sections": [
           {

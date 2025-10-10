@@ -1,5 +1,16 @@
 # RELEASES
 
+## Version 0.0.6 : 10/09/2025
+
+- Fix quite a lot of missing logic
+- Fix logic of Forbidden Cavern that would break just about every playthrough
+- Change which checks are excluded with the prologue skip option
+- Add a whole group of starting options:
+    - Major QOL options like open Forbidden Cavern, skip Fleshmancer's Lair, etc
+    - Special logic options category (only has one at the moment)
+- Add new tabs/text icons in the options panel
+- Add scrolling to pinned locations
+
 ## Version 0.0.5 : 10/08/2025
 
 - Fix soulstone/mansion missing requirement

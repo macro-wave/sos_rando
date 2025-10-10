@@ -1,56 +1,174 @@
 {
-  "options_panel": {
-    "type":"group",
-    "header": "Randomizer Options",
-    "content":[
+  "subpanel_world": {
+    "type": "group",
+    "content": [
       {
         "type": "array",
         "orientation": "vertical",
-        "margin": "5, 0",
         "content": [
           {
             "type": "item",
-            "item": "option_skip_prologue",
+            "item": "option_cavern",
             "h_alignment": "left",
             "width": 300,
-            "height": 35
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_elevator",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
           },
           {
             "type": "item",
             "item": "option_skybridge",
             "h_alignment": "left",
             "width": 300,
-            "height": 35
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_sos",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_speedball",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_abyss",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          }
+        ]
+      }
+    ]
+  },
+  "subpanel_shuffle": {
+    "type": "group",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "1, 0",
+        "content": [
+          {
+            "type": "item",
+            "item": "option_shopsanity",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
           },
           {
             "type": "item",
             "item": "option_quizsanity",
             "h_alignment": "left",
             "width": 300,
-            "height": 35
-          },
-          {
-            "type": "item",
-            "item": "option_shopsanity",
-            "h_alignment": "left",
-            "width": 300,
-            "height": 35
+            "height": 18
           },
           {
             "type": "item",
             "item": "option_conch_rewards",
             "h_alignment": "left",
             "width": 300,
-            "height": 35
+            "height": 18
           },
           {
             "type": "item",
             "item": "option_fishing_rewards",
             "h_alignment": "left",
             "width": 300,
-            "height": 35
+            "height": 18
           }
         ]
+      }
+    ]
+  },
+  "subpanel_skips": {
+    "type": "group",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "item",
+            "item": "option_skip_prologue",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_lair_warp",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          }
+        ]
+      }
+    ]
+  },
+  "subpanel_logic": {
+    "type": "group",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "item",
+            "item": "option_logic_jocebuckle",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          }
+        ]
+      }
+    ]
+  },
+  "options_panel": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "World Access",
+        "content": {
+          "type": "layout",
+          "key": "subpanel_world",
+          "h_alignment": "left"
+        }
+      },
+      {
+        "title": "Shuffle",
+        "content": {
+          "type": "layout",
+          "key": "subpanel_shuffle",
+          "h_alignment": "left"
+        }
+      },
+      {
+        "title": "Sequence Skips",
+        "content": {
+          "type": "layout",
+          "key": "subpanel_skips",
+          "h_alignment": "left"
+        }
+      },
+      {
+        "title": "Logic",
+        "content": {
+          "type": "layout",
+          "key": "subpanel_logic",
+          "h_alignment": "left"
+        }
       }
     ]
   }

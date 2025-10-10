@@ -50,7 +50,8 @@
       {
         "name": "Infinite Abyss",
         "access_rules": [
-          "boss_catalyst"
+          "boss_catalyst",
+          "option_abyss_open"
         ],
         "sections": [
           {
@@ -93,76 +94,84 @@
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "@rule_can_fly,mistral"
+          "@rule_can_fly"
         ],
         "sections": [
           {
             "name": "Eye Roll",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "LeJugg",
-            "hosted_item": "boss_lejugg"
+            "hosted_item": "boss_lejugg",
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "Halls of Illusion Maze",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "After Maze",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "mistral"
+            ]
           },
           {
             "name": "Big Jars",
-            "item_count": 3
+            "item_count": 3,
+            "access_rules": [
+              "mistral,graplou,"
+            ]
           },
           {
             "name": "Catch Fish?",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3"
+              "mistral,graplou,key_bigjar:3"
             ]
           },
           {
             "name": "Mines Illusion",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Fish Illusion",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Before Room of Sending",
             "item_count": 1,
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Phase Reaper",
             "hosted_item": "boss_phasereaper",
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish"
             ]
           },
           {
             "name": "Soul Curator",
             "hosted_item": "boss_curator",
             "access_rules": [
-              "key_bigjar:3,key_susfish"
-            ]
-          },
-          {
-            "name": "Summoner's Campfire",
-            "item_count": 1,
-            "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish"
             ]
           },
           {
@@ -170,10 +179,19 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish",
+              "option_lair_warp_on"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Summoner's Campfire",
+            "item_count": 1,
+            "access_rules": [
+              "mistral,graplou,key_bigjar:3,key_susfish",
+              "option_lair_warp_on"
             ]
           },
           {
@@ -181,7 +199,8 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish",
+              "option_lair_warp_on"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -191,7 +210,8 @@
             "name": "Elysan'darëlle",
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
-              "key_bigjar:3,key_susfish"
+              "mistral,graplou,key_bigjar:3,key_susfish",
+              "option_lair_warp_on"
             ]
           },
           {
