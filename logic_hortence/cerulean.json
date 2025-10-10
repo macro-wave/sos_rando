@@ -290,8 +290,11 @@
         "name": "Throne of The Queen That Was",
         "access_rules": [
           "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,[jocebuckle]",
+          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,option_logic_jocebuckle",
           "@rule_can_use_speedball,[jocebuckle]",
-          "@rule_can_fly,[jocebuckle]"
+          "@rule_can_use_speedball,option_logic_jocebuckle",
+          "@rule_can_fly,[jocebuckle]",
+          "@rule_can_fly,option_logic_jocebuckle"
         ],
         "sections": [
           {

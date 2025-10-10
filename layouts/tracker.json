@@ -156,14 +156,22 @@
               "header": "Pinned Locations",
               "min_height": 121,
               "max_height": 230,
-              "content": {
-                "type": "recentpins",
-                "style": "wrap",
-                "h_alignment": "stretch",
-                "v_alignment": "stretch",
-                "orientation": "horizontal",
-                "compact": true
-              }
+              "content": [
+                {
+                  "type": "scroll",
+                  "horizontal_scrollbar_visibility": "disabled",
+                  "content": [
+                    {
+                      "type": "recentpins",
+                      "style": "wrap",
+                      "h_alignment": "stretch",
+                      "v_alignment": "stretch",
+                      "orientation": "horizontal",
+                      "compact": true
+                    }
+                  ]
+                }
+              ]
             },
             {
               "type": "tabbed",

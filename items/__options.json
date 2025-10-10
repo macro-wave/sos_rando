@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Forbidden Cavern",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_cavern_closed.png",
+        "codes": "option_cavern,option_cavern_closed"
+      },
+      {
+        "img": "images/options/option_cavern_open.png",
+        "codes": "option_cavern,option_cavern_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sleeper Elevator",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_elevator_malkomoud.png",
+        "codes": "option_elevator,option_elevator_malkomoud"
+      },
+      {
+        "img": "images/options/option_elevator_open.png",
+        "codes": "option_elevator,option_elevator_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skylands Bridge",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_skybridge_dos.png",
+        "codes": "option_skybridge,option_skybridge_dos"
+      },
+      {
+        "img": "images/options/option_skybridge_open.png",
+        "codes": "option_skybridge,option_skybridge_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Sea of Stars",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_sos_vanilla.png",
+        "codes": "option_sos,option_sos_vanilla"
+      },
+      {
+        "img": "images/options/option_sos_mshell.png",
+        "codes": "option_sos,option_sos_mshell",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_sos_open.png",
+        "codes": "option_sos,option_sos_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Speedball Network",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_speedball_closed.png",
+        "codes": "option_speedball,option_speedball_closed"
+      },
+      {
+        "img": "images/options/option_speedball_open.png",
+        "codes": "option_speedball,option_speedball_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Infinite Abyss",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_abyss_catalyst.png",
+        "codes": "option_abyss,option_abyss_catalyst"
+      },
+      {
+        "img": "images/options/option_abyss_open.png",
+        "codes": "option_abyss,option_abyss_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shopsanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_shopsanity_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_shopsanity,option_shopsanity_off"
+      },
+      {
+        "img": "images/options/option_shopsanity_unique.png",
+        "codes": "option_shopsanity,option_shopsanity_unique",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_shopsanity_all.png",
+        "codes": "option_shopsanity,option_shopsanity_all",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Quizsanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_quizsanity_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_quizsanity,option_quizsanity_off"
+      },
+      {
+        "img": "images/options/option_quizsanity_on.png",
+        "codes": "option_quizsanity,option_quizsanity_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Conch Rewards",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_conch_rewards_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_conch_rewards,option_conch_rewards_off"
+      },
+      {
+        "img": "images/options/option_conch_rewards_on.png",
+        "codes": "option_conch_rewards,option_conch_rewards_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Fishing Rewards",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_fishing_rewards_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_fishing_rewards,option_fishing_rewards_off"
+      },
+      {
+        "img": "images/options/option_fishing_rewards_on.png",
+        "codes": "option_fishing_rewards,option_fishing_rewards_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Skip Prologue",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_skip_prologue_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_skip_prologue,option_skip_prologue_off"
+      },
+      {
+        "img": "images/options/option_skip_prologue_on.png",
+        "codes": "option_skip_prologue,option_skip_prologue_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fleshmancer's Lair Warp to End",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_lair_warp_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_lair_warp,option_lair_warp_off"
+      },
+      {
+        "img": "images/options/option_lair_warp_on.png",
+        "codes": "option_lair_warp,option_lair_warp_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Throne of the Queen without Joce's Belt Buckle",
+    "type": "toggle",
+    "img": "images/options/option_logic_jocebuckle.png",
+    "codes": "option_logic_jocebuckle"
+  }
+]
