@@ -23,15 +23,17 @@
   {
     "name": "rule_can_get_zephyr",
     "access_rules": [
-      "key_wind,cobalthammer"
+      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife,key_wind,cobalthammer",
+      "@rule_can_leave_cavern,@rule_can_sail,golem_puntie,key_wind,cobalthammer",
+      "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_open,key_wind,cobalthammer"
     ]
   },
   {
     "name": "rule_can_cross_sea_of_stars",
     "access_rules": [
-      "@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,magicseashell",
-      "@rule_can_sail,option_sos_mshell,magicseashell",
-      "@rule_can_sail,option_sos_open"
+      "@rule_can_leave_cavern,@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,magicseashell",
+      "@rule_can_leave_cavern,@rule_can_sail,option_sos_mshell,magicseashell",
+      "@rule_can_leave_cavern,@rule_can_sail,option_sos_open"
     ]
   },
   {

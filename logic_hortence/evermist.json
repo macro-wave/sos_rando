@@ -316,10 +316,6 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
-          },
-          {
-            "name": "Elder Dissed",
-            "hosted_item": "boss_eldermist"
           }
         ],
         "map_locations": [
@@ -381,26 +377,35 @@
           {
             "name": "Mist Falls",
             "item_count": 1
-          },
-          {
-            "name": "Elder Mist Refight",
-            "access_rules": [
-              "@Wraith Solstice Shrine,@Evermist Solstice Shrine"
-            ],
-            "hosted_item": "boss_eldermist_2"
-          },
-          {
-            "name": "Elder Dissed",
-            "access_rules": [
-              "@Wraith Solstice Shrine,@Evermist Solstice Shrine,boss_dweller_dread,amulet,mistral"
-            ],
-            "item_count": 2
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
             "x": 283,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Ascended Warriors Trial",
+        "access_rules": [
+          "@rule_can_leave_cavern,@rule_can_fly,@rule_can_cross_sea_of_stars,key_evermistshrine,graplou,key_wraithshrine:2,amulet,mistral"
+        ],
+        "sections": [
+          {
+            "name": "Elder Mist",
+            "hosted_item": "boss_eldermist_2"
+          },
+          {
+            "name": "Elder Dissed",
+            "item_count": 2
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 298,
             "y": 730
           }
         ]
