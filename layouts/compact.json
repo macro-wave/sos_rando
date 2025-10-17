@@ -9,109 +9,109 @@
         "h_alignment": "left",
         "rows": [
           [
-            "cookiejar",
-            "key_moraine",
-            "key_evermistshrine",
-            "mistral",
-            "signet",
-            "wheels_pieces",
-            "invitation"
+            "k_cookiejar",
+            "k_key_moraine",
+            "k_key_evermistshrine",
+            "k_mistral",
+            "k_traderssignet",
+            "w_wheels_piece",
+            "k_invitation"
           ],
           [
-            "undeathcoin",
-            "graplou",
-            "soulstone",
-            "flame_both",
-            "turbocookie",
-            "key_shed",
-            "journal"
+            "k_coin_undeath",
+            "k_graplou",
+            "k_soulstone",
+            "k_flame_both",
+            "k_turbocookie",
+            "k_key_shed",
+            "k_journal"
           ],
           [
-            "locket",
-            "key_aventry",
-            "hortencemap",
-            "immaculatepearl",
-            "hammer",
-            "seashell",
-            "vial"
+            "k_locket",
+            "k_key_aventry",
+            "k_hortencemap",
+            "k_pearl_immaculate",
+            "k_hammer",
+            "k_seashell",
+            "k_vial"
           ],
           [
-            "plan_inn",
-            "plan_fishlodge",
-            "plan_shop",
-            "plan_spa",
-            "key_yomara",
-            "amulet",
-            "wheelstable"
+            "k_plan_inn",
+            "k_plan_fishlodge",
+            "k_plan_shop",
+            "k_plan_spa",
+            "k_key_yomara",
+            "k_amulet",
+            "k_wheelstable"
           ],
           [
-            "key_wind",
-            "hookoftime",
-            "docarrifragment",
-            "cypher",
-            "probe",
-            "jocebuckle",
-            "conches"
+            "k_key_wind",
+            "k_hookoftime",
+            "k_docarrifragment",
+            "k_cypher",
+            "k_probe",
+            "k_jocebuckle",
+            "c_rainbowconch"
           ],
           [
-            "key_ornatestone",
-            "key_forbiddencavern",
-            "key_mines",
-            "key_crystalgreen",
-            "key_crystalblue",
-            "key_crystalred",
-            "key_goldwatch"
+            "k_ornatestone",
+            "k_key_forbiddencavern",
+            "k_key_mines",
+            "k_crystal_green",
+            "k_crystal_blue",
+            "k_crystal_red",
+            "k_goldwatch"
           ],
           [
-            "key_ghostwich",
-            "key_mansionhelm",
-            "key_mansioncrown",
-            "key_wraithshrine",
-            "key_doubloon",
-            "key_castlegarden",
-            "key_castlemaster"
+            "k_ghostsandwich",
+            "k_knightshelm",
+            "k_crown",
+            "k_key_wraithshrine",
+            "k_doubloon",
+            "k_key_garden",
+            "k_key_master"
           ],
           [
-            "key_sapphire",
-            "key_pearlpink",
-            "key_pearlyellow",
-            "key_pearlgreen",
-            "key_pearlpurple",
-            "key_pearlblue",
-            "key_antsudlovalve"
+            "k_key_sapphire",
+            "k_pearl_pink",
+            "k_pearl_yellow",
+            "k_pearl_green",
+            "k_pearl_purple",
+            "k_pearl_blue",
+            "k_valve"
           ],
           [
-            "key_skytriangle",
-            "key_skyhexagon",
-            "key_fishingdungeon",
-            "key_fish",
-            "key_susfish",
-            "key_bigjar",
-            "datastrips"
+            "k_slab_triangular",
+            "k_slab_hexagonal",
+            "k_k_key_fishingdungeon",
+            "k_key_fish",
+            "k_susfish",
+            "k_bigjar",
+            "c_datastrip"
           ],
           [
-            "key_factoryidcard",
-            "key_factorywireplate",
-            "key_factorypowerunit",
-            "key_factoryblueprint",
-            "key_factorykyber",
-            "key_spiresegg",
-            "flimsyhammers"
+            "k_craneidcard",
+            "k_wireplatesheet",
+            "k_powerunit",
+            "k_blueprintdisc",
+            "k_kyberore",
+            "k_crystalegg",
+            "c_flimsyhammer"
           ],
           [
-            "qp1",
-            "qp2",
-            "qp3",
-            "qp4",
-            "qp5",
-            "qp6"
+            "c_qpack1",
+            "c_qpack2",
+            "c_qpack3",
+            "c_qpack4",
+            "c_qpack5",
+            "c_qpack6"
           ],
           [
-            "qp7",
-            "qp8",
-            "qp9",
-            "qp10",
-            "qp11"
+            "c_qpack7",
+            "c_qpack8",
+            "c_qpack9",
+            "c_qpack10",
+            "c_qpack11"
           ]
         ]
       }

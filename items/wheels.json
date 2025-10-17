@@ -5,52 +5,52 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/items/wheel_copper.png",
-        "codes": "wheels_pieces,wheel_copper"
+        "img": "images/items/w_wheel_copper.png",
+        "codes": "w_wheels_piece,w_wheel_copper"
       },
       {
-        "img": "images/items/figurine_warrior.png",
-        "codes": "wheels_pieces,figurine_warrior"
+        "img": "images/items/w_figurine_warrior.png",
+        "codes": "w_wheels_piece,w_figurine_warrior"
       },
       {
-        "img": "images/items/figurine_mage.png",
-        "codes": "wheels_pieces,figurine_mage"
+        "img": "images/items/w_figurine_mage.png",
+        "codes": "w_wheels_piece,w_figurine_mage"
       },
       {
-        "img": "images/items/figurine_archer.png",
-        "codes": "wheels_pieces,figurine_archer"
+        "img": "images/items/w_figurine_archer.png",
+        "codes": "w_wheels_piece,w_figurine_archer"
       },
       {
-        "img": "images/items/wheel_bronze.png",
-        "codes": "wheels_pieces,wheel_bronze"
+        "img": "images/items/w_wheel_bronze.png",
+        "codes": "w_wheels_piece,w_wheel_bronze"
       },
       {
-        "img": "images/items/wheel_silver.png",
-        "codes": "wheels_pieces,wheel_silver"
+        "img": "images/items/w_wheel_silver.png",
+        "codes": "w_wheels_piece,w_wheel_silver"
       },
       {
-        "img": "images/items/figurine_engineer.png",
-        "codes": "wheels_pieces,figurine_engineer"
+        "img": "images/items/w_figurine_engineer.png",
+        "codes": "w_wheels_piece,w_figurine_engineer"
       },
       {
-        "img": "images/items/wheel_gold.png",
-        "codes": "wheels_pieces,wheel_gold"
+        "img": "images/items/w_wheel_gold.png",
+        "codes": "w_wheels_piece,w_wheel_gold"
       },
       {
-        "img": "images/items/figurine_priest.png",
-        "codes": "wheels_pieces,figurine_priest"
+        "img": "images/items/w_figurine_priest.png",
+        "codes": "w_wheels_piece,w_figurine_priest"
       },
       {
-        "img": "images/items/wheel_diamond.png",
-        "codes": "wheels_pieces,wheel_diamond"
+        "img": "images/items/w_wheel_diamond.png",
+        "codes": "w_wheels_piece,w_wheel_diamond"
       },
       {
-        "img": "images/items/figurine_assassin.png",
-        "codes": "wheels_pieces,figurine_assassin"
+        "img": "images/items/w_figurine_assassin.png",
+        "codes": "w_wheels_piece,w_figurine_assassin"
       },
       {
-        "img": "images/items/wheel_platinum.png",
-        "codes": "wheels_pieces,wheel_platinum"
+        "img": "images/items/w_wheel_platinum.png",
+        "codes": "w_wheels_piece,w_wheel_platinum"
       }
     ]
   },
@@ -60,65 +60,65 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/items/wheel_copper.png",
-        "codes": "wheel,wheel_copper"
+        "img": "images/items/w_wheel_copper.png",
+        "codes": "wheel,w_wheel_copper"
       },
       {
-        "img": "images/items/wheel_bronze.png",
-        "codes": "wheel,wheel_bronze"
+        "img": "images/items/w_wheel_bronze.png",
+        "codes": "wheel,w_wheel_bronze"
       },
       {
-        "img": "images/items/wheel_silver.png",
-        "codes": "wheel,wheel_silver"
+        "img": "images/items/w_wheel_silver.png",
+        "codes": "wheel,w_wheel_silver"
       },
       {
-        "img": "images/items/wheel_gold.png",
-        "codes": "wheel,wheel_gold"
+        "img": "images/items/w_wheel_gold.png",
+        "codes": "wheel,w_wheel_gold"
       },
       {
-        "img": "images/items/wheel_diamond.png",
-        "codes": "wheel,wheel_diamond"
+        "img": "images/items/w_wheel_diamond.png",
+        "codes": "wheel,w_wheel_diamond"
       },
       {
-        "img": "images/items/wheel_platinum.png",
-        "codes": "wheel,wheel_platinum"
+        "img": "images/items/w_wheel_platinum.png",
+        "codes": "wheel,w_wheel_platinum"
       }
     ]
   },
   {
     "name": "Warrior Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_warrior.png",
-    "codes": "figurine,figurine_warrior"
+    "img": "images/items/w_figurine_warrior.png",
+    "codes": "figurine,w_figurine_warrior"
   },
   {
     "name": "Archer Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_archer.png",
-    "codes": "figurine,figurine_archer"
+    "img": "images/items/w_figurine_archer.png",
+    "codes": "figurine,w_figurine_archer"
   },
   {
     "name": "Mage Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_mage.png",
-    "codes": "figurine,figurine_mage"
+    "img": "images/items/w_figurine_mage.png",
+    "codes": "figurine,w_figurine_mage"
   },
   {
     "name": "Engineer Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_engineer.png",
-    "codes": "figurine,figurine_engineer"
+    "img": "images/items/w_figurine_engineer.png",
+    "codes": "figurine,w_figurine_engineer"
   },
   {
     "name": "Priest Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_priest.png",
-    "codes": "figurine,figurine_priest"
+    "img": "images/items/w_figurine_priest.png",
+    "codes": "figurine,w_figurine_priest"
   },
   {
     "name": "Assassin Figurine",
     "type": "toggle",
-    "img": "images/items/figurine_assassin.png",
-    "codes": "figurine,figurine_assassin"
+    "img": "images/items/w_figurine_assassin.png",
+    "codes": "figurine,w_figurine_assassin"
   }
 ]

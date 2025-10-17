@@ -4,7 +4,7 @@ if HAS_MAP then
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
     Tracker:FindObjectForCode("boss_wyrd").Active = true
-    Tracker:FindObjectForCode("hortencemap").Active = true
+    Tracker:FindObjectForCode("k_hortencemap").Active = true
 
     -- Default options: World Access
     Tracker:FindObjectForCode("option_cavern").CurrentStage = 1

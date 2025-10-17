@@ -53,38 +53,38 @@
         "item_size": 40,
         "rows": [
           [
-            "food_basicsalad",
-            "food_berryjam",
-            "food_bouillabaisse",
-            "food_braise",
-            "food_omelette",
-            "food_chaudree",
-            "food_croustade"
+            "recipe_basicsalad",
+            "recipe_berryjam",
+            "recipe_bouillabaisse",
+            "recipe_braise",
+            "recipe_omelette",
+            "recipe_chaudree",
+            "recipe_croustade"
           ],
           [
-            "food_burger",
-            "food_stew",
-            "food_herbedfilet",
-            "food_lasagna",
-            "food_feast",
-            "food_fishpie"
+            "recipe_burger",
+            "recipe_stew",
+            "recipe_herbedfilet",
+            "recipe_lasagna",
+            "recipe_feast",
+            "recipe_fishpie"
           ],
           [
-            "food_shroomscramble",
-            "food_shroomsoup",
-            "food_paindore",
-            "food_papillotte",
-            "food_parfait",
-            "food_strudel",
-            "food_poutine"
+            "recipe_shroomscramble",
+            "recipe_shroomsoup",
+            "recipe_paindore",
+            "recipe_papillotte",
+            "recipe_parfait",
+            "recipe_strudel",
+            "recipe_poutine"
           ],
           [
-            "food_chomeur",
-            "food_roastsandwich",
-            "food_sashimi",
-            "food_tataki",
-            "food_tomatoclub",
-            "food_yakitorishrimp"
+            "recipe_chomeur",
+            "recipe_roastsandwich",
+            "recipe_sashimi",
+            "recipe_tataki",
+            "recipe_tomatoclub",
+            "recipe_yakitorishrimp"
           ]
         ]
       }

@@ -18,7 +18,7 @@
           {
             "name": "Western Solstice Shrine Island",
             "access_rules": [
-              "amulet"
+              "k_amulet"
             ],
             "sections": [
               {
@@ -39,7 +39,7 @@
           {
             "name": "Eastern Solstice Shrine Island",
             "access_rules": [
-              "amulet"
+              "k_amulet"
             ],
             "sections": [
               {
@@ -62,19 +62,19 @@
       {
         "name": "Sunken Docarri Ruins",
         "access_rules": [
-          "@rule_can_sail,@rule_can_fly,amulet,magicseashell"
+          "@rule_can_sail,@rule_can_fly,k_amulet,k_seashell_magic"
         ],
         "children": [
           {
             "name": "Northwest Docarri Ruin",
             "access_rules": [
-              "hammer"
+              "k_hammer"
             ],
             "sections": [
               {
                 "name": "Chest",
                 "access_rules": [
-                  "mistral"
+                  "k_mistral"
                 ],
                 "item_count": 1
               },
@@ -94,13 +94,13 @@
           {
             "name": "Southwest Docarri Ruin",
             "access_rules": [
-              "hammer"
+              "k_hammer"
             ],
             "sections": [
               {
                 "name": "Fragment",
                 "access_rules": [
-                  "mistral"
+                  "k_mistral"
                 ],
                 "item_count": 1
               }
@@ -116,14 +116,14 @@
           {
             "name": "East Docarri Ruin",
             "access_rules": [
-              "hammer"
+              "k_hammer"
             ],
             "sections": [
               {
                 "name": "Fragment",
                 "item_count": 1,
                 "access_rules": [
-                  "mistral, graplou"
+                  "k_mistral, k_graplou"
                 ]
               }
             ],
@@ -138,7 +138,7 @@
           {
             "name": "Sealed Docarri Ruins",
             "access_rules": [
-              "docarrifragment:3"
+              "k_docarrifragment:3"
             ],
             "sections": [
               {
@@ -173,7 +173,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_sail,figurine_mage"
+              "@rule_can_sail,w_figurine_mage"
             ]
           }
         ],
