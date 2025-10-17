@@ -11,3 +11,4 @@ To make text icons to the options panel, the following tools are used:
 - Solid white fill, outline round style size 3, shadow strength 0.1
 - Kerning -1
 - All other settings default
+- IMPORTANT: Add a space before the colon if applicable, otherwise the kerning will hide it
