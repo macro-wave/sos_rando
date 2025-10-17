@@ -29,6 +29,13 @@
           },
           {
             "type": "item",
+            "item": "option_mesa_shortcut",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_skybridge",
             "h_alignment": "left",
             "width": 300,

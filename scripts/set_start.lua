@@ -9,7 +9,8 @@ if HAS_MAP then
     -- Default options: World Access
     Tracker:FindObjectForCode("option_cavern").CurrentStage = 1
     Tracker:FindObjectForCode("option_elevator").CurrentStage = 1
-    Tracker:FindObjectForCode("option_archives_portal").CurrentStage = 0
+    Tracker:FindObjectForCode("option_archives_portal").CurrentStage = 1
+    Tracker:FindObjectForCode("option_mesa_shortcut").CurrentStage = 1
     Tracker:FindObjectForCode("option_skybridge").CurrentStage = 1
     Tracker:FindObjectForCode("option_sos").CurrentStage = 1
     Tracker:FindObjectForCode("option_speedball").CurrentStage = 1

@@ -51,6 +51,23 @@
     ]
   },
   {
+    "name": "Mesa Shortcut",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_mesa_shortcut_closed.png",
+        "codes": "option_mesa_shortcut,option_mesa_shortcut_closed"
+      },
+      {
+        "img": "images/options/option_mesa_shortcut_open.png",
+        "codes": "option_mesa_shortcut,option_mesa_shortcut_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Skylands Bridge",
     "type": "progressive",
     "allow_disabled": false,
