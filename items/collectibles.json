@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Question Pack 1",
+    "type": "toggle",
+    "img": "images/items/c_qpack1.png",
+    "codes": "c_qpack,c_qpack1"
+  },
+  {
+    "name": "Question Pack 2",
+    "type": "toggle",
+    "img": "images/items/c_qpack2.png",
+    "codes": "c_qpack,c_qpack2"
+  },
+  {
+    "name": "Question Pack 3",
+    "type": "toggle",
+    "img": "images/items/c_qpack3.png",
+    "codes": "c_qpack,c_qpack3"
+  },
+  {
+    "name": "Question Pack 4",
+    "type": "toggle",
+    "img": "images/items/c_qpack4.png",
+    "codes": "c_qpack,c_qpack4"
+  },
+  {
+    "name": "Question Pack 5",
+    "type": "toggle",
+    "img": "images/items/c_qpack5.png",
+    "codes": "c_qpack,c_qpack5"
+  },
+  {
+    "name": "Question Pack 6",
+    "type": "toggle",
+    "img": "images/items/c_qpack6.png",
+    "codes": "c_qpack,c_qpack6"
+  },
+  {
+    "name": "Question Pack 7",
+    "type": "toggle",
+    "img": "images/items/c_qpack7.png",
+    "codes": "c_qpack,c_qpack7"
+  },
+  {
+    "name": "Question Pack 8",
+    "type": "toggle",
+    "img": "images/items/c_qpack8.png",
+    "codes": "c_qpack,c_qpack8"
+  },
+  {
+    "name": "Question Pack 9",
+    "type": "toggle",
+    "img": "images/items/c_qpack9.png",
+    "codes": "c_qpack,c_qpack9"
+  },
+  {
+    "name": "Question Pack 10",
+    "type": "toggle",
+    "img": "images/items/c_qpack10.png",
+    "codes": "c_qpack,c_qpack10"
+  },
+  {
+    "name": "Question Pack 11",
+    "type": "toggle",
+    "img": "images/items/c_qpack11.png",
+    "codes": "c_qpack,c_qpack11"
+  },
+  {
+    "name": "Rainbow Conches",
+    "type": "consumable",
+    "img": "images/items/c_rainbowconch.png",
+    "codes": "c_rainbowconch",
+    "max_quantity": 60
+  },
+  {
+    "name": "Data Strips",
+    "type": "consumable",
+    "img": "images/items/c_datastrip.png",
+    "codes": "c_datastrip",
+    "max_quantity": 4
+  },
+  {
+    "name": "Flimsy Hammers",
+    "type": "consumable",
+    "img": "images/items/c_flimsyhammer.png",
+    "codes": "c_flimsyhammer",
+    "max_quantity": 4,
+    "display_as_fraction_of_max": false
+  }
+]

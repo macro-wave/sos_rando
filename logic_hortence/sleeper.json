@@ -54,7 +54,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "cobalthammer"
+              "k_hammer_cobalt"
             ]
           },
           {
@@ -67,7 +67,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -123,14 +123,14 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -139,7 +139,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -231,14 +231,14 @@
             "name": "Salamander Room",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Outside Enemies",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -247,21 +247,21 @@
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Locked Door",
             "item_count": 1,
             "access_rules": [
-              "mistral,key_mines"
+              "k_mistral,k_key_mines"
             ]
           },
           {
             "name": "Malkomount",
             "hosted_item": "boss_malkomount",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           }
         ],
@@ -292,7 +292,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -309,7 +309,7 @@
             "name": "Lower Mistral Spinner",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -400,7 +400,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "signet"
+              "k_traderssignet"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -411,7 +411,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "signet"
+              "k_traderssignet"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -468,7 +468,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral",
+              "k_mistral",
               "boss_dweller_woe"
             ]
           },
@@ -510,14 +510,14 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
             "name": "Golden Pelican",
             "item_count": 2,
             "access_rules": [
-              "invitation"
+              "k_invitation"
             ]
           }
         ],
@@ -579,40 +579,40 @@
             "name": "Lobby",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "First Portal",
             "item_count": 1,
             "access_rules": [
-              "key_crystalgreen",
-              "key_crystalblue",
-              "key_crystalred,mistral"
+              "k_crystal_green",
+              "k_crystal_blue",
+              "k_crystal_red,k_mistral"
             ]
           },
           {
             "name": "Third Portal",
             "item_count": 1,
             "access_rules": [
-              "key_crystalgreen,key_crystalblue,mistral",
-              "key_crystalgreen,key_crystalred",
-              "key_crystalred,key_crystalblue,key_goldwatch"
+              "k_crystal_green,k_crystal_blue,k_mistral",
+              "k_crystal_green,k_crystal_red",
+              "k_crystal_red,k_crystal_blue,k_goldwatch"
             ]
           },
           {
             "name": "Fishing Lake",
             "item_count": 1,
             "access_rules": [
-              "key_crystalred,key_crystalblue"
+              "k_crystal_red,k_crystal_blue"
             ]
           },
           {
             "name": "Fifth Portal",
             "item_count": 1,
             "access_rules": [
-              "key_wizlab:3,mistral",
-              "key_wizlab:3,key_goldwatch"
+              "k_lab_crystals:3,k_mistral",
+              "k_lab_crystals:3,k_goldwatch"
             ]
           },
           {
@@ -621,7 +621,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "key_wizlab:3,key_goldwatch,mistral"
+              "k_lab_crystals:3,k_goldwatch,k_mistral"
             ]
           },
           {
@@ -630,14 +630,14 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "key_crystalgreen,key_crystalblue"
+              "k_crystal_green,k_crystal_blue"
             ]
           },
           {
             "name": "Chromatic Apparition",
             "hosted_item": "boss_apparition",
             "access_rules": [
-              "key_wizlab:3"
+              "k_lab_crystals:3"
             ]
           },
           {
@@ -646,7 +646,7 @@
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [
-              "key_wizlab:3"
+              "k_lab_crystals:3"
             ]
           }
         ],
