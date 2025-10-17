@@ -22,6 +22,13 @@
           },
           {
             "type": "item",
+            "item": "option_archives_portal",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_skybridge",
             "h_alignment": "left",
             "width": 300,

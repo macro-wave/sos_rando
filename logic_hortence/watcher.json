@@ -411,7 +411,8 @@
       {
         "name": "Glacial Peak",
         "access_rules": [
-          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral"
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral",
+          "option_archives_portal_open,k_graplou,k_mistral"
         ],
         "sections": [
           {

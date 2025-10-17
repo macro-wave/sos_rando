@@ -34,6 +34,23 @@
     ]
   },
   {
+    "name": "Archives Portal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_archives_portal_closed.png",
+        "codes": "option_archives_portal,option_archives_portal_closed"
+      },
+      {
+        "img": "images/options/option_archives_portal_open.png",
+        "codes": "option_archives_portal,option_archives_portal_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Skylands Bridge",
     "type": "progressive",
     "allow_disabled": false,
