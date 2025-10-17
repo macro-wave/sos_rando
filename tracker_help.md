@@ -9,7 +9,7 @@ The options panel drops down from the gear icon in the top left tabbed section.
 - Open: Behaves as though the wall in the central room is open and the laser bridge is on from the start. Key is still needed for a few checks.
 
 *Stonemasons Elevator*
-- Malkomoud: Requires defeating Malkomoud to activate the elevator
+- Malkomud: Requires defeating Malkomud to activate the elevator
 - Open: Elevator is active at start, and can be accessed from both Outpost and Coral Cascades
 
 *Skylands Bridge*
