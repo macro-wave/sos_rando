@@ -134,6 +134,7 @@
         "name": "Songshroom Marsh",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
@@ -141,7 +142,8 @@
             "name": "Pull Bridge",
             "item_count": 1,
             "access_rules": [
-              "k_graplou"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou"
             ]
           },
           {
@@ -150,21 +152,24 @@
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
-              "k_graplou,k_mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Basement",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Top",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
@@ -236,6 +241,7 @@
         "name": "Clockwork Castle Grounds",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
@@ -264,6 +270,7 @@
         "name": "Clockwork Castle",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
