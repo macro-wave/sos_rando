@@ -73,7 +73,7 @@
             "name": "Temple Servant",
             "item_count": 1,
             "access_rules": [
-              "k_hammer_coral"
+              "k_hammer"
             ]
           }
         ],
@@ -88,7 +88,8 @@
       {
         "name": "Sacred Grove",
         "access_rules": [
-          "k_graplou"
+          "k_hammer,k_graplou",
+          "@rule_can_fly,k_graplou"
         ],
         "sections": [
           {
@@ -462,7 +463,8 @@
       {
         "name": "Torment Peak",
         "access_rules": [
-          "k_amulet"
+          "k_hammer,k_amulet",
+          "@rule_can_fly,k_amulet"
         ],
         "sections": [
           {
@@ -496,7 +498,8 @@
       {
         "name": "Mossy Cache",
         "access_rules": [
-          "k_amulet"
+          "k_hammer,k_amulet,boss_dweller_torment",
+          "@rule_can_fly,k_amulet,boss_dweller_torment"
         ],
         "sections": [
           {
