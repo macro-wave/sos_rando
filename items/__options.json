@@ -23,8 +23,8 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/options/option_elevator_malkomoud.png",
-        "codes": "option_elevator,option_elevator_malkomoud"
+        "img": "images/options/option_elevator_malkomud.png",
+        "codes": "option_elevator,option_elevator_malkomud"
       },
       {
         "img": "images/options/option_elevator_open.png",
