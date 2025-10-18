@@ -282,6 +282,9 @@
         ],
         "sections": [
           {
+            "name": "Party Character"
+          },
+          {
             "name": "Cooking with Garl",
             "hosted_item": "recipe_berryjam"
           },

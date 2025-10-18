@@ -279,6 +279,9 @@
           {
             "name": "Solstice Cache",
             "item_count": 1
+          },
+          {
+            "name": "Party Character"
           }
         ],
         "map_locations": [
@@ -286,6 +289,16 @@
             "map": "homeworld",
             "x": 830,
             "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Haunted Creek",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 790,
+            "y": 568
           }
         ]
       },

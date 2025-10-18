@@ -41,6 +41,21 @@
         ]
       },
       {
+        "name": "Windy Loch",
+        "access_rules": [
+          "golem_xtol",
+          "@rule_can_fly",
+          "@rule_can_sail,option_elevator_open"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 304,
+            "y": 282
+          }
+        ]
+      },
+      {
         "name": "Moorlands",
         "access_rules": [
           "golem_xtol",
@@ -91,6 +106,12 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
+          },
+          {
+            "name": "Chronophage",
+            "access_rules": [
+              "@rule_can_open_chronophage"
+            ]
           }
         ],
         "map_locations": [
@@ -530,6 +551,17 @@
         ]
       },
       {
+        "name": "Brisk (Cataclysm)",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 435,
+            "y": 390
+          }
+        ]
+      },
+      {
         "name": "Dweller's Fall Arena",
         "access_rules": [
           "golem_xtol,boss_malkomount,boss_dweller_woe",
@@ -564,6 +596,22 @@
             "map": "homeworld",
             "x": 465,
             "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Lavish Lake",
+        "access_rules": [
+          "golem_xtol,boss_malkomount",
+          "golem_xtol,option_elevator_open",
+          "@rule_can_sail",
+          "@rule_can_fly"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 460,
+            "y": 337
           }
         ]
       },

@@ -276,6 +276,12 @@
           {
             "name": "Meduso",
             "hosted_item": "boss_meduso"
+          },
+          {
+            "name": "Party Character",
+            "access_rules": [
+              "boss_meduso"
+            ]
           }
         ],
         "map_locations": [

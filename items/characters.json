@@ -13,9 +13,25 @@
   },
   {
     "name": "Garl",
-    "type": "toggle",
-    "img": "images/characters/character_garl.png",
-    "codes": "character_garl"
+    "type": "progressive",
+    "allow_disabled": true,
+    "stages": [
+      {
+        "img": "images/characters/character_garl.png",
+        "codes": "character_garl,character_garl_alive"
+      },
+      {
+        "img": "images/characters/character_garl.png",
+        "img_mods": "@disabled",
+        "codes": "character_garl,character_garl_strife",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/characters/character_garl.png",
+        "codes": "character_garl,character_garl_reclaimed",
+        "inherit_codes": false
+      }
+    ]
   },
   {
     "name": "Seraï",

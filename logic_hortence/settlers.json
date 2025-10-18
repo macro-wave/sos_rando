@@ -27,12 +27,6 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Dock Ultimate Skill",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
             "name": "Moraine's House",
             "item_count": 1
           },
@@ -169,6 +163,16 @@
             "restrict_visibility_rules": [
               "option_merchants"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Settler's Rest",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1056,
+            "y": 175
           }
         ]
       },
