@@ -51,7 +51,7 @@
             "k_cypher",
             "k_probe",
             "k_jocebuckle",
-            "c_rainbowconch"
+            "k_rainbowstar"
           ],
           [
             "k_ornatestone",
@@ -83,11 +83,10 @@
           [
             "k_slab_triangular",
             "k_slab_hexagonal",
-            "k_k_key_fishingdungeon",
+            "k_key_fishingdungeon",
             "k_key_fish",
-            "k_susfish",
             "k_bigjar",
-            "c_datastrip"
+            "k_susfish"
           ],
           [
             "k_craneidcard",
@@ -95,8 +94,7 @@
             "k_powerunit",
             "k_blueprintdisc",
             "k_kyberore",
-            "k_crystalegg",
-            "c_flimsyhammer"
+            "k_crystalegg"
           ],
           [
             "c_qpack1",
@@ -104,14 +102,17 @@
             "c_qpack3",
             "c_qpack4",
             "c_qpack5",
-            "c_qpack6"
+            "c_qpack6",
+            "c_qpack7"
           ],
           [
-            "c_qpack7",
             "c_qpack8",
             "c_qpack9",
             "c_qpack10",
-            "c_qpack11"
+            "c_qpack11",
+            "c_rainbowconch",
+            "c_datastrip",
+            "c_flimsyhammer"
           ]
         ]
       }

@@ -61,27 +61,27 @@
     "stages": [
       {
         "img": "images/items/w_wheel_copper.png",
-        "codes": "wheel,w_wheel_copper"
+        "codes": "w_wheel,w_wheel_copper"
       },
       {
         "img": "images/items/w_wheel_bronze.png",
-        "codes": "wheel,w_wheel_bronze"
+        "codes": "w_wheel,w_wheel_bronze"
       },
       {
         "img": "images/items/w_wheel_silver.png",
-        "codes": "wheel,w_wheel_silver"
+        "codes": "w_wheel,w_wheel_silver"
       },
       {
         "img": "images/items/w_wheel_gold.png",
-        "codes": "wheel,w_wheel_gold"
+        "codes": "w_wheel,w_wheel_gold"
       },
       {
         "img": "images/items/w_wheel_diamond.png",
-        "codes": "wheel,w_wheel_diamond"
+        "codes": "w_wheel,w_wheel_diamond"
       },
       {
         "img": "images/items/w_wheel_platinum.png",
-        "codes": "wheel,w_wheel_platinum"
+        "codes": "w_wheel,w_wheel_platinum"
       }
     ]
   },
@@ -89,36 +89,36 @@
     "name": "Warrior Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_warrior.png",
-    "codes": "figurine,w_figurine_warrior"
+    "codes": "w_figurine,w_figurine_warrior"
   },
   {
     "name": "Archer Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_archer.png",
-    "codes": "figurine,w_figurine_archer"
+    "codes": "w_figurine,w_figurine_archer"
   },
   {
     "name": "Mage Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_mage.png",
-    "codes": "figurine,w_figurine_mage"
+    "codes": "w_figurine,w_figurine_mage"
   },
   {
     "name": "Engineer Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_engineer.png",
-    "codes": "figurine,w_figurine_engineer"
+    "codes": "w_figurine,w_figurine_engineer"
   },
   {
     "name": "Priest Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_priest.png",
-    "codes": "figurine,w_figurine_priest"
+    "codes": "w_figurine,w_figurine_priest"
   },
   {
     "name": "Assassin Figurine",
     "type": "toggle",
     "img": "images/items/w_figurine_assassin.png",
-    "codes": "figurine,w_figurine_assassin"
+    "codes": "w_figurine,w_figurine_assassin"
   }
 ]

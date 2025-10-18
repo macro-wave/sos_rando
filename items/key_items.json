@@ -260,27 +260,5 @@
     "type": "toggle",
     "img": "images/items/k_rainbowstar.png",
     "codes": "k_rainbowstar"
-  },
-  {
-    "name": "Rainbow Conches",
-    "type": "consumable",
-    "img": "images/items/c_rainbowconch.png",
-    "codes": "c_rainbowconch",
-    "max_quantity": 60
-  },
-  {
-    "name": "Data Strips",
-    "type": "consumable",
-    "img": "images/items/c_datastrip.png",
-    "codes": "c_datastrip",
-    "max_quantity": 4
-  },
-  {
-    "name": "Flimsy Hammers",
-    "type": "consumable",
-    "img": "images/items/c_flimsyhammer.png",
-    "codes": "c_flimsyhammer",
-    "max_quantity": 4,
-    "display_as_fraction_of_max": false
   }
 ]
