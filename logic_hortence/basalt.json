@@ -10,6 +10,16 @@
     ],
     "children": [
       {
+        "name": "Sulfuric Basin",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 619,
+            "y": 160
+          }
+        ]
+      },
+      {
         "name": "Kiln Mountain",
         "sections": [
           {

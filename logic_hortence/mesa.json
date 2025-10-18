@@ -131,6 +131,20 @@
         ]
       },
       {
+        "name": "Lake Turquoise",
+        "access_rules": [
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "@rule_can_fly"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1254,
+            "y": 265
+          }
+        ]
+      },
+      {
         "name": "Songshroom Marsh",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",

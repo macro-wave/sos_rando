@@ -129,6 +129,20 @@
         ]
       },
       {
+        "name": "Watcher's Pond",
+        "access_rules": [
+          "k_hammer",
+          "@rule_can_fly"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1137,
+            "y": 780
+          }
+        ]
+      },
+      {
         "name": "Docarri Village",
         "access_rules": [
           "k_hammer,k_seashell_magic"
@@ -406,6 +420,28 @@
             "x": 1039,
             "y": 760,
             "size": 20
+          }
+        ]
+      },
+      {
+        "name": "The Great Archives",
+        "access_rules": [
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral",
+          "option_archives_portal_open,k_graplou,k_mistral"
+        ],
+        "sections": [
+          {
+            "name": "Party Character",
+            "access_rules": [
+              "vial"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1039,
+            "y": 720
           }
         ]
       },

@@ -10,6 +10,16 @@
     ],
     "children": [
       {
+        "name": "Skybound Lagoon",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1345,
+            "y": 97
+          }
+        ]
+      },
+      {
         "name": "Cloud Kingdom",
         "sections": [
           {
