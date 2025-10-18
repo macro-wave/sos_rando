@@ -5,6 +5,7 @@
     "img": "images/items/k_ornatestone.png",
     "codes": "k_ornatestone",
     "max_quantity": 2,
+    "initial_quantity": 2,
     "display_as_fraction_of_max": false
   },
   {
