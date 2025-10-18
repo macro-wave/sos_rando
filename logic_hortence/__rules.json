@@ -12,7 +12,9 @@
   },
   {
     "name": "rule_can_sail",
-    "access_rules": []
+    "access_rules": [
+      "k_hortencemap"
+    ]
   },
   {
     "name": "rule_can_fly",

@@ -18,15 +18,15 @@
         ],
         "sections": [
           {
-            "name": "Mage Ring Cave",
+            "name": "Cave",
             "item_count": 1
           },
           {
-            "name": "Below Landing",
+            "name": "Below Cave",
             "item_count": 1
           },
           {
-            "name": "After Rope",
+            "name": "Across Rope",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png"
@@ -64,7 +64,7 @@
         ],
         "sections": [
           {
-            "name": "Blue Crystals",
+            "name": "Cobalt Crystals",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
@@ -73,11 +73,11 @@
             ]
           },
           {
-            "name": "Near Crystals",
+            "name": "Climb Over Crystals",
             "item_count": 1
           },
           {
-            "name": "Teal Amber Block",
+            "name": "Push Teal Block",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
@@ -86,19 +86,25 @@
             ]
           },
           {
-            "name": "Behind Teal Amber",
+            "name": "Behind Teal Block",
             "item_count": 1
           },
           {
-            "name": "Ant Bruiser Den",
+            "name": "Chronophage",
+            "access_rules": [
+              "@rule_can_open_chronophage"
+            ]
+          },
+          {
+            "name": "Double Drop",
             "item_count": 1
           },
           {
-            "name": "Pond",
+            "name": "River",
             "item_count": 1
           },
           {
-            "name": "Srowers Cave",
+            "name": "Srowers Cave Ledge",
             "item_count": 1
           },
           {
@@ -106,12 +112,6 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
-            "name": "Chronophage",
-            "access_rules": [
-              "@rule_can_open_chronophage"
-            ]
           }
         ],
         "map_locations": [
@@ -131,12 +131,12 @@
         ],
         "sections": [
           {
-            "name": "Broken Lever House",
-            "item_count": 2
-          },
-          {
             "name": "Top Left House",
             "item_count": 1
+          },
+          {
+            "name": "Broken Lever House",
+            "item_count": 2
           },
           {
             "name": "Darro's Studio",
@@ -213,30 +213,44 @@
             ]
           },
           {
-            "name": "1B East Ladder",
+            "name": "Sliding Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "Tunnel Ledge",
+            "name": "Tunnel Upper Path",
             "item_count": 1
           },
           {
-            "name": "Edge Bridge",
+            "name": "Bridge Over Enemies",
             "item_count": 1
           },
           {
-            "name": "Near Edge Bridge",
+            "name": "Outside Heart Door",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "2B Lobby",
+            "name": "Heart Door",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral,k_key_mines"
+            ]
+          },
+          {
+            "name": "Basement Lobby",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Salamander Room Push Block",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "Mistral Chest",
@@ -249,13 +263,6 @@
             "hosted_item": "boss_rockie"
           },
           {
-            "name": "Salamander Room",
-            "item_count": 1,
-            "access_rules": [
-              "k_mistral"
-            ]
-          },
-          {
             "name": "Outside Enemies",
             "item_count": 1,
             "access_rules": [
@@ -263,19 +270,12 @@
             ]
           },
           {
-            "name": "2B Left Side",
+            "name": "Triple Drillbat",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "k_mistral"
-            ]
-          },
-          {
-            "name": "Locked Door",
-            "item_count": 1,
-            "access_rules": [
-              "k_mistral,k_key_mines"
             ]
           },
           {
@@ -335,7 +335,9 @@
           },
           {
             "name": "Breakable Ground",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Celestial Rune",
@@ -368,37 +370,6 @@
         ],
         "sections": [
           {
-            "name": "Item Shop",
-            "item_count": 1,
-            "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 8,
-            "clear_as_group": false,
-            "visibility_rules": [
-              "option_shopsanity_all"
-            ]
-          },
-          {
-            "name": "Equipment Shop",
-            "item_count": 4,
-            "clear_as_group": false,
-            "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Equipment Shop",
-            "item_count": 7,
-            "clear_as_group": false,
-            "visibility_rules": [
-              "option_shopsanity_all"
-            ]
-          },
-          {
             "name": "Entrance Rooftop",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
@@ -406,6 +377,12 @@
           },
           {
             "name": "West Beach",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Fishing Kid",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
@@ -439,13 +416,7 @@
             ]
           },
           {
-            "name": "Fishing Kid",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
-          },
-          {
-            "name": "Darro",
+            "name": "Darro Portrait",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
@@ -456,19 +427,11 @@
             ]
           },
           {
-            "name": "Above Item Shop",
+            "name": "West Stairs Left",
             "item_count": 1
           },
           {
-            "name": "Above Above Item Shop",
-            "item_count": 1
-          },
-          {
-            "name": "West Stairs",
-            "item_count": 1
-          },
-          {
-            "name": "Near Mr. Chest",
+            "name": "Outside Mr. Chest",
             "item_count": 1
           },
           {
@@ -478,7 +441,53 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Fireplace Top",
+            "name": "West Stairs Right",
+            "item_count": 1
+          },
+          {
+            "name": "Above Save Book",
+            "item_count": 1
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 4,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Golden Pelican",
+            "item_count": 2,
+            "access_rules": [
+              "k_invitation"
+            ]
+          },
+          {
+            "name": "Fireplace",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
@@ -494,10 +503,6 @@
             ]
           },
           {
-            "name": "East Stairs",
-            "item_count": 1
-          },
-          {
             "name": "Roulette Roof",
             "item_count": 1
           },
@@ -506,7 +511,11 @@
             "item_count": 1
           },
           {
-            "name": "Eastern Roof",
+            "name": "East Stairs Left",
+            "item_count": 1
+          },
+          {
+            "name": "East Stairs Right",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
@@ -532,13 +541,6 @@
             "item_count": 1,
             "access_rules": [
               "w_figurine_mage"
-            ]
-          },
-          {
-            "name": "Golden Pelican",
-            "item_count": 2,
-            "access_rules": [
-              "k_invitation"
             ]
           }
         ],
@@ -673,7 +675,7 @@
             ]
           },
           {
-            "name": "Teal Portal",
+            "name": "Teal Portal Water",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
