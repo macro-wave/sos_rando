@@ -13,7 +13,7 @@
         "name": "Zenith Academy",
         "sections": [
           {
-            "name": "Gifts from Brugaves",
+            "name": "Training Weapons",
             "access_rules": [],
             "item_count": 2,
             "visibility_rules": [
@@ -21,19 +21,9 @@
             ]
           },
           {
-            "name": "Garl's Visit",
+            "name": "Garl's Delivery",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [
-              "option_skip_prologue_off"
-            ]
-          },
-          {
-            "name": "Snacks for the Road",
-            "access_rules": [],
-            "item_count": 1,
-            "chest_opened_img": "images/boxes/basket_open.png",
-            "chest_unopened_img": "images/boxes/basket_closed.png",
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -58,7 +48,7 @@
         "name": "Graduation Test",
         "sections": [
           {
-            "name": "Snacks for the Test",
+            "name": "Test Snacks",
             "access_rules": [],
             "item_count": 1,
             "chest_opened_img": "images/boxes/basket_open.png",
@@ -89,7 +79,7 @@
             "map": "homeworld",
             "x": 295,
             "y": 885,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_skip_prologue_off"
             ]
           }
@@ -99,7 +89,7 @@
         "name": "Mooncradle",
         "sections": [
           {
-            "name": "Gifts from Moraine",
+            "name": "Graduation Ceremony",
             "item_count": 2
           }
         ],
@@ -108,7 +98,7 @@
             "map": "homeworld",
             "x": 255,
             "y": 845,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_skip_prologue_off"
             ]
           }
@@ -179,7 +169,7 @@
             ]
           },
           {
-            "name": "Lower Ledge",
+            "name": "Lobby Lower Ledge",
             "access_rules": [],
             "item_count": 1
           },
@@ -189,7 +179,7 @@
             "item_count": 1
           },
           {
-            "name": "Near Scroll Basket",
+            "name": "Back Hallway Basket",
             "access_rules": [
               "k_key_forbiddencavern"
             ],
@@ -198,7 +188,7 @@
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "Scroll",
+            "name": "Back Hallway Scroll",
             "access_rules": [
               "k_key_forbiddencavern"
             ],
@@ -207,7 +197,7 @@
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
           },
           {
-            "name": "Near Scroll Chest",
+            "name": "Back Hallway Chest",
             "access_rules": [
               "k_key_forbiddencavern"
             ],
@@ -229,7 +219,7 @@
             ]
           },
           {
-            "name": "Defeat Bosslug",
+            "name": "Behind Bosslug",
             "access_rules": [
               "k_key_forbiddencavern",
               "option_cavern_open"
@@ -276,39 +266,6 @@
         ]
       },
       {
-        "name": "Garl's Arrival",
-        "access_rules": [
-          "@rule_can_leave_cavern"
-        ],
-        "sections": [
-          {
-            "name": "Party Character"
-          },
-          {
-            "name": "Cooking with Garl",
-            "hosted_item": "recipe_berryjam"
-          },
-          {
-            "name": "Free Recipes",
-            "item_count": 4
-          },
-          {
-            "name": "Reclamation",
-            "item_count": 1,
-            "access_rules": [
-              "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 260,
-            "y": 765
-          }
-        ]
-      },
-      {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
           "@rule_can_leave_cavern,k_key_evermistshrine"
@@ -336,14 +293,10 @@
         ],
         "sections": [
           {
-            "name": "Early Basket",
+            "name": "Right side Basket",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
-          },
-          {
-            "name": "Luslug Cave",
-            "item_count": 1
           },
           {
             "name": "Graplou Island",
@@ -355,7 +308,29 @@
             ]
           },
           {
-            "name": "Pine Path",
+            "name": "Party Character"
+          },
+          {
+            "name": "Cooking with Garl",
+            "hosted_item": "recipe_berryjam"
+          },
+          {
+            "name": "Garl's Camp Free Recipes",
+            "item_count": 4
+          },
+          {
+            "name": "Reclamation",
+            "item_count": 1,
+            "access_rules": [
+              "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
+            ]
+          },
+          {
+            "name": "Garl's Camp Cave",
+            "item_count": 1
+          },
+          {
+            "name": "Pine Trees",
             "item_count": 1
           },
           {
@@ -420,7 +395,7 @@
         ],
         "sections": [
           {
-            "name": "Left Trial Mistral Block",
+            "name": "Left Trial Push Block",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",

@@ -326,15 +326,14 @@
             "name": "Outside Lair",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "Duke Aventry",
-            "hosted_item": "boss_aventry"
-          },
-          {
-            "name": "Duke Aventry Skill",
-            "item_count": 1,
+            "hosted_item": "boss_aventry",
             "access_rules": [
               "k_mistral"
             ]
@@ -535,18 +534,17 @@
           },
           {
             "name": "Botanical Horror",
-            "hosted_item": "boss_botanical"
-          },
-          {
-            "name": "Rooftop Learned Skill",
-            "item_count": 1,
+            "hosted_item": "boss_botanical",
             "access_rules": [
               "k_graplou"
             ]
           },
           {
             "name": "Dweller of Woe",
-            "hosted_item": "boss_dweller_woe"
+            "hosted_item": "boss_dweller_woe",
+            "access_rules": [
+              "k_graplou"
+            ]
           }
         ],
         "map_locations": [
