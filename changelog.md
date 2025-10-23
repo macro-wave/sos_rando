@@ -2,6 +2,10 @@
 
 ## Version 0.0.7 : 10/22/2025
 
+- Hotfix on logic in Throne of the Queen, where speedball was not correctly required
+
+## Version 0.0.7 : 10/22/2025
+
 - Fix yet more logic errors and appearance issues
 - Change how items are named in a new convention across the pack
 - Add accounting for the mesa shortcut, including an option to open it early
