@@ -44,14 +44,14 @@
             "name": "\"Catch\"",
             "item_count": 1,
             "access_rules": [
-              "k_k_key_fishingdungeon"
+              "k_key_fishingdungeon"
             ]
           },
           {
             "name": "Chef Bass",
             "item_count": 1,
             "access_rules": [
-              "k_k_key_fishingdungeon,k_key_fish"
+              "k_key_fishingdungeon,k_key_fish"
             ]
           }
         ],

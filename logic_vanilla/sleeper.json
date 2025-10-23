@@ -12,19 +12,19 @@
       {
         "name": "X'tol's Landing",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol"
         ],
         "sections": [
           {
-            "name": "Mage Ring Cave",
+            "name": "Cave",
             "item_count": 1
           },
           {
-            "name": "Below Landing",
+            "name": "Below Cave",
             "item_count": 1
           },
           {
-            "name": "After Rope",
+            "name": "Across Rope",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png"
@@ -39,61 +39,82 @@
         ]
       },
       {
-        "name": "Moorlands",
+        "name": "Windy Loch",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol"
         ],
         "sections": [
           {
-            "name": "Blue Crystals",
+            "name": "Fish 1",
+            "hosted_item": "fish_haddock"
+          },
+          {
+            "name": "Fish 2",
+            "hosted_item": "fish_hardshell"
+          },
+          {
+            "name": "Fish 3",
+            "hosted_item": "fish_trout"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 304,
+            "y": 282
+          }
+        ]
+      },
+      {
+        "name": "Moorlands",
+        "access_rules": [
+          "golem_xtol"
+        ],
+        "sections": [
+          {
+            "name": "Cobalt Crystals",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "cobalthammer"
+              "k_hammer_cobalt,boss_toadcano"
             ]
           },
           {
-            "name": "Near Crystals",
+            "name": "Climb Over Crystals",
             "item_count": 1
           },
           {
-            "name": "Teal Amber Block",
+            "name": "Push Teal Block",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "mistral"
+              "k_mistral,boss_malkomount"
             ]
           },
           {
-            "name": "Behind Teal Amber",
+            "name": "Behind Teal Block",
             "item_count": 1
           },
           {
-            "name": "Ant Bruiser Den",
+            "name": "Double Drop",
             "item_count": 1
           },
           {
-            "name": "Srowers Cave",
+            "name": "River",
             "item_count": 1
           },
           {
-            "name": "Pond",
-            "item_count": 1
+            "name": "Srowers Cave Ledge",
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Celestial Rune",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
-            "name": "Activate Chronophage",
-            "hosted_item": "chronophage",
-            "access_rules": [
-              "cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,key_aventry,boss_worldeater"
-            ]
           }
         ],
         "map_locations": [
@@ -107,16 +128,16 @@
       {
         "name": "Stonemason's Outpost",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol"
         ],
         "sections": [
           {
-            "name": "Broken Lever House",
-            "item_count": 2
-          },
-          {
             "name": "Top Left House",
             "item_count": 1
+          },
+          {
+            "name": "Broken Lever House",
+            "item_count": 2
           },
           {
             "name": "Darro's Studio",
@@ -124,7 +145,15 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral,boss_malkomount"
+            ]
+          },
+          {
+            "name": "Wheels Champion",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "w_figurine_mage"
             ]
           },
           {
@@ -133,7 +162,21 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral,boss_malkomount"
+            ]
+          },
+          {
+            "name": "Shop",
+            "item_count": 5,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Shop",
+            "item_count": 15,
+            "visibility_rules": [
+              "option_shopsanity_all"
             ]
           }
         ],
@@ -146,78 +189,103 @@
         ]
       },
       {
-        "name": "Wind Tunnel Mines",
+        "name": "Wind Tunnels Mine",
         "access_rules": [
-          "@reg_sleeper_heights"
+          "golem_xtol"
         ],
         "sections": [
           {
-            "name": "1B East Ladder",
+            "name": "Merchant",
+            "item_count": 2,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 10,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Sliding Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "Tunnel Ledge",
+            "name": "Tunnel Upper Path",
             "item_count": 1
           },
           {
-            "name": "Edge Bridge",
+            "name": "Bridge Over Enemies",
             "item_count": 1
           },
           {
-            "name": "Near Edge Bridge",
+            "name": "Outside Heart Door",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
-            "name": "2B Lobby",
+            "name": "Heart Door",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,boss_rockie,k_key_mines"
+            ]
+          },
+          {
+            "name": "Basement Lobby",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
+            "name": "Salamander Room Push Block",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,boss_rockie"
+            ]
+          },
+          {
             "name": "Mistral Chest",
             "item_count": 1,
+            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
           },
           {
             "name": "Salamander",
-            "hosted_item": "boss_rockie"
-          },
-          {
-            "name": "Salamander Room",
-            "item_count": 1,
+            "hosted_item": "boss_rockie",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Outside Enemies",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral,boss_rockie"
             ]
           },
           {
-            "name": "2B Left Side",
+            "name": "Triple Drillbat",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral,boss_rockie"
             ]
           },
           {
-            "name": "Locked Door",
-            "item_count": 1,
+            "name": "Malkomud",
+            "hosted_item": "boss_malkomount",
             "access_rules": [
-              "mistral,key_mines"
+              "k_mistral,boss_rockie"
             ]
-          },
-          {
-            "name": "Malkomount",
-            "hosted_item": "boss_malkomount"
           }
         ],
         "map_locations": [
@@ -232,7 +300,7 @@
       {
         "name": "Coral Cascades",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "boss_malkomount"
         ],
         "sections": [
           {
@@ -245,7 +313,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -254,18 +322,22 @@
           },
           {
             "name": "West Edge",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/basket_closed.png",
+            "chest_opened_img": "images/boxes/basket_open.png"
           },
           {
             "name": "Lower Mistral Spinner",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Breakable Ground",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Celestial Rune",
@@ -291,7 +363,7 @@
       {
         "name": "Port Town of Brisk",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "boss_malkomount"
         ],
         "sections": [
           {
@@ -307,37 +379,52 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Hidden Market",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
-          },
-          {
             "name": "Fishing Kid",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Darro",
+            "name": "Hidden Market Chest",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Above Item Shop",
+            "name": "Hidden Market Merchant",
+            "item_count": 3,
+            "access_rules": [
+              "k_traderssignet"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Hidden Market Merchant",
+            "item_count": 4,
+            "access_rules": [
+              "k_traderssignet"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Darro Portrait",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "boss_malkomount,k_mistral"
+            ]
+          },
+          {
+            "name": "West Stairs Left",
             "item_count": 1
           },
           {
-            "name": "Above Above Item Shop",
-            "item_count": 1
-          },
-          {
-            "name": "West Stairs",
-            "item_count": 1
-          },
-          {
-            "name": "Near Mr. Chest",
+            "name": "Outside Mr. Chest",
             "item_count": 1
           },
           {
@@ -347,26 +434,72 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Push Crate",
+            "name": "West Stairs Right",
+            "item_count": 1
+          },
+          {
+            "name": "Above Save Book",
+            "item_count": 1
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 1,
+            "capture_item": true,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 8,
+            "capture_item": true,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 4,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 7,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Golden Pelican Recipe",
+            "hosted_item": "recipe_feast",
+            "access_rules": [
+              "k_invitation"
+            ]
+          },
+          {
+            "name": "Golden Pelican Question Pack",
+            "hosted_item": "c_qpack11",
+            "access_rules": [
+              "k_invitation"
+            ]
+          },
+          {
+            "name": "Fireplace",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "visibility_rules": [
-              ""
-            ]
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Rubble Secret",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "visibility_rules": [
-              ""
+            "access_rules": [
+              "k_mistral",
+              "boss_dweller_woe"
             ]
-          },
-          {
-            "name": "East Stairs",
-            "item_count": 1
           },
           {
             "name": "Roulette Roof",
@@ -374,10 +507,15 @@
           },
           {
             "name": "B.S. Roulette",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "East Stairs Left",
             "item_count": 1
           },
           {
-            "name": "Eastern Roof",
+            "name": "East Stairs Right",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png"
@@ -396,13 +534,15 @@
           },
           {
             "name": "Wheels Starter Kit",
-            "item_count": 3
+            "item_count": 3,
+            "capture_item": true
           },
           {
             "name": "Wheels Champion",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           }
         ],
@@ -410,99 +550,178 @@
           {
             "map": "homeworld",
             "x": 450,
-            "y": 390,
-            "force_invisibility_rules": [
-              "event_cataclysm"
-            ]
+            "y": 390
           }
         ]
       },
       {
-        "name": "Cataclysm Brisk",
+        "name": "Brisk (Cataclysm)",
         "access_rules": [
-          "@reg_sleeper_sealevel,event_cataclysm"
+          "boss_dweller_woe"
         ],
         "sections": [
+          {
+            "name": "Merchant",
+            "item_count": 12,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Humble Boast Villager",
+            "item_count": 1
+          },
           {
             "name": "Crate Villager",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
-            "name": "Tavern Villager",
-            "item_count": 1
-          },
-          {
-            "name": "Fountain Villager",
+            "name": "Hole Villager",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou"
+              "k_mistral"
             ]
           },
           {
-            "name": "Feather Hat Guy",
+            "name": "Green Hat Villager",
             "item_count": 1,
             "access_rules": [
-              "graplou"
+              "k_mistral"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 450,
-            "y": 390,
-            "restrict_visibility_rules": [
-              "event_cataclysm"
-            ]
+            "x": 435,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Dweller's Fall Arena",
+        "access_rules": [
+          "character_bst,boss_dweller_dread"
+        ],
+        "sections": [
+          {
+            "name": "Rank",
+            "hosted_item": "boss_arena"
+          },
+          {
+            "name": "Bronze",
+            "item_count": 1
+          },
+          {
+            "name": "Silver",
+            "item_count": 1
+          },
+          {
+            "name": "Gold",
+            "item_count": 1
+          },
+          {
+            "name": "Special",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 465,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Lavish Lake",
+        "access_rules": [
+          "golem_xtol,boss_malkomount"
+        ],
+        "sections": [
+          {
+            "name": "Fish 1",
+            "hosted_item": "fish_hardshell"
+          },
+          {
+            "name": "Fish 2",
+            "hosted_item": "fish_manowar"
+          },
+          {
+            "name": "Fish 3",
+            "hosted_item": "fish_haddock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 460,
+            "y": 337
           }
         ]
       },
       {
         "name": "Abandoned Wizard's Lab",
         "access_rules": [
-          "@reg_sleeper_sealevel"
+          "golem_xtol,boss_malkomount,w_figurine_mage"
         ],
         "sections": [
           {
             "name": "Lobby",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "First Portal",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "key_crystalgreen",
-              "key_crystalblue",
-              "key_crystalred,mistral"
+              "k_crystal_green"
+            ]
+          },
+          {
+            "name": "Teal Portal Water",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "k_crystal_green,k_crystal_blue"
             ]
           },
           {
             "name": "Third Portal",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "key_crystalgreen,key_crystalblue,mistral",
-              "key_crystalgreen,key_crystalred",
-              "key_crystalred,key_crystalblue,key_goldwatch"
+              "k_crystal_green,k_crystal_blue,k_mistral"
             ]
           },
           {
-            "name": "Fishing Lake",
+            "name": "Haunted Creek Shining Fish",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "key_crystalred,key_crystalblue"
+              "k_crystal_red,k_crystal_blue"
+            ]
+          },
+          {
+            "name": "Haunted Creek Normal Fish",
+            "hosted_item": "fish_trout",
+            "access_rules": [
+              "k_crystal_red,k_crystal_blue"
             ]
           },
           {
             "name": "Fifth Portal",
             "item_count": 1,
             "access_rules": [
-              "key_wizlab:3"
+              "k_lab_crystals:3,k_mistral"
             ]
           },
           {
@@ -511,32 +730,23 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "key_wizlab:3,key_goldwatch"
-            ]
-          },
-          {
-            "name": "Teal Portal",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "access_rules": [
-              "key_crystalgreen,key_crystalblue"
+              "k_lab_crystals:3,k_goldwatch,k_mistral"
             ]
           },
           {
             "name": "Chromatic Apparition",
             "hosted_item": "boss_apparition",
             "access_rules": [
-              "key_wizlab:3"
+              "k_lab_crystals:3"
             ]
           },
           {
             "name": "Defeat Apparition",
-            "item_count": 1,
+            "hosted_item": "k_coin_undeath",
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [
-              "key_wizlab:3"
+              "k_lab_crystals:3,boss_apparition"
             ]
           }
         ],

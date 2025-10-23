@@ -6,8 +6,7 @@
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
     "access_rules": [
-      "hortencemap",
-      "boss_dod"
+      "@reg_watcher"
     ],
     "children": [
       {
@@ -15,7 +14,8 @@
         "sections": [
           {
             "name": "Floating",
-            "item_count": 2
+            "item_count": 2,
+            "capture_item": true
           },
           {
             "name": "Garnooy Cave",
@@ -35,14 +35,14 @@
             "name": "Vampire Rose Mural",
             "item_count": 1,
             "access_rules": [
-              "graplou"
+              "k_graplou"
             ]
           },
           {
             "name": "Stone Head",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,amulet"
+              "k_mistral,k_graplou,k_amulet"
             ]
           },
           {
@@ -51,7 +51,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "mistral,graplou,amulet"
+              "k_mistral,k_graplou,k_amulet"
             ]
           },
           {
@@ -70,14 +70,14 @@
       {
         "name": "Lake Docarria",
         "access_rules": [
-          "graplou"
+          "boss_one_three"
         ],
         "sections": [
           {
             "name": "Temple Servant",
-            "item_count": 1,
+            "hosted_item": "k_seashell",
             "access_rules": [
-              "coralhammer"
+              "k_hammer"
             ]
           }
         ],
@@ -92,7 +92,7 @@
       {
         "name": "Sacred Grove",
         "access_rules": [
-          "graplou"
+          "k_seashell"
         ],
         "sections": [
           {
@@ -118,8 +118,9 @@
           {
             "name": "Fountain",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "seashell"
+              "k_seashell"
             ]
           }
         ],
@@ -132,16 +133,71 @@
         ]
       },
       {
-        "name": "Docarri Village",
+        "name": "Watcher's Pond",
         "access_rules": [
-          "magicseashell"
+          "k_seashell"
         ],
         "sections": [
           {
+            "name": "Fish 1",
+            "hosted_item": "fish_piranha"
+          },
+          {
+            "name": "Fish 2",
+            "hosted_item": "fish_bass"
+          },
+          {
+            "name": "Fish 3",
+            "hosted_item": "fish_carp"
+          },
+          {
+            "name": "Fish 4",
+            "hosted_item": "fish_lobster"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1137,
+            "y": 780
+          }
+        ]
+      },
+      {
+        "name": "Docarri Village",
+        "access_rules": [
+          "k_seashell_magic"
+        ],
+        "sections": [
+          {
+            "name": "Item Shop",
+            "item_count": 1,
+            "capture_item": true,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Item Shop",
+            "item_count": 4,
+            "capture_item": true,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 5,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
             "name": "Wheels Champion",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -182,70 +238,77 @@
       {
         "name": "Mirna (Conches)",
         "access_rules": [
-          "magicseashell"
+          "k_hammer,k_seashell_magic"
         ],
         "sections": [
           {
-            "name": "4 Conches", 
+            "name": "4 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:4"
+              "c_rainbowconch:4"
             ]
           },
           {
-            "name": "11 Conches", 
+            "name": "11 Conches",
             "item_count": 1,
             "access_rules": [
-              "conches:11"
+              "c_rainbowconch:11"
             ]
           },
           {
-            "name": "19 Conches", 
+            "name": "19 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:19"
+              "c_rainbowconch:19"
             ]
           },
           {
-            "name": "22 Conches", 
+            "name": "22 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:22"
+              "c_rainbowconch:22"
             ]
           },
           {
-            "name": "27 Conches", 
+            "name": "27 Conches",
             "item_count": 1,
             "access_rules": [
-              "conches:27"
+              "c_rainbowconch:27"
             ]
           },
           {
-            "name": "35 Conches", 
+            "name": "35 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:35"
+              "c_rainbowconch:35"
             ]
           },
           {
-            "name": "39 Conches", 
+            "name": "39 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:39"
+              "c_rainbowconch:39"
             ]
           },
           {
-            "name": "47 Conches", 
+            "name": "47 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:47"
+              "c_rainbowconch:47"
             ]
           },
           {
-            "name": "60 Conches", 
+            "name": "60 Conches",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "conches:60"
+              "c_rainbowconch:60"
             ]
           }
         ],
@@ -255,7 +318,7 @@
             "x": 1192,
             "y": 800,
             "restrict_visibility_rules": [
-              "option_conches"
+              "option_conch_rewards_on"
             ]
           }
         ]
@@ -263,16 +326,18 @@
       {
         "name": "Outside Antsudlo",
         "access_rules": [
-          "@Docarri Village"
+          "k_hammer,k_seashell_magic"
         ],
         "sections": [
           {
             "name": "Key Pedestal 1",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Key Pedestal 2",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Chest",
@@ -290,84 +355,66 @@
       {
         "name": "Tower of Antsudlo",
         "access_rules": [
-          "@Outside Antsudlo,key_sapphire:2"
+          "k_hammer,k_seashell_magic,k_key_sapphire:2"
         ],
         "sections": [
           {
-            "name": "2F",
-            "access_rules": [
-              "key_pearlpink,key_pearlyellow"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "3F",
-            "access_rules": [
-              "@Tower of Antsudlo/2F,key_pearlpurple,key_pearlgreen"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
             "name": "Pink Pedestal",
-            "item_count": 1
+            "hosted_item": "k_pearl_pink"
           },
           {
             "name": "Yellow Pedestal",
-            "item_count": 1
+            "hosted_item": "k_pearl_yellow"
           },
           {
             "name": "Pipe Bridge",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F"
+              "k_pearl_pink,k_pearl_yellow"
             ]
           },
           {
             "name": "Green Pedestal",
-            "item_count": 1,
+            "hosted_item": "k_pearl_green",
             "access_rules": [
-              "@Tower of Antsudlo/2F"
+              "k_pearl_pink,k_pearl_yellow"
             ]
           },
           {
             "name": "Purple Pedestal",
-            "item_count": 1,
+            "hosted_item": "k_pearl_purple",
             "access_rules": [
-              "@Tower of Antsudlo/2F,mistral,graplou"
+              "k_pearl_pink,k_pearl_yellow,k_mistral,k_graplou"
             ]
           },
           {
             "name": "Raft Room",
             "item_count": 1,
             "access_rules": [
-              "@Tower of Antsudlo/2F,mistral,graplou"
+              "k_pearl_pink,k_pearl_yellow,k_mistral,k_graplou"
             ]
           },
           {
             "name": "Lowest Pipe Freestanding Valve",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "@Tower of Antsudlo/3F"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green"
             ]
           },
           {
             "name": "Blue Pedestal",
-            "item_count": 1,
+            "hosted_item": "k_pearl_blue",
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:1"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]
           },
           {
             "name": "Middle Pipe Freestanding Valve",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:1"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]
           },
           {
@@ -376,7 +423,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "@Tower of Antsudlo/3F,key_antsudlovalve:2"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:2"
             ]
           }
         ],
@@ -392,15 +439,15 @@
       {
         "name": "The Great Archives",
         "access_rules": [
-          "@Tower of Antsudlo,key_antsudlopearl:5"
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral"
         ],
         "sections": [
           {
-            "name": "Subregion",
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
+            "name": "Party Character",
+            "hosted_item": "character_reshan",
+            "access_rules": [
+              "k_vial"
+            ]
           }
         ],
         "map_locations": [
@@ -412,9 +459,72 @@
         ]
       },
       {
+        "name": "Glacial Peak",
+        "access_rules": [
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral"
+        ],
+        "sections": [
+          {
+            "name": "Early Prism",
+            "item_count": 1
+          },
+          {
+            "name": "Down Ladder",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "k_amulet"
+            ]
+          },
+          {
+            "name": "Acolytes Two & Four",
+            "hosted_item": "boss_two_four"
+          },
+          {
+            "name": "Peak",
+            "hosted_item": "k_amulet",
+            "access_rules": [
+              "boss_two_four"
+            ]
+          },
+          {
+            "name": "Under Dance Floor",
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
+          },
+          {
+            "name": "Frozen Chest",
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
+          },
+          {
+            "name": "Frozen Scroll",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "k_amulet"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1374,
+            "y": 250
+          }
+        ]
+      },
+      {
         "name": "Torment Peak",
         "access_rules": [
-          "amulet"
+          "k_hammer,k_amulet",
+          "@rule_can_fly,k_amulet"
         ],
         "sections": [
           {
@@ -448,7 +558,8 @@
       {
         "name": "Mossy Cache",
         "access_rules": [
-          "amulet"
+          "k_hammer,k_amulet,boss_dweller_torment",
+          "@rule_can_fly,k_amulet,boss_dweller_torment"
         ],
         "sections": [
           {

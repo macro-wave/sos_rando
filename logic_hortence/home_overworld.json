@@ -66,7 +66,7 @@
         ],
         "children": [
           {
-            "name": "Northwest Docarri Ruin",
+            "name": "Northwest Docarri Ruins",
             "access_rules": [
               "k_hammer"
             ],
@@ -92,7 +92,7 @@
             ]
           },
           {
-            "name": "Southwest Docarri Ruin",
+            "name": "Southwest Docarri Ruins",
             "access_rules": [
               "k_hammer"
             ],
@@ -114,7 +114,7 @@
             ]
           },
           {
-            "name": "East Docarri Ruin",
+            "name": "East Docarri Ruins",
             "access_rules": [
               "k_hammer"
             ],
@@ -193,6 +193,35 @@
             "restrict_visibility_rules": [
               "@rule_can_sail"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Any Campfire",
+        "access_rules": [
+          "boss_dweller_dread"
+        ],
+        "sections": [
+          {
+            "name": "Talk to Seraï",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 685,
+            "y": 545
+          },
+          {
+            "map": "seraiworld",
+            "x": 685,
+            "y": 545
+          },
+          {
+            "map": "nightmare",
+            "x": 685,
+            "y": 545
           }
         ]
       }
