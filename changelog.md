@@ -1,5 +1,15 @@
 # RELEASES
 
+## Version 0.0.7 : 10/22/2025
+
+- Fix yet more logic errors and appearance issues
+- Change how items are named in a new convention across the pack
+- Add accounting for the mesa shortcut, including an option to open it early
+- Add option to open the Archives portals early
+- Add hidden location coordinates for characters and fishing lakes for future use
+- Add Vanilla Tracker variant with lots of functionality
+- Add contribution guide and tracker usage help guide
+
 ## Version 0.0.6 : 10/09/2025
 
 - Fix quite a lot of missing logic
