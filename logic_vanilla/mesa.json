@@ -51,17 +51,7 @@
               "k_amulet,k_mistral"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Aspiring Shopkeeper",
-            "item_count": 5,
-            "access_rules": [
-              "k_amulet,k_mistral"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -156,7 +146,10 @@
           {
             "map": "homeworld",
             "x": 1254,
-            "y": 265
+            "y": 265,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -230,12 +223,12 @@
           },
           {
             "name": "Yomara's Shop",
-            "item_count": 6,
+            "item_count": 1,
             "access_rules": [
               "k_amulet,k_mistral"
             ],
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -305,12 +298,12 @@
           },
           {
             "name": "Locket's Waaaares",
-            "item_count": 8,
+            "item_count": 1,
             "access_rules": [
               "k_key_garden,k_graplou,k_mistral"
             ],
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

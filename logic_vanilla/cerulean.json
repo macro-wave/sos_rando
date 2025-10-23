@@ -108,19 +108,31 @@
           },
           {
             "name": "Fish 1",
-            "hosted_item": "fish_burbot"
+            "hosted_item": "fish_burbot",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "Fish 2",
-            "hosted_item": "fish_flounder"
+            "hosted_item": "fish_flounder",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "Fish 3",
-            "hosted_item": "fish_hermite"
+            "hosted_item": "fish_hermite",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "Fish 4",
-            "hosted_item": "fish_sponge"
+            "hosted_item": "fish_sponge",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ],
         "map_locations": [
@@ -168,22 +180,14 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 10,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
             "name": "Equipment Shop",
-            "item_count": 4,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -287,20 +291,12 @@
           "k_probe"
         ],
         "sections": [
-          {
+           {
             "name": "Merchant",
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Merchant",
-            "item_count": 10,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -308,8 +304,7 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique",
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

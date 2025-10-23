@@ -61,7 +61,10 @@
           {
             "map": "homeworld",
             "x": 304,
-            "y": 282
+            "y": 282,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -167,16 +170,9 @@
           },
           {
             "name": "Shop",
-            "item_count": 5,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Shop",
-            "item_count": 15,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           }
         ],
@@ -196,16 +192,9 @@
         "sections": [
           {
             "name": "Merchant",
-            "item_count": 2,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Merchant",
-            "item_count": 10,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -392,22 +381,12 @@
           },
           {
             "name": "Hidden Market Merchant",
-            "item_count": 3,
+            "item_count": 1,
             "access_rules": [
               "k_traderssignet"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Hidden Market Merchant",
-            "item_count": 4,
-            "access_rules": [
-              "k_traderssignet"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -446,29 +425,14 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 8,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
             "name": "Equipment Shop",
-            "item_count": 4,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Equipment Shop",
-            "item_count": 7,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -562,9 +526,9 @@
         "sections": [
           {
             "name": "Merchant",
-            "item_count": 12,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -659,7 +623,10 @@
           {
             "map": "homeworld",
             "x": 460,
-            "y": 337
+            "y": 337,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -715,6 +682,9 @@
             "hosted_item": "fish_trout",
             "access_rules": [
               "k_crystal_red,k_crystal_blue"
+            ],
+            "visibility_rules": [
+              "option_vanilla_fish_on"
             ]
           },
           {
