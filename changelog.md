@@ -1,6 +1,6 @@
 # RELEASES
 
-## Version 0.0.7 : 10/22/2025
+## Version 0.0.8 : 10/22/2025
 
 - Hotfix on logic in Throne of the Queen, where speedball was not correctly required
 
