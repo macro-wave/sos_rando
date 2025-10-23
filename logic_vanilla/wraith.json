@@ -36,16 +36,9 @@
         "sections": [
           {
             "name": "Equipment Shop",
-            "item_count": 5,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Equipment Shop",
-            "item_count": 8,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -53,15 +46,7 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 8,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -139,9 +124,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack1"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -149,9 +131,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack2"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -159,9 +138,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack3"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -169,9 +145,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack4"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -179,9 +152,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack5"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -189,9 +159,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack6"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -199,9 +166,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack7"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -209,9 +173,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack8"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -219,9 +180,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack9"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -229,9 +187,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack10"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -239,9 +194,6 @@
             "item_count": 2,
             "access_rules": [
               "c_qpack11"
-            ],
-            "visibility_rules": [
-              "option_quizsanity_on"
             ]
           },
           {
@@ -250,7 +202,7 @@
             "capture_item": true,
             "access_rules": [
               "c_qpack:11",
-              "c_qpack1,option_quizsanity_off"
+              "c_qpack1,option_vanilla_ngplus_on"
             ]
           }
         ],
@@ -316,7 +268,10 @@
           {
             "map": "homeworld",
             "x": 790,
-            "y": 568
+            "y": 568,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -498,9 +453,9 @@
           },
           {
             "name": "Ghost Merchant",
-            "item_count": 11,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

@@ -159,7 +159,10 @@
           {
             "map": "homeworld",
             "x": 1137,
-            "y": 780
+            "y": 780,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -174,22 +177,14 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 4,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
             "name": "Equipment Shop",
-            "item_count": 5,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -316,10 +311,7 @@
           {
             "map": "homeworld",
             "x": 1192,
-            "y": 800,
-            "restrict_visibility_rules": [
-              "option_conch_rewards_on"
-            ]
+            "y": 800
           }
         ]
       },

@@ -258,5 +258,59 @@
     "type": "toggle",
     "img": "images/options/option_logic_jocebuckle.png",
     "codes": "option_logic_jocebuckle"
+  },
+  {
+    "name": "New Game Plus",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_vanilla_ngplus_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_vanilla_ngplus,option_vanilla_ngplus_off"
+      },
+      {
+        "img": "images/options/option_vanilla_ngplus_on.png",
+        "codes": "option_vanilla_ngplus,option_vanilla_ngplus_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Show Merchants",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_vanilla_shops_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_vanilla_shops,option_vanilla_shops_off"
+      },
+      {
+        "img": "images/options/option_vanilla_shops_on.png",
+        "codes": "option_vanilla_shops,option_vanilla_shops_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Show Fish at Lakes",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_vanilla_fish_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_vanilla_fish,option_vanilla_fish_off"
+      },
+      {
+        "img": "images/options/option_vanilla_fish_on.png",
+        "codes": "option_vanilla_fish,option_vanilla_fish_on",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

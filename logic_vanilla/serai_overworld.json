@@ -157,6 +157,9 @@
             "item_count": 1,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ],
+            "visibility_rules": [
+              "option_vanilla_fish_on"
             ]
           },
           {
@@ -185,23 +188,10 @@
             "item_count": 1,
             "capture_item": true,
             "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
-              "option_lair_warp_on"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Merchant",
-            "item_count": 11,
-            "capture_item": true,
-            "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
-              "option_lair_warp_on"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -209,12 +199,10 @@
             "item_count": 1,
             "capture_item": true,
             "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
-              "option_lair_warp_on"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique",
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
@@ -222,16 +210,14 @@
             "item_count": 1,
             "capture_item": true,
             "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
-              "option_lair_warp_on"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
             "name": "Elysan'darëlle",
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
-              "option_lair_warp_on"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {

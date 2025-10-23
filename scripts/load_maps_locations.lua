@@ -1,4 +1,4 @@
-if variant == "standard" or variant == "v_vanilla" then
+if loadmap then
 
     Tracker:AddMaps("maps/maps.json")
     

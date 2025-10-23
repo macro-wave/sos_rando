@@ -55,18 +55,7 @@
               "k_graplou, k_mistral"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Vending Machine",
-            "item_count": 11,
-            "capture_item": true,
-            "access_rules": [
-              "k_graplou, k_mistral"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

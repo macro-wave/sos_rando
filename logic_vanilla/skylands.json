@@ -29,7 +29,10 @@
           {
             "map": "homeworld",
             "x": 1345,
-            "y": 97
+            "y": 97,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -38,18 +41,10 @@
         "sections": [
           {
             "name": "Merchant",
-            "item_count": 2,
+            "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Merchant",
-            "item_count": 9,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

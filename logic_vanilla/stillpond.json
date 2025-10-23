@@ -46,6 +46,9 @@
             "hosted_item": "fish_trout",
             "access_rules": [
               "k_seashell_magic"
+            ],
+            "visibility_rules": [
+              "option_vanilla_fish_on"
             ]
           },
           {

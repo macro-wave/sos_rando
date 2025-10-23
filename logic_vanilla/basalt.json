@@ -25,7 +25,10 @@
           {
             "map": "homeworld",
             "x": 619,
-            "y": 160
+            "y": 160,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },
@@ -64,12 +67,12 @@
           },
           {
             "name": "Merchant",
-            "item_count": 6,
+            "item_count": 1,
             "access_rules": [
               "k_mistral"
             ],
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {

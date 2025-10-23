@@ -53,44 +53,23 @@
           },
           {
             "name": "Item Shop",
-            "item_count": 2,
+            "item_count": 1,
             "capture_item": true,
             "access_rules": [
               "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 15,
-            "capture_item": true,
-            "access_rules": [
-              "k_hammer,k_seashell_magic,k_plan_shop"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
             "name": "Equipment Shop",
-            "item_count": 5,
+            "item_count": 1,
             "access_rules": [
               "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Equipment Shop",
-            "item_count": 8,
-            "access_rules": [
-              "k_hammer,k_seashell_magic,k_plan_shop"
-            ],
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           }
         ],
@@ -142,10 +121,7 @@
           {
             "map": "homeworld",
             "x": 1105,
-            "y": 180,
-            "restrict_visibility_rules": [
-              "option_fishing_rewards_on"
-            ]
+            "y": 180
           }
         ]
       },
@@ -173,7 +149,10 @@
           {
             "map": "homeworld",
             "x": 1056,
-            "y": 175
+            "y": 175,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ]
       },

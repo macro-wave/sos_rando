@@ -257,18 +257,24 @@
           },
           {
             "name": "Merchant",
-            "item_count": 8,
+            "item_count": 1,
             "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
             "name": "Fish 1",
-            "hosted_item": "fish_trout"
+            "hosted_item": "fish_trout",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "Fish 2",
-            "hosted_item": "fish_manowar"
+            "hosted_item": "fish_manowar",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           }
         ],
         "map_locations": [
@@ -368,15 +374,7 @@
             "item_count": 1,
             "capture_item": true,
             "visibility_rules": [
-              "option_shopsanity_unique"
-            ]
-          },
-          {
-            "name": "Merchant",
-            "item_count": 12,
-            "capture_item": true,
-            "visibility_rules": [
-              "option_shopsanity_all"
+              "option_vanilla_shops_on"
             ]
           },
           {
