@@ -5,19 +5,16 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_mesa"
+    ],
     "children": [
       {
         "name": "Mesa Hike",
-        "access_rules": [
-          "hortencemap"
-        ],
         "sections": [
           {
             "name": "Golem Name",
-            "hosted_item": "golem_khukarr",
-            "access_rules": [
-              "vial"
-            ]
+            "hosted_item": "golem_khukarr"
           }
         ],
         "map_locations": [
@@ -31,19 +28,9 @@
       {
         "name": "Autumn Hills",
         "access_rules": [
-          "@Mesa Hike,vial,graplou"
+          "k_graplou"
         ],
         "sections": [
-          {
-            "name": "Past Prism",
-            "access_rules": [
-              "amulet,mistral"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
           {
             "name": "Under Bridge",
             "item_count": 1
@@ -54,14 +41,34 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
+            ]
+          },
+          {
+            "name": "Aspiring Shopkeeper",
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet,k_mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Aspiring Shopkeeper",
+            "item_count": 5,
+            "access_rules": [
+              "k_amulet,k_mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
             ]
           },
           {
             "name": "Graplou Push Block",
             "item_count": 1,
             "access_rules": [
-              "@Autumn Hills/Past Prism"
+              "k_amulet,k_mistral"
             ]
           },
           {
@@ -70,21 +77,22 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Autumn Hills/Past Prism"
+              "k_amulet,k_mistral"
             ]
           },
           {
             "name": "Ninja Swim",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "@Autumn Hills/Past Prism,magicseashell"
+              "k_amulet,k_mistral,k_seashell_magic"
             ]
           },
           {
             "name": "Leaf Monster",
             "hosted_item": "boss_leaf",
             "access_rules": [
-              "@Autumn Hills/Past Prism,magicseashell"
+              "k_amulet,k_mistral,k_seashell_magic"
             ]
           }
         ],
@@ -99,7 +107,7 @@
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "@Autumn Hills/Past Prism,magicseashell"
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -122,36 +130,48 @@
         ]
       },
       {
-        "name": "Songshroom Marsh",
+        "name": "Lake Turquoise",
         "access_rules": [
-          "vial,graplou,magicseashell"
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
-            "name": "Past Crate",
-            "access_rules": [
-              "mistral"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
+            "name": "Fish 1",
+            "hosted_item": "fish_crab"
           },
           {
-            "name": "Yomara's Gate",
-            "access_rules": [
-              "mistral,key_yomara"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
+            "name": "Fish 2",
+            "hosted_item": "fish_piranha"
           },
+          {
+            "name": "Fish 3",
+            "hosted_item": "fish_swordfish"
+          },
+          {
+            "name": "Fish 4",
+            "hosted_item": "fish_starfish"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1254,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Songshroom Marsh",
+        "access_rules": [
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+        ],
+        "sections": [
           {
             "name": "Pull Bridge",
             "item_count": 1,
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou"
             ]
           },
           {
@@ -160,56 +180,80 @@
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Basement",
             "item_count": 1,
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Top",
             "item_count": 1,
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
+            ]
+          },
+          {
+            "name": "Down the Vine",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_graplou,k_mistral,k_amulet",
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara,k_graplou,k_amulet"
+            ]
+          },
+          {
+            "name": "Mushroom Landing",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara,k_graplou,k_amulet"
             ]
           },
           {
             "name": "Yomara",
-            "item_count": 1,
+            "hosted_item": "k_key_yomara",
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
+            ]
+          },
+          {
+            "name": "Yomara's Shop",
+            "item_count": 6,
+            "access_rules": [
+              "k_amulet,k_mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
             ]
           },
           {
             "name": "Yomara's Yard",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Songshroom Marsh/Past Crate"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
             ]
           },
           {
-            "name": "Past Gate",
+            "name": "Yomara's Garden",
             "item_count": 1,
             "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Tall Shroom Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
-            ]
-          },
-          {
-            "name": "Fungtoise Cave",
-            "item_count": 1,
-            "access_rules": [
-              "@Songshroom Marsh/Yomara's Gate"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
             ]
           }
         ],
@@ -224,7 +268,7 @@
       {
         "name": "Clockwork Castle Grounds",
         "access_rules": [
-          "@Songshroom Marsh/Yomara's Gate"
+          "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara"
         ],
         "sections": [
           {
@@ -251,63 +295,80 @@
       {
         "name": "Clockwork Castle",
         "access_rules": [
-          "@Clockwork Castle Grounds"
+          "boss_erlina_brugaves"
         ],
         "sections": [
           {
-            "name": "Beyond Garden",
+            "name": "Garden Right",
+            "item_count": 1,
+            "capture_item": true
+          },
+          {
+            "name": "Locket's Waaaares",
+            "item_count": 8,
             "access_rules": [
-              "key_castlegarden,graplou,mistral"
+              "k_key_garden,k_graplou,k_mistral"
             ],
             "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "Garden Right",
-            "item_count": 1
-          },
-          {
-            "name": "2F Left",
-            "item_count": 1,
-            "access_rules": [
-              "@Clockwork Castle/Beyond Garden"
+              "option_shopsanity_all"
             ]
           },
           {
             "name": "2F Left",
             "item_count": 1,
             "access_rules": [
-              "@Clockwork Castle/Beyond Garden"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
-            "name": "2F Left",
+            "name": "Push Ladder",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "@Clockwork Castle/Beyond Garden"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
-            "name": "2F Left",
+            "name": "3F Right",
             "item_count": 1,
             "access_rules": [
-              "@Clockwork Castle/Beyond Garden"
+              "k_key_garden,k_graplou,k_mistral"
+            ]
+          },
+          {
+            "name": "Watchmaker's Workshop",
+            "hosted_item": "k_key_master",
+            "access_rules": [
+              "k_key_garden,k_graplou,k_mistral"
+            ]
+          },
+          {
+            "name": "Buy From Watchmaker",
+            "item_count": 1,
+            "access_rules": [
+              "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc"
+            ]
+          },
+          {
+            "name": "Wheels Master",
+            "item_count": 1,
+            "access_rules": [
+              "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable"
             ]
           },
           {
             "name": "Fleshmancer Acolytes",
             "hosted_item": "boss_acolytes",
             "access_rules": [
-              "@Clockwork Castle/Beyond Garden,key_castlemaster"
+              "k_key_garden,k_graplou,k_mistral,k_key_master"
             ]
           },
           {
             "name": "Dweller of Strife",
             "hosted_item": "boss_dweller_strife",
             "access_rules": [
-              "@Clockwork Castle/Beyond Garden,key_castlemaster"
+              "boss_acolytes"
             ]
           }
         ],
@@ -317,56 +378,6 @@
             "x": 1373,
             "y": 287,
             "size": 20
-          }
-        ]
-      },
-      {
-        "name": "Glacial Peak",
-        "access_rules": [
-          "@The Great Archives,graplou,mistral"
-        ],
-        "sections": [
-          {
-            "name": "Early Prism",
-            "item_count": 1
-          },
-          {
-            "name": "Down Ladder",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "access_rules": [
-              "amulet"
-            ]
-          },
-          {
-            "name": "Acolytes Two & Four",
-            "hosted_item": "boss_two_four"
-          },
-          {
-            "name": "Peak",
-            "item_count": 1
-          },
-          {
-            "name": "Under Dance Floor",
-            "item_count": 1
-          },
-          {
-            "name": "Frozen Chest",
-            "item_count": 1
-          },
-          {
-            "name": "Frozen Scroll",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 1374,
-            "y": 250
           }
         ]
       }

@@ -6,11 +6,34 @@
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
     "access_rules": [
-      "boss_dweller_strife"
+      "@reg_basalt"
     ],
     "children": [
       {
+        "name": "Sulfuric Basin",
+        "sections": [
+          {
+            "name": "Fish 1",
+            "hosted_item": "fish_shrimp"
+          },
+          {
+            "name": "Fish 2",
+            "hosted_item": "fish_koi"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 619,
+            "y": 160
+          }
+        ]
+      },
+      {
         "name": "Kiln Mountain",
+        "access_rules": [
+          "boss_hydralion"
+        ],
         "sections": [
           {
             "name": "Geyser Climb",
@@ -19,20 +42,42 @@
           {
             "name": "Boulder Bowling 1",
             "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Boulder Bowling 2",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "Hole in the Wall",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 6,
+            "access_rules": [
+              "k_mistral"
+            ],
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
           },
           {
             "name": "Toadcano",
-            "hosted_item": "boss_toadcano"
+            "hosted_item": "boss_toadcano",
+            "access_rules": [
+              "k_mistral"
+            ]
           }
         ],
         "map_locations": [

@@ -328,26 +328,6 @@
         ],
         "sections": [
           {
-            "name": "2F",
-            "access_rules": [
-              "k_pearl_pink,k_pearl_yellow"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "3F",
-            "access_rules": [
-              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
             "name": "Pink Pedestal",
             "item_count": 1
           },
@@ -475,17 +455,26 @@
           },
           {
             "name": "Under Dance Floor",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
           },
           {
             "name": "Frozen Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
           },
           {
             "name": "Frozen Scroll",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "k_amulet"
+            ]
           }
         ],
         "map_locations": [

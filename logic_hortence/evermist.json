@@ -160,7 +160,7 @@
         "name": "Forbidden Cavern",
         "sections": [
           {
-            "name": "Mistral Block",
+            "name": "Push Block",
             "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",

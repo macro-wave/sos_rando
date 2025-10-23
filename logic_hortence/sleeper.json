@@ -189,7 +189,7 @@
         ]
       },
       {
-        "name": "Wind Tunnel Mines",
+        "name": "Wind Tunnels Mine",
         "access_rules": [
           "golem_xtol",
           "@rule_can_fly",
@@ -646,7 +646,7 @@
             "item_count": 1,
             "access_rules": [
               "k_crystal_green,k_crystal_blue,k_mistral",
-              "k_crystal_green,k_crystal_red",
+              "k_crystal_green,k_crystal_red,k_mistral",
               "k_crystal_red,k_crystal_blue,k_goldwatch"
             ]
           },
@@ -661,8 +661,7 @@
             "name": "Fifth Portal",
             "item_count": 1,
             "access_rules": [
-              "k_lab_crystals:3,k_mistral",
-              "k_lab_crystals:3,k_goldwatch"
+              "k_lab_crystals:3,k_mistral"
             ]
           },
           {

@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_sea_nightmare"
+    ],
     "children": [
       {
         "name": "Nightmare Vespertine",
@@ -34,6 +37,7 @@
           {
             "name": "Galley",
             "item_count": 1,
+            "capture_item": true,
             "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
             "chest_opened_img": "images/boxes/treasure_chest_open.png"
           }
@@ -49,7 +53,7 @@
             "x": 670,
             "y": 545,
             "force_invisibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           }
         ]
@@ -57,35 +61,41 @@
       {
         "name": "Sea of Nightmare Southwest",
         "access_rules": [
-          "hortencemap"
+          "k_hortencemap"
         ],
         "sections": [
           {
             "name": "Ropewalk",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Tiny Island",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "3 Enemies",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Push Crates",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Land Bridge",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Gunner Guard",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           }
         ],
         "map_locations": [
@@ -99,19 +109,22 @@
       },
       {
         "name": "Maelstrom Point",
+        "access_rules": [
+          "k_hortencemap"
+        ],
         "sections": [
           {
             "name": "Stormcaller",
             "hosted_item": "boss_stormcaller",
             "access_rules": [
-              "key_doubloon:6"
+              "k_doubloon:6, k_graplou"
             ]
           },
           {
             "name": "Immaculate Pearl",
-            "item_count": 1,
+            "hosted_item": "k_pearl_immaculate",
             "access_rules": [
-              "boss_dweller_strife"
+              "boss_dweller_strife,k_hammer_cobalt"
             ]
           },
           {
@@ -120,11 +133,14 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "boss_dweller_strife"
+              "k_pearl_immaculate"
             ]
           },
           {
             "name": "Hydralion",
+            "access_rules": [
+              "k_pearl_immaculate"
+            ],
             "hosted_item": "boss_hydralion"
           }
         ],
