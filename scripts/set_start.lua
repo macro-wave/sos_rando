@@ -1,8 +1,5 @@
 if variant == "standard" then
 
-    -- -- Temp for testing
-    -- Tracker:FindObjectForCode("@Sunglow Lake/Basket").CapturedItem = Tracker:FindObjectForCode("k_mistral")
-
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
@@ -30,7 +27,7 @@ if variant == "standard" then
     Tracker:FindObjectForCode("option_lair_warp").CurrentStage = 0
 
     -- Default options: Logic
-    Tracker:FindObjectForCode("option_logic_jocebuckle").CurrentStage = 0
+    Tracker:FindObjectForCode("option_logic_jocebuckle").Active = true
 
 elseif variant == "v_vanilla" then
 
@@ -40,7 +37,6 @@ elseif variant == "v_vanilla" then
     if set_vanilla_captures then
         set_vanilla_captures()
     end
-
 
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
@@ -69,5 +65,4 @@ elseif variant == "v_vanilla" then
     -- Default options: Logic
     Tracker:FindObjectForCode("option_logic_jocebuckle").CurrentStage = 0
 
-    
 end

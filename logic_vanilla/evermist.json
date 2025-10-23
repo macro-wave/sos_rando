@@ -165,7 +165,8 @@
       {
         "name": "Forbidden Cavern",
         "access_rules": [
-          "boss_wyrd"
+          "boss_wyrd",
+          "option_skip_prologue_on"
         ],
         "sections": [
           {
