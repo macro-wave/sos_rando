@@ -295,12 +295,8 @@
       {
         "name": "Throne of The Queen That Was",
         "access_rules": [
-          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,[k_jocebuckle]",
-          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,option_logic_jocebuckle",
           "@rule_can_use_speedball,[k_jocebuckle]",
-          "@rule_can_use_speedball,option_logic_jocebuckle",
-          "@rule_can_fly,[k_jocebuckle]",
-          "@rule_can_fly,option_logic_jocebuckle"
+          "@rule_can_use_speedball,option_logic_jocebuckle"
         ],
         "sections": [
           {
