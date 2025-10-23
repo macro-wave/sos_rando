@@ -5,6 +5,9 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_stillpond"
+    ],
     "children": [
       {
         "name": "Stillpond",
@@ -27,20 +30,40 @@
       {
         "name": "Fishing Dungeon",
         "access_rules": [
-          "hookoftime"
+          "k_hookoftime"
         ],
         "sections": [
           {
             "name": "Whirlpool Chamber",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_seashell_magic"
+            ]
+          },
+          {
+            "name": "Fishing",
+            "hosted_item": "fish_trout",
+            "access_rules": [
+              "k_seashell_magic"
+            ],
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "\"Catch\"",
-            "item_count": 1
+            "hosted_item": "k_key_fish",
+            "access_rules": [
+              "k_key_fishingdungeon"
+            ]
           },
           {
             "name": "Chef Bass",
-            "item_count": 1
+            "hosted_item": "k_invitation",
+            "access_rules": [
+              "k_key_fishingdungeon,k_key_fish"
+            ]
           }
         ],
         "map_locations": [

@@ -1,5 +1,13 @@
 # Helpful Tracker Info
 ***
+
+### VANILLA TRACKER MODE
+To open the vanilla (non-randomizer) version of the tracker, go to `Settings > Installed Packages > Other > SoS Randomizer Tracker > Vanilla Map Tracker`.
+
+This version is for players who want to use the pack with a normal playthrough of Sea of Stars and track all the treasure chests and progression items as they go. It strictly follows the progression of the game starting from Zenith Academy, with a smaller set of special options.
+
+**Important:** The options in the options panel will *break* the vanilla logic, with the exception of Skip Prologue.
+
 ### RANDOMIZER OPTIONS PANEL
 The options panel drops down from the gear icon in the top left tabbed section.
 
@@ -9,7 +17,7 @@ The options panel drops down from the gear icon in the top left tabbed section.
 - Open: Behaves as though the wall in the central room is open and the laser bridge is on from the start. Key is still needed for a few checks.
 
 *Stonemasons Elevator*
-- Malkomoud: Requires defeating Malkomoud to activate the elevator
+- Malkomud: Requires defeating Malkomud to activate the elevator
 - Open: Elevator is active at start, and can be accessed from both Outpost and Coral Cascades
 
 *Skylands Bridge*

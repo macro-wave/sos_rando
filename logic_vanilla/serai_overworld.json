@@ -5,13 +5,42 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "access_rules": [
+      "@reg_serai_overworld"
+    ],
     "children": [
       {
+        "name": "Sea of Stars",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Guardian",
+            "hosted_item": "boss_guardian"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 837,
+            "y": 404
+          },
+          {
+            "map": "seraiworld",
+            "x": 740,
+            "y": 603
+          }
+        ]
+      },
+      {
         "name": "Speedball Network Station",
+        "access_rules": [
+          "boss_guardian"
+        ],
         "sections": [
           {
             "name": "Network Station",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           }
         ],
         "map_locations": [
@@ -24,15 +53,13 @@
       },
       {
         "name": "Infinite Abyss",
-        "access_rules": [],
+        "access_rules": [
+          "boss_catalyst"
+        ],
         "sections": [
           {
             "name": "Dweller of Dread",
             "hosted_item": "boss_dweller_dread"
-          },
-          {
-            "name": "Flight",
-            "hosted_item": "flight"
           }
         ],
         "map_locations": [
@@ -45,10 +72,16 @@
       },
       {
         "name": "Solstice Shrine Island",
+        "access_rules": [
+          "@rule_can_fly"
+        ],
         "sections": [
           {
             "name": "Shrine Reward",
             "item_count": 1,
+            "access_rules": [
+              "k_amulet,k_mistral"
+            ],
             "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
           }
@@ -63,62 +96,144 @@
       },
       {
         "name": "Fleshmancer's Lair",
+        "access_rules": [
+          "@rule_can_fly"
+        ],
         "sections": [
           {
             "name": "Eye Roll",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "LeJugg",
-            "hosted_item": "boss_lejugg"
+            "hosted_item": "boss_lejugg",
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "Halls of Illusion Maze",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "After Maze",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
           },
           {
             "name": "Big Jars",
-            "item_count": 3
-          },
-          {
-            "name": "Mines Illusion",
-            "item_count": 1
+            "item_count": 3,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,k_graplou,"
+            ]
           },
           {
             "name": "Catch Fish?",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3"
+            ]
+          },
+          {
+            "name": "Mines Illusion",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
           },
           {
             "name": "Fish Illusion",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ],
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
           },
           {
             "name": "Before Room of Sending",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
           },
           {
             "name": "Phase Reaper",
-            "hosted_item": "boss_phasereaper"
+            "hosted_item": "boss_phasereaper",
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
+          },
+          {
+            "name": "Soul Curator",
+            "hosted_item": "boss_curator",
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
+          },
+          {
+            "name": "Merchant",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ],
+            "visibility_rules": [
+              "option_vanilla_shops_on"
+            ]
+          },
+          {
+            "name": "Merchant Recipe 2",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ],
+            "visibility_rules": [
+              "option_vanilla_shops_on"
+            ]
           },
           {
             "name": "Summoner's Campfire",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
           },
           {
             "name": "Elysan'darëlle",
-            "hosted_item": "boss_elysandarelle"
+            "hosted_item": "boss_elysandarelle",
+            "access_rules": [
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
+            ]
           },
           {
             "name": "Aephorul",
-            "hosted_item": "boss_aephorul"
+            "hosted_item": "boss_aephorul",
+            "access_rules": [
+              "@rule_can_open_chronophage,boss_elysandarelle"
+            ]
           },
           {
             "name": "True Ending",
-            "hosted_item": "flimsyhammers"
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "@rule_can_open_chronophage,boss_elysandarelle"
+            ]
           }
         ],
         "map_locations": [

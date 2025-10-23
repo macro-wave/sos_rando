@@ -22,6 +22,20 @@
           },
           {
             "type": "item",
+            "item": "option_archives_portal",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_mesa_shortcut",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_skybridge",
             "h_alignment": "left",
             "width": 300,
@@ -135,40 +149,94 @@
       }
     ]
   },
+  "subpanel_vanilla": {
+    "type": "group",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "item",
+            "item": "option_skip_prologue",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_vanilla_ngplus",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_vanilla_shops",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_vanilla_fish",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          }
+        ]
+      }
+    ]
+  },
   "options_panel": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "World Access",
-        "content": {
-          "type": "layout",
-          "key": "subpanel_world",
-          "h_alignment": "left"
+    "type": "group",
+    "header": "Options",
+    "content": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "World Access",
+          "content": {
+            "type": "layout",
+            "key": "subpanel_world",
+            "h_alignment": "left"
+          }
+        },
+        {
+          "title": "Shuffle",
+          "content": {
+            "type": "layout",
+            "key": "subpanel_shuffle",
+            "h_alignment": "left"
+          }
+        },
+        {
+          "title": "Sequence Skips",
+          "content": {
+            "type": "layout",
+            "key": "subpanel_skips",
+            "h_alignment": "left"
+          }
+        },
+        {
+          "title": "Logic",
+          "content": {
+            "type": "layout",
+            "key": "subpanel_logic",
+            "h_alignment": "left"
+          }
         }
-      },
+      ]
+    }
+  },
+  "options_panel_vanilla": {
+    "type": "group",
+    "header": "Options",
+    "content": [
       {
-        "title": "Shuffle",
-        "content": {
-          "type": "layout",
-          "key": "subpanel_shuffle",
-          "h_alignment": "left"
-        }
-      },
-      {
-        "title": "Sequence Skips",
-        "content": {
-          "type": "layout",
-          "key": "subpanel_skips",
-          "h_alignment": "left"
-        }
-      },
-      {
-        "title": "Logic",
-        "content": {
-          "type": "layout",
-          "key": "subpanel_logic",
-          "h_alignment": "left"
-        }
+        "type": "layout",
+        "key": "subpanel_vanilla",
+        "h_alignment": "left"
       }
     ]
   }

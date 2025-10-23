@@ -27,12 +27,6 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
-            "name": "Dock Ultimate Skill",
-            "item_count": 1,
-            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
-          },
-          {
             "name": "Moraine's House",
             "item_count": 1
           },
@@ -46,7 +40,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -54,7 +48,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "hammer,magicseashell,plan_shop"
+              "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -65,7 +59,7 @@
             "item_count": 15,
             "clear_as_group": false,
             "access_rules": [
-              "hammer,magicseashell,plan_shop"
+              "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -75,7 +69,7 @@
             "name": "Equipment Shop",
             "item_count": 5,
             "access_rules": [
-              "hammer,magicseashell,plan_shop"
+              "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -85,7 +79,7 @@
             "name": "Equipment Shop",
             "item_count": 8,
             "access_rules": [
-              "hammer,magicseashell,plan_shop"
+              "k_hammer,k_seashell_magic,k_plan_shop"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -103,7 +97,7 @@
       {
         "name": "Fishing Lodge",
         "access_rules": [
-          "plan_fishlodge"
+          "k_plan_fishlodge"
         ],        
         "sections": [
           {
@@ -149,7 +143,7 @@
       {
         "name": "Mirth Shops",
         "access_rules": [
-          "plan_shop"
+          "k_plan_shop"
         ],
         "sections": [
           {
@@ -169,6 +163,16 @@
             "restrict_visibility_rules": [
               "option_merchants"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Settler's Rest",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1056,
+            "y": 175
           }
         ]
       },

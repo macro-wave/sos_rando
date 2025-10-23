@@ -10,6 +10,16 @@
     ],
     "children": [
       {
+        "name": "Skybound Lagoon",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1345,
+            "y": 97
+          }
+        ]
+      },
+      {
         "name": "Cloud Kingdom",
         "sections": [
           {
@@ -42,7 +52,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -79,7 +89,7 @@
       {
         "name": "Air Elemental Skylands",
         "access_rules": [
-          "key_wind,amulet"
+          "k_key_wind,k_amulet"
         ],
         "sections": [
           {
@@ -92,7 +102,7 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "graplou"
+              "k_graplou"
             ]
           },
           {
@@ -101,7 +111,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "graplou"
+              "k_graplou"
             ]
           },
           {
@@ -116,21 +126,21 @@
             "name": "Vertical Gate",
             "item_count": 1,
             "access_rules": [
-              "graplou,key_skytriangle,key_skyhexagon"
+              "k_graplou,k_slab_triangular,k_slab_hexagonal"
             ]
           },
           {
             "name": "Rope Walk",
             "item_count": 1,
             "access_rules": [
-              "graplou,key_skytriangle,key_skyhexagon"
+              "k_graplou,k_slab_triangular,k_slab_hexagonal"
             ]
           },
           {
             "name": "Mirror Room",
             "item_count": 1,
             "access_rules": [
-              "graplou,key_skytriangle,key_skyhexagon,mistral"
+              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
             ]
           },
           {
@@ -139,7 +149,7 @@
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [
-              "graplou,key_skytriangle,key_skyhexagon,mistral"
+              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
             ]
           }
         ],

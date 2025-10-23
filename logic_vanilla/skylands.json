@@ -10,8 +10,43 @@
     ],
     "children": [
       {
+        "name": "Skybound Lagoon",
+        "sections": [
+          {
+            "name": "Fish 1",
+            "hosted_item": "fish_urchin"
+          },
+          {
+            "name": "Fish 2",
+            "hosted_item": "fish_skate"
+          },
+          {
+            "name": "Fish 3",
+            "hosted_item": "fish_starfish"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1345,
+            "y": 97,
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Cloud Kingdom",
         "sections": [
+          {
+            "name": "Merchant",
+            "item_count": 1,
+            "capture_item": true,
+            "visibility_rules": [
+              "option_vanilla_shops_on"
+            ]
+          },
           {
             "name": "Inn Room",
             "item_count": 1,
@@ -20,13 +55,15 @@
           },
           {
             "name": "Bardcore Stage",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Wheels Champion",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -43,6 +80,7 @@
           },
           {
             "name": "Council of Giants",
+            "capture_item": true,
             "item_count": 1
           },
           {
@@ -50,13 +88,6 @@
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
-          },
-          {
-            "name": "Open Sea of Stars",
-            "hosted_item": "seaofstars",
-            "access_rules": [
-              "key_wind,cobalthammer,hortencemap,boss_hydralion,boss_toadcano"
-            ]
           }
         ],
         "map_locations": [
@@ -69,6 +100,9 @@
       },
       {
         "name": "Air Elemental Skylands",
+        "access_rules": [
+          "k_key_wind,k_amulet"
+        ],
         "sections": [
           {
             "name": "Prism Moon Right",
@@ -78,39 +112,60 @@
             "name": "Scroll Under Prism",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "k_graplou"
+            ]
           },
           {
             "name": "Chest Under Prism",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "k_graplou"
+            ]
           },
           {
             "name": "Lower Slab",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Upper Slab",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true
           },
           {
             "name": "Vertical Gate",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_graplou,k_slab_triangular,k_slab_hexagonal"
+            ]
           },
           {
             "name": "Rope Walk",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_graplou,k_slab_triangular,k_slab_hexagonal"
+            ]
           },
           {
             "name": "Mirror Room",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
+            ]
           },
           {
             "name": "Crystal Bowl",
             "item_count": 1,
+            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
-            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
+            "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
+            "access_rules": [
+              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
+            ]
           }
         ],
         "map_locations": [

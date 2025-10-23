@@ -38,42 +38,42 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "key_factoryidcard"
+              "k_craneidcard"
             ]
           },
           {
             "name": "Laser Dispenser",
             "item_count": 1,
             "access_rules": [
-              "key_factoryidcard"
+              "k_craneidcard"
             ]
           },
           {
             "name": "Mining Laser",
             "item_count": 1,
             "access_rules": [
-              "key_factoryidcard,graplou"
+              "k_craneidcard,k_graplou"
             ]
           },
           {
-            "name": "LTTP Room",
+            "name": "Zelda Blocks",
             "item_count": 3,
             "access_rules": [
-              "key_factoryidcard,mistral"
+              "k_craneidcard,k_mistral"
             ]
           },
           {
             "name": "Storage Room",
             "item_count": 4,
             "access_rules": [
-              "key_factoryidcard"
+              "k_craneidcard"
             ]
           },
           {
             "name": "Power Unit Fabricator",
             "item_count": 1,
             "access_rules": [
-              "key_factoryidcard,key_factorywireplate"
+              "k_craneidcard,k_wireplatesheet"
             ]
           }
         ],
@@ -89,7 +89,7 @@
       {
         "name": "Cerulean Reservoir",
         "access_rules": [
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
           "@rule_can_fly"
         ],
@@ -110,7 +110,7 @@
       {
         "name": "Repine",
         "access_rules": [
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
           "@rule_can_fly"
         ],
@@ -120,7 +120,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "food_sweet,food_warming,food_meaty,food_light,food_water"
+              "recipe_sweet,recipe_warming,recipe_meaty,recipe_light,recipe_water"
             ],
             "item_count": 1
           },
@@ -173,7 +173,7 @@
             "name": "Back Room",
             "item_count": 2,
             "access_rules": [
-              "cypher"
+              "k_cypher"
             ]
           },
           {
@@ -182,16 +182,16 @@
           },
           {
             "name": "Craft Cypher",
-            "hosted_item": "cypher",
+            "hosted_item": "k_cypher",
             "access_rules": [
-              "datastrips:4"
+              "c_datastrip:4"
             ]
           },
           {
-            "name": "Wheels Chapmion",
+            "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage,wheelstable"
+              "w_figurine_mage,k_wheelstable"
             ]
           }
         ],
@@ -206,7 +206,7 @@
       {
         "name": "Cerulean Expanse",
         "access_rules": [
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint",
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
           "@rule_can_fly"
         ],
@@ -215,21 +215,21 @@
             "name": "NE Pointer (2) Bottom Left",
             "item_count": 1,
             "access_rules": [
-              "probe"
+              "k_probe"
             ]
           },
           {
             "name": "North Pointer (4) Bottom Right",
             "item_count": 1,
             "access_rules": [
-              "probe"
+              "k_probe"
             ]
           },
           {
             "name": "NW Pointer (5) Upper Right",
             "item_count": 1,
             "access_rules": [
-              "probe"
+              "k_probe"
             ]
           },
           {
@@ -248,9 +248,9 @@
       {
         "name": "Lost Ones Hamlet",
         "access_rules": [
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,probe",
-          "@rule_can_use_speedball,probe",
-          "@rule_can_fly,probe"
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,k_probe",
+          "@rule_can_use_speedball,k_probe",
+          "@rule_can_fly,k_probe"
         ],
         "sections": [
           {
@@ -276,6 +276,12 @@
           {
             "name": "Meduso",
             "hosted_item": "boss_meduso"
+          },
+          {
+            "name": "Party Character",
+            "access_rules": [
+              "boss_meduso"
+            ]
           }
         ],
         "map_locations": [
@@ -289,11 +295,11 @@
       {
         "name": "Throne of The Queen That Was",
         "access_rules": [
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,[jocebuckle]",
-          "key_factoryidcard,key_factorypowerunit,key_factorykyber,key_factoryblueprint,option_logic_jocebuckle",
-          "@rule_can_use_speedball,[jocebuckle]",
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,[k_jocebuckle]",
+          "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,option_logic_jocebuckle",
+          "@rule_can_use_speedball,[k_jocebuckle]",
           "@rule_can_use_speedball,option_logic_jocebuckle",
-          "@rule_can_fly,[jocebuckle]",
+          "@rule_can_fly,[k_jocebuckle]",
           "@rule_can_fly,option_logic_jocebuckle"
         ],
         "sections": [

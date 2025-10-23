@@ -1,10 +1,13 @@
 [
   {
-    "name": "Sky Base",
+    "name": "Sky Base Region",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "access_rules": [
+      "@reg_sky_base"
+    ],
     "children": [
       {
         "name": "Sky Base",
@@ -17,23 +20,50 @@
           },
           {
             "name": "Graplou Stump",
-            "item_count": 2
+            "item_count": 2,
+            "access_rules": [
+              "k_graplou"
+            ]
           },
           {
             "name": "Save Book",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_graplou, k_mistral"
+            ]
           },
           {
             "name": "Elevator",
-            "item_count": 1
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_graplou, k_mistral"
+            ]
           },
           {
             "name": "Slidevator Right",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_graplou, k_mistral"
+            ]
+          },
+          {
+            "name": "Vending Machine",
+            "item_count": 1,
+            "capture_item": true,
+            "access_rules": [
+              "k_graplou, k_mistral"
+            ],
+            "visibility_rules": [
+              "option_vanilla_shops_on"
+            ]
           },
           {
             "name": "Catalyst",
-            "hosted_item": "boss_catalyst"
+            "hosted_item": "boss_catalyst",
+            "access_rules": [
+              "k_graplou, k_mistral"
+            ]
           }
         ],
         "map_locations": [

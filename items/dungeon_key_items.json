@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Zenith Ornate Stones",
+    "type": "consumable",
+    "img": "images/items/k_ornatestone.png",
+    "codes": "k_ornatestone",
+    "max_quantity": 2,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Forbidden Cavern Key",
+    "type": "toggle",
+    "img": "images/items/k_key_forbiddencavern.png",
+    "codes": "k_key_forbiddencavern"
+  },
+  {
+    "name": "Mines Key",
+    "type": "toggle",
+    "img": "images/items/k_key_mines.png",
+    "codes": "k_key_mines"
+  },
+  {
+    "name": "Wizard Lab Green Crystal",
+    "type": "toggle",
+    "img": "images/items/k_crystal_green.png",
+    "codes": "k_lab_crystals,k_crystal_green"
+  },
+  {
+    "name": "Wizard Lab Blue Crystal",
+    "type": "toggle",
+    "img": "images/items/k_crystal_blue.png",
+    "codes": "k_lab_crystals,k_crystal_blue"
+  },
+  {
+    "name": "Wizard Lab Red Crystal",
+    "type": "toggle",
+    "img": "images/items/k_crystal_red.png",
+    "codes": "k_lab_crystals,k_crystal_red"
+  },
+  {
+    "name": "Gold Watch",
+    "type": "toggle",
+    "img": "images/items/k_goldwatch.png",
+    "codes": "k_goldwatch"
+  },
+  {
+    "name": "Master Ghost Sandwich",
+    "type": "toggle",
+    "img": "images/items/k_ghostsandwich.png",
+    "codes": "k_ghostsandwich"
+  },
+  {
+    "name": "Knight's Helm",
+    "type": "toggle",
+    "img": "images/items/k_knightshelm.png",
+    "codes": "k_knightshelm"
+  },
+  {
+    "name": "Crown",
+    "type": "toggle",
+    "img": "images/items/k_crown.png",
+    "codes": "k_crown"
+  },
+  {
+    "name": "Wraith Solstice Shrine Keys",
+    "type": "consumable",
+    "img": "images/items/k_key_wraithshrine.png",
+    "codes": "k_key_wraithshrine",
+    "max_quantity": 2,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Cursed Doubloons",
+    "type": "consumable",
+    "img": "images/items/k_doubloon.png",
+    "codes": "k_doubloon",
+    "max_quantity": 6,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Clockwork Castle Garden Key",
+    "type": "toggle",
+    "img": "images/items/k_key_garden.png",
+    "codes": "k_key_garden"
+  },
+  {
+    "name": "Clockwork Castle Master Key",
+    "type": "toggle",
+    "img": "images/items/k_key_master.png",
+    "codes": "k_key_master"
+  },
+  {
+    "name": "Sapphire Keys",
+    "type": "consumable",
+    "img": "images/items/k_key_sapphire.png",
+    "codes": "k_key_sapphire",
+    "max_quantity": 2,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Antsudlo Pink Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_pink.png",
+    "codes": "k_pearls,k_pearl_pink"
+  },
+  {
+    "name": "Antsudlo Yellow Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_yellow.png",
+    "codes": "k_pearls,k_pearl_yellow"
+  },
+  {
+    "name": "Antsudlo Green Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_green.png",
+    "codes": "k_pearls,k_pearl_green"
+  },
+  {
+    "name": "Antsudlo Purple Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_purple.png",
+    "codes": "k_pearls,k_pearl_purple"
+  },
+  {
+    "name": "Antsudlo Blue Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_blue.png",
+    "codes": "k_pearls,k_pearl_blue"
+  },
+  {
+    "name": "Antsudlo Valves",
+    "type": "consumable",
+    "img": "images/items/k_valve.png",
+    "codes": "k_valve",
+    "max_quantity": 2,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Triangular Slab",
+    "type": "toggle",
+    "img": "images/items/k_slab_triangular.png",
+    "codes": "k_slab_triangular"
+  },
+  {
+    "name": "Hexagonal Slab",
+    "type": "toggle",
+    "img": "images/items/k_slab_hexagonal.png",
+    "codes": "k_slab_hexagonal"
+  },
+  {
+    "name": "Fishing Dungeon Key",
+    "type": "toggle",
+    "img": "images/items/k_key_fishingdungeon.png",
+    "codes": "k_key_fishingdungeon"
+  },
+  {
+    "name": "Fish Key",
+    "type": "toggle",
+    "img": "images/items/k_key_fish.png",
+    "codes": "k_key_fish"
+  },
+  {
+    "name": "Big Jars",
+    "type": "consumable",
+    "img": "images/items/k_bigjar.png",
+    "codes": "k_bigjar",
+    "max_quantity": 3,
+    "display_as_fraction_of_max": false
+  },
+  {
+    "name": "Fish?",
+    "type": "toggle",
+    "img": "images/items/k_susfish.png",
+    "codes": "k_susfish"
+  },
+  {
+    "name": "Crane Operator ID Card",
+    "type": "toggle",
+    "img": "images/items/k_craneidcard.png",
+    "codes": "k_craneidcard"
+  },
+  {
+    "name": "Wireplate Sheet",
+    "type": "toggle",
+    "img": "images/items/k_wireplatesheet.png",
+    "codes": "k_wireplatesheet"
+  },
+  {
+    "name": "Power Unit",
+    "type": "toggle",
+    "img": "images/items/k_powerunit.png",
+    "codes": "k_powerunit"
+  },
+  {
+    "name": "Blueprint Disc",
+    "type": "toggle",
+    "img": "images/items/k_blueprintdisc.png",
+    "codes": "k_blueprintdisc"
+  },
+  {
+    "name": "Kyber Ore",
+    "type": "toggle",
+    "img": "images/items/k_kyberore.png",
+    "codes": "k_kyberore"
+  },
+  {
+    "name": "Crystal Egg",
+    "type": "toggle",
+    "img": "images/items/k_crystalegg.png",
+    "codes": "k_crystalegg"
+  }
+]

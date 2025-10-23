@@ -6,7 +6,7 @@
     "chest_opened_img": "images/boxes/serai_box_open.png",
     "chest_unopened_img": "images/boxes/serai_box_closed.png",
     "access_rules": [
-      "@reg_seraiworld, character_bst"
+      "@reg_sacrosanct"
     ],
     "children": [
       {
@@ -16,7 +16,8 @@
             "name": "SW Spire Top",
             "item_count": 1,
             "access_rules": [
-              "graplou"
+              "k_graplou",
+              "@rule_can_fly"
             ]
           }
         ],
@@ -31,21 +32,22 @@
       {
         "name": "Hunting Fields",
         "access_rules": [
-          "graplou"
+          "k_graplou"
         ],
         "sections": [
           {
             "name": "Wind Magic",
             "item_count": 1,
             "access_rules": [
-              "graplou, mistral"
+              "k_graplou, k_mistral"
             ]
           },
           {
             "name": "Wabbit Season",
             "item_count": 1,
             "access_rules": [
-              "graplou, mistral"
+              "k_mistral",
+              "@rule_can_fly"
             ]
           }
         ],
@@ -60,15 +62,12 @@
       {
         "name": "Southeast Spire",
         "access_rules": [
-          "graplou, mistral"
+          "k_graplou,k_mistral"
         ],
         "sections": [
           {
             "name": "SE Spire Top",
-            "item_count": 1,
-            "access_rules": [
-              "graplou"
-            ]
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -82,28 +81,30 @@
       {
         "name": "Northeast Spire",
         "access_rules": [
-          "graplou, mistral"
+          "k_graplou,k_mistral"
         ],
         "sections": [
           {
             "name": "Basement Left",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Right Ledge",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Right Floor",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           }
         ],
@@ -118,23 +119,23 @@
       {
         "name": "Seat of the Triumvirate",
         "access_rules": [
-          "graplou, mistral, key_spiresegg"
+          "k_crystalegg"
         ],
         "sections": [
-            {
-              "name": "Teleporter",
-              "item_count": 1,
-              "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-              "chest_opened_img": "images/boxes/conch_chest_open.png"
-            },
-            {
-              "name": "Stairs",
-              "item_count": 1
-            },
-            {
-              "name": "Triumvirate of Eminence",
-              "hosted_item": "boss_triumvirate"
-            }
+          {
+            "name": "Teleporter",
+            "item_count": 1,
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "chest_opened_img": "images/boxes/conch_chest_open.png"
+          },
+          {
+            "name": "Stairs",
+            "item_count": 1
+          },
+          {
+            "name": "Triumvirate of Eminence",
+            "hosted_item": "boss_triumvirate"
+          }
         ],
         "map_locations": [
           {
@@ -152,11 +153,8 @@
         "sections": [
           {
             "name": "Lookout",
-            "item_count": 1
-          },
-          {
-            "name": "Activate Speedball Network",
-            "hosted_item": "speedball"
+            "item_count": 1,
+            "capture_item": true
           }
         ],
         "map_locations": [

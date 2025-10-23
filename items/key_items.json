@@ -2,44 +2,142 @@
   {
     "name": "Cookie Jar",
     "type": "toggle",
-    "img": "images/items/cookiejar.png",
-    "codes": "cookiejar"
+    "img": "images/items/k_cookiejar.png",
+    "codes": "k_cookiejar"
+  },
+  {
+    "name": "Moraine's Office Key",
+    "type": "toggle",
+    "img": "images/items/k_key_moraine.png",
+    "codes": "k_key_moraine"
+  },
+  {
+    "name": "Evermist Shrine Key",
+    "type": "toggle",
+    "img": "images/items/k_key_evermistshrine.png",
+    "codes": "k_key_evermistshrine"
   },
   {
     "name": "Mistral Bracelet",
     "type": "toggle",
-    "img": "images/items/mistral.png",
-    "codes": "mistral,"
+    "img": "images/items/k_mistral.png",
+    "codes": "k_mistral,"
   },
   {
     "name": "Trader's Signet",
     "type": "toggle",
-    "img": "images/items/signet.png",
-    "codes": "signet"
+    "img": "images/items/k_traderssignet.png",
+    "codes": "k_traderssignet"
+  },
+  {
+    "name": "Gilded Invitation",
+    "type": "toggle",
+    "img": "images/items/k_invitation.png",
+    "codes": "k_invitation"
   },
   {
     "name": "Coin of Undeath Accord",
     "type": "toggle",
-    "img": "images/items/undeathcoin.png",
-    "codes": "undeathcoin"
+    "img": "images/items/k_coin_undeath.png",
+    "codes": "k_coin_undeath"
   },
   {
     "name": "Graplou",
     "type": "toggle",
-    "img": "images/items/graplou.png",
-    "codes": "graplou,hookshot,ropedart,grapplebeam"
+    "img": "images/items/k_graplou.png",
+    "codes": "k_graplou,k_hookshot,k_ropedart,k_grapplebeam"
   },
   {
     "name": "Soul Stone",
     "type": "toggle",
-    "img": "images/items/soulstone.png",
-    "codes": "soulstone"
+    "img": "images/items/k_soulstone.png",
+    "codes": "k_soulstone"
+  },
+  {
+    "name": "Green Flame",
+    "type": "toggle",
+    "img": "images/items/k_flame_green.png",
+    "codes": "k_flame_green"
+  },
+  {
+    "name": "Yellow Flame",
+    "type": "toggle",
+    "img": "images/items/k_flame_yellow.png",
+    "codes": "k_flame_yellow"
+  },
+  {
+    "name": "Ferry Flames",
+    "type": "composite_toggle",
+    "item_left": "k_flame_green",
+    "item_right": "k_flame_yellow",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/items/k_flame_both.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/items/k_flame_both.png",
+        "img_mods": "@disabled, overlay|images/items/k_flamehalf_green.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/items/k_flame_both.png",
+        "img_mods": "@disabled, overlay|images/items/k_flamehalf_yellow.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/items/k_flame_both.png"
+      }
+    ],
+    "codes": "k_flame_both"
   },
   {
     "name": "Turbo Cookie",
     "type": "toggle",
-    "img": "images/items/turbocookie.png",
-    "codes": "turbocookie,turbo"
+    "img": "images/items/k_turbocookie.png",
+    "codes": "k_turbocookie"
+  },
+  {
+    "name": "Shed Key",
+    "type": "toggle",
+    "img": "images/items/k_key_shed.png",
+    "codes": "k_key_shed"
+  },
+  {
+    "name": "Romaya's Journal",
+    "type": "toggle",
+    "img": "images/items/k_journal.png",
+    "codes": "k_journal"
+  },
+  {
+    "name": "Aventry Locket",
+    "type": "toggle",
+    "img": "images/items/k_locket.png",
+    "codes": "k_locket"
+  },
+  {
+    "name": "Duke Aventry's Key",
+    "type": "toggle",
+    "img": "images/items/k_key_aventry.png",
+    "codes": "k_key_aventry"
+  },
+  {
+    "name": "Hortence's Map",
+    "type": "toggle",
+    "img": "images/items/k_hortencemap.png",
+    "codes": "k_hortencemap"
+  },
+  {
+    "name": "Immaculate Pearl",
+    "type": "toggle",
+    "img": "images/items/k_pearl_immaculate.png",
+    "codes": "k_pearl_immaculate"
   },
   {
     "name": "Hammer",
@@ -47,12 +145,12 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/items/coralhammer.png",
-        "codes": "hammer,coralhammer"
+        "img": "images/items/k_hammer_coral.png",
+        "codes": "k_hammer,k_hammer_coral"
       },
       {
-        "img": "images/items/cobalthammer.png",
-        "codes": "hammer,cobalthammer"
+        "img": "images/items/k_hammer_cobalt.png",
+        "codes": "k_hammer,k_hammer_cobalt"
       }
     ]
   },
@@ -62,201 +160,105 @@
     "allow_disabled": true,
     "stages": [
       {
-        "img": "images/items/seashell.png",
-        "codes": "seashell"
+        "img": "images/items/k_seashell.png",
+        "codes": "k_seashell"
       },
       {
-        "img": "images/items/magicseashell.png",
-        "codes": "seashell,magicseashell"
+        "img": "images/items/k_seashell_magic.png",
+        "codes": "k_seashell,k_seashell_magic"
       }
     ]
   },
   {
-    "name": "Solstice Amulet",
-    "type": "toggle",
-    "img": "images/items/amulet.png",
-    "codes": "amulet"
-  },
-  {
     "name": "Vial of Time",
     "type": "toggle",
-    "img": "images/items/vial.png",
-    "codes": "vial"
+    "img": "images/items/k_vial.png",
+    "codes": "k_vial"
   },
   {
-    "name": "Immaculate Pearl",
+    "name": "Inn Building Plans",
     "type": "toggle",
-    "img": "images/items/immaculatepearl.png",
-    "codes": "immaculatepearl"
+    "img": "images/items/k_plan_inn.png",
+    "codes": "k_plan_inn"
   },
   {
-    "name": "Probe",
+    "name": "Fishing Lodge Building Plans",
     "type": "toggle",
-    "img": "images/items/probe.png",
-    "codes": "probe,cedric"
+    "img": "images/items/k_plan_fishlodge.png",
+    "codes": "k_plan_fishlodge"
   },
   {
-    "name": "Deployable Wheels Table",
+    "name": "Shop Building Plans",
     "type": "toggle",
-    "img": "images/items/wheelstable.png",
-    "codes": "wheelstable"
+    "img": "images/items/k_plan_shop.png",
+    "codes": "k_plan_shop"
   },
   {
-    "name": "Romaya's Journal",
+    "name": "Spa Building Plans",
     "type": "toggle",
-    "img": "images/items/journal.png",
-    "codes": "journal"
-  },
-  {
-    "name": "Aventry Locket",
-    "type": "toggle",
-    "img": "images/items/locket.png",
-    "codes": "locket"
-  },
-  {
-    "name": "Duke Aventry's Key",
-    "type": "toggle",
-    "img": "images/items/key_aventry.png",
-    "codes": "key_aventry"
-  },
-  {
-    "name": "Hook of Time",
-    "type": "toggle",
-    "img": "images/items/hookoftime.png",
-    "codes": "hookoftime"
-  },
-  {
-    "name": "Data Strips",
-    "type": "consumable",
-    "img": "images/items/datastrip.png",
-    "codes": "datastrips",
-    "max_quantity": 4
-  },
-  {
-    "name": "Rainbow Conches",
-    "type": "consumable",
-    "img": "images/items/conch.png",
-    "codes": "conches",
-    "max_quantity": 60
-  },
-  {
-    "name": "Hortence's Map",
-    "type": "toggle",
-    "img": "images/items/hortencemap.png",
-    "codes": "hortencemap"
-  },
-  {
-    "name": "Green Flame",
-    "type": "toggle",
-    "img": "images/items/flame_green.png",
-    "codes": "flame_green"
-  },
-  {
-    "name": "Yellow Flame",
-    "type": "toggle",
-    "img": "images/items/flame_yellow.png",
-    "codes": "flame_yellow"
-  },
-  {
-    "name": "Ferry Flames",
-    "type": "composite_toggle",
-    "item_left": "flame_green",
-    "item_right": "flame_yellow",
-    "images": [
-      {
-        "left": false,
-        "right": false,
-        "img": "images/items/flame_both.png",
-        "img_mods": "@disabled"
-      },
-      {
-        "left": true,
-        "right": false,
-        "img": "images/items/flame_both.png",
-        "img_mods": "@disabled, overlay|images/items/flamehalf_green.png"
-      },
-      {
-        "left": false,
-        "right": true,
-        "img": "images/items/flame_both.png",
-        "img_mods": "@disabled, overlay|images/items/flamehalf_yellow.png"
-      },
-      {
-        "left": true,
-        "right": true,
-        "img": "images/items/flame_both.png"
-      }
-    ],
-    "codes": "flame_both"
-  },
-  {
-    "name": "Shed Key",
-    "type": "toggle",
-    "img": "images/items/key_shed.png",
-    "codes": "key_shed"
-  },
-  {
-    "name": "Evermist Shrine Key",
-    "type": "toggle",
-    "img": "images/items/key_evermistshrine1.png",
-    "codes": "key_evermistshrine"
+    "img": "images/items/k_plan_spa.png",
+    "codes": "k_plan_spa"
   },
   {
     "name": "Yomara's Key",
     "type": "toggle",
-    "img": "images/items/key_yomara.png",
-    "codes": "key_yomara"
+    "img": "images/items/k_key_yomara.png",
+    "codes": "k_key_yomara"
   },
   {
-    "name": "Moraine's Office Key",
+    "name": "Solstice Amulet",
     "type": "toggle",
-    "img": "images/items/key_moraine1.png",
-    "codes": "key_moraine"
+    "img": "images/items/k_amulet.png",
+    "codes": "k_amulet"
+  },
+  {
+    "name": "Deployable Wheels Table",
+    "type": "toggle",
+    "img": "images/items/k_wheelstable.png",
+    "codes": "k_wheelstable"
   },
   {
     "name": "Wind Key",
     "type": "toggle",
-    "img": "images/items/key_wind1.png",
-    "codes": "key_wind"
+    "img": "images/items/k_key_wind.png",
+    "codes": "k_key_wind"
   },
   {
-    "name": "Cypher",
+    "name": "Hook of Time",
     "type": "toggle",
-    "img": "images/items/cypher.png",
-    "codes": "cypher"
+    "img": "images/items/k_hookoftime.png",
+    "codes": "k_hookoftime"
   },
   {
     "name": "Docarri Seal Fragments",
     "type": "consumable",
-    "img": "images/items/docarrifragment.png",
-    "codes": "docarrifragment",
+    "img": "images/items/k_docarrifragment.png",
+    "codes": "k_docarrifragment",
     "max_quantity": 3,
     "display_as_fraction_of_max": false
   },
   {
-    "name": "Gilded Invitation",
+    "name": "Cypher",
     "type": "toggle",
-    "img": "images/items/invitation.png",
-    "codes": "invitation"
+    "img": "images/items/k_cypher.png",
+    "codes": "k_cypher"
+  },
+  {
+    "name": "Probe",
+    "type": "toggle",
+    "img": "images/items/k_probe.png",
+    "codes": "k_probe,k_cedric"
   },
   {
     "name": "Joce's Belt Buckle",
     "type": "toggle",
-    "img": "images/items/jocebuckle.png",
-    "codes": "jocebuckle"
+    "img": "images/items/k_jocebuckle.png",
+    "codes": "k_jocebuckle"
   },
   {
     "name": "Rainbow Star",
     "type": "toggle",
-    "img": "images/items/rainbowstar.png",
-    "codes": "rainbowstar"
-  },
-  {
-    "name": "Flimsy Hammers",
-    "type": "consumable",
-    "img": "images/items/flimsyhammer.png",
-    "codes": "flimsyhammers",
-    "max_quantity": 4,
-    "display_as_fraction_of_max": false
+    "img": "images/items/k_rainbowstar.png",
+    "codes": "k_rainbowstar"
   }
 ]

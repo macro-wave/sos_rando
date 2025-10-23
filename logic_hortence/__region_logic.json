@@ -45,8 +45,8 @@
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,vial",
-      "@rule_can_leave_cavern,@rule_can_fly,vial"
+      "@rule_can_leave_cavern,@rule_can_sail,k_vial",
+      "@rule_can_leave_cavern,@rule_can_fly,k_vial"
     ]
   },
   {

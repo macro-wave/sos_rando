@@ -77,7 +77,7 @@
             "name": "Shrine Reward",
             "item_count": 1,
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ],
             "chest_unopened_img": "images/boxes/dungeon_chest_purple_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_purple_open.png"
@@ -101,77 +101,77 @@
             "name": "Eye Roll",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "LeJugg",
             "hosted_item": "boss_lejugg",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Halls of Illusion Maze",
             "item_count": 2,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "After Maze",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Big Jars",
             "item_count": 3,
             "access_rules": [
-              "mistral,graplou,"
+              "k_mistral,k_graplou,"
             ]
           },
           {
             "name": "Catch Fish?",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3"
+              "k_mistral,k_graplou,k_bigjar:3"
             ]
           },
           {
             "name": "Mines Illusion",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
             "name": "Fish Illusion",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
             "name": "Before Room of Sending",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
             "name": "Phase Reaper",
             "hosted_item": "boss_phasereaper",
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
             "name": "Soul Curator",
             "hosted_item": "boss_curator",
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish"
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
           },
           {
@@ -179,7 +179,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish",
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
               "option_lair_warp_on"
             ],
             "visibility_rules": [
@@ -190,7 +190,7 @@
             "name": "Summoner's Campfire",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish",
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
               "option_lair_warp_on"
             ]
           },
@@ -199,7 +199,7 @@
             "item_count": 12,
             "clear_as_group": false,
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish",
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
               "option_lair_warp_on"
             ],
             "visibility_rules": [
@@ -210,7 +210,7 @@
             "name": "Elysan'darëlle",
             "hosted_item": "boss_elysandarelle",
             "access_rules": [
-              "mistral,graplou,key_bigjar:3,key_susfish",
+              "k_mistral,k_graplou,k_bigjar:3,k_susfish",
               "option_lair_warp_on"
             ]
           },

@@ -16,7 +16,7 @@
             "name": "SW Spire Top",
             "item_count": 1,
             "access_rules": [
-              "graplou",
+              "k_graplou",
               "@rule_can_fly"
             ]
           }
@@ -32,7 +32,7 @@
       {
         "name": "Hunting Fields",
         "access_rules": [
-          "graplou",
+          "k_graplou",
           "@rule_can_fly"
         ],
         "sections": [
@@ -40,14 +40,14 @@
             "name": "Wind Magic",
             "item_count": 1,
             "access_rules": [
-              "graplou, mistral"
+              "k_graplou, k_mistral"
             ]
           },
           {
             "name": "Wabbit Season",
             "item_count": 1,
             "access_rules": [
-              "mistral",
+              "k_mistral",
               "@rule_can_fly"
             ]
           }
@@ -63,7 +63,7 @@
       {
         "name": "Southeast Spire",
         "access_rules": [
-          "graplou,mistral",
+          "k_graplou,k_mistral",
           "@rule_can_fly"
         ],
         "sections": [
@@ -83,7 +83,7 @@
       {
         "name": "Northeast Spire",
         "access_rules": [
-          "graplou,mistral",
+          "k_graplou,k_mistral",
           "@rule_can_fly"
         ],
         "sections": [
@@ -91,21 +91,21 @@
             "name": "Basement Left",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Right Ledge",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Right Floor",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           }
         ],
@@ -120,7 +120,7 @@
       {
         "name": "Seat of the Triumvirate",
         "access_rules": [
-          "graplou,mistral,key_spiresegg",
+          "k_graplou,k_mistral,k_crystalegg",
           "@rule_can_fly"
         ],
         "sections": [
@@ -150,7 +150,7 @@
       {
         "name": "Es'tristae's Lookout",
         "access_rules": [
-          "graplou,mistral,key_spiresegg",
+          "k_graplou,k_mistral,k_crystalegg",
           "@rule_can_fly",
           "@rule_can_use_speedball"
         ],

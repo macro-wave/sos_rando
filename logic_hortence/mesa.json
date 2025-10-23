@@ -28,7 +28,7 @@
       {
         "name": "Autumn Hills",
         "access_rules": [
-          "graplou"
+          "k_graplou"
         ],
         "sections": [
           {
@@ -41,14 +41,14 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ]
           },
           {
             "name": "Aspiring Shopkeeper",
             "item_count": 1,
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ],
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -59,7 +59,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -69,7 +69,7 @@
             "name": "Graplou Push Block",
             "item_count": 1,
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ]
           },
           {
@@ -78,21 +78,21 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ]
           },
           {
             "name": "Ninja Swim",
             "item_count": 1,
             "access_rules": [
-              "amulet,mistral,magicseashell"
+              "k_amulet,k_mistral,k_seashell_magic"
             ]
           },
           {
             "name": "Leaf Monster",
             "hosted_item": "boss_leaf",
             "access_rules": [
-              "amulet,mistral,magicseashell"
+              "k_amulet,k_mistral,k_seashell_magic"
             ]
           }
         ],
@@ -107,7 +107,7 @@
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "graplou,amulet,mistral,magicseashell",
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
           "@rule_can_fly"
         ],
         "sections": [
@@ -131,9 +131,24 @@
         ]
       },
       {
+        "name": "Lake Turquoise",
+        "access_rules": [
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "@rule_can_fly"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1254,
+            "y": 265
+          }
+        ]
+      },
+      {
         "name": "Songshroom Marsh",
         "access_rules": [
-          "graplou,amulet,mistral,magicseashell",
+          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
@@ -141,7 +156,8 @@
             "name": "Pull Bridge",
             "item_count": 1,
             "access_rules": [
-              "graplou"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou"
             ]
           },
           {
@@ -150,30 +166,33 @@
             "chest_unopened_img": "images/boxes/basket_closed.png",
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
-              "graplou,mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Basement",
             "item_count": 1,
             "access_rules": [
-              "graplou,mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Shroomy Fort Top",
             "item_count": 1,
             "access_rules": [
-              "graplou,mistral"
+              "k_graplou,k_amulet,k_mistral,k_seashell_magic",
+              "@rule_can_fly,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Down the Vine",
             "item_count": 1,
             "access_rules": [
-              "graplou,mistral,amulet",
-              "graplou,mistral,amulet",
-              "key_yomara,graplou,amulet"
+              "k_graplou,k_mistral,k_amulet",
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara,k_graplou,k_amulet"
             ]
           },
           {
@@ -182,16 +201,16 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "graplou,mistral,amulet",
-              "key_yomara,graplou,amulet"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara,k_graplou,k_amulet"
             ]
           },
           {
             "name": "Yomara",
             "item_count": 1,
             "access_rules": [
-              "graplou,mistral,amulet",
-              "key_yomara"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
             ]
           },
           {
@@ -199,7 +218,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "amulet,mistral"
+              "k_amulet,k_mistral"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -211,16 +230,16 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "graplou,mistral,amulet",
-              "key_yomara"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
             ]
           },
           {
             "name": "Yomara's Garden",
             "item_count": 1,
             "access_rules": [
-              "graplou,mistral,amulet",
-              "key_yomara"
+              "k_graplou,k_mistral,k_amulet",
+              "k_key_yomara"
             ]
           }
         ],
@@ -235,7 +254,8 @@
       {
         "name": "Clockwork Castle Grounds",
         "access_rules": [
-          "magicseashell,graplou,mistral,amulet,key_yomara",
+          "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
@@ -263,7 +283,8 @@
       {
         "name": "Clockwork Castle",
         "access_rules": [
-          "magicseashell,graplou,mistral,amulet,key_yomara",
+          "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
+          "@rule_can_use_mesa_shortcut",
           "@rule_can_fly"
         ],
         "sections": [
@@ -275,56 +296,56 @@
             "name": "2F Left",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Push Ladder",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "3F Right",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Watchmaker's Workshop",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral"
+              "k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_cross_sea_of_stars,key_castlegarden,graplou,mistral,"
+              "@rule_can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
             ]
           },
           {
             "name": "Wheels Master",
             "item_count": 1,
             "access_rules": [
-              "key_castlegarden,graplou,mistral,wheel_platinum,wheelstable"
+              "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable"
             ]
           },
           {
             "name": "Fleshmancer Acolytes",
             "hosted_item": "boss_acolytes",
             "access_rules": [
-              "key_castlegarden,graplou,mistral,key_castlemaster"
+              "k_key_garden,k_graplou,k_mistral,k_key_master"
             ]
           },
           {
             "name": "Dweller of Strife",
             "hosted_item": "boss_dweller_strife",
             "access_rules": [
-              "key_castlegarden,graplou,mistral,key_castlemaster"
+              "k_key_garden,k_graplou,k_mistral,k_key_master"
             ]
           }
         ],

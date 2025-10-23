@@ -1,1 +1,0 @@
-LOGIC_DIR = "logic_hortence"

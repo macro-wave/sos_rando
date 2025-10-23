@@ -79,7 +79,7 @@
             "name": "Push Crates",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -107,7 +107,7 @@
             "name": "Stormcaller",
             "hosted_item": "boss_stormcaller",
             "access_rules": [
-              "key_doubloon:6, graplou"
+              "k_doubloon:6, k_graplou"
             ]
           },
           {
@@ -129,7 +129,7 @@
           {
             "name": "Hydralion",
             "access_rules": [
-              "boss_stormcaller,immaculatepearl"
+              "boss_stormcaller,k_pearl_immaculate"
             ],
             "hosted_item": "boss_hydralion"
           }

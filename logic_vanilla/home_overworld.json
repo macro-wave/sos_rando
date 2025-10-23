@@ -5,36 +5,21 @@
     "color": "#007bff",
     "chest_opened_img": "images/boxes/treasure_chest_open.png",
     "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_home_overworld"
+    ],
     "children": [
       {
-        "name": "Sea of Stars",
-        "access_rules": [
-          "seaofstars"
-        ],
-        "sections": [
-          {
-            "name": "Guardian",
-            "hosted_item": "boss_guardian"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 837,
-            "y": 404
-          },
-          {
-            "map": "seraiworld",
-            "x": 740,
-            "y": 603
-          }
-        ]
-      },
-      {
         "name": "Solstice Shrine Islands",
+        "access_rules": [
+          "@rule_can_fly"
+        ],
         "children": [
           {
             "name": "Western Solstice Shrine Island",
+            "access_rules": [
+              "k_amulet"
+            ],
             "sections": [
               {
                 "name": "Shrine Reward",
@@ -53,6 +38,9 @@
           },
           {
             "name": "Eastern Solstice Shrine Island",
+            "access_rules": [
+              "k_amulet"
+            ],
             "sections": [
               {
                 "name": "Shrine Reward",
@@ -73,17 +61,27 @@
       },
       {
         "name": "Sunken Docarri Ruins",
+        "access_rules": [
+          "@rule_can_sail,@rule_can_fly,k_amulet,k_seashell_magic"
+        ],
         "children": [
           {
-            "name": "Northwest Docarri Ruin",
+            "name": "Northwest Docarri Ruins",
+            "access_rules": [
+              "k_hammer"
+            ],
             "sections": [
               {
                 "name": "Chest",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                  "k_mistral"
+                ]
               },
               {
                 "name": "Fragment",
-                "item_count": 1
+                "item_count": 1,
+                "capture_item": true
               }
             ],
             "map_locations": [
@@ -95,11 +93,18 @@
             ]
           },
           {
-            "name": "Southwest Docarri Ruin",
+            "name": "Southwest Docarri Ruins",
+            "access_rules": [
+              "k_hammer"
+            ],
             "sections": [
               {
                 "name": "Fragment",
-                "item_count": 1
+                "item_count": 1,
+                "capture_item": true,
+                "access_rules": [
+                  "k_mistral"
+                ]
               }
             ],
             "map_locations": [
@@ -111,11 +116,18 @@
             ]
           },
           {
-            "name": "East Docarri Ruin",
+            "name": "East Docarri Ruins",
+            "access_rules": [
+              "k_hammer"
+            ],
             "sections": [
               {
                 "name": "Fragment",
-                "item_count": 1
+                "item_count": 1,
+                "capture_item": true,
+                "access_rules": [
+                  "k_mistral, k_graplou"
+                ]
               }
             ],
             "map_locations": [
@@ -128,9 +140,18 @@
           },
           {
             "name": "Sealed Docarri Ruins",
+            "access_rules": [
+              "k_docarrifragment:3"
+            ],
             "sections": [
               {
-                "name": "Placeholder",
+                "name": "Conch",
+                "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+                "chest_opened_img": "images/boxes/conch_chest_open.png",
+                "item_count": 1
+              },
+              {
+                "name": "Resh'an's Turban",
                 "item_count": 1
               },
               {
@@ -150,12 +171,16 @@
       },
       {
         "name": "Vespertine",
+        "access_rules": [
+          "boss_stormcaller"
+        ],
         "sections": [
           {
             "name": "Wheels Champion",
             "item_count": 1,
+            "capture_item": true,
             "access_rules": [
-              "hortencemap,figurine_mage"
+              "@rule_can_sail,w_figurine_mage"
             ]
           }
         ],
@@ -165,7 +190,7 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
           },
           {
@@ -173,8 +198,38 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "hortencemap"
+              "@rule_can_sail"
             ]
+          }
+        ]
+      },
+      {
+        "name": "Any Campfire",
+        "access_rules": [
+          "boss_dweller_dread"
+        ],
+        "sections": [
+          {
+            "name": "Talk to Serai",
+            "item_count": 1,
+            "capture_item": true
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 685,
+            "y": 545
+          },
+          {
+            "map": "seraiworld",
+            "x": 685,
+            "y": 545
+          },
+          {
+            "map": "nightmare",
+            "x": 685,
+            "y": 545
           }
         ]
       }

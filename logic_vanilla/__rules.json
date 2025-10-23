@@ -1,0 +1,57 @@
+[
+  {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "boss_bosslug"
+    ]
+  },
+  {
+    "name": "rule_can_boost_live_mana",
+    "access_rules": []
+  },
+  {
+    "name": "rule_can_sail",
+    "access_rules": [
+      "boss_stormcaller"
+    ]
+  },
+  {
+    "name": "rule_can_fly",
+    "access_rules": [
+      "boss_dweller_dread"
+    ]
+  },
+  {
+    "name": "rule_can_get_zephyr",
+    "access_rules": [
+      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife,k_key_wind,k_hammer_cobalt"
+    ]
+  },
+  {
+    "name": "rule_can_use_mesa_shortcut",
+    "access_rules": [
+      "boss_catalyst"
+    ]
+  },
+  {
+    "name": "rule_can_cross_sea_of_stars",
+    "access_rules": [
+      "@rule_can_leave_cavern,@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,k_seashell_magic"
+    ]
+  },
+  {
+    "name": "rule_can_use_speedball",
+    "access_rules": [
+      "boss_triumvirate"
+    ]
+  },
+  {
+    "name": "rule_can_open_chronophage",
+    "access_rules": [
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_flame_green",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_mistral"
+    ]
+  }
+]

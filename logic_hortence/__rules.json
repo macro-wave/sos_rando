@@ -12,7 +12,9 @@
   },
   {
     "name": "rule_can_sail",
-    "access_rules": []
+    "access_rules": [
+      "k_hortencemap"
+    ]
   },
   {
     "name": "rule_can_fly",
@@ -23,21 +25,30 @@
   {
     "name": "rule_can_get_zephyr",
     "access_rules": [
-      "key_wind,cobalthammer"
+      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife,k_key_wind,k_hammer_cobalt",
+      "@rule_can_leave_cavern,@rule_can_sail,golem_puntie,k_key_wind,k_hammer_cobalt",
+      "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_open,k_key_wind,k_hammer_cobalt"
+    ]
+  },
+  {
+    "name": "rule_can_use_mesa_shortcut",
+    "access_rules": [
+      "option_mesa_shortcut_open",
+      "boss_catalyst"
     ]
   },
   {
     "name": "rule_can_cross_sea_of_stars",
     "access_rules": [
-      "@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,magicseashell",
-      "@rule_can_sail,option_sos_mshell,magicseashell",
-      "@rule_can_sail,option_sos_open"
+      "@rule_can_leave_cavern,@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,k_seashell_magic",
+      "@rule_can_leave_cavern,@rule_can_sail,option_sos_mshell,k_seashell_magic",
+      "@rule_can_leave_cavern,@rule_can_sail,option_sos_open"
     ]
   },
   {
     "name": "rule_can_use_speedball",
     "access_rules": [
-      "graplou,mistral,key_spiresegg",
+      "k_graplou,k_mistral,k_crystalegg",
       "@rule_can_fly",
       "option_speedball_open"
     ]
@@ -45,12 +56,12 @@
   {
     "name": "rule_can_open_chronophage",
     "access_rules": [
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,undeathcoin",
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,flame_green",
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,golem_xtol,mistral",
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,undeathcoin",
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,flame_green",
-      "boss_elysandarelle,cookiejar,rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,journal,locket,mistral"
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_coin_undeath",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_coin_undeath",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_flame_green",
+      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_mistral"
     ]
   }
 ]

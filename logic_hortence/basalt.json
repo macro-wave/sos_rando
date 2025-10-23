@@ -10,6 +10,16 @@
     ],
     "children": [
       {
+        "name": "Sulfuric Basin",
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 619,
+            "y": 160
+          }
+        ]
+      },
+      {
         "name": "Kiln Mountain",
         "sections": [
           {
@@ -20,7 +30,7 @@
             "name": "Boulder Bowling 1",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
@@ -29,14 +39,14 @@
             "name": "Boulder Bowling 2",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
             "name": "Hole in the Wall",
             "item_count": 1,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           },
           {
@@ -44,7 +54,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ],
             "visibility_rules": [
               "option_shopsanity_all"
@@ -54,7 +64,7 @@
             "name": "Toadcano",
             "hosted_item": "boss_toadcano",
             "access_rules": [
-              "mistral"
+              "k_mistral"
             ]
           }
         ],

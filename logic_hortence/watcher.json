@@ -34,14 +34,14 @@
             "name": "Vampire Rose Mural",
             "item_count": 1,
             "access_rules": [
-              "graplou"
+              "k_graplou"
             ]
           },
           {
             "name": "Stone Head",
             "item_count": 1,
             "access_rules": [
-              "mistral,graplou,amulet"
+              "k_mistral,k_graplou,k_amulet"
             ]
           },
           {
@@ -50,7 +50,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "mistral,graplou,amulet"
+              "k_mistral,k_graplou,k_amulet"
             ]
           },
           {
@@ -73,7 +73,7 @@
             "name": "Temple Servant",
             "item_count": 1,
             "access_rules": [
-              "coralhammer"
+              "k_hammer"
             ]
           }
         ],
@@ -88,7 +88,8 @@
       {
         "name": "Sacred Grove",
         "access_rules": [
-          "graplou"
+          "k_hammer,k_graplou",
+          "@rule_can_fly,k_graplou"
         ],
         "sections": [
           {
@@ -115,7 +116,7 @@
             "name": "Fountain",
             "item_count": 1,
             "access_rules": [
-              "seashell"
+              "k_seashell"
             ]
           }
         ],
@@ -128,9 +129,23 @@
         ]
       },
       {
+        "name": "Watcher's Pond",
+        "access_rules": [
+          "k_hammer",
+          "@rule_can_fly"
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1137,
+            "y": 780
+          }
+        ]
+      },
+      {
         "name": "Docarri Village",
         "access_rules": [
-          "hammer,magicseashell"
+          "k_hammer,k_seashell_magic"
         ],
         "sections": [
           {
@@ -160,7 +175,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "figurine_mage"
+              "w_figurine_mage"
             ]
           },
           {
@@ -201,70 +216,70 @@
       {
         "name": "Mirna (Conches)",
         "access_rules": [
-          "hammer,magicseashell"
+          "k_hammer,k_seashell_magic"
         ],
         "sections": [
           {
             "name": "4 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:4"
+              "c_rainbowconch:4"
             ]
           },
           {
             "name": "11 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:11"
+              "c_rainbowconch:11"
             ]
           },
           {
             "name": "19 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:19"
+              "c_rainbowconch:19"
             ]
           },
           {
             "name": "22 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:22"
+              "c_rainbowconch:22"
             ]
           },
           {
             "name": "27 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:27"
+              "c_rainbowconch:27"
             ]
           },
           {
             "name": "35 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:35"
+              "c_rainbowconch:35"
             ]
           },
           {
             "name": "39 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:39"
+              "c_rainbowconch:39"
             ]
           },
           {
             "name": "47 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:47"
+              "c_rainbowconch:47"
             ]
           },
           {
             "name": "60 Conches", 
             "item_count": 1,
             "access_rules": [
-              "conches:60"
+              "c_rainbowconch:60"
             ]
           }
         ],
@@ -282,7 +297,7 @@
       {
         "name": "Outside Antsudlo",
         "access_rules": [
-          "hammer,magicseashell"
+          "k_hammer,k_seashell_magic"
         ],
         "sections": [
           {
@@ -309,29 +324,9 @@
       {
         "name": "Tower of Antsudlo",
         "access_rules": [
-          "hammer,magicseashell,key_sapphire:2"
+          "k_hammer,k_seashell_magic,k_key_sapphire:2"
         ],
         "sections": [
-          {
-            "name": "2F",
-            "access_rules": [
-              "key_pearlpink,key_pearlyellow"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
-          {
-            "name": "3F",
-            "access_rules": [
-              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen"
-            ],
-            "visibility_rules": [
-              "__subregion__"
-            ],
-            "item_count": 1
-          },
           {
             "name": "Pink Pedestal",
             "item_count": 1
@@ -344,49 +339,49 @@
             "name": "Pipe Bridge",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow"
+              "k_pearl_pink,k_pearl_yellow"
             ]
           },
           {
             "name": "Green Pedestal",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow"
+              "k_pearl_pink,k_pearl_yellow"
             ]
           },
           {
             "name": "Purple Pedestal",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,mistral,graplou"
+              "k_pearl_pink,k_pearl_yellow,k_mistral,k_graplou"
             ]
           },
           {
             "name": "Raft Room",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,mistral,graplou"
+              "k_pearl_pink,k_pearl_yellow,k_mistral,k_graplou"
             ]
           },
           {
             "name": "Lowest Pipe Freestanding Valve",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green"
             ]
           },
           {
             "name": "Blue Pedestal",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:1"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]
           },
           {
             "name": "Middle Pipe Freestanding Valve",
             "item_count": 1,
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:1"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]
           },
           {
@@ -395,7 +390,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "access_rules": [
-              "key_pearlpink,key_pearlyellow,key_pearlpurple,key_pearlgreen,key_antsudlovalve:2"
+              "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:2"
             ]
           }
         ],
@@ -409,9 +404,32 @@
         ]
       },
       {
+        "name": "The Great Archives",
+        "access_rules": [
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral",
+          "option_archives_portal_open,k_graplou,k_mistral"
+        ],
+        "sections": [
+          {
+            "name": "Party Character",
+            "access_rules": [
+              "vial"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "homeworld",
+            "x": 1039,
+            "y": 720
+          }
+        ]
+      },
+      {
         "name": "Glacial Peak",
         "access_rules": [
-          "hammer,magicseashell,key_sapphire:2,key_antsudlopearl:5,graplou,mistral"
+          "k_hammer,k_seashell_magic,k_key_sapphire:2,k_pearls:5,k_graplou,k_mistral",
+          "option_archives_portal_open,k_graplou,k_mistral"
         ],
         "sections": [
           {
@@ -424,7 +442,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "amulet"
+              "k_amulet"
             ]
           },
           {
@@ -437,17 +455,26 @@
           },
           {
             "name": "Under Dance Floor",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
           },
           {
             "name": "Frozen Chest",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_amulet"
+            ]
           },
           {
             "name": "Frozen Scroll",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
-            "chest_opened_img": "images/boxes/combo_scroll_open.png"
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "access_rules": [
+              "k_amulet"
+            ]
           }
         ],
         "map_locations": [
@@ -461,7 +488,8 @@
       {
         "name": "Torment Peak",
         "access_rules": [
-          "amulet"
+          "k_hammer,k_amulet",
+          "@rule_can_fly,k_amulet"
         ],
         "sections": [
           {
@@ -495,7 +523,8 @@
       {
         "name": "Mossy Cache",
         "access_rules": [
-          "amulet"
+          "k_hammer,k_amulet,boss_dweller_torment",
+          "@rule_can_fly,k_amulet,boss_dweller_torment"
         ],
         "sections": [
           {
