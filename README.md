@@ -2,7 +2,14 @@
 
 ## IMPORTANT DISCLAIMERS
 
-A randomizer mod for Sea of Stars does not currently exist, nor has any development on such a mod been announced. This is a prototype pack not yet published for EmoTracker.
+This is a prototype pack not yet published for EmoTracker. A randomizer mod for Sea of Stars does not currently exist. **However!** If you are interested in helping develop a randomizer consider checking these out:
+
+[Open World Mod Development](https://github.com/TopDeckKai/OpenSeaOfStars) by TopDeckKai
+
+[Sabotage Game Mods Discord](https://discord.gg/BNrn9rh)
+
+[Archipelago Discord](https://discord.gg/enNTGRY2) - search for Sea of Stars in the future-game-design thread
+
 
 Design of this pack, if a randomizer mod is ever developed, is subject to the implementation of that mod; therefore inclusions, exclusions, and logic may change. Current design is based on randomizer ideas and suggestions that may not all be possible.
 
