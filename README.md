@@ -4,6 +4,8 @@
 
 This is a prototype pack not yet published for EmoTracker. A randomizer mod for Sea of Stars does not currently exist. **However!** If you are interested in helping develop a randomizer consider checking these out:
 
+[The Proposed Logic implemented in this tracker](https://docs.google.com/document/d/1eDbHA0zWLB7t9fOg8bG-UCCM7DUDjTEQvR3vE5-dGeg)
+
 [Open World Mod Development](https://github.com/TopDeckKai/OpenSeaOfStars) by TopDeckKai
 
 [Sabotage Game Mods Discord](https://discord.gg/BNrn9rh)
