@@ -276,6 +276,18 @@
     ]
   },
   {
+    "name": "Romaya's Secret Passage without Hint",
+    "type": "toggle",
+    "img": "images/options/option_logic_secret_passage.png",
+    "codes": "option_logic_secret_passage"
+  },
+  {
+    "name": "Oasis without Hint",
+    "type": "toggle",
+    "img": "images/options/option_logic_oasis.png",
+    "codes": "option_logic_oasis"
+  },
+  {
     "name": "Throne of the Queen without Joce's Belt Buckle",
     "type": "toggle",
     "img": "images/options/option_logic_jocebuckle.png",

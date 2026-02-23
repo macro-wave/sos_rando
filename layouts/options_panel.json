@@ -147,6 +147,20 @@
         "content": [
           {
             "type": "item",
+            "item": "option_logic_secret_passage",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_logic_oasis",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_logic_jocebuckle",
             "h_alignment": "left",
             "width": 300,

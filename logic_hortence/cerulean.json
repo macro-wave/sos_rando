@@ -234,7 +234,11 @@
           },
           {
             "name": "Oasis",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": [
+              "boss_dweller_dread",
+              "[option_logic_oasis]"
+            ]
           }
         ],
         "map_locations": [
