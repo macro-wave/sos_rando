@@ -107,6 +107,28 @@
     ]
   },
   {
+    "name": "Docarri Ruin Prisms",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_ruins_vanilla.png",
+        "codes": "option_ruins,option_ruins_vanilla"
+      },
+      {
+        "img": "images/options/option_ruins_raised.png",
+        "codes": "option_ruins,option_ruins_raised",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_ruins_activated.png",
+        "codes": "option_ruins,option_ruins_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Speedball Network",
     "type": "progressive",
     "allow_disabled": false,
