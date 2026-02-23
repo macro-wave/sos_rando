@@ -70,7 +70,7 @@
             "name": "Wyrd",
             "hosted_item": "boss_wyrd",
             "access_rules": [
-              "k_ornatestone:2"
+              "@rule_can_beat_wyrd"
             ]
           }
         ],
@@ -90,6 +90,9 @@
         "sections": [
           {
             "name": "Graduation Ceremony",
+            "access_rules": [
+              "@rule_can_beat_wyrd"
+            ],
             "item_count": 2
           }
         ],
@@ -158,6 +161,9 @@
       },
       {
         "name": "Forbidden Cavern",
+        "access_rules": [
+          "@rule_can_beat_wyrd"
+        ],
         "sections": [
           {
             "name": "Push Block",

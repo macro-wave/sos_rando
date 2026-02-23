@@ -1,9 +1,16 @@
 [
   {
+    "name": "rule_can_beat_wyrd",
+    "access_rules": [
+      "k_ornatestone:2",
+      "option_skip_prologue_on"
+    ]
+  },
+  {
     "name": "rule_can_leave_cavern",
     "access_rules": [
-      "boss_bosslug",
-      "option_cavern_open"
+      "@rule_can_beat_wyrd,boss_bosslug",
+      "@rule_can_beat_wyrd,option_cavern_open"
     ]
   },
   {
