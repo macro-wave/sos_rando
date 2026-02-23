@@ -7,9 +7,15 @@
     ]
   },
   {
+    "name": "rule_can_beat_bosslug",
+    "access_rules": [
+      "@rule_can_beat_wyrd,k_key_forbiddencavern"
+    ]
+  },
+  {
     "name": "rule_can_leave_cavern",
     "access_rules": [
-      "@rule_can_beat_wyrd,boss_bosslug",
+      "@rule_can_beat_bosslug",
       "@rule_can_beat_wyrd,option_cavern_open"
     ]
   },
