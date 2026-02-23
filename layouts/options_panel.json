@@ -1,6 +1,6 @@
 {
   "subpanel_world": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -67,7 +67,7 @@
     ]
   },
   "subpanel_shuffle": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -107,7 +107,7 @@
     ]
   },
   "subpanel_skips": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -132,7 +132,7 @@
     ]
   },
   "subpanel_logic": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -150,7 +150,7 @@
     ]
   },
   "subpanel_vanilla": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
