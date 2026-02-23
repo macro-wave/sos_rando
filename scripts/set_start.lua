@@ -3,7 +3,6 @@ if variant == "standard" then
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
-    Tracker:FindObjectForCode("boss_wyrd").Active = true
     Tracker:FindObjectForCode("k_hortencemap").Active = true
 
     -- Default options: World Access
