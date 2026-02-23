@@ -176,12 +176,10 @@
           },
           {
             "name": "Lobby Lower Ledge",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Rising Wall",
-            "access_rules": [],
             "item_count": 1
           },
           {
@@ -220,15 +218,13 @@
             "name": "Bosslug",
             "hosted_item": "boss_bosslug",
             "access_rules": [
-              "k_key_forbiddencavern",
-              "option_cavern_open"
+              "@rule_can_beat_bosslug"
             ]
           },
           {
             "name": "Behind Bosslug",
             "access_rules": [
-              "k_key_forbiddencavern",
-              "option_cavern_open"
+              "@rule_can_beat_bosslug"
             ],
             "item_count": 2
           }
