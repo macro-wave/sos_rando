@@ -34,13 +34,16 @@
             "name": "Fish Pond",
             "item_count": 1,
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
-            "chest_opened_img": "images/boxes/conch_chest_open.png"
+            "chest_opened_img": "images/boxes/conch_chest_open.png",
+            "access_rules": [
+              "k_plan_fishlodge"
+            ]
           },
           {
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "w_figurine_mage"
+              "w_figurine_mage,k_plan_inn"
             ]
           },
           {
