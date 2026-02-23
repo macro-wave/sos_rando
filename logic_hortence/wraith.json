@@ -356,14 +356,14 @@
             "name": "Give Journal",
             "item_count": 1,
             "access_rules": [
-              "k_journal"
+              "k_mistral,k_journal"
             ]
           },
           {
             "name": "Give Locket",
             "item_count": 1,
             "access_rules": [
-              "k_locket"
+              "k_mistral,k_journal,k_locket"
             ]
           },
           {
