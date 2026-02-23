@@ -26,7 +26,9 @@ if variant == "standard" then
     Tracker:FindObjectForCode("option_lair_warp").CurrentStage = 0
 
     -- Default options: Logic
-    Tracker:FindObjectForCode("option_logic_jocebuckle").Active = true
+    Tracker:FindObjectForCode("option_logic_secret_passage").Active = false
+    Tracker:FindObjectForCode("option_logic_oasis").Active = false
+    Tracker:FindObjectForCode("option_logic_jocebuckle").Active = false
 
 elseif variant == "v_vanilla" then
 
