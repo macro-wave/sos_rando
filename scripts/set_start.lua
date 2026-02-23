@@ -12,18 +12,19 @@ if variant == "standard" then
     Tracker:FindObjectForCode("option_mesa_shortcut").CurrentStage = 1
     Tracker:FindObjectForCode("option_skybridge").CurrentStage = 1
     Tracker:FindObjectForCode("option_sos").CurrentStage = 1
+    Tracker:FindObjectForCode("option_ruins").CurrentStage = 0
     Tracker:FindObjectForCode("option_speedball").CurrentStage = 1
     Tracker:FindObjectForCode("option_abyss").CurrentStage = 0
 
     -- Default options: Shuffle
-    Tracker:FindObjectForCode("option_shopsanity").CurrentStage = 1
-    Tracker:FindObjectForCode("option_quizsanity").CurrentStage = 1
+    Tracker:FindObjectForCode("option_shopsanity").CurrentStage = 0
+    Tracker:FindObjectForCode("option_quizsanity").CurrentStage = 0
     Tracker:FindObjectForCode("option_conch_rewards").CurrentStage = 0
     Tracker:FindObjectForCode("option_fishing_rewards").CurrentStage = 0
 
     -- Default options: Sequence Skips
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 1
-    Tracker:FindObjectForCode("option_lair_warp").CurrentStage = 0
+    Tracker:FindObjectForCode("option_lair_warp").CurrentStage = 1
 
     -- Default options: Logic
     Tracker:FindObjectForCode("option_logic_secret_passage").Active = false
