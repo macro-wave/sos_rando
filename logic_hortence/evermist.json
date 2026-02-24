@@ -324,7 +324,7 @@
             "name": "Reclamation",
             "item_count": 1,
             "access_rules": [
-              "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug,k_cookiejar"
+              "@rule_can_open_chronophage"
             ]
           },
           {
@@ -370,7 +370,7 @@
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "@rule_can_leave_cavern,@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {

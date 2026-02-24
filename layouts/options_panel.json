@@ -129,6 +129,13 @@
           },
           {
             "type": "item",
+            "item": "option_flight",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_lair_warp",
             "h_alignment": "left",
             "width": 300,
