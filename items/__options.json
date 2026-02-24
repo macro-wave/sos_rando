@@ -258,6 +258,24 @@
     ]
   },
   {
+    "name": "Start with Flight",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_flight_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_flight,option_flight_off"
+      },
+      {
+        "img": "images/options/option_flight_on.png",
+        "codes": "option_flight,option_flight_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Fleshmancer's Lair Warp to End",
     "type": "progressive",
     "allow_disabled": false,

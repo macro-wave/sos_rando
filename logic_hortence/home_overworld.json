@@ -201,7 +201,7 @@
       {
         "name": "Any Campfire",
         "access_rules": [
-          "boss_dweller_dread"
+          "@rule_can_beat_dread"
         ],
         "sections": [
           {

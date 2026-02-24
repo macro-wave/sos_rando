@@ -236,7 +236,7 @@
             "name": "Oasis",
             "item_count": 4,
             "access_rules": [
-              "boss_dweller_dread",
+              "@rule_can_beat_dread",
               "[option_logic_oasis]"
             ]
           }
@@ -282,10 +282,7 @@
             "hosted_item": "boss_meduso"
           },
           {
-            "name": "Party Character",
-            "access_rules": [
-              "boss_meduso"
-            ]
+            "name": "Party Character"
           }
         ],
         "map_locations": [

@@ -1,5 +1,92 @@
 [
   {
+    "name": "helper_sail_b4_fly",
+    "access_rules": [
+      "k_hortencemap,k_ornatestone:2,k_key_forbiddencavern",
+      "k_hortencemap,k_ornatestone:2,option_cavern_open",
+      "k_hortencemap,option_skip_prologue_on,k_key_forbiddencavern",
+      "k_hortencemap,option_skip_prologue_on,option_cavern_open"
+    ]
+  },
+  {
+    "name": "rule_can_fly",
+    "access_rules": [
+      "option_flight_on",
+      "@helper_sail_b4_fly,k_seashell_magic,                       option_sos_open,   option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic,                       option_sos_mshell, option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  option_sos_open,   option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  option_sos_open,   k_crystalegg",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  option_sos_mshell, option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  option_sos_mshell, k_crystalegg",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    option_skybridge_open, option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    option_skybridge_open, option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    option_skybridge_open, k_crystalegg",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    golem_puntie,          option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    golem_puntie,          option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    golem_puntie,          k_crystalegg",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   option_mesa_shortcut_open,   option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   option_mesa_shortcut_open,   option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   option_mesa_shortcut_open,   k_crystalegg",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   k_key_yomara,k_amulet,       option_abyss_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   k_key_yomara,k_amulet,       option_speedball_open",
+      "@helper_sail_b4_fly,k_seashell_magic, k_graplou,k_mistral,  k_key_wind,k_hammer_cobalt,k_doubloon:6,k_pearl_immaculate,    k_vial,k_key_garden,k_key_master,   k_key_yomara,k_amulet,       k_crystalegg"
+    ]
+  },
+  {
+    "name": "rule_can_leave_cavern",
+    "access_rules": [
+      "k_ornatestone:2,k_key_forbiddencavern",
+      "k_ornatestone:2,option_cavern_open",
+      "option_skip_prologue_on,k_key_forbiddencavern",
+      "option_skip_prologue_on,option_cavern_open",
+      "@rule_can_fly"
+    ]
+  },
+  {
+    "name": "rule_can_boost_live_mana",
+    "access_rules": []
+  },
+  {
+    "name": "rule_can_sail",
+    "access_rules": [
+      "@rule_can_leave_cavern,k_hortencemap",
+      "@rule_can_fly,k_hortencemap"
+    ]
+  },
+  {
+    "name": "rule_can_get_zephyr",
+    "access_rules": [
+      "@rule_can_sail,k_key_wind,k_hammer_cobalt,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,k_seashell_magic,k_amulet,k_key_yomara",
+      "@rule_can_sail,k_key_wind,k_hammer_cobalt,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,option_mesa_shortcut_open",
+      "@rule_can_sail,k_key_wind,k_hammer_cobalt,option_skybridge_open",
+      "@rule_can_sail,k_key_wind,k_hammer_cobalt,golem_puntie",
+      "@rule_can_sail,k_key_wind,k_hammer_cobalt,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,@rule_can_fly"
+    ]
+  },
+  {
+    "name": "rule_can_cross_sea_of_stars",
+    "access_rules": [
+      "@rule_can_sail,@rule_can_get_zephyr,k_mistral,k_graplou,k_doubloon:6,k_pearl_immaculate,k_seashell_magic",
+      "@rule_can_sail,option_sos_mshell,k_seashell_magic",
+      "@rule_can_sail,option_sos_open"
+    ]
+  },
+  {
+    "name": "rule_can_use_speedball",
+    "access_rules": [
+      "k_graplou,k_mistral,k_crystalegg",
+      "option_speedball_open",
+      "@rule_can_fly"
+    ]
+  },
+  {
+    "name": "rule_can_use_mesa_shortcut",
+    "access_rules": [
+      "option_mesa_shortcut_open",
+      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,k_graplou,k_mistral"
+    ]
+  },
+  {
     "name": "rule_can_beat_wyrd",
     "access_rules": [
       "k_ornatestone:2",
@@ -13,68 +100,94 @@
     ]
   },
   {
-    "name": "rule_can_leave_cavern",
+    "name": "rule_can_beat_malkomount",
     "access_rules": [
-      "@rule_can_beat_bosslug",
-      "@rule_can_beat_wyrd,option_cavern_open"
+      "@rule_can_leave_cavern,golem_xtol,k_mistral",
+      "@rule_can_fly,k_mistral",
+      "@rule_can_sail,option_elevator_open,k_mistral"
     ]
   },
   {
-    "name": "rule_can_boost_live_mana",
-    "access_rules": []
-  },
-  {
-    "name": "rule_can_sail",
+    "name": "rule_can_beat_woe",
     "access_rules": [
-      "k_hortencemap"
+      "@rule_can_sail,k_soulstone,k_graplou,k_knightshelm,k_crown",
+      "@rule_can_fly,k_soulstone,k_graplou,k_knightshelm,k_crown"
     ]
   },
   {
-    "name": "rule_can_fly",
+    "name": "rule_can_beat_torment",
     "access_rules": [
-      "boss_dweller_dread"
+      "@rule_can_sail,k_hammer,k_amulet",
+      "@rule_can_fly,k_amulet"
     ]
   },
   {
-    "name": "rule_can_get_zephyr",
+    "name": "rule_can_beat_strife",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife,k_key_wind,k_hammer_cobalt",
-      "@rule_can_leave_cavern,@rule_can_sail,golem_puntie,k_key_wind,k_hammer_cobalt",
-      "@rule_can_leave_cavern,@rule_can_sail,option_skybridge_open,k_key_wind,k_hammer_cobalt"
+      "@rule_can_sail,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,k_seashell_magic,k_amulet,k_key_yomara",
+      "@rule_can_sail,@rule_can_use_mesa_shortcut,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master",
+      "@rule_can_fly,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master"
     ]
   },
   {
-    "name": "rule_can_use_mesa_shortcut",
+    "name": "rule_can_beat_catalyst",
     "access_rules": [
-      "option_mesa_shortcut_open",
-      "boss_catalyst"
+      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,k_graplou,k_mistral"
     ]
   },
   {
-    "name": "rule_can_cross_sea_of_stars",
+    "name": "rule_can_beat_dread",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,k_seashell_magic",
-      "@rule_can_leave_cavern,@rule_can_sail,option_sos_mshell,k_seashell_magic",
-      "@rule_can_leave_cavern,@rule_can_sail,option_sos_open"
+      "@rule_can_beat_catalyst,k_seashell_magic",
+      "@rule_can_cross_sea_of_stars,option_abyss_open,k_seashell_magic"
     ]
   },
   {
-    "name": "rule_can_use_speedball",
+    "name": "rule_can_beat_eldermist_2",
     "access_rules": [
-      "k_graplou,k_mistral,k_crystalegg",
-      "@rule_can_fly",
-      "option_speedball_open"
+      "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+    ]
+  },
+  {
+    "name": "rule_can_beat_croustalion",
+    "access_rules": [
+      "golem_xtol,@rule_can_beat_malkomount,@rule_can_beat_woe",
+      "golem_xtol,option_elevator_open,@rule_can_beat_woe",
+      "@rule_can_sail,@rule_can_beat_woe",
+      "@rule_can_fly,@rule_can_beat_woe"
+    ]
+  },
+  {
+    "name": "rule_can_beat_seaslug",
+    "access_rules": [
+      "@rule_can_sail,k_seashell_magic,k_amulet,option_ruins_raised,k_docarrifragment:3",
+      "@rule_can_sail,k_seashell_magic,option_ruins_activated,k_docarrifragment:3",
+      "@rule_can_sail,k_seashell_magic,k_amulet,@rule_can_fly,k_docarrifragment:3"
+    ]
+  },
+  {
+    "name": "rule_can_beat_gungoddess",
+    "access_rules": [
+      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,[k_jocebuckle]",
+      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,option_logic_jocebuckle"
+    ]
+  },
+  {
+    "name": "rule_can_beat_elysandarelle",
+    "access_rules": [
+      "@rule_can_cross_sea_of_stars,@rule_can_fly,k_mistral,k_graplou,k_bigjar:3,k_susfish",
+      "@rule_can_cross_sea_of_stars,@rule_can_fly,option_lair_warp_on"
     ]
   },
   {
     "name": "rule_can_open_chronophage",
     "access_rules": [
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_coin_undeath",
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_coin_undeath",
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_flame_green",
-      "boss_elysandarelle,k_cookiejar,k_rainbowstar,boss_seaslug,boss_croustalion,boss_gungoddess,boss_eldermist_2,k_journal,k_locket,k_mistral"
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_coin_undeath",
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_coin_undeath",
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_flame_green",
+      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_mistral"
     ]
   }
 ]
