@@ -182,7 +182,7 @@
           },
           {
             "name": "Craft Cypher",
-            "hosted_item": "k_cypher",
+            "item_count": 1,
             "access_rules": [
               "c_datastrip:4"
             ]
@@ -234,7 +234,11 @@
           },
           {
             "name": "Oasis",
-            "item_count": 4
+            "item_count": 4,
+            "access_rules": [
+              "@rule_can_beat_dread",
+              "[option_logic_oasis]"
+            ]
           }
         ],
         "map_locations": [
@@ -278,10 +282,7 @@
             "hosted_item": "boss_meduso"
           },
           {
-            "name": "Party Character",
-            "access_rules": [
-              "boss_meduso"
-            ]
+            "name": "Party Character"
           }
         ],
         "map_locations": [

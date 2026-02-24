@@ -8,10 +8,10 @@
   },
   "tracker_default": {
     "type": "container",
-    "background": "#000000",
+    "background": "#2b3742",
     "content": {
-      "type": "dock",
-      "dropshadow": true,
+        "type": "dock",
+        "dropshadow": true,
       "content": [
         {
           "type": "tabbed",
@@ -21,6 +21,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
+                "background": "#314659",
                 "content": [
                   {
                     "type": "group",
@@ -29,7 +30,7 @@
                     "header_content": {
                       "type": "button_popup",
                       "style": "settings",
-                      "popup_background": "#FF212121",
+                      "popup_background": "#00000000",
                       "layout": "options_panel"
                     },
                     "content": {
@@ -64,6 +65,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
+                "background": "#314659",
                 "content": [
                   {
                     "type": "group",
@@ -99,6 +101,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
+                "background": "#314659",
                 "content": [
                   {
                     "type": "array",
@@ -152,6 +155,7 @@
           "content": [
             {
               "type": "group",
+              "background": "#2b3742",
               "dock": "bottom",
               "header": "Pinned Locations",
               "min_height": 121,

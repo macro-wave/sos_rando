@@ -62,7 +62,9 @@
       {
         "name": "Sunken Docarri Ruins",
         "access_rules": [
-          "@rule_can_sail,@rule_can_fly,k_amulet,k_seashell_magic"
+          "@rule_can_sail,k_seashell_magic,k_amulet,@rule_can_fly",
+          "@rule_can_sail,k_seashell_magic,k_amulet,option_ruins_raised",
+          "@rule_can_sail,k_seashell_magic,option_ruins_activated"
         ],
         "children": [
           {
@@ -199,7 +201,7 @@
       {
         "name": "Any Campfire",
         "access_rules": [
-          "boss_dweller_dread"
+          "@rule_can_beat_dread"
         ],
         "sections": [
           {

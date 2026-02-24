@@ -1,6 +1,6 @@
 {
   "subpanel_world": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -50,6 +50,13 @@
           },
           {
             "type": "item",
+            "item": "option_ruins",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_speedball",
             "h_alignment": "left",
             "width": 300,
@@ -67,7 +74,7 @@
     ]
   },
   "subpanel_shuffle": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -107,7 +114,7 @@
     ]
   },
   "subpanel_skips": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
@@ -116,6 +123,13 @@
           {
             "type": "item",
             "item": "option_skip_prologue",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_flight",
             "h_alignment": "left",
             "width": 300,
             "height": 18
@@ -132,12 +146,26 @@
     ]
   },
   "subpanel_logic": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",
         "orientation": "vertical",
         "content": [
+          {
+            "type": "item",
+            "item": "option_logic_secret_passage",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_logic_oasis",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
           {
             "type": "item",
             "item": "option_logic_jocebuckle",
@@ -150,7 +178,7 @@
     ]
   },
   "subpanel_vanilla": {
-    "type": "group",
+    "type": "container",
     "content": [
       {
         "type": "array",

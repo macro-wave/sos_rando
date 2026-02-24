@@ -107,6 +107,28 @@
     ]
   },
   {
+    "name": "Docarri Ruin Prisms",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_ruins_vanilla.png",
+        "codes": "option_ruins,option_ruins_vanilla"
+      },
+      {
+        "img": "images/options/option_ruins_raised.png",
+        "codes": "option_ruins,option_ruins_raised",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_ruins_activated.png",
+        "codes": "option_ruins,option_ruins_activated",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Speedball Network",
     "type": "progressive",
     "allow_disabled": false,
@@ -236,6 +258,24 @@
     ]
   },
   {
+    "name": "Start with Flight",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_flight_off.png",
+        "img_mods": "@disabled",
+        "codes": "option_flight,option_flight_off"
+      },
+      {
+        "img": "images/options/option_flight_on.png",
+        "codes": "option_flight,option_flight_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Fleshmancer's Lair Warp to End",
     "type": "progressive",
     "allow_disabled": false,
@@ -252,6 +292,18 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Romaya's Secret Passage without Hint",
+    "type": "toggle",
+    "img": "images/options/option_logic_secret_passage.png",
+    "codes": "option_logic_secret_passage"
+  },
+  {
+    "name": "Oasis without Hint",
+    "type": "toggle",
+    "img": "images/options/option_logic_oasis.png",
+    "codes": "option_logic_oasis"
   },
   {
     "name": "Throne of the Queen without Joce's Belt Buckle",

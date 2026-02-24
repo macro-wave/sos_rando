@@ -107,14 +107,14 @@
             "name": "Stormcaller",
             "hosted_item": "boss_stormcaller",
             "access_rules": [
-              "k_doubloon:6, k_graplou"
+              "k_graplou,k_doubloon:6"
             ]
           },
           {
             "name": "Immaculate Pearl",
             "item_count": 1,
             "access_rules": [
-              "boss_stormcaller"
+              "k_graplou,k_doubloon:6"
             ]
           },
           {
@@ -123,13 +123,13 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "boss_stormcaller"
+              "k_graplou,k_doubloon:6"
             ]
           },
           {
             "name": "Hydralion",
             "access_rules": [
-              "boss_stormcaller,k_pearl_immaculate"
+              "k_graplou,k_doubloon:6,k_pearl_immaculate"
             ],
             "hosted_item": "boss_hydralion"
           }

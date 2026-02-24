@@ -70,7 +70,7 @@
             "name": "Wyrd",
             "hosted_item": "boss_wyrd",
             "access_rules": [
-              "k_ornatestone:2"
+              "@rule_can_beat_wyrd"
             ]
           }
         ],
@@ -90,6 +90,9 @@
         "sections": [
           {
             "name": "Graduation Ceremony",
+            "access_rules": [
+              "@rule_can_beat_wyrd"
+            ],
             "item_count": 2
           }
         ],
@@ -158,6 +161,9 @@
       },
       {
         "name": "Forbidden Cavern",
+        "access_rules": [
+          "@rule_can_beat_wyrd"
+        ],
         "sections": [
           {
             "name": "Push Block",
@@ -170,12 +176,10 @@
           },
           {
             "name": "Lobby Lower Ledge",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Rising Wall",
-            "access_rules": [],
             "item_count": 1
           },
           {
@@ -214,15 +218,13 @@
             "name": "Bosslug",
             "hosted_item": "boss_bosslug",
             "access_rules": [
-              "k_key_forbiddencavern",
-              "option_cavern_open"
+              "@rule_can_beat_bosslug"
             ]
           },
           {
             "name": "Behind Bosslug",
             "access_rules": [
-              "k_key_forbiddencavern",
-              "option_cavern_open"
+              "@rule_can_beat_bosslug"
             ],
             "item_count": 2
           }
@@ -322,7 +324,7 @@
             "name": "Reclamation",
             "item_count": 1,
             "access_rules": [
-              "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
+              "@rule_can_open_chronophage"
             ]
           },
           {
@@ -368,7 +370,7 @@
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "@rule_can_leave_cavern,@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {
