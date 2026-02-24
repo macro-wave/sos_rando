@@ -1,5 +1,16 @@
 # RELEASES
 
+## Version 0.0.9 : 02/23/2026
+
+- Fix a logic error in the Duke Aventry Sidequest
+- Fix an error where cookie jar was not required for reclamation
+- Fix logic errors in Mirth checks
+- Change to entire structure of bosses; now logic considers whether you _can_ beat a boss, regardless of whether you have yet
+- Change to treat cypher as a shuffled item
+- Change the background to a better contrasting color so items can be seen in disabled state
+- Add new option: Docarri ruin prism towers may be considered already raised _or_ already activated, to skip some item requirements
+- Add logic trick option for accessing Romaya's secret passage and Oasis without seeing their respective hints first
+
 ## Version 0.0.8 : 10/22/2025
 
 - Hotfix on logic in Throne of the Queen, where speedball was not correctly required
