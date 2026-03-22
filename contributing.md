@@ -1,5 +1,8 @@
 # How to contribute to this tracker pack
 
+_**Temporary Note**_
+Prototype 11 is planned to incorporate the Throes of the Watchmaker DLC. Any and all related commits for the time being should base off of the Watchmaker branch, _not_ the develop branch.
+
 ## 1. Repository
 - Before you do anything, make sure you have EmoTracker installed. Download from the developer's site [here](https://emotracker.net/).
 - **Fork** this repository into your EmoTracker installation at `EmoTracker/packs/`.
@@ -44,7 +47,6 @@ Part of the aim for this tracker is to make logic easily editable and translatab
 As a general rule, do not use this. The two exceptions are:
     - the `@reg` tags listed in `__region_logic.json`
     - the `@rule` tags listed in `__rules.json`
-- In most cases, when writing an access rule, put any `@rule` tags the furthest left, followed by any `option_` tags.
 
 #### *Scripts and Load Lists:*
 It's not likely you will touch this except to set defaults. The only important rule is this: 
