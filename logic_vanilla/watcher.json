@@ -14,8 +14,7 @@
         "sections": [
           {
             "name": "Floating",
-            "item_count": 2,
-            "capture_item": true
+            "item_count": 2
           },
           {
             "name": "Garnooy Cave",
@@ -117,8 +116,7 @@
           },
           {
             "name": "Fountain",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_seashell_magic",
             "access_rules": [
               "k_seashell"
             ]
@@ -175,7 +173,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -189,8 +186,7 @@
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -238,8 +234,7 @@
         "sections": [
           {
             "name": "4 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_inn",
             "access_rules": [
               "c_rainbowconch:4"
             ]
@@ -253,16 +248,14 @@
           },
           {
             "name": "19 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_shop",
             "access_rules": [
               "c_rainbowconch:19"
             ]
           },
           {
             "name": "22 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_fishlodge",
             "access_rules": [
               "c_rainbowconch:22"
             ]
@@ -277,15 +270,13 @@
           {
             "name": "35 Conches",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "c_rainbowconch:35"
             ]
           },
           {
             "name": "39 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_spa",
             "access_rules": [
               "c_rainbowconch:39"
             ]
@@ -293,15 +284,13 @@
           {
             "name": "47 Conches",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "c_rainbowconch:47"
             ]
           },
           {
             "name": "60 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_rainbowstar",
             "access_rules": [
               "c_rainbowconch:60"
             ]
@@ -323,13 +312,11 @@
         "sections": [
           {
             "name": "Key Pedestal 1",
-            "item_count": 1,
-            "capture_item": true
+            "hosted_item": "k_key_sapphire"
           },
           {
             "name": "Key Pedestal 2",
-            "item_count": 1,
-            "capture_item": true
+            "hosted_item": "k_key_sapphire"
           },
           {
             "name": "Chest",
@@ -388,8 +375,7 @@
           },
           {
             "name": "Lowest Pipe Freestanding Valve",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_valve",
             "access_rules": [
               "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green"
             ]
@@ -403,8 +389,7 @@
           },
           {
             "name": "Middle Pipe Freestanding Valve",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_valve",
             "access_rules": [
               "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]

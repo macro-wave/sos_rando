@@ -36,7 +36,6 @@
           {
             "name": "Whirlpool Chamber",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_seashell_magic"
             ]

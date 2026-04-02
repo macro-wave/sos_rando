@@ -18,13 +18,11 @@
           },
           {
             "name": "Moraine Gift 1",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Moraine Gift 2",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Town Hall Roof",
@@ -34,8 +32,7 @@
           },
           {
             "name": "Moraine's House",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Fish Pond",
@@ -45,8 +42,7 @@
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "k_plan_inn,w_figurine_mage"
             ]
@@ -54,7 +50,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_hammer,k_seashell_magic,k_plan_shop"
             ],
@@ -110,8 +105,7 @@
           },
           {
             "name": "23 Fish",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
               "fish_count:23"
             ]

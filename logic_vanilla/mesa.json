@@ -73,7 +73,6 @@
           {
             "name": "Ninja Swim",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_amulet,k_mistral,k_seashell_magic"
             ]
@@ -196,7 +195,6 @@
           {
             "name": "Down the Vine",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_graplou,k_mistral,k_amulet",
               "k_graplou,k_mistral,k_amulet",
@@ -293,8 +291,7 @@
         "sections": [
           {
             "name": "Garden Right",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Locket's Waaaares",
@@ -338,14 +335,14 @@
           },
           {
             "name": "Buy From Watchmaker",
-            "item_count": 1,
+            "hosted_item": "k_wheelstable",
             "access_rules": [
               "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc"
             ]
           },
           {
             "name": "Wheels Master",
-            "item_count": 1,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
               "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable"
             ]

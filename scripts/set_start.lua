@@ -33,13 +33,6 @@ if variant == "standard" then
 
 elseif variant == "v_vanilla" then
 
-    -- Place vanilla items
-    ScriptHost:LoadScript("scripts/vanilla_setup.lua")
-
-    if set_vanilla_captures then
-        set_vanilla_captures()
-    end
-
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true

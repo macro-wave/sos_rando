@@ -110,8 +110,7 @@
           },
           {
             "name": "Srowers Cave Ledge",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Celestial Rune",
@@ -153,8 +152,7 @@
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -220,7 +218,6 @@
           {
             "name": "Heart Door",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,boss_rockie,k_key_mines"
             ]
@@ -234,7 +231,6 @@
           {
             "name": "Salamander Room Push Block",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,boss_rockie"
             ]
@@ -242,7 +238,6 @@
           {
             "name": "Mistral Chest",
             "item_count": 1,
-            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
           },
@@ -423,7 +418,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -471,8 +465,7 @@
           },
           {
             "name": "B.S. Roulette",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "East Stairs Left",
@@ -499,12 +492,12 @@
           {
             "name": "Wheels Starter Kit",
             "item_count": 3,
-            "capture_item": true
+            "chest_unopened_img": "images/items/w_figurine_mage.png",
+            "chest_opened_img": "images/items/w_figurine_mage.png"
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -639,7 +632,6 @@
           {
             "name": "Lobby",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral"
             ]
@@ -647,7 +639,6 @@
           {
             "name": "First Portal",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_crystal_green"
             ]
@@ -664,15 +655,13 @@
           {
             "name": "Third Portal",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_crystal_green,k_crystal_blue,k_mistral"
             ]
           },
           {
             "name": "Haunted Creek Shining Fish",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_goldwatch",
             "access_rules": [
               "k_crystal_red,k_crystal_blue"
             ]

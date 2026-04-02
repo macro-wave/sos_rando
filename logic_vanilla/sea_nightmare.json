@@ -37,7 +37,6 @@
           {
             "name": "Galley",
             "item_count": 1,
-            "capture_item": true,
             "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
             "chest_opened_img": "images/boxes/treasure_chest_open.png"
           }
@@ -67,22 +66,26 @@
           {
             "name": "Ropewalk",
             "item_count": 1,
-            "capture_item": true
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png"
           },
           {
             "name": "Tiny Island",
             "item_count": 1,
-            "capture_item": true
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png"
           },
           {
             "name": "3 Enemies",
             "item_count": 1,
-            "capture_item": true
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png"
           },
           {
             "name": "Push Crates",
             "item_count": 1,
-            "capture_item": true,
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png",
             "access_rules": [
               "k_mistral"
             ]
@@ -90,12 +93,14 @@
           {
             "name": "Land Bridge",
             "item_count": 1,
-            "capture_item": true
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png"
           },
           {
             "name": "Gunner Guard",
             "item_count": 1,
-            "capture_item": true
+            "chest_unopened_img": "images/items/k_doubloon.png",
+            "chest_opened_img": "images/items/k_doubloon.png"
           }
         ],
         "map_locations": [
