@@ -87,7 +87,6 @@
           {
             "name": "Basement Left",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral"
             ]
@@ -102,7 +101,6 @@
           {
             "name": "Right Floor",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral"
             ]
@@ -153,8 +151,7 @@
         "sections": [
           {
             "name": "Lookout",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [

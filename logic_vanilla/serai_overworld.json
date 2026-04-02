@@ -39,8 +39,7 @@
         "sections": [
           {
             "name": "Network Station",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -103,7 +102,6 @@
           {
             "name": "Eye Roll",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral"
             ]
@@ -132,7 +130,6 @@
           {
             "name": "Big Jars",
             "item_count": 3,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,"
             ]
@@ -140,7 +137,6 @@
           {
             "name": "Catch Fish?",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3"
             ]
@@ -186,18 +182,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
-            "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
-            ],
-            "visibility_rules": [
-              "option_vanilla_shops_on"
-            ]
-          },
-          {
-            "name": "Merchant Recipe 2",
-            "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ],
@@ -208,7 +192,6 @@
           {
             "name": "Summoner's Campfire",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
@@ -229,8 +212,7 @@
           },
           {
             "name": "True Ending",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
               "@rule_can_open_chronophage,boss_elysandarelle"
             ]

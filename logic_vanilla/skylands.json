@@ -42,7 +42,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -55,13 +54,11 @@
           },
           {
             "name": "Bardcore Stage",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -80,8 +77,7 @@
           },
           {
             "name": "Council of Giants",
-            "capture_item": true,
-            "item_count": 1
+            "hosted_item": "k_key_wind"
           },
           {
             "name": "Council Room",
@@ -128,13 +124,11 @@
           },
           {
             "name": "Lower Slab",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Upper Slab",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Vertical Gate",
@@ -160,7 +154,6 @@
           {
             "name": "Crystal Bowl",
             "item_count": 1,
-            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [

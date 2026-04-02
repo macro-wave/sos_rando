@@ -21,8 +21,7 @@
           },
           {
             "name": "Garl's Delivery",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_cookiejar",
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -57,13 +56,11 @@
           },
           {
             "name": "First Chest",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Second Chest",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_ornatestone"
             ]
@@ -117,8 +114,7 @@
         "sections": [
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -184,8 +180,7 @@
           },
           {
             "name": "Rising Wall",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Back Hallway Basket",
@@ -372,7 +367,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -383,8 +377,7 @@
           },
           {
             "name": "Mist Falls",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -442,8 +435,7 @@
           },
           {
             "name": "Middle Trial",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Right Trial",

@@ -44,7 +44,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -58,8 +57,7 @@
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -80,15 +78,13 @@
           {
             "name": "Tavern Attic",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_graplou,k_flame_green"
             ]
           },
           {
             "name": "Melee Matey",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_key_shed",
             "access_rules": [
               "k_graplou,k_turbocookie"
             ]
@@ -198,8 +194,7 @@
           },
           {
             "name": "Loremaster",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
               "c_qpack:11",
               "c_qpack1,option_vanilla_ngplus_on"
@@ -292,8 +287,7 @@
           },
           {
             "name": "Rafters",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Outside Lair",
@@ -318,23 +312,20 @@
           {
             "name": "Secret Passage",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "@rule_can_fly,k_mistral"
             ]
           },
           {
             "name": "Give Journal",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_flame_yellow",
             "access_rules": [
               "k_journal"
             ]
           },
           {
             "name": "Give Locket",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_key_aventry",
             "access_rules": [
               "k_locket"
             ]
@@ -376,7 +367,6 @@
           {
             "name": "Graplou Chest",
             "item_count": 1,
-            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png"
           },
@@ -460,8 +450,7 @@
           },
           {
             "name": "Goblet Shelf",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Dining Room Rubble",
@@ -474,23 +463,19 @@
           },
           {
             "name": "Cook for Ghost",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "King Statue",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Library Balcony",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Bookshelf",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Library Fireplace",
@@ -547,8 +532,7 @@
         "sections": [
           {
             "name": "Lower Pedestal",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Right Side",
@@ -557,7 +541,6 @@
           {
             "name": "Upper Pedestal",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_key_wraithshrine"
             ]
