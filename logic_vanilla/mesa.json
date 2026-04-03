@@ -96,7 +96,7 @@
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -121,7 +121,7 @@
       {
         "name": "Lake Turquoise",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -155,7 +155,7 @@
       {
         "name": "Songshroom Marsh",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
