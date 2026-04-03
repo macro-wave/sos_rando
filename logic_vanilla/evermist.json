@@ -13,13 +13,6 @@
         "name": "Zenith Academy",
         "sections": [
           {
-            "name": "Training Weapons",
-            "item_count": 2,
-            "visibility_rules": [
-              "option_skip_prologue_off"
-            ]
-          },
-          {
             "name": "Garl's Delivery",
             "hosted_item": "k_cookiejar",
             "visibility_rules": [
