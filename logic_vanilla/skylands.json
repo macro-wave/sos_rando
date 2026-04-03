@@ -72,12 +72,12 @@
             "hosted_item": "golem_puntie"
           },
           {
-            "name": "Puntie",
-            "item_count": 1
-          },
-          {
             "name": "Council of Giants",
             "hosted_item": "k_key_wind"
+          },
+          {
+            "name": "Puntie",
+            "item_count": 1
           },
           {
             "name": "Council Room",
