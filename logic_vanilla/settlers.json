@@ -86,28 +86,28 @@
             "name": "4 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:4"
+              "fish_count:4,option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "9 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:9"
+              "fish_count:9,option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "14 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:14"
+              "fish_count:14,option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "23 Fish",
             "hosted_item": "c_flimsyhammer",
             "access_rules": [
-              "fish_count:23"
+              "fish_count:23,option_vanilla_ngplus_on"
             ]
           }
         ],
