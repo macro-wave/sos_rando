@@ -4,19 +4,15 @@
     "margin": "0,0",
     "content": [
       {
-         "type": "itemgrid",
+        "type": "itemgrid",
         "item_margin": "2,0",
         "item_size": 40,
-        "h_alignment": "left",
+        "h_alignment": "center",
         "rows": [
           [
-            "",
-            "",
             "a_manaboost",
             "a_vespertine",
-            "a_flight",
-            "",
-            ""
+            "a_flight"
           ]
         ]
       }
