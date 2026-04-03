@@ -70,7 +70,7 @@
       {
         "name": "Solstice Shrine Island",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -94,7 +94,7 @@
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {

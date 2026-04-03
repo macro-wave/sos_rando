@@ -91,7 +91,7 @@
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -112,7 +112,7 @@
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -208,7 +208,7 @@
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
           "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -254,7 +254,7 @@
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,k_probe",
           "@rule_can_use_speedball,k_probe",
-          "@rule_can_fly,k_probe"
+          "a_flight,k_probe"
         ],
         "sections": [
           {

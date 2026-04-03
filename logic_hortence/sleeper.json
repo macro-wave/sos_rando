@@ -13,8 +13,8 @@
         "name": "X'tol's Landing",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -44,8 +44,8 @@
         "name": "Windy Loch",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "map_locations": [
           {
@@ -59,8 +59,8 @@
         "name": "Moorlands",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -126,8 +126,8 @@
         "name": "Stonemason's Outpost",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -192,8 +192,8 @@
         "name": "Wind Tunnels Mine",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -300,7 +300,7 @@
         "access_rules": [
           "golem_xtol,@rule_can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail"
+          "a_sailing"
         ],
         "sections": [
           {
@@ -365,8 +365,8 @@
         "access_rules": [
           "golem_xtol,@rule_can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail",
-          "@rule_can_fly"
+          "a_sailing",
+          "a_flight"
         ],
         "sections": [
           {
@@ -422,7 +422,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
               "golem_xtol",
-              "@rule_can_fly",
+              "a_flight",
               "option_elevator_open"
             ]
           },
@@ -568,8 +568,8 @@
         "access_rules": [
           "golem_xtol,@rule_can_beat_malkomount,@rule_can_beat_woe",
           "golem_xtol,option_elevator_open,@rule_can_beat_woe",
-          "@rule_can_sail,@rule_can_beat_woe",
-          "@rule_can_fly,@rule_can_beat_woe"
+          "a_sailing,@rule_can_beat_woe",
+          "a_flight,@rule_can_beat_woe"
         ],
         "sections": [
           {
@@ -606,8 +606,8 @@
         "access_rules": [
           "golem_xtol,@rule_can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail",
-          "@rule_can_fly"
+          "a_sailing",
+          "a_flight"
         ],
         "map_locations": [
           {
@@ -622,7 +622,7 @@
         "access_rules": [
           "golem_xtol,@rule_can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail"
+          "a_sailing"
         ],
         "sections": [
           {

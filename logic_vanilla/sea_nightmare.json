@@ -52,7 +52,7 @@
             "x": 670,
             "y": 545,
             "force_invisibility_rules": [
-              "@rule_can_sail"
+              "a_sailing"
             ]
           }
         ]

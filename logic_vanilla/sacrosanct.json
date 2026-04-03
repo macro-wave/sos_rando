@@ -17,7 +17,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],
@@ -47,7 +47,7 @@
             "item_count": 1,
             "access_rules": [
               "k_mistral",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],

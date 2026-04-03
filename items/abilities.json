@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Live Mana Boosting",
+    "type": "toggle",
+    "img": "images/items/a_manaboost.png",
+    "codes": "a_manaboost"
+  },
+  {
+    "name": "Vespertine",
+    "type": "toggle",
+    "img": "images/items/a_vespertine.png",
+    "codes": "a_vespertine, a_sailing"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "images/items/a_flight.png",
+    "codes": "a_flight"
+  }
+]

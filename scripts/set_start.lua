@@ -3,7 +3,8 @@ if variant == "standard" then
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
-    Tracker:FindObjectForCode("k_hortencemap").Active = true
+    Tracker:FindObjectForCode("a_manaboost").Active = true
+    Tracker:FindObjectForCode("a_sailing").Active = true
 
     -- Default options: World Access
     Tracker:FindObjectForCode("option_cavern").CurrentStage = 1

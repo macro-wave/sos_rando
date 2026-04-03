@@ -30,37 +30,37 @@
   {
     "name": "reg_settlers",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail"
+      "@rule_can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail"
+      "@rule_can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,k_vial,character_reshan"
+      "@rule_can_leave_cavern,a_sailing,k_vial,character_reshan"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife"
+      "@rule_can_leave_cavern,a_sailing,boss_dweller_strife"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail"
+      "@rule_can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail"
+      "@rule_can_leave_cavern,a_sailing"
     ]
   },
   {

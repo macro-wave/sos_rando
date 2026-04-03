@@ -26,13 +26,22 @@
                   {
                     "type": "group",
                     "dock": "top",
-                    "header": "Items",
+                    "header": "Abilities",
                     "header_content": {
                       "type": "button_popup",
                       "style": "settings",
                       "popup_background": "#00000000",
                       "layout": "options_panel"
                     },
+                    "content": {
+                      "type": "layout",
+                      "key": "ability_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Items",
                     "content": {
                       "type": "layout",
                       "key": "item_grid"
