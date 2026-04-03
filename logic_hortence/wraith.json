@@ -499,15 +499,24 @@
           },
           {
             "name": "King Statue",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Library Balcony",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Bookshelf",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Library Fireplace",
@@ -515,35 +524,35 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "k_graplou"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Shelf Passage",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Hedge Maze",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Botanical Horror",
             "hosted_item": "boss_botanical",
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Dweller of Woe",
             "hosted_item": "boss_dweller_woe",
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           }
         ],

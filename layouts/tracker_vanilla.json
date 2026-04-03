@@ -26,13 +26,22 @@
                   {
                     "type": "group",
                     "dock": "top",
-                    "header": "Items",
+                    "header": "Abilities",
                     "header_content": {
                       "type": "button_popup",
                       "style": "settings",
                       "popup_background": "#FF212121",
                       "layout": "options_panel_vanilla"
                     },
+                    "content": {
+                      "type": "layout",
+                      "key": "ability_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Items",
                     "content": {
                       "type": "layout",
                       "key": "item_grid"
