@@ -307,7 +307,7 @@
         "access_rules": [
           "k_coin_undeath",
           "k_flame_green",
-          "@rule_can_fly,k_mistral,[option_logic_secret_passage]"
+          "a_flight,k_mistral,[option_logic_secret_passage]"
         ],
         "sections": [
           {
@@ -349,7 +349,7 @@
             "name": "Secret Passage",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_fly,k_mistral"
+              "a_flight,k_mistral"
             ]
           },
           {
@@ -387,7 +387,7 @@
         "access_rules": [
           "k_coin_undeath,k_mistral",
           "k_flame_green,k_mistral",
-          "@rule_can_fly,k_mistral,[option_logic_secret_passage]"
+          "a_flight,k_mistral,[option_logic_secret_passage]"
         ],
         "sections": [
           {

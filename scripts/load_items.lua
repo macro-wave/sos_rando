@@ -1,5 +1,6 @@
 Tracker:AddItems("items/__options.json")
 
+Tracker:AddItems("items/abilities.json")
 Tracker:AddItems("items/bosses.json")
 Tracker:AddItems("items/characters.json")
 Tracker:AddItems("items/collectibles.json")

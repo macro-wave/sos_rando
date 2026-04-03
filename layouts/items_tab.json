@@ -1,4 +1,27 @@
 {
+  "ability_grid": {
+    "type": "container",
+    "margin": "0,0",
+    "content": [
+      {
+         "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 40,
+        "h_alignment": "left",
+        "rows": [
+          [
+            "",
+            "",
+            "a_manaboost",
+            "a_vespertine",
+            "a_flight",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
   "item_grid": {
     "type": "container",
     "margin": "0,0",

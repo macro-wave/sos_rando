@@ -24,7 +24,7 @@
   {
     "name": "rule_can_get_zephyr",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,boss_dweller_strife,k_key_wind,k_hammer_cobalt"
+      "@rule_can_leave_cavern,a_sailing,boss_dweller_strife,k_key_wind,k_hammer_cobalt"
     ]
   },
   {
@@ -36,7 +36,7 @@
   {
     "name": "rule_can_cross_sea_of_stars",
     "access_rules": [
-      "@rule_can_leave_cavern,@rule_can_sail,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,k_seashell_magic"
+      "@rule_can_leave_cavern,a_sailing,@rule_can_get_zephyr,boss_toadcano,boss_hydralion,k_seashell_magic"
     ]
   },
   {

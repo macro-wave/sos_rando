@@ -17,7 +17,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],
@@ -33,7 +33,7 @@
         "name": "Hunting Fields",
         "access_rules": [
           "k_graplou",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -48,7 +48,7 @@
             "item_count": 1,
             "access_rules": [
               "k_mistral",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],
@@ -64,7 +64,7 @@
         "name": "Southeast Spire",
         "access_rules": [
           "k_graplou,k_mistral",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -84,7 +84,7 @@
         "name": "Northeast Spire",
         "access_rules": [
           "k_graplou,k_mistral",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -121,7 +121,7 @@
         "name": "Seat of the Triumvirate",
         "access_rules": [
           "k_graplou,k_mistral,k_crystalegg",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -151,7 +151,7 @@
         "name": "Es'tristae's Lookout",
         "access_rules": [
           "k_graplou,k_mistral,k_crystalegg",
-          "@rule_can_fly",
+          "a_flight",
           "@rule_can_use_speedball"
         ],
         "sections": [

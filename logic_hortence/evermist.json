@@ -370,7 +370,7 @@
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "a_flight,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {
@@ -393,7 +393,7 @@
       {
         "name": "Elder Mist Trials",
         "access_rules": [
-          "@rule_can_leave_cavern,@rule_can_boost_live_mana"
+          "@rule_can_leave_cavern,a_manaboost"
         ],
         "sections": [
           {

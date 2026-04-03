@@ -12,7 +12,7 @@
       {
         "name": "Solstice Shrine Islands",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "children": [
           {
@@ -62,9 +62,9 @@
       {
         "name": "Sunken Docarri Ruins",
         "access_rules": [
-          "@rule_can_sail,k_seashell_magic,k_amulet,@rule_can_fly",
-          "@rule_can_sail,k_seashell_magic,k_amulet,option_ruins_raised",
-          "@rule_can_sail,k_seashell_magic,option_ruins_activated"
+          "a_sailing,k_seashell_magic,k_amulet,a_flight",
+          "a_sailing,k_seashell_magic,k_amulet,option_ruins_raised",
+          "a_sailing,k_seashell_magic,option_ruins_activated"
         ],
         "children": [
           {
@@ -175,7 +175,7 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_sail,w_figurine_mage"
+              "a_sailing,w_figurine_mage"
             ]
           }
         ],
@@ -185,7 +185,7 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "@rule_can_sail"
+              "a_sailing"
             ]
           },
           {
@@ -193,7 +193,7 @@
             "x": 670,
             "y": 545,
             "restrict_visibility_rules": [
-              "@rule_can_sail"
+              "a_sailing"
             ]
           }
         ]

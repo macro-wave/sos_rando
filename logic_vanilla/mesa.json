@@ -163,7 +163,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou"
+              "a_flight,k_graplou"
             ]
           },
           {
@@ -173,7 +173,7 @@
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -181,7 +181,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -189,7 +189,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {

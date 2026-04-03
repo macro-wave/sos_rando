@@ -108,7 +108,7 @@
         "name": "Bamboo Creek",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -134,7 +134,7 @@
         "name": "Lake Turquoise",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "map_locations": [
           {
@@ -149,7 +149,7 @@
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
           "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -157,7 +157,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou"
+              "a_flight,k_graplou"
             ]
           },
           {
@@ -167,7 +167,7 @@
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -175,7 +175,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -183,7 +183,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -256,7 +256,7 @@
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
           "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -285,7 +285,7 @@
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
           "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {

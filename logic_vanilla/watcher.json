@@ -501,7 +501,7 @@
         "name": "Torment Peak",
         "access_rules": [
           "k_hammer,k_amulet",
-          "@rule_can_fly,k_amulet"
+          "a_flight,k_amulet"
         ],
         "sections": [
           {
@@ -536,7 +536,7 @@
         "name": "Mossy Cache",
         "access_rules": [
           "k_hammer,k_amulet,boss_dweller_torment",
-          "@rule_can_fly,k_amulet,boss_dweller_torment"
+          "a_flight,k_amulet,boss_dweller_torment"
         ],
         "sections": [
           {

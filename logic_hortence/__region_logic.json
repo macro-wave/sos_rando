@@ -18,57 +18,57 @@
   {
     "name": "reg_wraith",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {
     "name": "reg_sea_nightmare",
     "access_rules": [
-      "@rule_can_sail"
+      "@rule_can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_settlers",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_sail,k_vial",
-      "@rule_can_fly,k_vial"
+      "@rule_can_leave_cavern,a_sailing,k_vial",
+      "a_flight,k_vial"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "@rule_can_sail,@rule_can_beat_strife",
-      "@rule_can_sail,golem_puntie",
-      "@rule_can_sail,option_skybridge_open"
+      "@rule_can_leave_cavern,a_sailing,@rule_can_beat_strife",
+      "@rule_can_leave_cavern,a_sailing,option_skybridge_open",
+      "@rule_can_leave_cavern,golem_puntie"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "@rule_can_sail",
-      "@rule_can_fly"
+      "@rule_can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {

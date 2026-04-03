@@ -313,7 +313,7 @@
             "name": "Secret Passage",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_fly,k_mistral"
+              "a_flight,k_mistral"
             ]
           },
           {
