@@ -10,8 +10,8 @@
     "type": "container",
     "background": "#2b3742",
     "content": {
-        "type": "dock",
-        "dropshadow": true,
+      "type": "dock",
+      "dropshadow": true,
       "content": [
         {
           "type": "tabbed",
@@ -24,19 +24,38 @@
                 "background": "#314659",
                 "content": [
                   {
-                    "type": "group",
+                    "type": "array",
                     "dock": "top",
-                    "header": "Abilities",
-                    "header_content": {
-                      "type": "button_popup",
-                      "style": "settings",
-                      "popup_background": "#00000000",
-                      "layout": "options_panel"
-                    },
-                    "content": {
-                      "type": "layout",
-                      "key": "ability_grid"
-                    }
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "group",
+                        "header": "Player Progress",
+                        "content": {
+                          "type": "layout",
+                          "h_alignment": "center",
+                          "key": "ability_grid"
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "",
+                        "min_width": 176,
+                        "header_content": {
+                          "type": "button_popup",
+                          "style": "settings",
+                          "popup_background": "#FF212121",
+                          "layout": "options_panel"
+                        },
+                        "content": {
+                          "type": "item",
+                          "item": "a_level",
+                          "h_alignment": "center",
+                          "width": 120,
+                          "height": 30
+                        }
+                      }
+                    ]
                   },
                   {
                     "type": "group",
