@@ -21,7 +21,7 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 328,
+            "x": 329,
             "y": 156
           },
           {
@@ -233,8 +233,7 @@
           {
             "map": "seraiworld",
             "x": 840,
-            "y": 250,
-            "size": 20
+            "y": 250
           }
         ]
       }

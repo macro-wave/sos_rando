@@ -44,13 +44,13 @@
         "map_locations": [
           {
             "map": "nightmare",
-            "x": 670,
-            "y": 545
+            "x": 273,
+            "y": 203
           },
           {
             "map": "homeworld",
-            "x": 670,
-            "y": 545,
+            "x": 273,
+            "y": 203,
             "force_invisibility_rules": [
               "a_sailing"
             ]
@@ -95,8 +95,7 @@
           {
             "map": "nightmare",
             "x": 465,
-            "y": 660,
-            "size": 20
+            "y": 660
           }
         ]
       },
