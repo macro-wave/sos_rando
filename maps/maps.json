@@ -16,5 +16,11 @@
     "location_size": 5,
     "location_border_thickness": 1,
     "img": "images/maps/nightmare.png"
+  },
+  {
+    "name": "horloge",
+    "location_size": 5,
+    "location_border_thickness": 1,
+    "img": "images/maps/horloge.png"
   }
 ]

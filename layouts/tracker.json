@@ -234,6 +234,15 @@
                       "nightmare"
                     ]
                   }
+                },
+                {
+                  "title": "Horloge",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "horloge"
+                    ]
+                  }
                 }
               ]
             }
