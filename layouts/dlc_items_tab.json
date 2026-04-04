@@ -28,22 +28,23 @@
         "item_size": 40,
         "h_alignment": "left",
         "rows": [
-          []
-        ]
-      }
-    ]
-  },
-  "dlc_skills_grid": {
-    "type": "container",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "itemgrid",
-        "item_margin": "2,0",
-        "item_size": 40,
-        "h_alignment": "left",
-        "rows": [
-          []
+          [
+            "k_dialocus",
+            "k_key_lightbulb",
+            "k_certificate",
+            "k_muledrone",
+            "k_magnethook",
+            "k_key_bridge"
+          ],
+          [
+            "k_ticket_silken",
+            "k_ticket_were",
+            "k_ticket_tocket",
+            "k_stub",
+            "s_polevault",
+            "s_sunbalancing",
+            "s_toubibbim"
+          ]
         ]
       }
     ]
@@ -57,7 +58,22 @@
         "item_margin": "2,0",
         "item_size": 40,
         "rows": [
-          []
+          [
+            "c_trune1",
+            "c_trune2",
+            "c_trune3",
+            "c_trune4",
+            "c_trune5",
+            "c_trune6"
+          ],
+          [
+            "c_trune7",
+            "c_trune8",
+            "c_trune9",
+            "c_trune10",
+            "c_trune11",
+            "c_trune12"
+          ]
         ]
       }
     ]

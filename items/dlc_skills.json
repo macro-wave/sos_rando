@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pole Vault",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "s_polevault"
+  },
+  {
+    "name": "Sunbalancing",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "s_sunbalancing"
+  },
+  {
+    "name": "Toubib Bim",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "s_toubibbim"
+  }
+]

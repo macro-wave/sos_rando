@@ -230,15 +230,6 @@
                   {
                     "type": "group",
                     "dock": "top",
-                    "header": "Circus Skills",
-                    "content": {
-                      "type": "layout",
-                      "key": "dlc_skills_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
                     "header": "Collectibles",
                     "content": {
                       "type": "layout",

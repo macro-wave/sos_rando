@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Time Rune I",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune1"
+  },
+  {
+    "name": "Time Rune II",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune2"
+  },
+  {
+    "name": "Time Rune III",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune3"
+  },
+  {
+    "name": "Time Rune IV",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune4"
+  },
+  {
+    "name": "Time Rune V",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune5"
+  },
+  {
+    "name": "Time Rune VI",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune6"
+  },
+  {
+    "name": "Time Rune VII",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune7"
+  },
+  {
+    "name": "Time Rune VIII",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune8"
+  },
+  {
+    "name": "Time Rune IX",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune9"
+  },
+  {
+    "name": "Time Rune X",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune10"
+  },
+  {
+    "name": "Time Rune XI",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune11"
+  },
+  {
+    "name": "Time Rune XII",
+    "type": "toggle",
+    "img": "images/items/_unused_artifact_jar.png",
+    "codes": "c_trune12"
+  }
+]

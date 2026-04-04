@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Recipe: Popcorn",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_popcorn"
+  },
+  {
+    "name": "Recipe: Caramelcorn",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_caramelcorn"
+  },
+  {
+    "name": "Recipe: Barbapapa",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_barbapapa"
+  },
+  {
+    "name": "Recipe: Milkshake",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_milkshake"
+  }
+]
