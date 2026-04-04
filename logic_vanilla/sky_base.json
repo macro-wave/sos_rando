@@ -67,9 +67,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1226,
-            "y": 200,
-            "size": 20
+            "x": 458,
+            "y": 88
           }
         ]
       }

@@ -92,8 +92,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1085,
-            "y": 180
+            "x": 412,
+            "y": 81
           }
         ]
       },
@@ -135,36 +135,10 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1105,
-            "y": 180,
+            "x": 418,
+            "y": 81,
             "restrict_visibility_rules": [
               "option_fishing_rewards_on"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Mirth Shops",
-        "access_rules": [
-          "k_plan_shop"
-        ],
-        "sections": [
-          {
-            "name": "Equipment Shop",
-            "item_count": 3
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 2
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 1065,
-            "y": 180,
-            "restrict_visibility_rules": [
-              "option_merchants"
             ]
           }
         ]
@@ -174,8 +148,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 175
+            "x": 402,
+            "y": 79
           }
         ]
       },
@@ -192,8 +166,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 142
+            "x": 402,
+            "y": 68
           }
         ]
       }

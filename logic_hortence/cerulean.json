@@ -80,9 +80,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1050,
-            "y": 530,
-            "size": 20
+            "x": 400,
+            "y": 198
           }
         ]
       },
@@ -102,8 +101,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1148,
-            "y": 460
+            "x": 432,
+            "y": 174
           }
         ]
       },
@@ -198,8 +197,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1106,
-            "y": 460
+            "x": 418,
+            "y": 174
           }
         ]
       },
@@ -244,8 +243,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1170,
-            "y": 500
+            "x": 440,
+            "y": 188
           }
         ]
       },
@@ -288,8 +287,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1210,
-            "y": 530
+            "x": 453,
+            "y": 198
           }
         ]
       },
@@ -322,8 +321,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1225,
-            "y": 455
+            "x": 458,
+            "y": 173
           }
         ]
       }

@@ -24,8 +24,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 619,
-            "y": 160,
+            "x": 256,
+            "y": 74,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -86,9 +86,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 672,
-            "y": 170,
-            "size": 20
+            "x": 274,
+            "y": 78
           }
         ]
       }

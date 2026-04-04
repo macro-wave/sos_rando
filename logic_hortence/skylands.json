@@ -14,8 +14,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1345,
-            "y": 97
+            "x": 498,
+            "y": 53
           }
         ]
       },
@@ -81,8 +81,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1391,
-            "y": 68
+            "x": 514,
+            "y": 44
           }
         ]
       },
@@ -156,9 +156,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1265,
-            "y": 53,
-            "size": 20
+            "x": 472,
+            "y": 39
           }
         ]
       }
