@@ -20,8 +20,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 360
+            "x": 465,
+            "y": 141
           }
         ]
       },
@@ -88,8 +88,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 310
+            "x": 465,
+            "y": 124
           }
         ]
       },
@@ -113,8 +113,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1300,
-            "y": 270
+            "x": 483,
+            "y": 111
           }
         ]
       },
@@ -144,8 +144,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1254,
-            "y": 265,
+            "x": 468,
+            "y": 109,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -251,8 +251,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1320,
-            "y": 283
+            "x": 490,
+            "y": 115
           }
         ]
       },
@@ -278,8 +278,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 306
+            "x": 508,
+            "y": 123
           }
         ]
       },
@@ -365,8 +365,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 287
+            "x": 508,
+            "y": 117
           }
         ]
       }

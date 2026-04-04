@@ -71,8 +71,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1085,
-            "y": 180
+            "x": 412,
+            "y": 81
           }
         ]
       },
@@ -114,8 +114,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1105,
-            "y": 180
+            "x": 418,
+            "y": 81
           }
         ]
       },
@@ -142,8 +142,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 175,
+            "x": 402,
+            "y": 79,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -163,8 +163,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 142
+            "x": 402,
+            "y": 68
           }
         ]
       }

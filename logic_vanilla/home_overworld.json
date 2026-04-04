@@ -31,8 +31,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 395,
-                "y": 570
+                "x": 182,
+                "y": 211
               }
             ]
           },
@@ -52,8 +52,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 1050,
-                "y": 275
+                "x": 400,
+                "y": 113
               }
             ]
           }
@@ -87,8 +87,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 250,
-                "y": 145
+                "x": 133,
+                "y": 69
               }
             ]
           },
@@ -109,8 +109,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 405,
-                "y": 780
+                "x": 185,
+                "y": 281
               }
             ]
           },
@@ -131,8 +131,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 1150,
-                "y": 445
+                "x": 433,
+                "y": 169
               }
             ]
           },
@@ -160,8 +160,8 @@
             "map_locations": [
               {
                 "map": "homeworld",
-                "x": 1210,
-                "y": 175
+                "x": 453,
+                "y": 79
               }
             ]
           }
@@ -184,16 +184,16 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 670,
-            "y": 545,
+            "x": 273,
+            "y": 203,
             "restrict_visibility_rules": [
               "a_sailing"
             ]
           },
           {
             "map": "seraiworld",
-            "x": 670,
-            "y": 545,
+            "x": 273,
+            "y": 203,
             "restrict_visibility_rules": [
               "a_sailing"
             ]
@@ -214,18 +214,18 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 685,
-            "y": 545
+            "x": 278,
+            "y": 203
           },
           {
             "map": "seraiworld",
-            "x": 685,
-            "y": 545
+            "x": 278,
+            "y": 203
           },
           {
             "map": "nightmare",
-            "x": 685,
-            "y": 545
+            "x": 278,
+            "y": 203
           }
         ]
       }

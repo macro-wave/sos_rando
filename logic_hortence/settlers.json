@@ -144,32 +144,6 @@
         ]
       },
       {
-        "name": "Mirth Shops",
-        "access_rules": [
-          "k_plan_shop"
-        ],
-        "sections": [
-          {
-            "name": "Equipment Shop",
-            "item_count": 3
-          },
-          {
-            "name": "Item Shop",
-            "item_count": 2
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "homeworld",
-            "x": 405,
-            "y": 81,
-            "restrict_visibility_rules": [
-              "option_merchants"
-            ]
-          }
-        ]
-      },
-      {
         "name": "Settler's Rest",
         "map_locations": [
           {

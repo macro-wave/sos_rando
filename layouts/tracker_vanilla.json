@@ -45,7 +45,7 @@
                           "type": "button_popup",
                           "style": "settings",
                           "popup_background": "#FF212121",
-                          "layout": "options_panel"
+                          "layout": "options_panel_vanilla"
                         },
                         "content": {
                           "type": "item",

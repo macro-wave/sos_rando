@@ -26,8 +26,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 718,
-            "y": 618
+            "x": 289,
+            "y": 227
           }
         ]
       },
@@ -100,8 +100,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 808,
-            "y": 605
+            "x": 319,
+            "y": 223
           }
         ]
       },
@@ -204,8 +204,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 825,
-            "y": 620
+            "x": 325,
+            "y": 228
           }
         ]
       },
@@ -238,8 +238,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 830,
-            "y": 580
+            "x": 327,
+            "y": 214
           }
         ]
       },
@@ -262,8 +262,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 790,
-            "y": 568,
+            "x": 313,
+            "y": 210,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -341,8 +341,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 935,
-            "y": 605
+            "x": 362,
+            "y": 223
           }
         ]
       },
@@ -425,8 +425,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 935,
-            "y": 585
+            "x": 362,
+            "y": 216
           }
         ]
       },
@@ -526,8 +526,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 822,
-            "y": 550
+            "x": 324,
+            "y": 204
           }
         ]
       },
@@ -572,8 +572,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 885,
-            "y": 560
+            "x": 345,
+            "y": 208
           }
         ]
       },
@@ -635,8 +635,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 960,
-            "y": 617
+            "x": 370,
+            "y": 227
           }
         ]
       }
