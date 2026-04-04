@@ -1,8 +1,8 @@
 [
   {
     "name": "homeworld",
-    "location_size": 15,
-    "location_border_thickness": 3,
+    "location_size": 2,
+    "location_border_thickness": 0,
     "img": "images/maps/homeworld.png"
   },
   {
