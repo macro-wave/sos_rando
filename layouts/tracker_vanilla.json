@@ -15,6 +15,7 @@
       "content": [
         {
           "type": "tabbed",
+          "width": 330,
           "tabs": [
             {
               "title": "Key Items",
@@ -175,6 +176,150 @@
                   }
                 ]
               }
+            },
+            {
+              "title": "TotW Items",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "background": "#314659",
+                "content": [
+                  {
+                    "type": "array",
+                    "dock": "top",
+                    "orientation": "horizontal",
+                    "content": [
+                      {
+                        "type": "group",
+                        "header": "Player Progress",
+                        "content": {
+                          "type": "layout",
+                          "h_alignment": "center",
+                          "key": "dlc_ability_grid"
+                        }
+                      },
+                      {
+                        "type": "group",
+                        "header": "",
+                        "min_width": 176,
+                        "header_content": {
+                          "type": "button_popup",
+                          "style": "settings",
+                          "popup_background": "#FF212121",
+                          "layout": "options_panel"
+                        },
+                        "content": {
+                          "type": "item",
+                          "item": "a_renown",
+                          "h_alignment": "center",
+                          "width": 120,
+                          "height": 30
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Items",
+                    "content": {
+                      "type": "layout",
+                      "key": "dlc_item_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Circus Skills",
+                    "content": {
+                      "type": "layout",
+                      "key": "dlc_skills_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Collectibles",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_collectibles_grid"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "TotW Checklists",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "background": "#314659",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Goodie Bags Discovered",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_fishing_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "TotW Recipes",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_recipe_grid"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "TotW Characters",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "background": "#314659",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Party",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_party_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Bosses",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "left",
+                      "key": "dlc_boss_grid"
+                    }
+                  }
+                ]
+              }
             }
           ]
         },
@@ -232,6 +377,15 @@
                     "type": "map",
                     "maps": [
                       "nightmare"
+                    ]
+                  }
+                },
+                {
+                  "title": "Horloge",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "horloge"
                     ]
                   }
                 }
