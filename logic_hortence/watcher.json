@@ -61,8 +61,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1170,
-            "y": 843
+            "x": 440,
+            "y": 302
           }
         ]
       },
@@ -80,8 +80,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1160,
-            "y": 800
+            "x": 437,
+            "y": 288
           }
         ]
       },
@@ -123,8 +123,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1117,
-            "y": 780
+            "x": 422,
+            "y": 281
           }
         ]
       },
@@ -137,8 +137,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1137,
-            "y": 780
+            "x": 429,
+            "y": 281
           }
         ]
       },
@@ -208,8 +208,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1176,
-            "y": 800
+            "x": 442,
+            "y": 288
           }
         ]
       },
@@ -286,8 +286,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1192,
-            "y": 800,
+            "x": 447,
+            "y": 288,
             "restrict_visibility_rules": [
               "option_conch_rewards_on"
             ]
@@ -316,8 +316,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1052,
-            "y": 787
+            "x": 401,
+            "y": 283
           }
         ]
       },
@@ -397,8 +397,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 760
+            "x": 396,
+            "y": 274
           }
         ]
       },
@@ -419,8 +419,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 720
+            "x": 396,
+            "y": 261
           }
         ]
       },
@@ -479,8 +479,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1374,
-            "y": 250
+            "x": 508,
+            "y": 104
           }
         ]
       },
@@ -513,8 +513,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1167,
-            "y": 757
+            "x": 439,
+            "y": 273
           }
         ]
       },
@@ -539,8 +539,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1210,
-            "y": 782
+            "x": 453,
+            "y": 282
           }
         ]
       }
