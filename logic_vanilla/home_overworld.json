@@ -150,6 +150,8 @@
               },
               {
                 "name": "Resh'an's Turban",
+                "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
+                "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
                 "item_count": 1
               },
               {
