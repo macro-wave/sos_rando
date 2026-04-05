@@ -3,8 +3,8 @@
     "name": "Serai Overworld",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_serai_overworld"
     ],
@@ -114,8 +114,17 @@
             ]
           },
           {
-            "name": "Halls of Illusion Maze",
-            "item_count": 2,
+            "name": "Halls of Illusion Maze Chest",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Halls of Illusion Maze Basket",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
+            "item_count": 1,
             "access_rules": [
               "k_mistral"
             ]
@@ -160,6 +169,8 @@
           },
           {
             "name": "Before Room of Sending",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
             "item_count": 1,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
