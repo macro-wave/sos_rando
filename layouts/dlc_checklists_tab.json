@@ -28,10 +28,11 @@
         "item_size": 40,
         "rows": [
           [
-            "recipe_popcorn",
-            "recipe_caramelcorn",
             "recipe_barbapapa",
-            "recipe_milkshake"
+            "recipe_milkshake",
+            "recipe_caramelcorn",
+            "recipe_icecream",
+            "recipe_popcorn"
           ]
         ]
       }

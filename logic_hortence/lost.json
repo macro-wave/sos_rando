@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Lost Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_lost"
+    ],
+    "children": [
+      {
+        "name": "West Lost Puzzle Box",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 373,
+            "y": 233
+          }
+        ]
+      },
+      {
+        "name": "East Lost Puzzle Box",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 387,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Goodies Pond",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 387,
+            "y": 246
+          }
+        ]
+      }
+    ]
+  }
+]

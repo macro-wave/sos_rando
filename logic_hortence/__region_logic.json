@@ -94,5 +94,25 @@
     "access_rules": [
       "@rule_can_cross_sea_of_stars,@rule_can_use_speedball"
     ]
+  },
+  {
+    "name": "reg_horloge",
+    "access_rules": []
+  },
+  {
+    "name": "reg_ivory",
+    "access_rules": []
+  },
+  {
+    "name": "reg_wolf",
+    "access_rules": []
+  },
+  {
+    "name": "reg_lost",
+    "access_rules": []
+  },
+  {
+    "name": "reg_bigtop",
+    "access_rules": []
   }
 ]

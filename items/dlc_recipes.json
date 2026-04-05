@@ -1,17 +1,5 @@
 [
   {
-    "name": "Recipe: Popcorn",
-    "type": "toggle",
-    "img": "images/items/recipe_basicsalad.png",
-    "codes": "recipe_popcorn"
-  },
-  {
-    "name": "Recipe: Caramelcorn",
-    "type": "toggle",
-    "img": "images/items/recipe_basicsalad.png",
-    "codes": "recipe_caramelcorn"
-  },
-  {
     "name": "Recipe: Barbapapa",
     "type": "toggle",
     "img": "images/items/recipe_basicsalad.png",
@@ -22,5 +10,23 @@
     "type": "toggle",
     "img": "images/items/recipe_basicsalad.png",
     "codes": "recipe_milkshake"
+  },
+  {
+    "name": "Recipe: Caramel Corn",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_caramelcorn"
+  },
+  {
+    "name": "Recipe: Ice Cream",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_icecream"
+  },
+  {
+    "name": "Recipe: Popcorn",
+    "type": "toggle",
+    "img": "images/items/recipe_basicsalad.png",
+    "codes": "recipe_popcorn"
   }
 ]

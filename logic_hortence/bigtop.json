@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Big Top",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/treasure_chest_open.png",
+    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "access_rules": [
+      "@reg_bigtop"
+    ],
+    "children": [
+      {
+        "name": "Big Top Central",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 319,
+            "y": 82
+          }
+        ]
+      },
+      {
+        "name": "Big Top SW Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 307,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Big Top SE Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 331,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Big Top West Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 305,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Big Top East Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 333,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Big Top NW Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 307,
+            "y": 66
+          }
+        ]
+      },
+      {
+        "name": "Big Top NE Tent",
+        "sections": [
+          {
+            "name": "Test",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 331,
+            "y": 66
+          }
+        ]
+      }
+    ]
+  }
+]
