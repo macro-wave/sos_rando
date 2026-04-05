@@ -539,12 +539,14 @@
         "sections": [
           {
             "name": "By Puzzle",
-            "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png"
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "item_count": 1
           },
           {
             "name": "Vial Pyramid",
+            "chest_opened_img": "images/boxes/vial_chest_open.png",
+            "chest_unopened_img": "images/boxes/vial_chest_closed.png",
             "item_count": 1
           }
         ],
