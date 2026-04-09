@@ -2,7 +2,7 @@
   {
     "name": "reg_home_overworld",
     "access_rules": [
-      "@rule_can_leave_cavern"
+      "@can_leave_cavern"
     ]
   },
   {
@@ -12,87 +12,87 @@
   {
     "name": "reg_sleeper",
     "access_rules": [
-      "@rule_can_leave_cavern"
+      "@can_leave_cavern"
     ]
   },
   {
     "name": "reg_wraith",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing",
+      "@can_leave_cavern,a_sailing",
       "a_flight"
     ]
   },
   {
     "name": "reg_sea_nightmare",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing"
+      "@can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_settlers",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing",
+      "@can_leave_cavern,a_sailing",
       "a_flight"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing",
+      "@can_leave_cavern,a_sailing",
       "a_flight"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing,k_vial",
+      "@can_leave_cavern,a_sailing,k_vial",
       "a_flight,k_vial"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing,@rule_can_beat_strife",
-      "@rule_can_leave_cavern,a_sailing,option_skybridge_open",
-      "@rule_can_leave_cavern,golem_puntie"
+      "@can_leave_cavern,a_sailing,@can_beat_strife",
+      "@can_leave_cavern,a_sailing,option_skybridge_open",
+      "@can_leave_cavern,golem_puntie"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing",
+      "@can_leave_cavern,a_sailing",
       "a_flight"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing",
+      "@can_leave_cavern,a_sailing",
       "a_flight"
     ]
   },
   {
     "name": "reg_serai_overworld",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_cerulean",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sacrosanct",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sky_base",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball"
+      "@can_cross_sea_of_stars,@can_use_speedball"
     ]
   }
 ]

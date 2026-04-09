@@ -521,8 +521,8 @@
       {
         "name": "Mossy Cache",
         "access_rules": [
-          "k_hammer,k_amulet,@rule_can_beat_torment",
-          "a_flight,k_amulet,@rule_can_beat_torment"
+          "k_hammer,k_amulet,@can_beat_torment",
+          "a_flight,k_amulet,@can_beat_torment"
         ],
         "sections": [
           {

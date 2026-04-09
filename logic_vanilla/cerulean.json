@@ -314,7 +314,7 @@
       {
         "name": "Throne of The Queen That Was",
         "access_rules": [
-          "@rule_can_use_speedball,[k_jocebuckle]"
+          "@can_use_speedball,[k_jocebuckle]"
         ],
         "sections": [
           {

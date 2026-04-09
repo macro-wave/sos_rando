@@ -3,25 +3,25 @@
     "name": "Recipe: Basic Salad",
     "type": "toggle",
     "img": "images/items/recipe_basicsalad.png",
-    "codes": "recipe_basicsalad,recipe_light"
+    "codes": "recipe_basicsalad"
   },
   {
     "name": "Recipe: Berry Jam",
     "type": "toggle",
     "img": "images/items/recipe_berryjam.png",
-    "codes": "recipe_berryjam,recipe_sweet"
+    "codes": "recipe_berryjam"
   },
   {
     "name": "Recipe: Bouillabaisse",
     "type": "toggle",
     "img": "images/items/recipe_bouillabaisse.png",
-    "codes": "recipe_bouillabaisse,recipe_warming,recipe_water"
+    "codes": "recipe_bouillabaisse"
   },
   {
     "name": "Recipe: Braisé",
     "type": "toggle",
     "img": "images/items/recipe_braise.png",
-    "codes": "recipe_braise,recipe_meaty"
+    "codes": "recipe_braise"
   },
   {
     "name": "Recipe: Champion Omelette",
@@ -33,31 +33,31 @@
     "name": "Recipe: Chaudrée",
     "type": "toggle",
     "img": "images/items/recipe_chaudree.png",
-    "codes": "recipe_chaudree,recipe_warming,recipe_water"
+    "codes": "recipe_chaudree"
   },
   {
     "name": "Recipe: Croustade",
     "type": "toggle",
     "img": "images/items/recipe_croustade.png",
-    "codes": "recipe_croustade,recipe_sweet"
+    "codes": "recipe_croustade"
   },
   {
     "name": "Recipe: Gourmet Burger",
     "type": "toggle",
     "img": "images/items/recipe_burger.png",
-    "codes": "recipe_burger,recipe_meaty"
+    "codes": "recipe_burger"
   },
   {
     "name": "Recipe: Hearty Stew",
     "type": "toggle",
     "img": "images/items/recipe_stew.png",
-    "codes": "recipe_stew,recipe_warming"
+    "codes": "recipe_stew"
   },
   {
     "name": "Recipe: Herbed Filet",
     "type": "toggle",
     "img": "images/items/recipe_herbedfilet.png",
-    "codes": "recipe_herbedfilet,recipe_light,recipe_water"
+    "codes": "recipe_herbedfilet"
   },
   {
     "name": "Recipe: Lasagna",
@@ -75,25 +75,25 @@
     "name": "Recipe: Mooncradle Fish Pie",
     "type": "toggle",
     "img": "images/items/recipe_fishpie.png",
-    "codes": "recipe_fishpie,recipe_water"
+    "codes": "recipe_fishpie"
   },
   {
     "name": "Recipe: Mushroom Scramble",
     "type": "toggle",
     "img": "images/items/recipe_shroomscramble.png",
-    "codes": "recipe_shroomscramble,recipe_light"
+    "codes": "recipe_shroomscramble"
   },
   {
     "name": "Recipe: Mushroom Soup",
     "type": "toggle",
     "img": "images/items/recipe_shroomsoup.png",
-    "codes": "recipe_shroomsoup,recipe_warming"
+    "codes": "recipe_shroomsoup"
   },
   {
     "name": "Recipe: Pain Doré",
     "type": "toggle",
     "img": "images/items/recipe_paindore.png",
-    "codes": "recipe_paindore,recipe_sweet"
+    "codes": "recipe_paindore"
   },
   {
     "name": "Recipe: Papillote",
@@ -105,13 +105,13 @@
     "name": "Recipe: Parfait",
     "type": "toggle",
     "img": "images/items/recipe_parfait.png",
-    "codes": "recipe_parfait,recipe_sweet"
+    "codes": "recipe_parfait"
   },
   {
     "name": "Recipe: Peach Strudel",
     "type": "toggle",
     "img": "images/items/recipe_strudel.png",
-    "codes": "recipe_strudel,recipe_sweet"
+    "codes": "recipe_strudel,"
   },
   {
     "name": "Recipe: Poutine",
@@ -129,19 +129,19 @@
     "name": "Recipe: Roast Sandwich",
     "type": "toggle",
     "img": "images/items/recipe_roastsandwich.png",
-    "codes": "recipe_roastsandwich,recipe_meaty"
+    "codes": "recipe_roastsandwich"
   },
   {
     "name": "Recipe: Sashimi",
     "type": "toggle",
     "img": "images/items/recipe_sashimi.png",
-    "codes": "recipe_sashimi,recipe_water"
+    "codes": "recipe_sashimi"
   },
   {
     "name": "Recipe: Tataki",
     "type": "toggle",
     "img": "images/items/recipe_tataki.png",
-    "codes": "recipe_tataki,recipe_meaty,recipe_water"
+    "codes": "recipe_tataki"
   },
   {
     "name": "Recipe: Tomato Club",
@@ -153,6 +153,6 @@
     "name": "Recipe: Yakitori Shrimp",
     "type": "toggle",
     "img": "images/items/recipe_yakitorishrimp.png",
-    "codes": "recipe_yakitorishrimp,recipe_water"
+    "codes": "recipe_yakitorishrimp"
   }
 ]
