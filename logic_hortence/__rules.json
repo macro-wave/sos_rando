@@ -1,6 +1,6 @@
 [
   {
-    "name": "rule_can_leave_cavern",
+    "name": "can_leave_cavern",
     "access_rules": [
       "k_ornatestone:2,k_key_forbiddencavern",
       "k_ornatestone:2,option_cavern_open",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "name": "rule_can_get_zephyr",
+    "name": "can_get_zephyr",
     "access_rules": [
       "a_sailing,k_key_wind,k_hammer_cobalt,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,k_seashell_magic,k_amulet,k_key_yomara",
       "a_sailing,k_key_wind,k_hammer_cobalt,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,option_mesa_shortcut_open",
@@ -20,15 +20,15 @@
     ]
   },
   {
-    "name": "rule_can_cross_sea_of_stars",
+    "name": "can_cross_sea_of_stars",
     "access_rules": [
-      "a_sailing,@rule_can_get_zephyr,k_mistral,k_graplou,k_doubloon:6,k_pearl_immaculate,k_seashell_magic",
+      "a_sailing,@can_get_zephyr,k_mistral,k_graplou,k_doubloon:6,k_pearl_immaculate,k_seashell_magic",
       "a_sailing,option_sos_mshell,k_seashell_magic",
       "a_sailing,option_sos_open"
     ]
   },
   {
-    "name": "rule_can_use_speedball",
+    "name": "can_use_speedball",
     "access_rules": [
       "k_graplou,k_mistral,k_crystalegg",
       "option_speedball_open",
@@ -36,85 +36,85 @@
     ]
   },
   {
-    "name": "rule_can_use_mesa_shortcut",
+    "name": "can_use_mesa_shortcut",
     "access_rules": [
       "option_mesa_shortcut_open",
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,k_graplou,k_mistral"
+      "@can_cross_sea_of_stars,@can_use_speedball,k_graplou,k_mistral"
     ]
   },
   {
-    "name": "rule_can_beat_wyrd",
+    "name": "can_beat_wyrd",
     "access_rules": [
       "k_ornatestone:2",
       "option_skip_prologue_on"
     ]
   },
   {
-    "name": "rule_can_beat_bosslug",
+    "name": "can_beat_bosslug",
     "access_rules": [
-      "@rule_can_beat_wyrd,k_key_forbiddencavern"
+      "@can_beat_wyrd,k_key_forbiddencavern"
     ]
   },
   {
-    "name": "rule_can_beat_malkomount",
+    "name": "can_beat_malkomount",
     "access_rules": [
-      "@rule_can_leave_cavern,golem_xtol,k_mistral",
+      "@can_leave_cavern,golem_xtol,k_mistral",
       "a_flight,k_mistral",
       "a_sailing,option_elevator_open,k_mistral"
     ]
   },
   {
-    "name": "rule_can_beat_woe",
+    "name": "can_beat_woe",
     "access_rules": [
       "a_sailing,k_soulstone,k_graplou,k_knightshelm,k_crown",
       "a_flight,k_soulstone,k_graplou,k_knightshelm,k_crown"
     ]
   },
   {
-    "name": "rule_can_beat_torment",
+    "name": "can_beat_torment",
     "access_rules": [
       "a_sailing,k_hammer,k_amulet",
       "a_flight,k_amulet"
     ]
   },
   {
-    "name": "rule_can_beat_strife",
+    "name": "can_beat_strife",
     "access_rules": [
       "a_sailing,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master,k_seashell_magic,k_amulet,k_key_yomara",
-      "a_sailing,@rule_can_use_mesa_shortcut,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master",
+      "a_sailing,@can_use_mesa_shortcut,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master",
       "a_flight,k_vial,k_key_garden,k_graplou,k_mistral,k_key_master"
     ]
   },
   {
-    "name": "rule_can_beat_catalyst",
+    "name": "can_beat_catalyst",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,k_graplou,k_mistral"
+      "@can_cross_sea_of_stars,@can_use_speedball,k_graplou,k_mistral"
     ]
   },
   {
-    "name": "rule_can_beat_dread",
+    "name": "can_beat_dread",
     "access_rules": [
-      "@rule_can_beat_catalyst,k_seashell_magic",
-      "@rule_can_cross_sea_of_stars,option_abyss_open,k_seashell_magic"
+      "@can_beat_catalyst,k_seashell_magic",
+      "@can_cross_sea_of_stars,option_abyss_open,k_seashell_magic"
     ]
   },
   {
-    "name": "rule_can_beat_eldermist_2",
+    "name": "can_beat_eldermist_2",
     "access_rules": [
-      "a_flight,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+      "a_flight,@can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
     ]
   },
   {
-    "name": "rule_can_beat_croustalion",
+    "name": "can_beat_croustalion",
     "access_rules": [
-      "golem_xtol,@rule_can_beat_malkomount,@rule_can_beat_woe",
-      "golem_xtol,option_elevator_open,@rule_can_beat_woe",
-      "a_sailing,@rule_can_beat_woe",
-      "a_flight,@rule_can_beat_woe"
+      "golem_xtol,@can_beat_malkomount,@can_beat_woe",
+      "golem_xtol,option_elevator_open,@can_beat_woe",
+      "a_sailing,@can_beat_woe",
+      "a_flight,@can_beat_woe"
     ]
   },
   {
-    "name": "rule_can_beat_seaslug",
+    "name": "can_beat_seaslug",
     "access_rules": [
       "a_sailing,k_seashell_magic,k_amulet,option_ruins_raised,k_docarrifragment:3",
       "a_sailing,k_seashell_magic,option_ruins_activated,k_docarrifragment:3",
@@ -122,28 +122,359 @@
     ]
   },
   {
-    "name": "rule_can_beat_gungoddess",
+    "name": "can_beat_gungoddess",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,[k_jocebuckle]",
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball,option_logic_jocebuckle"
+      "@can_cross_sea_of_stars,@can_use_speedball,[k_jocebuckle]",
+      "@can_cross_sea_of_stars,@can_use_speedball,option_logic_jocebuckle"
     ]
   },
   {
-    "name": "rule_can_beat_elysandarelle",
+    "name": "can_beat_elysandarelle",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,a_flight,k_mistral,k_graplou,k_bigjar:3,k_susfish",
-      "@rule_can_cross_sea_of_stars,a_flight,option_lair_warp_on"
+      "@can_cross_sea_of_stars,a_flight,k_mistral,k_graplou,k_bigjar:3,k_susfish",
+      "@can_cross_sea_of_stars,a_flight,option_lair_warp_on"
     ]
   },
   {
-    "name": "rule_can_open_chronophage",
+    "name": "can_open_chronophage",
     "access_rules": [
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_coin_undeath",
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_coin_undeath",
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_flame_green",
-      "@rule_can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@rule_can_beat_seaslug,@rule_can_beat_croustalion,@rule_can_beat_gungoddess,@rule_can_beat_eldermist_2,k_journal,k_locket,k_mistral"
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_coin_undeath",
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_flame_green",
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,golem_xtol,k_mistral",
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,k_coin_undeath",
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,k_flame_green",
+      "@can_beat_elysandarelle,k_cookiejar,k_rainbowstar,@can_beat_seaslug,@can_beat_croustalion,@can_beat_gungoddess,@can_beat_eldermist_2,k_journal,k_locket,k_mistral"
+    ]
+  },
+  {
+    "name": "can_get_apple",
+    "access_rules": [
+      "@can_leave_cavern,a_sailing",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_pepper",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_berry",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_bone",
+    "access_rules": [
+      "@can_leave_cavern,a_sailing",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_dairy",
+    "access_rules": [
+      "@can_leave_cavern,a_sailing",
+      "@can_leave_cavern,golem_xtol",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_egg",
+    "access_rules": [
+      "@can_leave_cavern,a_sailing",
+      "@can_leave_cavern,golem_xtol",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_fish",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_grains",
+    "access_rules": []
+  },
+  {
+    "name": "can_get_lettuce",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_syrup",
+    "access_rules": [
+      "@can_leave_cavern,a_sailing,k_plan_shop,k_hammer_coral,k_seashell_magic",
+      "@can_leave_cavern,a_sailing,k_vial",
+      "a_flight,k_plan_shop,k_hammer_coral,k_seashell_magic",
+      "a_flight,k_vial",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_meat",
+    "access_rules": [
+      "@can_leave_cavern,golem_xtol",
+      "@can_leave_cavern,golem_puntie",
+      "a_sailing",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_mushroom",
+    "access_rules": []
+  },
+  {
+    "name": "can_get_onion",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_peach",
+    "access_rules": [
+      "@can_leave_cavern,golem_puntie",
+      "a_sailing",
+      "a_flight",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_potato",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_seafood",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_get_tomato",
+    "access_rules": [
+      "@can_leave_cavern",
+      "[]"
+    ]
+  },
+  {
+    "name": "can_cook_basicsalad",
+    "access_rules": [
+      "recipe_basicsalad,@can_get_pepper,@can_get_lettuce,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_berryjam",
+    "access_rules": [
+      "recipe_berryjam,@can_get_berry"
+    ]
+  },
+  {
+    "name": "can_cook_bouillabaisse",
+    "access_rules": [
+      "recipe_bouillabaisse,@can_get_fish,@can_get_onion,@can_get_seafood,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_braise",
+    "access_rules": [
+      "recipe_braise,@can_get_grains,@can_get_meat,@can_get_onion,@can_get_potato"
+    ]
+  },
+  {
+    "name": "can_cook_omelette",
+    "access_rules": [
+      "recipe_omelette,@can_get_onion,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_chaudree",
+    "access_rules": [
+      "recipe_chaudree,@can_get_dairy,@can_get_potato,@can_get_seafood"
+    ]
+  },
+  {
+    "name": "can_cook_croustade",
+    "access_rules": [
+      "recipe_croustade,@can_get_dairy,@can_get_egg,@can_get_grains,@can_get_syrup"
+    ]
+  },
+  {
+    "name": "can_cook_burger",
+    "access_rules": [
+      "recipe_burger,@can_get_dairy,@can_get_grains,@can_get_lettuce,@can_get_meat,@can_get_mushroom,@can_get_onion,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_stew",
+    "access_rules": [
+      "recipe_stew,@can_get_grains,@can_get_meat,@can_get_onion,@can_get_potato"
+    ]
+  },
+  {
+    "name": "can_cook_herbedfilet",
+    "access_rules": [
+      "recipe_herbedfilet,@can_get_fish,@can_get_grains"
+    ]
+  },
+  {
+    "name": "can_cook_lasagna",
+    "access_rules": [
+      "recipe_lasagna,@can_get_dairy,@can_get_grains,@can_get_meat,@can_get_onion,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_feast",
+    "access_rules": [
+      "recipe_feast,@can_get_dairy,@can_get_fish,@can_get_meat,@can_get_onion,@can_get_potato,@can_get_seafood"
+    ]
+  },
+  {
+    "name": "can_cook_fishpie",
+    "access_rules": [
+      "recipe_fishpie,@can_get_dairy,@can_get_egg,@can_get_fish,@can_get_grains,@can_get_onion,@can_get_potato"
+    ]
+  },
+  {
+    "name": "can_cook_shroomscramble",
+    "access_rules": [
+      "recipe_shroomscramble,@can_get_egg,@can_get_mushroom"
+    ]
+  },
+  {
+    "name": "can_cook_shroomsoup",
+    "access_rules": [
+      "recipe_shroomsoup,@can_get_bone,@can_get_dairy,@can_get_mushroom"
+    ]
+  },
+  {
+    "name": "can_cook_paindore",
+    "access_rules": [
+      "recipe_paindore,@can_get_dairy,@can_get_egg,@can_get_grains,@can_get_syrup"
+    ]
+  },
+  {
+    "name": "can_cook_papillotte",
+    "access_rules": [
+      "recipe_papillotte,@can_get_onion,@can_get_potato"
+    ]
+  },
+  {
+    "name": "can_cook_parfait",
+    "access_rules": [
+      "recipe_parfait,@can_get_berry,@can_get_dairy,@can_get_grains,@can_get_syrup"
+    ]
+  },
+  {
+    "name": "can_cook_strudel",
+    "access_rules": [
+      "recipe_strudel,@can_get_dairy,@can_get_egg,@can_get_grains,@can_get_peach"
+    ]
+  },
+  {
+    "name": "can_cook_poutine",
+    "access_rules": [
+      "recipe_poutine,@can_get_bone,@can_get_dairy,@can_get_potato"
+    ]
+  },
+  {
+    "name": "can_cook_chomeur",
+    "access_rules": [
+      "recipe_chomeur,@can_get_dairy,@can_get_grains,@can_get_syrup"
+    ]
+  },
+  {
+    "name": "can_cook_roastsandwich",
+    "access_rules": [
+      "recipe_roastsandwich,@can_get_grains,@can_get_meat"
+    ]
+  },
+  {
+    "name": "can_cook_sashimi",
+    "access_rules": [
+      "recipe_sashimi,@can_get_fish"
+    ]
+  },
+  {
+    "name": "can_cook_tataki",
+    "access_rules": [
+      "recipe_tataki,@can_get_fish,@can_get_meat,@can_get_seafood"
+    ]
+  },
+  {
+    "name": "can_cook_tomatoclub",
+    "access_rules": [
+      "recipe_tomatoclub,@can_get_grains,@can_get_lettuce,@can_get_tomato"
+    ]
+  },
+  {
+    "name": "can_cook_yakitorishrimp",
+    "access_rules": [
+      "recipe_yakitorishrimp,@can_get_seafood"
+    ]
+  },
+  {
+    "name": "can_cook_sweet",
+    "access_rules": [
+      "@can_cook_berryjam",
+      "@can_cook_croustade",
+      "@can_cook_paindore",
+      "@can_cook_parfait",
+      "@can_cook_strudel"
+    ]
+  },
+  {
+    "name": "can_cook_warming",
+    "access_rules": [
+      "@can_cook_bouillabaisse",
+      "@can_cook_chaudree",
+      "@can_cook_stew",
+      "@can_cook_shroomsoup"
+    ]
+  },
+  {
+    "name": "can_cook_meaty",
+    "access_rules": [
+      "@can_cook_braise",
+      "@can_cook_burger",
+      "@can_cook_roastsandwich",
+      "@can_cook_tataki"
+    ]
+  },
+  {
+    "name": "can_cook_light",
+    "access_rules": [
+      "@can_cook_basicsalad",
+      "@can_cook_herbedfilet",
+      "@can_cook_shroomscramble"
+    ]
+  },
+  {
+    "name": "can_cook_water",
+    "access_rules": [
+      "@can_cook_bouillabaisse",
+      "@can_cook_chaudree",
+      "@can_cook_herbedfilet",
+      "@can_cook_fishpie",
+      "@can_cook_sashimi",
+      "@can_cook_tataki",
+      "@can_cook_yakitorishrimp"
     ]
   }
 ]

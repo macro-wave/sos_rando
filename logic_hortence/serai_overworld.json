@@ -50,7 +50,7 @@
       {
         "name": "Infinite Abyss",
         "access_rules": [
-          "@rule_can_beat_catalyst,k_seashell_magic",
+          "@can_beat_catalyst,k_seashell_magic",
           "option_abyss_open,k_seashell_magic"
         ],
         "sections": [
@@ -229,14 +229,14 @@
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
             "name": "True Ending",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           }
         ],

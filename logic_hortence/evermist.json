@@ -62,7 +62,7 @@
             "name": "Wyrd",
             "hosted_item": "boss_wyrd",
             "access_rules": [
-              "@rule_can_beat_wyrd"
+              "@can_beat_wyrd"
             ]
           }
         ],
@@ -83,7 +83,7 @@
           {
             "name": "Graduation Ceremony",
             "access_rules": [
-              "@rule_can_beat_wyrd"
+              "@can_beat_wyrd"
             ],
             "item_count": 2
           }
@@ -102,7 +102,7 @@
       {
         "name": "Return to Mooncradle",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -154,7 +154,7 @@
       {
         "name": "Forbidden Cavern",
         "access_rules": [
-          "@rule_can_beat_wyrd"
+          "@can_beat_wyrd"
         ],
         "sections": [
           {
@@ -210,13 +210,13 @@
             "name": "Bosslug",
             "hosted_item": "boss_bosslug",
             "access_rules": [
-              "@rule_can_beat_bosslug"
+              "@can_beat_bosslug"
             ]
           },
           {
             "name": "Behind Bosslug",
             "access_rules": [
-              "@rule_can_beat_bosslug"
+              "@can_beat_bosslug"
             ],
             "item_count": 2
           }
@@ -232,7 +232,7 @@
       {
         "name": "Sunglow Lake",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -261,7 +261,7 @@
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "@rule_can_leave_cavern,k_key_evermistshrine"
+          "@can_leave_cavern,k_key_evermistshrine"
         ],
         "sections": [
           {
@@ -282,7 +282,7 @@
       {
         "name": "Mountain Trail",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -315,7 +315,7 @@
             "name": "Reclamation",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
@@ -361,7 +361,7 @@
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "a_flight,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "a_flight,@can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {
@@ -384,7 +384,7 @@
       {
         "name": "Elder Mist Trials",
         "access_rules": [
-          "@rule_can_leave_cavern,a_manaboost"
+          "@can_leave_cavern,a_manaboost"
         ],
         "sections": [
           {
@@ -424,7 +424,7 @@
       {
         "name": "Y'eet's Landing",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {

@@ -148,7 +148,7 @@
         "name": "Songshroom Marsh",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_use_mesa_shortcut",
+          "@can_use_mesa_shortcut",
           "a_flight"
         ],
         "sections": [
@@ -255,7 +255,7 @@
         "name": "Clockwork Castle Grounds",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
-          "@rule_can_use_mesa_shortcut",
+          "@can_use_mesa_shortcut",
           "a_flight"
         ],
         "sections": [
@@ -284,7 +284,7 @@
         "name": "Clockwork Castle",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
-          "@rule_can_use_mesa_shortcut",
+          "@can_use_mesa_shortcut",
           "a_flight"
         ],
         "sections": [
@@ -324,7 +324,7 @@
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
+              "@can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
             ]
           },
           {

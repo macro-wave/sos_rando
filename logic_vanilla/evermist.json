@@ -102,7 +102,7 @@
       {
         "name": "Return to Mooncradle",
         "access_rules": [
-          "@rule_can_leave_cavern,boss_dweller_woe,k_key_evermistshrine"
+          "@can_leave_cavern,boss_dweller_woe,k_key_evermistshrine"
         ],
         "sections": [
           {
@@ -233,7 +233,7 @@
       {
         "name": "Sunglow Lake",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -275,7 +275,7 @@
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "@rule_can_leave_cavern,k_key_evermistshrine"
+          "@can_leave_cavern,k_key_evermistshrine"
         ],
         "sections": [
           {
@@ -296,7 +296,7 @@
       {
         "name": "Mountain Trail",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -345,7 +345,7 @@
               "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
             ],
             "visibility_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
@@ -383,7 +383,7 @@
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "a_flight,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "a_flight,@can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {

@@ -218,14 +218,14 @@
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "@rule_can_open_chronophage,boss_elysandarelle"
+              "@can_open_chronophage,boss_elysandarelle"
             ]
           },
           {
             "name": "True Ending",
             "hosted_item": "c_flimsyhammer",
             "access_rules": [
-              "@rule_can_open_chronophage,boss_elysandarelle"
+              "@can_open_chronophage,boss_elysandarelle"
             ]
           }
         ],
