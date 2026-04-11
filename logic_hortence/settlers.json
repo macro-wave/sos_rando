@@ -36,7 +36,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "k_plan_fishlodge"
+              "k_plan_fishhut"
             ]
           },
           {
@@ -100,7 +100,7 @@
       {
         "name": "Fishing Lodge",
         "access_rules": [
-          "k_plan_fishlodge"
+          "k_plan_fishhut"
         ],        
         "sections": [
           {
