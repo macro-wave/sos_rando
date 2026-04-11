@@ -37,7 +37,7 @@ Items, images, and logic code follow some common conventions to help keep the pa
 | Wheels Pieces  | w_     | w_figurine_mage     |
 | Special Options| option_| option_skip_prologue|
 
-- Common descriptors like "key" or "plan" should precede precise names. For example: `k_plan_fishlodge`, `k_key_garden`
+- Common descriptors like "key" or "plan" should precede precise names. For example: `k_plan_fishhut`, `k_key_garden`
 
 - Items in their respective json files generally are listed in order of appearance on the tracker, to keep them easy to find and reference.
 #### *Logic Access Rules:*

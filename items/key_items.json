@@ -178,25 +178,25 @@
   {
     "name": "Inn Building Plans",
     "type": "toggle",
-    "img": "images/items/k_plan_inn.png",
+    "img": "images/items/k_plan_inn2.png",
     "codes": "k_plan_inn"
   },
   {
-    "name": "Fishing Lodge Building Plans",
+    "name": "Fishing Hut Building Plans",
     "type": "toggle",
-    "img": "images/items/k_plan_fishlodge.png",
-    "codes": "k_plan_fishlodge"
+    "img": "images/items/k_plan_fishhut2.png",
+    "codes": "k_plan_fishhut"
   },
   {
     "name": "Shop Building Plans",
     "type": "toggle",
-    "img": "images/items/k_plan_shop.png",
+    "img": "images/items/k_plan_shop2.png",
     "codes": "k_plan_shop"
   },
   {
     "name": "Spa Building Plans",
     "type": "toggle",
-    "img": "images/items/k_plan_spa.png",
+    "img": "images/items/k_plan_spa2.png",
     "codes": "k_plan_spa"
   },
   {

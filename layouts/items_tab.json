@@ -1,6 +1,7 @@
 {
   "ability_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
@@ -20,6 +21,7 @@
   },
   "item_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
@@ -57,7 +59,7 @@
           ],
           [
             "k_plan_inn",
-            "k_plan_fishlodge",
+            "k_plan_fishhut",
             "k_plan_shop",
             "k_plan_spa",
             "k_key_yomara",
@@ -79,6 +81,7 @@
   },
   "dungeon_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
@@ -136,6 +139,7 @@
   },
   "collectibles_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {

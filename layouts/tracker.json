@@ -8,7 +8,7 @@
   },
   "tracker_default": {
     "type": "container",
-    "background": "#2b3742",
+    "background": "#32404C",
     "content": {
       "type": "dock",
       "dropshadow": true,
@@ -21,7 +21,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "array",
@@ -93,7 +93,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "group",
@@ -129,7 +129,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "array",
@@ -183,7 +183,7 @@
           "content": [
             {
               "type": "group",
-              "background": "#2b3742",
+              "background": "#32404C",
               "dock": "bottom",
               "header": "Pinned Locations",
               "min_height": 121,

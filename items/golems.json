@@ -2,13 +2,13 @@
   {
     "name": "X'tol",
     "type": "toggle",
-    "img": "images/characters/golem_xtol.png",
+    "img": "images/characters/golem_xtol2.png",
     "codes": "golem_xtol"
   },
   {
     "name": "Y'eet",
     "type": "toggle",
-    "img": "images/characters/golem_yeet.png",
+    "img": "images/characters/golem_yeet2.png",
     "codes": "golem_yeet"
   },
   {

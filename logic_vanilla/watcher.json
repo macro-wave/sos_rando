@@ -255,7 +255,7 @@
           },
           {
             "name": "22 Conches",
-            "hosted_item": "k_plan_fishlodge",
+            "hosted_item": "k_plan_fishhut",
             "access_rules": [
               "c_rainbowconch:22,option_vanilla_ngplus_on"
             ]
@@ -326,8 +326,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1052,
-            "y": 787
+            "x": 401,
+            "y": 283
           }
         ]
       },
@@ -407,8 +407,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 401,
-            "y": 283
+            "x": 396,
+            "y": 274
           }
         ]
       },
