@@ -1,6 +1,7 @@
 ﻿{
   "compact_layout": {
     "type": "array",
+    "background": "#32404C",
     "content": [
       {
         "type": "itemgrid",
