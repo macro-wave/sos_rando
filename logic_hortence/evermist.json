@@ -13,14 +13,6 @@
         "name": "Zenith Academy",
         "sections": [
           {
-            "name": "Training Weapons",
-            "access_rules": [],
-            "item_count": 2,
-            "visibility_rules": [
-              "option_skip_prologue_off"
-            ]
-          },
-          {
             "name": "Garl's Delivery",
             "access_rules": [],
             "item_count": 1,
@@ -39,8 +31,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 275,
-            "y": 885
+            "x": 142,
+            "y": 316
           }
         ]
       },
@@ -70,15 +62,15 @@
             "name": "Wyrd",
             "hosted_item": "boss_wyrd",
             "access_rules": [
-              "@rule_can_beat_wyrd"
+              "@can_beat_wyrd"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 295,
-            "y": 885,
+            "x": 148,
+            "y": 316,
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -91,7 +83,7 @@
           {
             "name": "Graduation Ceremony",
             "access_rules": [
-              "@rule_can_beat_wyrd"
+              "@can_beat_wyrd"
             ],
             "item_count": 2
           }
@@ -99,8 +91,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 255,
-            "y": 845,
+            "x": 135,
+            "y": 303,
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -110,7 +102,7 @@
       {
         "name": "Return to Mooncradle",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -154,15 +146,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 275,
-            "y": 845
+            "x": 142,
+            "y": 303
           }
         ]
       },
       {
         "name": "Forbidden Cavern",
         "access_rules": [
-          "@rule_can_beat_wyrd"
+          "@can_beat_wyrd"
         ],
         "sections": [
           {
@@ -218,13 +210,13 @@
             "name": "Bosslug",
             "hosted_item": "boss_bosslug",
             "access_rules": [
-              "@rule_can_beat_bosslug"
+              "@can_beat_bosslug"
             ]
           },
           {
             "name": "Behind Bosslug",
             "access_rules": [
-              "@rule_can_beat_bosslug"
+              "@can_beat_bosslug"
             ],
             "item_count": 2
           }
@@ -232,16 +224,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 255,
-            "y": 800,
-            "size": 20
+            "x": 135,
+            "y": 288
           }
         ]
       },
       {
         "name": "Sunglow Lake",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -262,15 +253,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 225,
-            "y": 770
+            "x": 125,
+            "y": 278
           }
         ]
       },
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "@rule_can_leave_cavern,k_key_evermistshrine"
+          "@can_leave_cavern,k_key_evermistshrine"
         ],
         "sections": [
           {
@@ -283,15 +274,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 294,
-            "y": 757
+            "x": 148,
+            "y": 273
           }
         ]
       },
       {
         "name": "Mountain Trail",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -324,7 +315,7 @@
             "name": "Reclamation",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
@@ -362,15 +353,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 283,
-            "y": 730
+            "x": 144,
+            "y": 264
           }
         ]
       },
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "a_flight,@can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {
@@ -385,15 +376,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 298,
-            "y": 730
+            "x": 149,
+            "y": 264
           }
         ]
       },
       {
         "name": "Elder Mist Trials",
         "access_rules": [
-          "@rule_can_leave_cavern,@rule_can_boost_live_mana"
+          "@can_leave_cavern,a_manaboost"
         ],
         "sections": [
           {
@@ -425,16 +416,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 283,
-            "y": 700,
-            "size": 20
+            "x": 144,
+            "y": 254
           }
         ]
       },
       {
         "name": "Y'eet's Landing",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -445,8 +435,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 220,
-            "y": 700
+            "x": 123,
+            "y": 254
           }
         ]
       }

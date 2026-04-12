@@ -28,8 +28,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1345,
-            "y": 97,
+            "x": 498,
+            "y": 53,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -42,7 +42,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -55,13 +54,11 @@
           },
           {
             "name": "Bardcore Stage",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -75,12 +72,11 @@
             "hosted_item": "golem_puntie"
           },
           {
-            "name": "Puntie",
-            "item_count": 1
+            "name": "Council of Giants",
+            "hosted_item": "k_key_wind"
           },
           {
-            "name": "Council of Giants",
-            "capture_item": true,
+            "name": "Puntie",
             "item_count": 1
           },
           {
@@ -93,8 +89,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1391,
-            "y": 68
+            "x": 514,
+            "y": 44
           }
         ]
       },
@@ -128,13 +124,11 @@
           },
           {
             "name": "Lower Slab",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Upper Slab",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Vertical Gate",
@@ -160,7 +154,6 @@
           {
             "name": "Crystal Bowl",
             "item_count": 1,
-            "capture_item": true,
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [
@@ -171,9 +164,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1265,
-            "y": 53,
-            "size": 20
+            "x": 472,
+            "y": 39
           }
         ]
       }

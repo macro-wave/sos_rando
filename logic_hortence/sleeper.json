@@ -13,8 +13,8 @@
         "name": "X'tol's Landing",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -35,8 +35,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 335,
-            "y": 268
+            "x": 162,
+            "y": 110
           }
         ]
       },
@@ -44,14 +44,14 @@
         "name": "Windy Loch",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 304,
-            "y": 282
+            "x": 151,
+            "y": 115
           }
         ]
       },
@@ -59,8 +59,8 @@
         "name": "Moorlands",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -92,7 +92,7 @@
           {
             "name": "Chronophage",
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 380,
-            "y": 270
+            "x": 177,
+            "y": 111
           }
         ]
       },
@@ -126,8 +126,8 @@
         "name": "Stonemason's Outpost",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -183,8 +183,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 367,
-            "y": 311
+            "x": 172,
+            "y": 125
           }
         ]
       },
@@ -192,8 +192,8 @@
         "name": "Wind Tunnels Mine",
         "access_rules": [
           "golem_xtol",
-          "@rule_can_fly",
-          "@rule_can_sail,option_elevator_open"
+          "a_flight",
+          "a_sailing,option_elevator_open"
         ],
         "sections": [
           {
@@ -289,18 +289,17 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 367,
-            "y": 295,
-            "size": 20
+            "x": 172,
+            "y": 119
           }
         ]
       },
       {
         "name": "Coral Cascades",
         "access_rules": [
-          "golem_xtol,@rule_can_beat_malkomount",
+          "golem_xtol,@can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail"
+          "a_sailing"
         ],
         "sections": [
           {
@@ -355,18 +354,18 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 377,
-            "y": 420
+            "x": 176,
+            "y": 161
           }
         ]
       },
       {
         "name": "Port Town of Brisk",
         "access_rules": [
-          "golem_xtol,@rule_can_beat_malkomount",
+          "golem_xtol,@can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail",
-          "@rule_can_fly"
+          "a_sailing",
+          "a_flight"
         ],
         "sections": [
           {
@@ -422,7 +421,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
               "golem_xtol",
-              "@rule_can_fly",
+              "a_flight",
               "option_elevator_open"
             ]
           },
@@ -499,7 +498,7 @@
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
               "k_mistral",
-              "@rule_can_beat_woe"
+              "@can_beat_woe"
             ]
           },
           {
@@ -547,8 +546,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 450,
-            "y": 390
+            "x": 200,
+            "y": 151
           }
         ]
       },
@@ -558,18 +557,18 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 435,
-            "y": 390
+            "x": 195,
+            "y": 151
           }
         ]
       },
       {
         "name": "Dweller's Fall Arena",
         "access_rules": [
-          "golem_xtol,@rule_can_beat_malkomount,@rule_can_beat_woe",
-          "golem_xtol,option_elevator_open,@rule_can_beat_woe",
-          "@rule_can_sail,@rule_can_beat_woe",
-          "@rule_can_fly,@rule_can_beat_woe"
+          "golem_xtol,@can_beat_malkomount,@can_beat_woe",
+          "golem_xtol,option_elevator_open,@can_beat_woe",
+          "a_sailing,@can_beat_woe",
+          "a_flight,@can_beat_woe"
         ],
         "sections": [
           {
@@ -596,33 +595,33 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 465,
-            "y": 390
+            "x": 205,
+            "y": 151
           }
         ]
       },
       {
         "name": "Lavish Lake",
         "access_rules": [
-          "golem_xtol,@rule_can_beat_malkomount",
+          "golem_xtol,@can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail",
-          "@rule_can_fly"
+          "a_sailing",
+          "a_flight"
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 460,
-            "y": 337
+            "x": 203,
+            "y": 133
           }
         ]
       },
       {
         "name": "Abandoned Wizard's Lab",
         "access_rules": [
-          "golem_xtol,@rule_can_beat_malkomount",
+          "golem_xtol,@can_beat_malkomount",
           "golem_xtol,option_elevator_open",
-          "@rule_can_sail"
+          "a_sailing"
         ],
         "sections": [
           {
@@ -702,9 +701,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 507,
-            "y": 337,
-            "size": 20
+            "x": 219,
+            "y": 133
           }
         ]
       }

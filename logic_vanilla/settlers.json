@@ -18,13 +18,11 @@
           },
           {
             "name": "Moraine Gift 1",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Moraine Gift 2",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Town Hall Roof",
@@ -34,19 +32,20 @@
           },
           {
             "name": "Moraine's House",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Fish Pond",
             "item_count": 1,
+            "access_rules": [
+              "k_plan_fishhut"
+            ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "k_plan_inn,w_figurine_mage"
             ]
@@ -54,7 +53,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_hammer,k_seashell_magic,k_plan_shop"
             ],
@@ -76,52 +74,55 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1085,
-            "y": 180
+            "x": 412,
+            "y": 81
           }
         ]
       },
       {
         "name": "Fishing Lodge",
         "access_rules": [
-          "k_plan_fishlodge"
+          "k_plan_fishhut"
         ],        
         "sections": [
           {
             "name": "4 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:4"
+              "fish_count:4",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "9 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:9"
+              "fish_count:9",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "14 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:14"
+              "fish_count:14",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "23 Fish",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
-              "fish_count:23"
+              "fish_count:23",
+              "option_vanilla_ngplus_on"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1105,
-            "y": 180
+            "x": 418,
+            "y": 81
           }
         ]
       },
@@ -148,8 +149,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 175,
+            "x": 402,
+            "y": 79,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -169,8 +170,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1056,
-            "y": 142
+            "x": 402,
+            "y": 68
           }
         ]
       }

@@ -20,8 +20,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 360
+            "x": 465,
+            "y": 141
           }
         ]
       },
@@ -99,8 +99,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 310
+            "x": 465,
+            "y": 124
           }
         ]
       },
@@ -108,7 +108,7 @@
         "name": "Bamboo Creek",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -125,8 +125,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1300,
-            "y": 270
+            "x": 483,
+            "y": 111
           }
         ]
       },
@@ -134,13 +134,13 @@
         "name": "Lake Turquoise",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1254,
-            "y": 265
+            "x": 468,
+            "y": 109
           }
         ]
       },
@@ -148,8 +148,8 @@
         "name": "Songshroom Marsh",
         "access_rules": [
           "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "@can_use_mesa_shortcut",
+          "a_flight"
         ],
         "sections": [
           {
@@ -157,7 +157,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou"
+              "a_flight,k_graplou"
             ]
           },
           {
@@ -167,7 +167,7 @@
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -175,7 +175,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -183,7 +183,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -246,8 +246,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1320,
-            "y": 283
+            "x": 490,
+            "y": 115
           }
         ]
       },
@@ -255,8 +255,8 @@
         "name": "Clockwork Castle Grounds",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
-          "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "@can_use_mesa_shortcut",
+          "a_flight"
         ],
         "sections": [
           {
@@ -275,8 +275,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 306
+            "x": 508,
+            "y": 123
           }
         ]
       },
@@ -284,8 +284,8 @@
         "name": "Clockwork Castle",
         "access_rules": [
           "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
-          "@rule_can_use_mesa_shortcut",
-          "@rule_can_fly"
+          "@can_use_mesa_shortcut",
+          "a_flight"
         ],
         "sections": [
           {
@@ -324,7 +324,7 @@
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
+              "@can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
             ]
           },
           {
@@ -352,9 +352,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 287,
-            "size": 20
+            "x": 508,
+            "y": 117
           }
         ]
       }

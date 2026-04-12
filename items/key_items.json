@@ -182,10 +182,10 @@
     "codes": "k_plan_inn"
   },
   {
-    "name": "Fishing Lodge Building Plans",
+    "name": "Fishing Hut Building Plans",
     "type": "toggle",
-    "img": "images/items/k_plan_fishlodge.png",
-    "codes": "k_plan_fishlodge"
+    "img": "images/items/k_plan_fishhut.png",
+    "codes": "k_plan_fishhut"
   },
   {
     "name": "Shop Building Plans",

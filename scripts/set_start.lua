@@ -3,7 +3,8 @@ if variant == "standard" then
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
-    Tracker:FindObjectForCode("k_hortencemap").Active = true
+    Tracker:FindObjectForCode("a_manaboost").Active = true
+    Tracker:FindObjectForCode("a_sailing").Active = true
 
     -- Default options: World Access
     Tracker:FindObjectForCode("option_cavern").CurrentStage = 1
@@ -32,13 +33,6 @@ if variant == "standard" then
     Tracker:FindObjectForCode("option_logic_jocebuckle").Active = false
 
 elseif variant == "v_vanilla" then
-
-    -- Place vanilla items
-    ScriptHost:LoadScript("scripts/vanilla_setup.lua")
-
-    if set_vanilla_captures then
-        set_vanilla_captures()
-    end
 
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true

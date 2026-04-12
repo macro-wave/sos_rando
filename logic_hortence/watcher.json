@@ -61,8 +61,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1170,
-            "y": 843
+            "x": 440,
+            "y": 302
           }
         ]
       },
@@ -80,8 +80,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1160,
-            "y": 800
+            "x": 437,
+            "y": 288
           }
         ]
       },
@@ -89,7 +89,7 @@
         "name": "Sacred Grove",
         "access_rules": [
           "k_hammer,k_graplou",
-          "@rule_can_fly,k_graplou"
+          "a_flight,k_graplou"
         ],
         "sections": [
           {
@@ -123,8 +123,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1117,
-            "y": 780
+            "x": 422,
+            "y": 281
           }
         ]
       },
@@ -132,13 +132,13 @@
         "name": "Watcher's Pond",
         "access_rules": [
           "k_hammer",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1137,
-            "y": 780
+            "x": 429,
+            "y": 281
           }
         ]
       },
@@ -208,8 +208,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1176,
-            "y": 800
+            "x": 442,
+            "y": 288
           }
         ]
       },
@@ -286,8 +286,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1192,
-            "y": 800,
+            "x": 447,
+            "y": 288,
             "restrict_visibility_rules": [
               "option_conch_rewards_on"
             ]
@@ -316,8 +316,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1052,
-            "y": 787
+            "x": 401,
+            "y": 283
           }
         ]
       },
@@ -397,9 +397,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 760,
-            "size": 20
+            "x": 396,
+            "y": 274
           }
         ]
       },
@@ -420,8 +419,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 720
+            "x": 396,
+            "y": 261
           }
         ]
       },
@@ -480,8 +479,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1374,
-            "y": 250
+            "x": 508,
+            "y": 104
           }
         ]
       },
@@ -489,7 +488,7 @@
         "name": "Torment Peak",
         "access_rules": [
           "k_hammer,k_amulet",
-          "@rule_can_fly,k_amulet"
+          "a_flight,k_amulet"
         ],
         "sections": [
           {
@@ -514,35 +513,36 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1167,
-            "y": 757,
-            "size": 20
+            "x": 439,
+            "y": 273
           }
         ]
       },
       {
         "name": "Mossy Cache",
         "access_rules": [
-          "k_hammer,k_amulet,@rule_can_beat_torment",
-          "@rule_can_fly,k_amulet,@rule_can_beat_torment"
+          "k_hammer,k_amulet,@can_beat_torment",
+          "a_flight,k_amulet,@can_beat_torment"
         ],
         "sections": [
           {
             "name": "By Puzzle",
-            "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png"
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "item_count": 1
           },
           {
             "name": "Vial Pyramid",
+            "chest_opened_img": "images/boxes/vial_chest_open.png",
+            "chest_unopened_img": "images/boxes/vial_chest_closed.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1210,
-            "y": 782
+            "x": 453,
+            "y": 282
           }
         ]
       }

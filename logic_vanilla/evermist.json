@@ -13,16 +13,8 @@
         "name": "Zenith Academy",
         "sections": [
           {
-            "name": "Training Weapons",
-            "item_count": 2,
-            "visibility_rules": [
-              "option_skip_prologue_off"
-            ]
-          },
-          {
             "name": "Garl's Delivery",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_cookiejar",
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -38,8 +30,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 275,
-            "y": 885
+            "x": 142,
+            "y": 316
           }
         ]
       },
@@ -57,13 +49,11 @@
           },
           {
             "name": "First Chest",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Second Chest",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_ornatestone"
             ]
@@ -79,8 +69,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 295,
-            "y": 885,
+            "x": 148,
+            "y": 316,
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -101,8 +91,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 255,
-            "y": 845,
+            "x": 135,
+            "y": 303,
             "visibility_rules": [
               "option_skip_prologue_off"
             ]
@@ -112,13 +102,12 @@
       {
         "name": "Return to Mooncradle",
         "access_rules": [
-          "@rule_can_leave_cavern,boss_dweller_woe,k_key_evermistshrine"
+          "@can_leave_cavern,boss_dweller_woe,k_key_evermistshrine"
         ],
         "sections": [
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -157,8 +146,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 275,
-            "y": 845
+            "x": 142,
+            "y": 303
           }
         ]
       },
@@ -184,8 +173,7 @@
           },
           {
             "name": "Rising Wall",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Back Hallway Basket",
@@ -237,16 +225,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 255,
-            "y": 800,
-            "size": 20
+            "x": 135,
+            "y": 288
           }
         ]
       },
       {
         "name": "Sunglow Lake",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -280,15 +267,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 225,
-            "y": 770
+            "x": 125,
+            "y": 278
           }
         ]
       },
       {
         "name": "Evermist Solstice Shrine",
         "access_rules": [
-          "@rule_can_leave_cavern,k_key_evermistshrine"
+          "@can_leave_cavern,k_key_evermistshrine"
         ],
         "sections": [
           {
@@ -301,15 +288,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 294,
-            "y": 757
+            "x": 148,
+            "y": 273
           }
         ]
       },
       {
         "name": "Mountain Trail",
         "access_rules": [
-          "@rule_can_leave_cavern"
+          "@can_leave_cavern"
         ],
         "sections": [
           {
@@ -358,7 +345,7 @@
               "boss_elysandarelle,k_rainbowstar,k_locket,boss_croustalion,boss_gungoddess,boss_eldermist_2,boss_seaslug"
             ],
             "visibility_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
@@ -372,7 +359,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -383,22 +369,21 @@
           },
           {
             "name": "Mist Falls",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 283,
-            "y": 730
+            "x": 144,
+            "y": 264
           }
         ]
       },
       {
         "name": "Ascended Warriors Trial",
         "access_rules": [
-          "@rule_can_fly,@rule_can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
+          "a_flight,@can_cross_sea_of_stars,k_key_evermistshrine,k_graplou,k_key_wraithshrine:2,k_amulet,k_mistral"
         ],
         "sections": [
           {
@@ -416,15 +401,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 298,
-            "y": 730
+            "x": 149,
+            "y": 264
           }
         ]
       },
       {
         "name": "Elder Mist Trials",
         "access_rules": [
-          "@rule_can_boost_live_mana,character_garl"
+          "a_manaboost,character_garl"
         ],
         "sections": [
           {
@@ -442,8 +427,7 @@
           },
           {
             "name": "Middle Trial",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Right Trial",
@@ -457,9 +441,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 283,
-            "y": 700,
-            "size": 20
+            "x": 144,
+            "y": 254
           }
         ]
       },
@@ -477,8 +460,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 220,
-            "y": 700
+            "x": 123,
+            "y": 254
           }
         ]
       }

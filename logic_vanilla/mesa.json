@@ -20,8 +20,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 360
+            "x": 465,
+            "y": 141
           }
         ]
       },
@@ -73,7 +73,6 @@
           {
             "name": "Ninja Swim",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_amulet,k_mistral,k_seashell_magic"
             ]
@@ -89,15 +88,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1245,
-            "y": 310
+            "x": 465,
+            "y": 124
           }
         ]
       },
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -114,15 +113,15 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1300,
-            "y": 270
+            "x": 483,
+            "y": 111
           }
         ]
       },
       {
         "name": "Lake Turquoise",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -145,8 +144,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1254,
-            "y": 265,
+            "x": 468,
+            "y": 109,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -156,7 +155,7 @@
       {
         "name": "Songshroom Marsh",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic"
+          "boss_leaf,k_graplou,k_amulet,k_mistral,k_seashell_magic"
         ],
         "sections": [
           {
@@ -164,7 +163,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou"
+              "a_flight,k_graplou"
             ]
           },
           {
@@ -174,7 +173,7 @@
             "chest_opened_img": "images/boxes/basket_open.png",
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -182,7 +181,7 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
@@ -190,13 +189,12 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-              "@rule_can_fly,k_graplou,k_mistral"
+              "a_flight,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Down the Vine",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_graplou,k_mistral,k_amulet",
               "k_graplou,k_mistral,k_amulet",
@@ -253,8 +251,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1320,
-            "y": 283
+            "x": 490,
+            "y": 115
           }
         ]
       },
@@ -280,8 +278,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 306
+            "x": 508,
+            "y": 123
           }
         ]
       },
@@ -293,8 +291,7 @@
         "sections": [
           {
             "name": "Garden Right",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           },
           {
             "name": "Locket's Waaaares",
@@ -338,14 +335,14 @@
           },
           {
             "name": "Buy From Watchmaker",
-            "item_count": 1,
+            "hosted_item": "k_wheelstable",
             "access_rules": [
               "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc"
             ]
           },
           {
             "name": "Wheels Master",
-            "item_count": 1,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
               "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable"
             ]
@@ -368,9 +365,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1373,
-            "y": 287,
-            "size": 20
+            "x": 508,
+            "y": 117
           }
         ]
       }

@@ -3,8 +3,8 @@
     "name": "Serai Overworld",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_serai_overworld"
     ],
@@ -21,13 +21,13 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 837,
-            "y": 404
+            "x": 329,
+            "y": 156
           },
           {
             "map": "seraiworld",
-            "x": 740,
-            "y": 603
+            "x": 296,
+            "y": 222
           }
         ]
       },
@@ -42,15 +42,15 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 745,
-            "y": 500
+            "x": 298,
+            "y": 188
           }
         ]
       },
       {
         "name": "Infinite Abyss",
         "access_rules": [
-          "@rule_can_beat_catalyst,k_seashell_magic",
+          "@can_beat_catalyst,k_seashell_magic",
           "option_abyss_open,k_seashell_magic"
         ],
         "sections": [
@@ -62,15 +62,15 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1045,
-            "y": 720
+            "x": 398,
+            "y": 261
           }
         ]
       },
       {
         "name": "Solstice Shrine Island",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -86,15 +86,15 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 350,
-            "y": 650
+            "x": 166,
+            "y": 238
           }
         ]
       },
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -112,8 +112,17 @@
             ]
           },
           {
-            "name": "Halls of Illusion Maze",
-            "item_count": 2,
+            "name": "Halls of Illusion Maze Chest",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Halls of Illusion Maze Basket",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
+            "item_count": 1,
             "access_rules": [
               "k_mistral"
             ]
@@ -155,6 +164,8 @@
           },
           {
             "name": "Before Room of Sending",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
             "item_count": 1,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
@@ -218,23 +229,22 @@
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           },
           {
             "name": "True Ending",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_open_chronophage"
+              "@can_open_chronophage"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 840,
-            "y": 250,
-            "size": 20
+            "x": 330,
+            "y": 104
           }
         ]
       }

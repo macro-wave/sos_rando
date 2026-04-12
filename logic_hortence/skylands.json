@@ -14,8 +14,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1345,
-            "y": 97
+            "x": 498,
+            "y": 53
           }
         ]
       },
@@ -64,11 +64,11 @@
             "hosted_item": "golem_puntie"
           },
           {
-            "name": "Puntie",
+            "name": "Council of Giants",
             "item_count": 1
           },
           {
-            "name": "Council of Giants",
+            "name": "Puntie",
             "item_count": 1
           },
           {
@@ -81,8 +81,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1391,
-            "y": 68
+            "x": 514,
+            "y": 44
           }
         ]
       },
@@ -126,21 +126,21 @@
             "name": "Vertical Gate",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_slab_triangular,k_slab_hexagonal"
+              "k_graplou,k_slab_hexagonal"
             ]
           },
           {
             "name": "Rope Walk",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_slab_triangular,k_slab_hexagonal"
+              "k_graplou,k_slab_hexagonal"
             ]
           },
           {
             "name": "Mirror Room",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
+              "k_graplou,kk_slab_hexagonal,k_mistral"
             ]
           },
           {
@@ -149,16 +149,15 @@
             "chest_unopened_img": "images/boxes/dungeon_chest_red_closed.png",
             "chest_opened_img": "images/boxes/dungeon_chest_red_open.png",
             "access_rules": [
-              "k_graplou,k_slab_triangular,k_slab_hexagonal,k_mistral"
+              "k_graplou,k_slab_hexagonal,k_mistral"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1265,
-            "y": 53,
-            "size": 20
+            "x": 472,
+            "y": 39
           }
         ]
       }

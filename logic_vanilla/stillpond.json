@@ -22,8 +22,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 756,
-            "y": 855
+            "x": 302,
+            "y": 306
           }
         ]
       },
@@ -36,7 +36,6 @@
           {
             "name": "Whirlpool Chamber",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_seashell_magic"
             ]
@@ -69,9 +68,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 740,
-            "y": 855,
-            "size": 20
+            "x": 297,
+            "y": 306
           }
         ]
       }

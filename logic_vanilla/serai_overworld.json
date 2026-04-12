@@ -3,8 +3,8 @@
     "name": "Serai Overworld",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_serai_overworld"
     ],
@@ -21,13 +21,13 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 837,
-            "y": 404
+            "x": 329,
+            "y": 156
           },
           {
             "map": "seraiworld",
-            "x": 740,
-            "y": 603
+            "x": 296,
+            "y": 222
           }
         ]
       },
@@ -39,15 +39,14 @@
         "sections": [
           {
             "name": "Network Station",
-            "item_count": 1,
-            "capture_item": true
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 745,
-            "y": 500
+            "x": 298,
+            "y": 188
           }
         ]
       },
@@ -65,15 +64,15 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1045,
-            "y": 720
+            "x": 398,
+            "y": 261
           }
         ]
       },
       {
         "name": "Solstice Shrine Island",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -89,21 +88,20 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 350,
-            "y": 650
+            "x": 166,
+            "y": 238
           }
         ]
       },
       {
         "name": "Fleshmancer's Lair",
         "access_rules": [
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
             "name": "Eye Roll",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral"
             ]
@@ -116,8 +114,17 @@
             ]
           },
           {
-            "name": "Halls of Illusion Maze",
-            "item_count": 2,
+            "name": "Halls of Illusion Maze Chest",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Halls of Illusion Maze Basket",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
+            "item_count": 1,
             "access_rules": [
               "k_mistral"
             ]
@@ -132,7 +139,6 @@
           {
             "name": "Big Jars",
             "item_count": 3,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,"
             ]
@@ -140,7 +146,6 @@
           {
             "name": "Catch Fish?",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3"
             ]
@@ -164,6 +169,8 @@
           },
           {
             "name": "Before Room of Sending",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
             "item_count": 1,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
@@ -186,18 +193,6 @@
           {
             "name": "Merchant",
             "item_count": 1,
-            "capture_item": true,
-            "access_rules": [
-              "k_mistral,k_graplou,k_bigjar:3,k_susfish"
-            ],
-            "visibility_rules": [
-              "option_vanilla_shops_on"
-            ]
-          },
-          {
-            "name": "Merchant Recipe 2",
-            "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ],
@@ -208,7 +203,6 @@
           {
             "name": "Summoner's Campfire",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_mistral,k_graplou,k_bigjar:3,k_susfish"
             ]
@@ -224,24 +218,22 @@
             "name": "Aephorul",
             "hosted_item": "boss_aephorul",
             "access_rules": [
-              "@rule_can_open_chronophage,boss_elysandarelle"
+              "@can_open_chronophage,boss_elysandarelle"
             ]
           },
           {
             "name": "True Ending",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "c_flimsyhammer",
             "access_rules": [
-              "@rule_can_open_chronophage,boss_elysandarelle"
+              "@can_open_chronophage,boss_elysandarelle"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 840,
-            "y": 250,
-            "size": 20
+            "x": 330,
+            "y": 104
           }
         ]
       }

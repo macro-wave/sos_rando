@@ -3,8 +3,8 @@
     "name": "Cerulean Island",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_cerulean"
     ],
@@ -80,9 +80,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1050,
-            "y": 530,
-            "size": 20
+            "x": 400,
+            "y": 198
           }
         ]
       },
@@ -90,8 +89,8 @@
         "name": "Cerulean Reservoir",
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
-          "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "@can_use_speedball",
+          "a_flight"
         ],
         "sections": [
           {
@@ -102,8 +101,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1148,
-            "y": 460
+            "x": 432,
+            "y": 174
           }
         ]
       },
@@ -111,8 +110,8 @@
         "name": "Repine",
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
-          "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "@can_use_speedball",
+          "a_flight"
         ],
         "sections": [
           {
@@ -120,7 +119,7 @@
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png",
             "access_rules": [
-              "recipe_sweet,recipe_warming,recipe_meaty,recipe_light,recipe_water"
+              "@can_cook_sweet,@can_cook_warming,@can_cook_meaty,@can_cook_light,@can_cook_water"
             ],
             "item_count": 1
           },
@@ -136,8 +135,8 @@
           },
           {
             "name": "Left Rooftop",
-            "chest_unopened_img": "images/boxes/basket_closed.png",
-            "chest_opened_img": "images/boxes/basket_open.png",
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
             "item_count": 1
           },
           {
@@ -198,8 +197,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1106,
-            "y": 460
+            "x": 418,
+            "y": 174
           }
         ]
       },
@@ -207,8 +206,8 @@
         "name": "Cerulean Expanse",
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc",
-          "@rule_can_use_speedball",
-          "@rule_can_fly"
+          "@can_use_speedball",
+          "a_flight"
         ],
         "sections": [
           {
@@ -228,6 +227,8 @@
           {
             "name": "NW Pointer (5) Upper Right",
             "item_count": 1,
+            "chest_unopened_img": "images/boxes/serai_basket_closed.png",
+            "chest_opened_img": "images/boxes/serai_basket_open.png",
             "access_rules": [
               "k_probe"
             ]
@@ -236,7 +237,7 @@
             "name": "Oasis",
             "item_count": 4,
             "access_rules": [
-              "@rule_can_beat_dread",
+              "@can_beat_dread",
               "[option_logic_oasis]"
             ]
           }
@@ -244,8 +245,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1170,
-            "y": 500
+            "x": 440,
+            "y": 188
           }
         ]
       },
@@ -253,8 +254,8 @@
         "name": "Lost Ones Hamlet",
         "access_rules": [
           "k_craneidcard,k_powerunit,k_kyberore,k_blueprintdisc,k_probe",
-          "@rule_can_use_speedball,k_probe",
-          "@rule_can_fly,k_probe"
+          "@can_use_speedball,k_probe",
+          "a_flight,k_probe"
         ],
         "sections": [
           {
@@ -288,16 +289,16 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1210,
-            "y": 530
+            "x": 453,
+            "y": 198
           }
         ]
       },
       {
         "name": "Throne of The Queen That Was",
         "access_rules": [
-          "@rule_can_use_speedball,[k_jocebuckle]",
-          "@rule_can_use_speedball,option_logic_jocebuckle"
+          "@can_use_speedball,[k_jocebuckle]",
+          "@can_use_speedball,option_logic_jocebuckle"
         ],
         "sections": [
           {
@@ -322,8 +323,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1225,
-            "y": 455
+            "x": 458,
+            "y": 173
           }
         ]
       }

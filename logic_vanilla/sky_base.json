@@ -3,8 +3,8 @@
     "name": "Sky Base Region",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_sky_base"
     ],
@@ -35,7 +35,6 @@
           {
             "name": "Elevator",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_graplou, k_mistral"
             ]
@@ -50,7 +49,6 @@
           {
             "name": "Vending Machine",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
               "k_graplou, k_mistral"
             ],
@@ -69,9 +67,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 1226,
-            "y": 200,
-            "size": 20
+            "x": 458,
+            "y": 88
           }
         ]
       }

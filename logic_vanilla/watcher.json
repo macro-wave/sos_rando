@@ -14,8 +14,7 @@
         "sections": [
           {
             "name": "Floating",
-            "item_count": 2,
-            "capture_item": true
+            "item_count": 2
           },
           {
             "name": "Garnooy Cave",
@@ -62,8 +61,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1170,
-            "y": 843
+            "x": 440,
+            "y": 302
           }
         ]
       },
@@ -84,8 +83,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1160,
-            "y": 800
+            "x": 437,
+            "y": 288
           }
         ]
       },
@@ -117,8 +116,7 @@
           },
           {
             "name": "Fountain",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_seashell_magic",
             "access_rules": [
               "k_seashell"
             ]
@@ -127,8 +125,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1117,
-            "y": 780
+            "x": 422,
+            "y": 281
           }
         ]
       },
@@ -158,8 +156,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1137,
-            "y": 780,
+            "x": 429,
+            "y": 281,
             "visibility_rules": [
               "option_vanilla_fish_on"
             ]
@@ -175,7 +173,6 @@
           {
             "name": "Item Shop",
             "item_count": 1,
-            "capture_item": true,
             "visibility_rules": [
               "option_vanilla_shops_on"
             ]
@@ -189,8 +186,7 @@
           },
           {
             "name": "Wheels Champion",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "w_wheels_piece",
             "access_rules": [
               "w_figurine_mage"
             ]
@@ -225,8 +221,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1176,
-            "y": 800
+            "x": 442,
+            "y": 288
           }
         ]
       },
@@ -238,80 +234,82 @@
         "sections": [
           {
             "name": "4 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_inn",
             "access_rules": [
-              "c_rainbowconch:4"
+              "c_rainbowconch:4",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "11 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:11"
+              "c_rainbowconch:11",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "19 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_shop",
             "access_rules": [
-              "c_rainbowconch:19"
+              "c_rainbowconch:19",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "22 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_fishhut",
             "access_rules": [
-              "c_rainbowconch:22"
+              "c_rainbowconch:22",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "27 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:27"
+              "c_rainbowconch:27",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "35 Conches",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
-              "c_rainbowconch:35"
+              "c_rainbowconch:35",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "39 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_plan_spa",
             "access_rules": [
-              "c_rainbowconch:39"
+              "c_rainbowconch:39",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "47 Conches",
             "item_count": 1,
-            "capture_item": true,
             "access_rules": [
-              "c_rainbowconch:47"
+              "c_rainbowconch:47",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "60 Conches",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_rainbowstar",
             "access_rules": [
-              "c_rainbowconch:60"
+              "c_rainbowconch:60",
+              "option_vanilla_ngplus_on"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1192,
-            "y": 800
+            "x": 447,
+            "y": 288
           }
         ]
       },
@@ -323,13 +321,11 @@
         "sections": [
           {
             "name": "Key Pedestal 1",
-            "item_count": 1,
-            "capture_item": true
+            "hosted_item": "k_key_sapphire"
           },
           {
             "name": "Key Pedestal 2",
-            "item_count": 1,
-            "capture_item": true
+            "hosted_item": "k_key_sapphire"
           },
           {
             "name": "Chest",
@@ -339,8 +335,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1052,
-            "y": 787
+            "x": 401,
+            "y": 283
           }
         ]
       },
@@ -388,8 +384,7 @@
           },
           {
             "name": "Lowest Pipe Freestanding Valve",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_valve",
             "access_rules": [
               "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green"
             ]
@@ -403,8 +398,7 @@
           },
           {
             "name": "Middle Pipe Freestanding Valve",
-            "item_count": 1,
-            "capture_item": true,
+            "hosted_item": "k_valve",
             "access_rules": [
               "k_pearl_pink,k_pearl_yellow,k_pearl_purple,k_pearl_green,k_valve:1"
             ]
@@ -422,9 +416,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 760,
-            "size": 20
+            "x": 396,
+            "y": 274
           }
         ]
       },
@@ -445,8 +438,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1039,
-            "y": 720
+            "x": 396,
+            "y": 261
           }
         ]
       },
@@ -507,8 +500,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1374,
-            "y": 250
+            "x": 508,
+            "y": 104
           }
         ]
       },
@@ -516,7 +509,7 @@
         "name": "Torment Peak",
         "access_rules": [
           "k_hammer,k_amulet",
-          "@rule_can_fly,k_amulet"
+          "a_flight,k_amulet"
         ],
         "sections": [
           {
@@ -541,9 +534,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1167,
-            "y": 757,
-            "size": 20
+            "x": 439,
+            "y": 273
           }
         ]
       },
@@ -551,25 +543,27 @@
         "name": "Mossy Cache",
         "access_rules": [
           "k_hammer,k_amulet,boss_dweller_torment",
-          "@rule_can_fly,k_amulet,boss_dweller_torment"
+          "a_flight,k_amulet,boss_dweller_torment"
         ],
         "sections": [
           {
             "name": "By Puzzle",
-            "item_count": 1,
             "chest_opened_img": "images/boxes/conch_chest_open.png",
-            "chest_unopened_img": "images/boxes/conch_chest_closed.png"
+            "chest_unopened_img": "images/boxes/conch_chest_closed.png",
+            "item_count": 1
           },
           {
             "name": "Vial Pyramid",
+            "chest_opened_img": "images/boxes/vial_chest_open.png",
+            "chest_unopened_img": "images/boxes/vial_chest_closed.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1210,
-            "y": 782
+            "x": 453,
+            "y": 282
           }
         ]
       }

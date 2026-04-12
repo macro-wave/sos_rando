@@ -8,10 +8,10 @@
   },
   "tracker_default": {
     "type": "container",
-    "background": "#2b3742",
+    "background": "#32404C",
     "content": {
-        "type": "dock",
-        "dropshadow": true,
+      "type": "dock",
+      "dropshadow": true,
       "content": [
         {
           "type": "tabbed",
@@ -21,7 +21,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "group",
@@ -30,7 +30,7 @@
                     "header_content": {
                       "type": "button_popup",
                       "style": "settings",
-                      "popup_background": "#00000000",
+                      "popup_background": "#FF212121",
                       "layout": "options_panel"
                     },
                     "content": {
@@ -65,7 +65,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "group",
@@ -101,7 +101,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "array",
@@ -154,24 +154,55 @@
           "type": "dock",
           "content": [
             {
-              "type": "group",
-              "background": "#2b3742",
+              "type": "dock",
               "dock": "bottom",
-              "header": "Pinned Locations",
-              "min_height": 121,
-              "max_height": 230,
+              "orientation": "horizontal",
+              "background": "#374f63",
               "content": [
                 {
-                  "type": "scroll",
-                  "horizontal_scrollbar_visibility": "disabled",
+                  "type": "group",
+                  "header": "Player Progress",
                   "content": [
                     {
-                      "type": "recentpins",
-                      "style": "wrap",
-                      "h_alignment": "stretch",
-                      "v_alignment": "stretch",
-                      "orientation": "horizontal",
-                      "compact": true
+                      "type": "array",
+                      "orientation": "vertical",
+                      "content": [
+                        {
+                          "type": "layout",
+                          "h_alignment": "center",
+                          "key": "ability_grid"
+                        },
+                        {
+                          "type": "item",
+                          "item": "a_level",
+                          "h_alignment": "center",
+                          "v_alignment": "bottom",
+                          "width": 120,
+                          "height": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "header": "Pinned Locations",
+                  "min_height": 121,
+                  "max_height": 150,
+                  "content": [
+                    {
+                      "type": "scroll",
+                      "horizontal_scrollbar_visibility": "disabled",
+                      "content": [
+                        {
+                          "type": "recentpins",
+                          "style": "wrap",
+                          "h_alignment": "left",
+                          "v_alignment": "stretch",
+                          "orientation": "horizontal",
+                          "compact": true
+                        }
+                      ]
                     }
                   ]
                 }

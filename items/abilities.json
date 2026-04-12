@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Live Mana Boosting",
+    "type": "toggle",
+    "img": "images/items/a_manaboost.png",
+    "codes": "a_manaboost"
+  },
+  {
+    "name": "Vespertine",
+    "type": "toggle",
+    "img": "images/items/a_vespertine.png",
+    "codes": "a_vespertine, a_sailing"
+  },
+  {
+    "name": "Flight",
+    "type": "toggle",
+    "img": "images/items/a_flight.png",
+    "codes": "a_flight"
+  },
+  {
+    "name": "Player Level",
+    "type": "consumable",
+    "img": "images/items/a_level.png",
+    "min_quantity": 1,
+    "max_quantity": 30,
+    "codes": "a_level"
+  },
+  {
+    "name": "Renown",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/a_renown1.png",
+        "codes": "a_renown,a_renown1"
+      },
+      {
+        "img": "images/items/a_renown2.png",
+        "codes": "a_renown2"
+      },
+      {
+        "img": "images/items/a_renown3.png",
+        "codes": "a_renown3"
+      },
+      {
+        "img": "images/items/a_renown4.png",
+        "codes": "a_renown4"
+      },
+      {
+        "img": "images/items/a_renown5.png",
+        "codes": "a_renown5"
+      },
+      {
+        "img": "images/items/a_renown6.png",
+        "codes": "a_renown6"
+      }
+    ]
+  }
+]

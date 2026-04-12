@@ -26,8 +26,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 718,
-            "y": 618
+            "x": 289,
+            "y": 227
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 808,
-            "y": 605
+            "x": 319,
+            "y": 223
           }
         ]
       },
@@ -254,8 +254,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 825,
-            "y": 620
+            "x": 325,
+            "y": 228
           }
         ]
       },
@@ -287,8 +287,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 830,
-            "y": 580
+            "x": 327,
+            "y": 214
           }
         ]
       },
@@ -297,8 +297,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 790,
-            "y": 568
+            "x": 313,
+            "y": 210
           }
         ]
       },
@@ -307,7 +307,7 @@
         "access_rules": [
           "k_coin_undeath",
           "k_flame_green",
-          "@rule_can_fly,k_mistral,[option_logic_secret_passage]"
+          "a_flight,k_mistral,[option_logic_secret_passage]"
         ],
         "sections": [
           {
@@ -349,7 +349,7 @@
             "name": "Secret Passage",
             "item_count": 1,
             "access_rules": [
-              "@rule_can_fly,k_mistral"
+              "a_flight,k_mistral"
             ]
           },
           {
@@ -377,8 +377,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 935,
-            "y": 605
+            "x": 362,
+            "y": 223
           }
         ]
       },
@@ -387,7 +387,7 @@
         "access_rules": [
           "k_coin_undeath,k_mistral",
           "k_flame_green,k_mistral",
-          "@rule_can_fly,k_mistral,[option_logic_secret_passage]"
+          "a_flight,k_mistral,[option_logic_secret_passage]"
         ],
         "sections": [
           {
@@ -456,9 +456,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 935,
-            "y": 585,
-            "size": 20
+            "x": 362,
+            "y": 216
           }
         ]
       },
@@ -499,15 +498,24 @@
           },
           {
             "name": "King Statue",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Library Balcony",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Bookshelf",
-            "item_count": 1
+            "item_count": 1,
+            "access_rules": [
+              "k_ghostsandwich"
+            ]
           },
           {
             "name": "Library Fireplace",
@@ -515,44 +523,43 @@
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "access_rules": [
-              "k_graplou"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Shelf Passage",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Hedge Maze",
             "item_count": 1,
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Botanical Horror",
             "hosted_item": "boss_botanical",
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           },
           {
             "name": "Dweller of Woe",
             "hosted_item": "boss_dweller_woe",
             "access_rules": [
-              "k_graplou,k_knightshelm,k_crown"
+              "k_ghostsandwich,k_graplou,k_knightshelm,k_crown"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 822,
-            "y": 550,
-            "size": 20
+            "x": 324,
+            "y": 204
           }
         ]
       },
@@ -597,8 +604,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 885,
-            "y": 560
+            "x": 345,
+            "y": 208
           }
         ]
       },
@@ -660,8 +667,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 960,
-            "y": 617
+            "x": 370,
+            "y": 227
           }
         ]
       }

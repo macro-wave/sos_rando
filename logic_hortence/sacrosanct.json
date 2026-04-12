@@ -3,8 +3,8 @@
     "name": "Sacrosanct Spires",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/serai_box_open.png",
-    "chest_unopened_img": "images/boxes/serai_box_closed.png",
+    "chest_opened_img": "images/boxes/serai_chest_open.png",
+    "chest_unopened_img": "images/boxes/serai_chest_closed.png",
     "access_rules": [
       "@reg_sacrosanct"
     ],
@@ -17,15 +17,15 @@
             "item_count": 1,
             "access_rules": [
               "k_graplou",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 360,
-            "y": 350
+            "x": 170,
+            "y": 138
           }
         ]
       },
@@ -33,7 +33,7 @@
         "name": "Hunting Fields",
         "access_rules": [
           "k_graplou",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -48,15 +48,15 @@
             "item_count": 1,
             "access_rules": [
               "k_mistral",
-              "@rule_can_fly"
+              "a_flight"
             ]
           }
         ],
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 440,
-            "y": 350
+            "x": 196,
+            "y": 138
           }
         ]
       },
@@ -64,7 +64,7 @@
         "name": "Southeast Spire",
         "access_rules": [
           "k_graplou,k_mistral",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -75,8 +75,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 528,
-            "y": 360
+            "x": 226,
+            "y": 141
           }
         ]
       },
@@ -84,7 +84,7 @@
         "name": "Northeast Spire",
         "access_rules": [
           "k_graplou,k_mistral",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -112,8 +112,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 540,
-            "y": 255
+            "x": 230,
+            "y": 106
           }
         ]
       },
@@ -121,7 +121,7 @@
         "name": "Seat of the Triumvirate",
         "access_rules": [
           "k_graplou,k_mistral,k_crystalegg",
-          "@rule_can_fly"
+          "a_flight"
         ],
         "sections": [
           {
@@ -142,8 +142,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 363,
-            "y": 205
+            "x": 171,
+            "y": 89
           }
         ]
       },
@@ -151,8 +151,8 @@
         "name": "Es'tristae's Lookout",
         "access_rules": [
           "k_graplou,k_mistral,k_crystalegg",
-          "@rule_can_fly",
-          "@rule_can_use_speedball"
+          "a_flight",
+          "@can_use_speedball"
         ],
         "sections": [
           {
@@ -163,8 +163,8 @@
         "map_locations": [
           {
             "map": "seraiworld",
-            "x": 442,
-            "y": 300
+            "x": 197,
+            "y": 121
           }
         ]
       }

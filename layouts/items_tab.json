@@ -1,6 +1,27 @@
 {
+  "ability_grid": {
+    "type": "container",
+    "dropshadow": false,
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 40,
+        "h_alignment": "center",
+        "rows": [
+          [
+            "a_manaboost",
+            "a_vespertine",
+            "a_flight"
+          ]
+        ]
+      }
+    ]
+  },
   "item_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
@@ -38,7 +59,7 @@
           ],
           [
             "k_plan_inn",
-            "k_plan_fishlodge",
+            "k_plan_fishhut",
             "k_plan_shop",
             "k_plan_spa",
             "k_key_yomara",
@@ -60,6 +81,7 @@
   },
   "dungeon_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
@@ -117,6 +139,7 @@
   },
   "collectibles_grid": {
     "type": "container",
+    "dropshadow": false,
     "margin": "0,0",
     "content": [
       {
