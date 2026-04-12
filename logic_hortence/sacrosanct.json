@@ -152,7 +152,7 @@
         "access_rules": [
           "k_graplou,k_mistral,k_crystalegg",
           "a_flight",
-          "@rule_can_use_speedball"
+          "@can_use_speedball"
         ],
         "sections": [
           {

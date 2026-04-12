@@ -37,6 +37,9 @@
           {
             "name": "Fish Pond",
             "item_count": 1,
+            "access_rules": [
+              "k_plan_fishhut"
+            ],
             "chest_unopened_img": "images/boxes/conch_chest_closed.png",
             "chest_opened_img": "images/boxes/conch_chest_open.png"
           },
@@ -79,35 +82,39 @@
       {
         "name": "Fishing Lodge",
         "access_rules": [
-          "k_plan_fishlodge"
+          "k_plan_fishhut"
         ],        
         "sections": [
           {
             "name": "4 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:4,option_vanilla_ngplus_on"
+              "fish_count:4",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "9 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:9,option_vanilla_ngplus_on"
+              "fish_count:9",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "14 Fish",
             "item_count": 1,
             "access_rules": [
-              "fish_count:14,option_vanilla_ngplus_on"
+              "fish_count:14",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "23 Fish",
             "hosted_item": "c_flimsyhammer",
             "access_rules": [
-              "fish_count:23,option_vanilla_ngplus_on"
+              "fish_count:23",
+              "option_vanilla_ngplus_on"
             ]
           }
         ],

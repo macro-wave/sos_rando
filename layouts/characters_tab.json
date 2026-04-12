@@ -2,10 +2,11 @@
   "party_grid": {
     "type": "container",
     "margin": "0,0",
+    "dropshadow": false,
     "content": [
       {
         "type": "itemgrid",
-        "item_margin": "2,0",
+        "item_margin": "2,1",
         "item_size": 50,
         "rows": [
           [
@@ -25,6 +26,7 @@
   "golem_grid": {
     "type": "container",
     "margin": "0,0",
+    "dropshadow": false,
     "content": [
       {
         "type": "itemgrid",
@@ -46,7 +48,7 @@
   },
   "boss_grid": {
     "type": "container",
-    "margin": "0,0",
+    "margin": "0",
     "content": [
       {
         "type": "itemgrid",
@@ -54,6 +56,7 @@
         "item_size": 57.5,
         "h_alignment": "left",
         "item_height": 60,
+        "dropshadow": false,
         "rows": [
           [
             "boss_wyrd",

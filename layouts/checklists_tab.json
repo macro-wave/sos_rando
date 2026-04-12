@@ -6,7 +6,7 @@
       {
         "type": "itemgrid",
         "item_margin": "0,0",
-        "item_size": 50,
+        "item_size": 51,
         "rows": [
           [
             "fish_trout",
@@ -49,8 +49,9 @@
     "content": [
       {
         "type": "itemgrid",
-        "item_margin": "2,0",
-        "item_size": 40,
+        "item_margin": "0,0",
+        "item_size": 44,
+        "v_alignment": "bottom",
         "rows": [
           [
             "recipe_basicsalad",

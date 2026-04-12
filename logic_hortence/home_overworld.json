@@ -203,7 +203,7 @@
       {
         "name": "Any Campfire",
         "access_rules": [
-          "@rule_can_beat_dread"
+          "@can_beat_dread"
         ],
         "sections": [
           {

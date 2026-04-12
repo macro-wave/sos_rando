@@ -2,7 +2,7 @@
   {
     "name": "reg_home_overworld",
     "access_rules": [
-      "@rule_can_leave_cavern"
+      "@can_leave_cavern"
     ]
   },
   {
@@ -12,13 +12,13 @@
   {
     "name": "reg_sleeper",
     "access_rules": [
-      "@rule_can_leave_cavern"
+      "@can_leave_cavern"
     ]
   },
   {
     "name": "reg_wraith",
     "access_rules": [
-      "@rule_can_leave_cavern,k_coin_undeath"
+      "@can_leave_cavern,k_coin_undeath"
     ]
   },
   {
@@ -30,61 +30,61 @@
   {
     "name": "reg_settlers",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing"
+      "@can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_watcher",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing"
+      "@can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing,k_vial,character_reshan"
+      "@can_leave_cavern,a_sailing,k_vial,character_reshan"
     ]
   },
   {
     "name": "reg_skylands",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing,boss_dweller_strife"
+      "@can_leave_cavern,a_sailing,boss_dweller_strife"
     ]
   },
   {
     "name": "reg_basalt",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing"
+      "@can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_stillpond",
     "access_rules": [
-      "@rule_can_leave_cavern,a_sailing"
+      "@can_leave_cavern,a_sailing"
     ]
   },
   {
     "name": "reg_serai_overworld",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_cerulean",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars"
+      "@can_cross_sea_of_stars"
     ]
   },
   {
     "name": "reg_sacrosanct",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,character_bst"
+      "@can_cross_sea_of_stars,character_bst"
     ]
   },
   {
     "name": "reg_sky_base",
     "access_rules": [
-      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball"
+      "@can_cross_sea_of_stars,@can_use_speedball"
     ]
   },
   {

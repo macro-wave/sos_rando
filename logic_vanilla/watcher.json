@@ -236,63 +236,72 @@
             "name": "4 Conches",
             "hosted_item": "k_plan_inn",
             "access_rules": [
-              "c_rainbowconch:4,option_vanilla_ngplus_on"
+              "c_rainbowconch:4",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "11 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:11,option_vanilla_ngplus_on"
+              "c_rainbowconch:11",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "19 Conches",
             "hosted_item": "k_plan_shop",
             "access_rules": [
-              "c_rainbowconch:19,option_vanilla_ngplus_on"
+              "c_rainbowconch:19",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "22 Conches",
-            "hosted_item": "k_plan_fishlodge",
+            "hosted_item": "k_plan_fishhut",
             "access_rules": [
-              "c_rainbowconch:22,option_vanilla_ngplus_on"
+              "c_rainbowconch:22",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "27 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:27,option_vanilla_ngplus_on"
+              "c_rainbowconch:27",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "35 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:35,option_vanilla_ngplus_on"
+              "c_rainbowconch:35",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "39 Conches",
             "hosted_item": "k_plan_spa",
             "access_rules": [
-              "c_rainbowconch:39,option_vanilla_ngplus_on"
+              "c_rainbowconch:39",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "47 Conches",
             "item_count": 1,
             "access_rules": [
-              "c_rainbowconch:47,option_vanilla_ngplus_on"
+              "c_rainbowconch:47",
+              "option_vanilla_ngplus_on"
             ]
           },
           {
             "name": "60 Conches",
             "hosted_item": "k_rainbowstar",
             "access_rules": [
-              "c_rainbowconch:60,option_vanilla_ngplus_on"
+              "c_rainbowconch:60",
+              "option_vanilla_ngplus_on"
             ]
           }
         ],
@@ -326,8 +335,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 1052,
-            "y": 787
+            "x": 401,
+            "y": 283
           }
         ]
       },
@@ -407,8 +416,8 @@
         "map_locations": [
           {
             "map": "homeworld",
-            "x": 401,
-            "y": 283
+            "x": 396,
+            "y": 274
           }
         ]
       },
