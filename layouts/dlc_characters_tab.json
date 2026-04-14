@@ -25,18 +25,16 @@
         "type": "itemgrid",
         "item_margin": "2,2",
         "item_size": 57.5,
-        "h_alignment": "left",
-        "item_height": 60,
+        "h_alignment": "center",
         "rows": [
           [
-            "boss_pif_pouf_1",
             "boss_train",
             "boss_narcis_king",
             "boss_feral_queen",
             "boss_tendu"
           ],
           [
-            "boss_pif_pouf_2",
+            "boss_pif_pouf",
             "boss_pantouf",
             "boss_puppeteer",
             "boss_dweller_scourge"

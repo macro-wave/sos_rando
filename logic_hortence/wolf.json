@@ -3,8 +3,8 @@
     "name": "Wolf Rock",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/treasure_chest_open.png",
-    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
     "access_rules": [
       "@reg_wolf"
     ],
@@ -13,8 +13,19 @@
         "name": "Were-Lake",
         "sections": [
           {
-            "name": "Test",
-            "access_rules": [],
+            "name": "Master Angler",
+            "access_rules": [
+              "goodiebag_count:6"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Lake Chest",
+            "access_rules": [
+              "k_magnethook"
+            ],
+            "chest_opened_img": "images/boxes/warlock_chest_open.png",
+            "chest_unopened_img": "images/boxes/warlock_chest_closed.png",
             "item_count": 1
           }
         ],
@@ -22,24 +33,145 @@
           {
             "map": "horloge",
             "x": 407,
-            "y": 206
+            "y": 206,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
         "name": "Wolf Rock",
+        "access_rules": [
+          "k_ticket_were"
+        ],
         "sections": [
           {
-            "name": "Test",
+            "name": "Entrance Merchant",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Entrance Merchant",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "P'técass",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Across Chasm",
             "access_rules": [],
             "item_count": 1
+          },
+          {
+            "name": "Swim",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "River",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Campfire",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Campfire Merchant",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Campfire Merchant",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Freestanding Key 1",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "After Bridge",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sliding Block Puzzle",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Pond Outside",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Freestanding Key 2",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Let the Dogs Out",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Small Waterfall",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Above Key 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Freestanding Key 3",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Feral Queen",
+            "access_rules": [],
+            "hosted_item": "boss_feral_queen"
           }
         ],
         "map_locations": [
           {
             "map": "horloge",
             "x": 415,
-            "y": 193
+            "y": 193,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       }

@@ -3,26 +3,180 @@
     "name": "Horloge Island",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/treasure_chest_open.png",
-    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
     "access_rules": [
       "@reg_horloge"
     ],
     "children": [
       {
-        "name": "Oubliettes",
+        "name": "Renown 1",
         "sections": [
           {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
+            "name": "Free Level",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 101,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renown 2",
+        "sections": [
+          {
+            "name": "Level Up",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 117,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renown 3",
+        "sections": [
+          {
+            "name": "Level Up",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown3"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 132,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renown 4",
+        "sections": [
+          {
+            "name": "Level Up",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 147,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renown 5",
+        "sections": [
+          {
+            "name": "Level Up",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown5"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 162,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renown 6",
+        "sections": [
+          {
+            "name": "Level Up",
+            "item_count": 1,
+            "access_rules": [
+              "a_renown6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 178,
+            "y": 116,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oubliettes",
+        "access_rules": [
+          "k_seashell_magic"
+        ],
+        "sections": [
+          {
+            "name": "Air Pressure Puzzle",
+            "item_count": 3,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Jailbreak Chute",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
+          },
+          {
+            "name": "Guards Room",
+            "item_count": 1,
+            "access_rules": [
+              "k_mistral"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "horloge",
             "x": 309,
-            "y": 231
+            "y": 231,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -30,16 +184,197 @@
         "name": "Town of Horloge",
         "sections": [
           {
-            "name": "Test",
+            "name": "Crazy Train Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "boss_train"
+            ]
+          },
+          {
+            "name": "Narcis King Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "boss_narcis_king"
+            ]
+          },
+          {
+            "name": "Feral Queen Defeated",
+            "item_count": 1,
+            "visibility_rules": [
+              "boss_feral_queen"
+            ]
+          },
+          {
+            "name": "NW Bulletin Board",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Rope Walk",
+            "access_rules": [
+              "k_mistral"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Cave of Balloonery",
+            "access_rules": [
+              "k_mistral"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Behind East Merchants",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "SE Bulletin Board",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Block Path Puzzle",
+            "access_rules": [
+              "k_muledrone,k_mistral"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Test of Strength",
+            "access_rules": [
+              "s_polevault"
+            ],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Test of Balance",
+            "access_rules": [
+              "s_sunbalancing"
+            ],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Test of Accuracy",
+            "access_rules": [
+              "s_toubibbim"
+            ],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Warlock Champions",
+            "access_rules": [
+              "w_figurine_mage,w_figurine_warlock"
+            ],
+            "item_count": 3,
+            "clear_as_group": false
+          },
+          {
+            "name": "Inn Wheels Champion",
+            "access_rules": [
+              "w_figurine_mage"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Battle Challenge",
+            "access_rules": [
+              "a_renown4"
+            ],
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "horloge",
-            "x": 314,
-            "y": 231
+            "x": 316,
+            "y": 231,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Horloge Merchants",
+        "sections": [
+          {
+            "name": "Equipment Shop",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Equipment Shop",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "West Popcorn Stand",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "West Popcorn Stand",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "East Popcorn Stand",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "East Popcorn Stand",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Sweet Tooth Stand",
+            "item_count": 3,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Inked Souvenirs",
+            "item_count": 5,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique",
+              "option_shopsanity_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 323,
+            "y": 231,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -47,8 +382,9 @@
         "name": "Bounty Basin",
         "sections": [
           {
-            "name": "Test",
-            "access_rules": [],
+            "name": "Can",
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           }
         ],
@@ -56,7 +392,10 @@
           {
             "map": "horloge",
             "x": 305,
-            "y": 201
+            "y": 201,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -64,7 +403,75 @@
         "name": "Rail Forest",
         "sections": [
           {
-            "name": "Test",
+            "name": "By Butter Packet",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Lightbulb",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Rotating Arrows",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Puzzle Box Cave Ledge",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "3 Lemurs",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Push Rails",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Under Push Rails",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Cog Flowers & GBB",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balcony",
+            "access_rules": [],
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "item_count": 1
+          },
+          {
+            "name": "By Puzzle Box",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Campfire",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Crazy Train",
+            "access_rules": [],
+            "hosted_item": "boss_train"
+          },
+          {
+            "name": "Defeat Train",
             "access_rules": [],
             "item_count": 1
           }
@@ -73,7 +480,10 @@
           {
             "map": "horloge",
             "x": 298,
-            "y": 198
+            "y": 198,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       }

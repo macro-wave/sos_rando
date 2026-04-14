@@ -1,26 +1,28 @@
 [
   {
     "name": "Small Goodie Bag",
-    "type": "toggle",
-    "img": "images/items/fish_hermite.png",
+    "type": "consumable",
+    "max_quantity": 2,
+    "img": "images/items/goodiebag_small.png",
     "codes": "goodiebag_count,goodiebag_small"
   },
   {
     "name": "Medium Goodie Bag",
-    "type": "toggle",
-    "img": "images/items/fish_hermite.png",
+    "type": "consumable",
+    "max_quantity": 2,
+    "img": "images/items/goodiebag_med.png",
     "codes": "goodiebag_count,goodiebag_med"
   },
   {
     "name": "Big Goodie Bag (Red)",
     "type": "toggle",
-    "img": "images/items/fish_hermite.png",
+    "img": "images/items/goodiebag_big_red.png",
     "codes": "goodiebag_count,goodiebag_big,goodiebag_big_red"
   },
   {
     "name": "Big Goodie Bag (Gold)",
     "type": "toggle",
-    "img": "images/items/fish_hermite.png",
+    "img": "images/items/goodiebag_big_gold.png",
     "codes": "goodiebag_count,goodiebag_big,goodiebag_big_gold"
   }
 ]

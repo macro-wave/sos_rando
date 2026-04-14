@@ -1,10 +1,10 @@
 [
   {
-    "name": "Ivory Towers",
+    "name": "Ivory Towers Island",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/treasure_chest_open.png",
-    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
     "access_rules": [
       "@reg_ivory"
     ],
@@ -13,8 +13,17 @@
         "name": "Ivory Puzzle Box",
         "sections": [
           {
-            "name": "Test",
-            "access_rules": [],
+            "name": "Partial Solve",
+            "access_rules": [
+              "a_train"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Full Solve",
+            "access_rules": [
+              "a_train"
+            ],
             "item_count": 1
           }
         ],
@@ -22,92 +31,193 @@
           {
             "map": "horloge",
             "x": 244,
-            "y": 214
+            "y": 215,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
-        "name": "Ivory Center",
-        "sections": [
-          {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
-          }
+        "name": "Ivory Towers",
+        "access_rules": [
+          "a_train,k_ticket_silken"
         ],
-        "map_locations": [
+        "children": [
           {
-            "map": "horloge",
-            "x": 238,
-            "y": 202
-          }
-        ]
-      },
-      {
-        "name": "SW Ivory Tower",
-        "sections": [
+            "name": "Ivory Center",
+            "sections": [
+              {
+                "name": "Outside Vine",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Outside Ledge",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Entrance Rail",
+                "chest_opened_img": "images/boxes/circus_can_open.png",
+                "chest_unopened_img": "images/boxes/circus_can_closed.png",
+                "item_count": 1
+              },
+              {
+                "name": "Junk Pile",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Narcis King",
+                "access_rules": [],
+                "hosted_item": "boss_narcis_king"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "horloge",
+                "x": 238,
+                "y": 202,
+                "visibility_rules": [
+                  "a_dlc_access"
+                ]
+              }
+            ]
+          },
           {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
+            "name": "SW Ivory Tower",
+            "access_rules": [
+              "k_muledrone"
+            ],
+            "sections": [
+              {
+                "name": "Outside Tower",
+                "access_rules": [],
+                "chest_opened_img": "images/boxes/circus_can_open.png",
+                "chest_unopened_img": "images/boxes/circus_can_closed.png",
+                "item_count": 1
+              },
+              {
+                "name": "Down Vines",
+                "access_rules": [],
+                "chest_opened_img": "images/boxes/combo_scroll_open.png",
+                "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "horloge",
+                "x": 229,
+                "y": 207,
+                "visibility_rules": [
+                  "a_dlc_access"
+                ]
+              }
+            ]
+          },
           {
-            "map": "horloge",
-            "x": 229,
-            "y": 207
-          }
-        ]
-      },
-      {
-        "name": "NW Ivory Tower",
-        "sections": [
+            "name": "NW Ivory Tower",
+            "access_rules": [
+              "k_muledrone"
+            ],
+            "sections": [
+              {
+                "name": "Top Floor",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "horloge",
+                "x": 229,
+                "y": 197,
+                "visibility_rules": [
+                  "a_dlc_access"
+                ]
+              }
+            ]
+          },
           {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
+            "name": "NE Ivory Tower",
+            "access_rules": [
+              "k_muledrone"
+            ],
+            "sections": [
+              {
+                "name": "Outside Ledge",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Merchant",
+                "item_count": 2,
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "option_shopsanity_unique"
+                ]
+              },
+              {
+                "name": "Merchant",
+                "item_count": 8,
+                "clear_as_group": false,
+                "visibility_rules": [
+                  "option_shopsanity_all"
+                ]
+              },
+              {
+                "name": "Doorway Labyrinth",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "horloge",
+                "x": 246,
+                "y": 198,
+                "visibility_rules": [
+                  "a_dlc_access"
+                ]
+              }
+            ]
+          },
           {
-            "map": "horloge",
-            "x": 229,
-            "y": 197
-          }
-        ]
-      },
-      {
-        "name": "NE Ivory Tower",
-        "sections": [
-          {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "horloge",
-            "x": 246,
-            "y": 198
-          }
-        ]
-      },
-      {
-        "name": "SE Ivory Tower",
-        "sections": [
-          {
-            "name": "Test",
-            "access_rules": [],
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "horloge",
-            "x": 246,
-            "y": 208
+            "name": "SE Ivory Tower",
+            "access_rules": [
+              "k_muledrone"
+            ],
+            "sections": [
+              {
+                "name": "Graplou Puzzle",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Outside Ledge",
+                "access_rules": [],
+                "chest_opened_img": "images/boxes/circus_can_open.png",
+                "chest_unopened_img": "images/boxes/circus_can_closed.png",
+                "item_count": 1
+              },
+              {
+                "name": "Shadow Puzzle Box",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "horloge",
+                "x": 246,
+                "y": 208,
+                "visibility_rules": [
+                  "a_dlc_access"
+                ]
+              }
+            ]
           }
         ]
       }

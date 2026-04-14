@@ -2,69 +2,69 @@
   {
     "name": "Dialocus",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_dialocus.png",
     "codes": "k_dialocus"
   },
   {
     "name": "Lightbulb Key",
     "type": "toggle",
-    "img": "images/items/_unused_key_generic.png",
+    "img": "images/items/k_key_lightbulb.png",
     "codes": "k_key_lightbulb"
   },
   {
     "name": "Certificate of Balloonery",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_certificate.png",
     "codes": "k_certificate"
   },
   {
     "name": "Silken Ticket",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_ticket_silken.png",
     "codes": "k_ticket_silken"
   },
   {
     "name": "Were-Ticket",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_ticket_were.png",
     "codes": "k_ticket_were"
   },
   {
     "name": "Ticket-Tocket",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_ticket_tocket.png",
     "codes": "k_ticket_tocket"
   },
   {
     "name": "Mule Drone",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_muledrone.png",
     "codes": "k_muledrone"
   },
   {
     "name": "Magnet Hook",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_magnethook.png",
     "codes": "k_magnethook"
   },
   {
     "name": "Bridge Keys",
     "type": "consumable",
     "max_quantity": 3,
-    "img": "images/items/_unused_key_generic.png",
+    "img": "images/items/k_key_bridge.png",
     "codes": "k_key_bridge"
   },
   {
     "name": "Entry Stubs",
     "type": "consumable",
     "max_quantity": 12,
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/k_stub.png",
     "codes": "k_stub"
   },
   {
     "name": "Warlock Figurine",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/w_figurine_warlock.png",
     "codes": "w_figurine_warlock"
   }
 ]

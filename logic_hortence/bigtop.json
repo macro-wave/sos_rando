@@ -3,17 +3,81 @@
     "name": "Big Top",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/treasure_chest_open.png",
-    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
     "access_rules": [
       "@reg_bigtop"
     ],
     "children": [
       {
-        "name": "Big Top Central",
+        "name": "Big Top Center",
         "sections": [
           {
-            "name": "Test",
+            "name": "Monsieur Tendu",
+            "hosted_item": "boss_tendu"
+          },
+          {
+            "name": "After Tendu",
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Lobby Merchant",
+            "item_count": 1,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_unique"
+            ]
+          },
+          {
+            "name": "Lobby Merchant",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "option_shopsanity_all"
+            ]
+          },
+          {
+            "name": "Lobby Left Ledge",
+            "access_rules": [
+              "k_stub:3,[]",
+              "k_stub:6",
+              "option_stubs_bigtop"
+            ],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Pif & Pouf",
+            "access_rules": [],
+            "hosted_item": "boss_pif_pouf_2"
+          },
+          {
+            "name": "Pantouf",
+            "access_rules": [],
+            "hosted_item": "boss_pantouf"
+          },
+          {
+            "name": "Puppeteer",
+            "access_rules": [],
+            "hosted_item": "boss_puppeteer"
+          },
+          {
+            "name": "Defeat Puppeteer",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Dweller of Scourge",
+            "access_rules": [],
+            "hosted_item": "boss_dweller_scourge"
+          },
+          {
+            "name": "Defeat Dweller",
             "access_rules": [],
             "item_count": 1
           }
@@ -22,7 +86,10 @@
           {
             "map": "horloge",
             "x": 319,
-            "y": 82
+            "y": 82,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -30,7 +97,14 @@
         "name": "Big Top SW Tent",
         "sections": [
           {
-            "name": "Test",
+            "name": "Can",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
             "access_rules": [],
             "item_count": 1
           }
@@ -39,7 +113,10 @@
           {
             "map": "horloge",
             "x": 307,
-            "y": 84
+            "y": 84,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -47,7 +124,12 @@
         "name": "Big Top SE Tent",
         "sections": [
           {
-            "name": "Test",
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
             "access_rules": [],
             "item_count": 1
           }
@@ -56,15 +138,28 @@
           {
             "map": "horloge",
             "x": 331,
-            "y": 84
+            "y": 84,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
         "name": "Big Top West Tent",
+        "access_rules": [
+          "k_stub:3,[]",
+          "k_stub:6",
+          "option_stubs_bigtop"
+        ],
         "sections": [
           {
-            "name": "Test",
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
             "access_rules": [],
             "item_count": 1
           }
@@ -73,15 +168,28 @@
           {
             "map": "horloge",
             "x": 305,
-            "y": 75
+            "y": 75,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
         "name": "Big Top East Tent",
+        "access_rules": [
+          "k_stub:3,[]",
+          "k_stub:6",
+          "option_stubs_bigtop"
+        ],
         "sections": [
           {
-            "name": "Test",
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
             "access_rules": [],
             "item_count": 1
           }
@@ -90,15 +198,23 @@
           {
             "map": "horloge",
             "x": 333,
-            "y": 75
+            "y": 75,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
         "name": "Big Top NW Tent",
+        "access_rules": [
+          "k_stub:9,[]",
+          "k_stub:12",
+          "option_stubs_bigtop"
+        ],
         "sections": [
           {
-            "name": "Test",
+            "name": "Balloon",
             "access_rules": [],
             "item_count": 1
           }
@@ -107,15 +223,33 @@
           {
             "map": "horloge",
             "x": 307,
-            "y": 66
+            "y": 66,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
       {
         "name": "Big Top NE Tent",
+        "access_rules": [
+          "k_stub:9,[]",
+          "k_stub:12",
+          "option_stubs_bigtop"
+        ],
         "sections": [
           {
-            "name": "Test",
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Checkerboard Puzzle",
             "access_rules": [],
             "item_count": 1
           }
@@ -124,7 +258,10 @@
           {
             "map": "horloge",
             "x": 331,
-            "y": 66
+            "y": 66,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       }

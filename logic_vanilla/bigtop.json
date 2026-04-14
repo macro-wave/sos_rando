@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Big Top",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
+    "access_rules": [
+      "@reg_bigtop"
+    ],
+    "children": [
+      {
+        "name": "Big Top Center",
+        "sections": [
+          {
+            "name": "Monsieur Tendu",
+            "hosted_item": "boss_tendu"
+          },
+          {
+            "name": "After Tendu",
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Lobby Merchant",
+            "item_count": 1,
+            "visibility_rules": [
+              "option_vanilla_shops"
+            ]
+          },
+          {
+            "name": "Lobby Left Ledge",
+            "access_rules": [
+              "k_stub:3,[]",
+              "k_stub:6",
+              "option_stubs_bigtop"
+            ],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Pif & Pouf",
+            "access_rules": [],
+            "hosted_item": "boss_pif_pouf_2"
+          },
+          {
+            "name": "Pantouf",
+            "access_rules": [],
+            "hosted_item": "boss_pantouf"
+          },
+          {
+            "name": "Puppeteer",
+            "access_rules": [],
+            "hosted_item": "boss_puppeteer"
+          },
+          {
+            "name": "Defeat Puppeteer",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Dweller of Scourge",
+            "access_rules": [],
+            "hosted_item": "boss_dweller_scourge"
+          },
+          {
+            "name": "Defeat Dweller",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 319,
+            "y": 82,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top SW Tent",
+        "sections": [
+          {
+            "name": "Can",
+            "access_rules": [],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 307,
+            "y": 84,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top SE Tent",
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 331,
+            "y": 84,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top West Tent",
+        "access_rules": [
+          "k_stub:3,[]",
+          "k_stub:6",
+          "option_stubs_bigtop"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 305,
+            "y": 75,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top East Tent",
+        "access_rules": [
+          "k_stub:3,[]",
+          "k_stub:6",
+          "option_stubs_bigtop"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 333,
+            "y": 75,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top NW Tent",
+        "access_rules": [
+          "k_stub:9,[]",
+          "k_stub:12",
+          "option_stubs_bigtop"
+        ],
+        "sections": [
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 307,
+            "y": 66,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Big Top NE Tent",
+        "access_rules": [
+          "k_stub:9,[]",
+          "k_stub:12",
+          "option_stubs_bigtop"
+        ],
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Balloon",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Checkerboard Puzzle",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 331,
+            "y": 66,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

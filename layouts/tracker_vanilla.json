@@ -154,46 +154,18 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
-                    "type": "array",
+                    "type": "group",
                     "dock": "top",
-                    "orientation": "horizontal",
-                    "content": [
-                      {
-                        "type": "group",
-                        "header": "Player Progress",
-                        "content": {
-                          "type": "layout",
-                          "h_alignment": "center",
-                          "key": "dlc_ability_grid"
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "header": "",
-                        "min_width": 176,
+                    "header": "Items",
                         "header_content": {
                           "type": "button_popup",
                           "style": "settings",
                           "popup_background": "#FF212121",
                           "layout": "options_panel"
                         },
-                        "content": {
-                          "type": "item",
-                          "item": "a_renown",
-                          "h_alignment": "center",
-                          "width": 120,
-                          "height": 30
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Items",
                     "content": {
                       "type": "layout",
                       "key": "dlc_item_grid"
@@ -208,27 +180,11 @@
                       "h_alignment": "center",
                       "key": "dlc_collectibles_grid"
                     }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "TotW Checklists",
-              "type": "container",
-              "content": {
-                "type": "dock",
-                "background": "#314659",
-                "content": [
+                  },
                   {
                     "type": "group",
                     "dock": "top",
                     "header": "Goodie Bags Discovered",
-                    "header_content": {
-                      "type": "button_popup",
-                      "style": "settings",
-                      "popup_background": "#FF212121",
-                      "layout": "options_panel"
-                    },
                     "content": {
                       "type": "layout",
                       "h_alignment": "center",
@@ -238,11 +194,11 @@
                   {
                     "type": "group",
                     "dock": "top",
-                    "header": "TotW Recipes",
+                    "header": "Recipes",
                     "content": {
                       "type": "layout",
                       "h_alignment": "center",
-                      "key": "dlc_recipe_grid"
+                      "key": "dlc_recipes_grid"
                     }
                   }
                 ]
@@ -253,7 +209,7 @@
               "type": "container",
               "content": {
                 "type": "dock",
-                "background": "#314659",
+                "background": "#374f63",
                 "content": [
                   {
                     "type": "group",
@@ -263,7 +219,7 @@
                       "type": "button_popup",
                       "style": "settings",
                       "popup_background": "#FF212121",
-                      "layout": "options_panel"
+                      "layout": "options_panel_vanilla"
                     },
                     "content": {
                       "type": "layout",
@@ -277,7 +233,7 @@
                     "header": "Bosses",
                     "content": {
                       "type": "layout",
-                      "h_alignment": "left",
+                      "h_alignment": "center",
                       "key": "dlc_boss_grid"
                     }
                   }
@@ -311,6 +267,31 @@
                         {
                           "type": "item",
                           "item": "a_level",
+                          "h_alignment": "center",
+                          "v_alignment": "bottom",
+                          "width": 120,
+                          "height": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "group",
+                  "header": "",
+                  "content": [
+                    {
+                      "type": "array",
+                      "orientation": "vertical",
+                      "content": [
+                        {
+                          "type": "layout",
+                          "h_alignment": "left",
+                          "key": "dlc_ability_grid"
+                        },
+                        {
+                          "type": "item",
+                          "item": "a_renown",
                           "h_alignment": "center",
                           "v_alignment": "bottom",
                           "width": 120,

@@ -97,22 +97,32 @@
   },
   {
     "name": "reg_horloge",
-    "access_rules": []
+    "access_rules": [
+      "k_dialocus,k_graplou"
+    ]
   },
   {
     "name": "reg_ivory",
-    "access_rules": []
+    "access_rules": [
+      "k_dialocus,k_graplou,a_train"
+    ]
   },
   {
     "name": "reg_wolf",
-    "access_rules": []
+    "access_rules": [
+      "k_dialocus,k_graplou,a_train"
+    ]
   },
   {
     "name": "reg_lost",
-    "access_rules": []
+    "access_rules": [
+      "k_dialocus,k_graplou,a_train"
+    ]
   },
   {
     "name": "reg_bigtop",
-    "access_rules": []
+    "access_rules": [
+      "k_dialocus,k_graplou,a_train,k_ticket_tocket"
+    ]
   }
 ]

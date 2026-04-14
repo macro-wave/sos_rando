@@ -95,22 +95,32 @@
   },
   {
     "name": "reg_horloge",
-    "access_rules": []
+    "access_rules": [
+      "boss_elysandarelle,k_dialocus"
+    ]
   },
   {
     "name": "reg_ivory",
-    "access_rules": []
+    "access_rules": [
+      "boss_train"
+    ]
   },
   {
     "name": "reg_wolf",
-    "access_rules": []
+    "access_rules": [
+      "boss_train"
+    ]
   },
   {
     "name": "reg_lost",
-    "access_rules": []
+    "access_rules": [
+      "boss_train"
+    ]
   },
   {
     "name": "reg_bigtop",
-    "access_rules": []
+    "access_rules": [
+      "boss_train,k_ticket_tocket"
+    ]
   }
 ]

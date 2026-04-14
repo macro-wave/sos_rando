@@ -288,7 +288,7 @@
             "map": "homeworld",
             "x": 447,
             "y": 288,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_conch_rewards_on"
             ]
           }

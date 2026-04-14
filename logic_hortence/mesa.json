@@ -321,6 +321,16 @@
             ]
           },
           {
+            "name": "TotW Item",
+            "item_count": 1,
+            "access_rules": [
+              "k_key_garden,k_graplou,k_mistral"
+            ],
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          },
+          {
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [

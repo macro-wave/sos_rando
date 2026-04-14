@@ -1,16 +1,22 @@
 [
   {
-    "name": "Circus Magic",
+    "name": "Enable DLC",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
-    "codes": "a_circus"
+    "img": "images/items/a_dlc_access.png",
+    "codes": "a_dlc_access"
   },
   {
     "name": "Fardush's Train",
     "type": "toggle",
-    "img": "images/items/_unused_artifact_jar.png",
+    "img": "images/items/a_train.png",
     "codes": "a_train, a_railing"
   },
+  {
+    "name": "Circus Magic",
+    "type": "toggle",
+    "img": "images/items/a_circus.png",
+    "codes": "a_circus"
+  },  
   {
     "name": "Renown",
     "type": "progressive",

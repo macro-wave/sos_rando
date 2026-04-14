@@ -5,14 +5,13 @@
     "content": [
       {
         "type": "itemgrid",
-        "item_margin": "2,0",
+        "item_margin": "0,0,8,0",
         "item_size": 40,
-        "h_alignment": "center",
         "rows": [
           [
-            "",
-            "a_circus",
-            "a_train"
+            "a_dlc_access",
+            "a_train",
+            "a_circus"
           ]
         ]
       }
@@ -34,7 +33,8 @@
             "k_certificate",
             "k_muledrone",
             "k_magnethook",
-            "k_key_bridge"
+            "k_key_bridge",
+            "w_figurine_warlock"
           ],
           [
             "k_ticket_silken",
@@ -44,6 +44,11 @@
             "s_polevault",
             "s_sunbalancing",
             "s_toubibbim"
+          ],
+          [
+            "k_mistral",
+            "k_graplou",
+            "k_seashell"
           ]
         ]
       }
@@ -59,20 +64,59 @@
         "item_size": 40,
         "rows": [
           [
-            "c_trune1",
-            "c_trune2",
-            "c_trune3",
-            "c_trune4",
-            "c_trune5",
-            "c_trune6"
+            "c_timerune_1",
+            "c_timerune_2",
+            "c_timerune_3",
+            "c_timerune_4",
+            "c_timerune_5",
+            "c_timerune_6"
           ],
           [
-            "c_trune7",
-            "c_trune8",
-            "c_trune9",
-            "c_trune10",
-            "c_trune11",
-            "c_trune12"
+            "c_timerune_7",
+            "c_timerune_8",
+            "c_timerune_9",
+            "c_timerune_10",
+            "c_timerune_11",
+            "c_timerune_12"
+          ]
+        ]
+      }
+    ]
+  },
+  "dlc_fishing_grid": {
+    "type": "array",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0,0",
+        "item_size": 50,
+        "rows": [
+          [
+            "goodiebag_small",
+            "goodiebag_med",
+            "goodiebag_big_red",
+            "goodiebag_big_gold"
+          ]
+        ]
+      }
+    ]
+  },
+  "dlc_recipes_grid": {
+    "type": "array",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 40,
+        "rows": [
+          [
+            "recipe_barbapapa",
+            "recipe_milkshake",
+            "recipe_caramelcorn",
+            "recipe_icecream",
+            "recipe_popcorn"
           ]
         ]
       }

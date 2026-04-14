@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Lost Island",
+    "always_allow_chest_manipulation": true,
+    "color": "#007bff",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
+    "access_rules": [
+      "@reg_lost"
+    ],
+    "children": [
+      {
+        "name": "West Lost Puzzle Box",
+        "sections": [
+          {
+            "name": "Graplou Puzzle",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 373,
+            "y": 233,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Lost Puzzle Box",
+        "sections": [
+          {
+            "name": "Electricity Puzzle",
+            "access_rules": [],
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 387,
+            "y": 236,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Goodies Pond",
+        "sections": [
+          {
+            "name": "Chest",
+            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Cove",
+            "access_rules": [
+              "k_seashell_magic"
+            ],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 4
+          },
+          {
+            "name": "Hidden Puzzle Box",
+            "access_rules": [
+              "k_seashell_magic"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Goodiebag 1",
+            "hosted_item": "goodiebag_small",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
+          },
+          {
+            "name": "Goodiebag 2",
+            "hosted_item": "goodiebag_big_gold",
+            "visibility_rules": [
+              "option_vanilla_fish_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "horloge",
+            "x": 387,
+            "y": 246,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,56 +1,50 @@
 [
   {
-    "name": "Pif & Pouf 1",
-    "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
-    "codes": "boss_pif_pouf_1"
-  },
-  {
     "name": "Crazy Train",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_train.png",
     "codes": "boss_train"
   },
   {
     "name": "Narcis King",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_narcis_king.png",
     "codes": "boss_narcis_king"
   },
   {
     "name": "Feral Queen",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_feral_queen.png",
     "codes": "boss_feral_queen"
   },
   {
     "name": "Monsieur Tendu",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_tendu.png",
     "codes": "boss_tendu"
   },
   {
-    "name": "Pif & Pouf 2",
+    "name": "Pif & Pouf",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
-    "codes": "boss_pif_pouf_2"
+    "img": "images/characters/boss_pif_pouf.png",
+    "codes": "boss_pif_pouf"
   },
   {
     "name": "Pantouf",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_pantouf.png",
     "codes": "boss_pantouf"
   },
   {
     "name": "The Puppeteer",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_puppeteer.png",
     "codes": "boss_puppeteer"
   },
   {
     "name": "Dweller of Scourge",
     "type": "toggle",
-    "img": "images/characters/boss_wyrd.png",
+    "img": "images/characters/boss_dweller_scourge.png",
     "codes": "boss_dweller_scourge"
   }
 ]

@@ -3,8 +3,8 @@
     "name": "Lost Island",
     "always_allow_chest_manipulation": true,
     "color": "#007bff",
-    "chest_opened_img": "images/boxes/treasure_chest_open.png",
-    "chest_unopened_img": "images/boxes/treasure_chest_closed.png",
+    "chest_opened_img": "images/boxes/circus_chest_open.png",
+    "chest_unopened_img": "images/boxes/circus_chest_closed.png",
     "access_rules": [
       "@reg_lost"
     ],
@@ -13,7 +13,7 @@
         "name": "West Lost Puzzle Box",
         "sections": [
           {
-            "name": "Test",
+            "name": "Graplou Puzzle",
             "access_rules": [],
             "item_count": 1
           }
@@ -22,7 +22,10 @@
           {
             "map": "horloge",
             "x": 373,
-            "y": 233
+            "y": 233,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -30,7 +33,7 @@
         "name": "East Lost Puzzle Box",
         "sections": [
           {
-            "name": "Test",
+            "name": "Electricity Puzzle",
             "access_rules": [],
             "item_count": 1
           }
@@ -39,7 +42,10 @@
           {
             "map": "horloge",
             "x": 387,
-            "y": 236
+            "y": 236,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       },
@@ -47,8 +53,24 @@
         "name": "Goodies Pond",
         "sections": [
           {
-            "name": "Test",
+            "name": "Chest",
             "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Cove",
+            "access_rules": [
+              "k_seashell_magic"
+            ],
+            "chest_opened_img": "images/boxes/circus_can_open.png",
+            "chest_unopened_img": "images/boxes/circus_can_closed.png",
+            "item_count": 4
+          },
+          {
+            "name": "Hidden Puzzle Box",
+            "access_rules": [
+              "k_seashell_magic"
+            ],
             "item_count": 1
           }
         ],
@@ -56,7 +78,10 @@
           {
             "map": "horloge",
             "x": 387,
-            "y": 246
+            "y": 246,
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
           }
         ]
       }
