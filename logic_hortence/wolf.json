@@ -130,7 +130,8 @@
           {
             "name": "After Bridge",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_key_bridge"
+              "k_muledrone,k_seashell_magic,k_key_bridge",
+              "k_muledrone,k_seashell_magic,option_bridgekeys_wolfrock"
             ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
@@ -139,14 +140,16 @@
           {
             "name": "Sliding Block Puzzle Box",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_key_bridge"
+              "k_muledrone,k_seashell_magic,k_key_bridge",
+              "k_muledrone,k_seashell_magic,option_bridgekeys_wolfrock"
             ],
             "item_count": 1
           },
           {
             "name": "Pond Outside",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_key_bridge"
+              "k_muledrone,k_seashell_magic,k_key_bridge",
+              "k_muledrone,k_seashell_magic,option_bridgekeys_wolfrock"
             ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
@@ -155,14 +158,16 @@
           {
             "name": "Freestanding Key 2",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "item_count": 1
           },
           {
             "name": "Let the Dogs Out",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
@@ -171,28 +176,32 @@
           {
             "name": "Small Waterfall",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "item_count": 1
           },
           {
             "name": "Above Key 3",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "item_count": 1
           },
           {
             "name": "Freestanding Key 3",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "item_count": 1
           },
           {
             "name": "Feral Queen",
             "access_rules": [
-              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:3"
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:3",
+              "k_muledrone,k_seashell_magic,k_mistral,option_bridgekeys_wolfrock"
             ],
             "hosted_item": "boss_feral_queen"
           }

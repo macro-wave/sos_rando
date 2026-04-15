@@ -289,7 +289,12 @@
           {
             "name": "Warlock Champions",
             "access_rules": [
-              "w_figurine_mage,w_figurine_warlock"
+              "w_figurine_warlock,option_diff_warlock_copper,w_figurine_mage",
+              "w_figurine_warlock,option_diff_warlock_bronze,w_wheel_bronze",
+              "w_figurine_warlock,option_diff_warlock_silver,w_wheel_silver",
+              "w_figurine_warlock,option_diff_warlock_gold,w_wheel_gold",
+              "w_figurine_warlock,option_diff_warlock_diamond,w_wheel_diamond",
+              "w_figurine_warlock,option_diff_warlock_platinum,w_wheel_platinum"
             ],
             "item_count": 3,
             "clear_as_group": false

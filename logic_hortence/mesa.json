@@ -11,6 +11,9 @@
     "children": [
       {
         "name": "Mesa Hike",
+        "access_rules": [
+          "k_vial"
+        ],
         "sections": [
           {
             "name": "Golem Name",
@@ -28,7 +31,7 @@
       {
         "name": "Autumn Hills",
         "access_rules": [
-          "k_graplou"
+          "k_vial,k_graplou"
         ],
         "sections": [
           {
@@ -107,8 +110,8 @@
       {
         "name": "Bamboo Creek",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "a_flight"
+          "k_vial,k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "k_vial,a_flight"
         ],
         "sections": [
           {
@@ -133,8 +136,8 @@
       {
         "name": "Lake Turquoise",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "a_flight"
+          "k_vial,k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "k_vial,a_flight"
         ],
         "map_locations": [
           {
@@ -147,9 +150,9 @@
       {
         "name": "Songshroom Marsh",
         "access_rules": [
-          "k_graplou,k_amulet,k_mistral,k_seashell_magic",
-          "@can_use_mesa_shortcut",
-          "a_flight"
+          "k_vial,k_graplou,k_amulet,k_mistral,k_seashell_magic",
+          "@can_use_mesa_shortcut,k_vial,",
+          "k_vial,a_flight"
         ],
         "sections": [
           {
@@ -254,9 +257,9 @@
       {
         "name": "Clockwork Castle Grounds",
         "access_rules": [
-          "k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
-          "@can_use_mesa_shortcut",
-          "a_flight"
+          "k_vial,k_seashell_magic,k_graplou,k_mistral,k_amulet,k_key_yomara",
+          "@can_use_mesa_shortcut,k_vial,",
+          "k_vial,a_flight"
         ],
         "sections": [
           {
@@ -290,41 +293,46 @@
         "sections": [
           {
             "name": "Garden Right",
+            "access_rules": [
+              "k_vial"
+            ],
             "item_count": 1
           },
           {
             "name": "2F Left",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral"
+              "k_vial,k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Push Ladder",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral"
+              "k_vial,k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "3F Right",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral"
+              "k_vial,k_key_garden,k_graplou,k_mistral"
             ]
           },
           {
             "name": "Watchmaker's Workshop",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral"
+              "k_key_garden,k_graplou,k_mistral",
+              "option_totw_teleporter_on,k_dialocus,a_dlc_access"
             ]
           },
           {
             "name": "TotW Item",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral"
+              "k_key_garden,k_graplou,k_mistral",
+              "option_totw_teleporter_on,k_dialocus,a_dlc_access"
             ],
             "visibility_rules": [
               "a_dlc_access"
@@ -334,28 +342,30 @@
             "name": "Buy From Watchmaker",
             "item_count": 1,
             "access_rules": [
-              "@can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral,"
+              "@can_cross_sea_of_stars,k_key_garden,k_graplou,k_mistral",
+              "@can_cross_sea_of_stars,option_totw_teleporter_on,k_dialocus,a_dlc_access"
             ]
           },
           {
             "name": "Wheels Master",
             "item_count": 1,
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable"
+              "k_key_garden,k_graplou,k_mistral,w_wheel_platinum,k_wheelstable",
+              "option_totw_teleporter_on,k_dialocus,w_wheel_platinum,k_wheelstable,a_dlc_access"
             ]
           },
           {
             "name": "Fleshmancer Acolytes",
             "hosted_item": "boss_acolytes",
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral,k_key_master"
+              "k_vial,k_key_garden,k_graplou,k_mistral,k_key_master"
             ]
           },
           {
             "name": "Dweller of Strife",
             "hosted_item": "boss_dweller_strife",
             "access_rules": [
-              "k_key_garden,k_graplou,k_mistral,k_key_master"
+              "k_vial,k_key_garden,k_graplou,k_mistral,k_key_master"
             ]
           }
         ],

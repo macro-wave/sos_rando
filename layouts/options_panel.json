@@ -68,6 +68,13 @@
             "h_alignment": "left",
             "width": 300,
             "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_ivory",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
           }
         ]
       }
@@ -111,6 +118,13 @@
           },
           {
             "type": "item",
+            "item": "option_bridgekeys",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
             "item": "option_stubs",
             "h_alignment": "left",
             "width": 300,
@@ -136,7 +150,7 @@
           },
           {
             "type": "item",
-            "item": "option_flight",
+            "item": "option_totw_teleporter",
             "h_alignment": "left",
             "width": 300,
             "height": 18
@@ -144,6 +158,38 @@
           {
             "type": "item",
             "item": "option_lair_warp",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          }
+        ]
+      }
+    ]
+  },
+  "subpanel_difficulty": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "item",
+            "item": "option_diff_wheels",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_diff_warlock",
+            "h_alignment": "left",
+            "width": 300,
+            "height": 18
+          },
+          {
+            "type": "item",
+            "item": "option_diff_battle_tent",
             "h_alignment": "left",
             "width": 300,
             "height": 18
@@ -250,6 +296,14 @@
           "content": {
             "type": "layout",
             "key": "subpanel_skips",
+            "h_alignment": "left"
+          }
+        },
+        {
+          "title": "Difficulty",
+          "content": {
+            "type": "layout",
+            "key": "subpanel_difficulty",
             "h_alignment": "left"
           }
         },
