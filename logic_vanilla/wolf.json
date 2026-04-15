@@ -17,7 +17,7 @@
             "access_rules": [
               "goodiebag_count:6"
             ],
-            "item_count": 1
+            "hosted_item": "k_magnethook"
           },
           {
             "name": "Lake Chest",
@@ -106,7 +106,7 @@
           {
             "name": "Freestanding Key 1",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "k_key_bridge"
           },
           {
             "name": "After Bridge",
@@ -116,9 +116,9 @@
             "item_count": 1
           },
           {
-            "name": "Sliding Block Puzzle",
+            "name": "Sliding Block Puzzle Box",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "c_timerune_8"
           },
           {
             "name": "Pond Outside",
@@ -130,7 +130,7 @@
           {
             "name": "Freestanding Key 2",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "k_key_bridge"
           },
           {
             "name": "Let the Dogs Out",
@@ -152,7 +152,7 @@
           {
             "name": "Freestanding Key 3",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "k_key_bridge"
           },
           {
             "name": "Feral Queen",
