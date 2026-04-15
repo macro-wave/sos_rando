@@ -87,7 +87,8 @@
           {
             "name": "SW Ivory Tower",
             "access_rules": [
-              "k_muledrone"
+              "k_muledrone",
+              "option_ivory_open"
             ],
             "sections": [
               {
@@ -120,7 +121,8 @@
           {
             "name": "NW Ivory Tower",
             "access_rules": [
-              "k_muledrone"
+              "k_muledrone",
+              "option_ivory_open"
             ],
             "sections": [
               {
@@ -145,7 +147,8 @@
           {
             "name": "NE Ivory Tower",
             "access_rules": [
-              "k_muledrone"
+              "k_muledrone",
+              "option_ivory_open"
             ],
             "sections": [
               {
@@ -187,7 +190,8 @@
           {
             "name": "SE Ivory Tower",
             "access_rules": [
-              "k_muledrone"
+              "k_muledrone",
+              "option_ivory_open"
             ],
             "sections": [
               {
