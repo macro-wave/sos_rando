@@ -18,97 +18,6 @@
           "width": 330,
           "tabs": [
             {
-              "title": "TotW Items",
-              "type": "container",
-              "content": {
-                "type": "dock",
-                "background": "#374f63",
-                "content": [
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Items",
-                        "header_content": {
-                          "type": "button_popup",
-                          "style": "settings",
-                          "popup_background": "#FF212121",
-                          "layout": "options_panel"
-                        },
-                    "content": {
-                      "type": "layout",
-                      "key": "dlc_item_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Collectibles",
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "dlc_collectibles_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Goodie Bags Discovered",
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "dlc_fishing_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Recipes",
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "dlc_recipes_grid"
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "TotW Characters",
-              "type": "container",
-              "content": {
-                "type": "dock",
-                "background": "#374f63",
-                "content": [
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Party",
-                    "header_content": {
-                      "type": "button_popup",
-                      "style": "settings",
-                      "popup_background": "#FF212121",
-                      "layout": "options_panel"
-                    },
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "dlc_party_grid"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "dock": "top",
-                    "header": "Bosses",
-                    "content": {
-                      "type": "layout",
-                      "h_alignment": "center",
-                      "key": "dlc_boss_grid"
-                    }
-                  }
-                ]
-              }
-            },
-            {
               "title": "Key Items",
               "type": "container",
               "content": {
@@ -239,7 +148,98 @@
                   }
                 ]
               }
-            }  
+            },
+            {
+              "title": "TotW Items",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "background": "#374f63",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Items",
+                        "header_content": {
+                          "type": "button_popup",
+                          "style": "settings",
+                          "popup_background": "#FF212121",
+                          "layout": "options_panel"
+                        },
+                    "content": {
+                      "type": "layout",
+                      "key": "dlc_item_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Collectibles",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_collectibles_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Goodie Bags Discovered",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_fishing_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Recipes",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_recipes_grid"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "TotW Characters",
+              "type": "container",
+              "content": {
+                "type": "dock",
+                "background": "#374f63",
+                "content": [
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Party",
+                    "header_content": {
+                      "type": "button_popup",
+                      "style": "settings",
+                      "popup_background": "#FF212121",
+                      "layout": "options_panel"
+                    },
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_party_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "top",
+                    "header": "Bosses",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "key": "dlc_boss_grid"
+                    }
+                  }
+                ]
+              }
+            }
           ]
         },
         {
@@ -329,15 +329,6 @@
               "type": "tabbed",
               "tabs": [
                 {
-                  "title": "Horloge",
-                  "content": {
-                    "type": "map",
-                    "maps": [
-                      "horloge"
-                    ]
-                  }
-                },
-                {
                   "title": "Home World",
                   "content": {
                     "type": "map",
@@ -361,6 +352,15 @@
                     "type": "map",
                     "maps": [
                       "nightmare"
+                    ]
+                  }
+                },
+                {
+                  "title": "Horloge",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "horloge"
                     ]
                   }
                 }

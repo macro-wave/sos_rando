@@ -11,11 +11,6 @@ if variant == "standard" then
     Tracker:FindObjectForCode("a_dlc_access").Active = true
     Tracker:FindObjectForCode("a_train").Active = true
     Tracker:FindObjectForCode("a_circus").Active = true
-    
-    -- !!!! TEMPORARY FOR TESTING !!!!
-    Tracker:FindObjectForCode("k_dialocus").Active = true
-    Tracker:FindObjectForCode("k_graplou").Active = true
-    Tracker:FindObjectForCode("w_wheels_piece").CurrentStage = 3
 
     -- Default options: World Access
     Tracker:FindObjectForCode("option_cavern").CurrentStage = 1
@@ -50,14 +45,6 @@ elseif variant == "v_vanilla" then
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
     Tracker:FindObjectForCode("character_arty").Active = true
-
-    -- TEMPORARY
-    Tracker:FindObjectForCode("k_mistral").Active = true
-    Tracker:FindObjectForCode("k_graplou").Active = true
-    Tracker:FindObjectForCode("k_seashell").CurrentStage = 2
-    Tracker:FindObjectForCode("k_dialocus").Active = true
-    Tracker:FindObjectForCode("a_dlc_access").Active = true
-    Tracker:FindObjectForCode("a_sailing").Active = true
 
     -- Default options
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 0
