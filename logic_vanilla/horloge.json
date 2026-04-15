@@ -16,7 +16,7 @@
             "name": "Free Level",
             "hosted_item": "s_polevault",
             "access_rules": [
-              "a_renown1"
+              "a_renown1,a_circus"
             ]
           }
         ],
@@ -161,17 +161,63 @@
             ]
           },
           {
+            "name": "3 Bridges Billet Bull",
+            "item_count": 1,
+            "access_rules": [
+              "k_key_lightbulb"
+            ]
+          },
+          {
+            "name": "3 Bridges",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/circus_can_closed.png",
+            "chest_opened_img": "images/items/circus_can_open.png",
+            "access_rules": [
+              "k_key_lightbulb"
+            ]
+          },
+          {
+            "name": "Bridges Pig Macer",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/circus_can_closed.png",
+            "chest_opened_img": "images/items/circus_can_open.png",
+            "access_rules": [
+              "k_key_lightbulb"
+            ]
+          },
+          {
+            "name": "Jailbreak",
+            "access_rules": [
+              "k_key_lightbulb"
+            ],
+            "hosted_item": "character_juggler"
+          },
+          {
+            "name": "Jailbreak",
+            "access_rules": [
+              "k_key_lightbulb"
+            ],
+            "hosted_item": "character_acrobat"
+          },
+          {
+            "name": "New Magic",
+            "access_rules": [
+              "k_key_lightbulb"
+            ],
+            "hosted_item": "a_circus"
+          },
+          {
             "name": "Jailbreak Chute",
             "item_count": 1,
             "access_rules": [
-              "k_mistral"
+              "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
             ]
           },
           {
             "name": "Guards Room",
             "item_count": 1,
             "access_rules": [
-              "k_mistral"
+              "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
             ]
           }
         ],
@@ -189,7 +235,7 @@
       {
         "name": "Town of Horloge",
         "access_rules": [
-          "character_juggler,character_acrobat,k_key_lightbulb"
+          "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
         ],
         "sections": [
           {
@@ -200,7 +246,7 @@
             ]
           },
           {
-            "name": "Feral Queen ",
+            "name": "Feral Queen's Visit",
             "hosted_item": "k_ticket_were",
             "visibility_rules": [
               "boss_narcis_king"
@@ -215,7 +261,17 @@
           },
           {
             "name": "NW Bulletin Board",
-            "access_rules": [],
+            "item_count": 1
+          },
+          {
+            "name": "Block Path Puzzle",
+            "access_rules": [
+              "k_muledrone,k_mistral"
+            ],
+            "hosted_item": "c_timerune_6"
+          },
+          {
+            "name": "Behind East Merchants",
             "item_count": 1
           },
           {
@@ -233,21 +289,8 @@
             "item_count": 1
           },
           {
-            "name": "Behind East Merchants",
-            "access_rules": [],
-            "item_count": 1
-          },
-          {
             "name": "SE Bulletin Board",
-            "access_rules": [],
             "item_count": 1
-          },
-          {
-            "name": "Block Path Puzzle",
-            "access_rules": [
-              "k_muledrone,k_mistral"
-            ],
-            "hosted_item": "c_timerune_6"
           },
           {
             "name": "Test of Strength",
@@ -278,7 +321,7 @@
             "access_rules": [
               "w_figurine_mage,w_figurine_warlock"
             ],
-            "item_count": 2,
+            "item_count": 3,
             "hosted_item": "c_timerune_1",
             "clear_as_group": false
           },
@@ -292,9 +335,9 @@
           {
             "name": "Battle Challenge",
             "access_rules": [
-              "a_renown4"
+              "k_certificate"
             ],
-            "item_count": 1
+            "hosted_item": "c_timerune_9"
           }
         ],
         "map_locations": [
@@ -310,6 +353,9 @@
       },
       {
         "name": "Horloge Merchants",
+        "access_rules": [
+          "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
+        ],
         "sections": [
           {
             "name": "Equipment Shop",
@@ -374,6 +420,9 @@
       },
       {
         "name": "Bounty Basin",
+        "access_rules": [
+          "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
+        ],
         "sections": [
           {
             "name": "Can",
@@ -409,79 +458,73 @@
       },
       {
         "name": "Rail Forest",
+        "access_rules": [
+          "character_arty,character_acrobat,character_juggler,k_key_lightbulb,a_circus"
+        ],
         "sections": [
           {
             "name": "By Butter Packet",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Lightbulb",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Rotating Arrows Puzzle Box",
-            "access_rules": [],
             "hosted_item": "c_timerune_3"
           },
           {
             "name": "Puzzle Box Cave Ledge",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "3 Lemurs",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Push Rails",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Under Push Rails",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Cog Flowers & GBB",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Balcony",
-            "access_rules": [],
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "item_count": 1
           },
           {
             "name": "By Puzzle Box",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Campfire",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Crazy Train",
-            "access_rules": [],
             "hosted_item": "boss_train"
           },
           {
             "name": "Defeat Train",
-            "access_rules": [],
-            "item_count": 1
+            "access_rules": [
+              "boss_train"
+            ],
+            "item_count": 1,
+            "hosted_item": "a_train"
           }
         ],
         "map_locations": [

@@ -14,7 +14,9 @@
         "sections": [
           {
             "name": "Graplou Puzzle",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "hosted_item": "c_timerune_10"
           }
         ],
@@ -34,7 +36,6 @@
         "sections": [
           {
             "name": "Electricity Puzzle",
-            "access_rules": [],
             "hosted_item": "c_timerune_7"
           }
         ],
@@ -54,7 +55,6 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [],
             "item_count": 1
           },
           {

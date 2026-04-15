@@ -49,12 +49,13 @@
             "sections": [
               {
                 "name": "Outside Vine",
-                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "Outside Ledge",
-                "access_rules": [],
+                "access_rules": [
+                  "[k_muledrone]"
+                ],
                 "item_count": 1
               },
               {
@@ -65,12 +66,11 @@
               },
               {
                 "name": "Junk Pile",
-                "access_rules": [],
                 "hosted_item": "k_muledrone"
               },
               {
                 "name": "Narcis King",
-                "access_rules": [],
+                "access_rules": ["k_muledrone"],
                 "hosted_item": "boss_narcis_king"
               }
             ],
@@ -93,14 +93,12 @@
             "sections": [
               {
                 "name": "Outside Tower",
-                "access_rules": [],
                 "chest_opened_img": "images/boxes/circus_can_open.png",
                 "chest_unopened_img": "images/boxes/circus_can_closed.png",
                 "item_count": 1
               },
               {
                 "name": "Down Vines",
-                "access_rules": [],
                 "chest_opened_img": "images/boxes/combo_scroll_open.png",
                 "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
                 "item_count": 1
@@ -125,7 +123,6 @@
             "sections": [
               {
                 "name": "Top Floor",
-                "access_rules": [],
                 "item_count": 1
               }
             ],
@@ -148,7 +145,6 @@
             "sections": [
               {
                 "name": "Outside Ledge",
-                "access_rules": [],
                 "item_count": 1
               },
               {
@@ -160,7 +156,6 @@
               },
               {
                 "name": "Doorway Labyrinth",
-                "access_rules": [],
                 "item_count": 1
               }
             ],
@@ -183,20 +178,17 @@
             "sections": [
               {
                 "name": "Graplou Puzzle",
-                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "Outside Ledge",
-                "access_rules": [],
                 "chest_opened_img": "images/boxes/circus_can_open.png",
                 "chest_unopened_img": "images/boxes/circus_can_closed.png",
                 "item_count": 1
               },
               {
                 "name": "Shadow Puzzle Box",
-                "access_rules": [],
-                "item_count": 1
+                "hosted_item": "c_timerune_5"
               }
             ],
             "map_locations": [

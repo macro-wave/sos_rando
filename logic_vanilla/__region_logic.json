@@ -96,25 +96,25 @@
   {
     "name": "reg_horloge",
     "access_rules": [
-      "boss_elysandarelle,k_dialocus"
+      "a_dlc_access,a_sailing,k_dialocus,k_mistral,k_seashell_magic,k_graplou"
     ]
   },
   {
     "name": "reg_ivory",
     "access_rules": [
-      "boss_train"
+      "boss_train,k_ticket_silken"
     ]
   },
   {
     "name": "reg_wolf",
     "access_rules": [
-      "boss_train"
+      "boss_train,k_ticket_silken"
     ]
   },
   {
     "name": "reg_lost",
     "access_rules": [
-      "boss_train"
+      "boss_train,k_ticket_silken"
     ]
   },
   {

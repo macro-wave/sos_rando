@@ -15,7 +15,7 @@
           {
             "name": "Master Angler",
             "access_rules": [
-              "goodiebag_count:6"
+              "goodiebag_small,goodiebag_med,goodiebag_big_red,goodiebag_big_gold"
             ],
             "hosted_item": "k_magnethook"
           },
@@ -69,31 +69,26 @@
           },
           {
             "name": "P'técass",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Across Chasm",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Swim",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "River",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "item_count": 1
           },
           {
             "name": "Campfire",
-            "access_rules": [],
             "item_count": 1
           },
           {
@@ -105,58 +100,78 @@
           },
           {
             "name": "Freestanding Key 1",
-            "access_rules": [],
             "hosted_item": "k_key_bridge"
           },
           {
             "name": "After Bridge",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Sliding Block Puzzle Box",
-            "access_rules": [],
+            
+            "access_rules": [
+              "k_key_bridge"
+            ],
             "hosted_item": "c_timerune_8"
           },
           {
             "name": "Pond Outside",
-            "access_rules": [],
+            
+            "access_rules": [
+              "k_key_bridge"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Freestanding Key 2",
-            "access_rules": [],
+            
+            "access_rules": [
+              "k_key_bridge"
+            ],
             "hosted_item": "k_key_bridge"
           },
           {
             "name": "Let the Dogs Out",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge:2"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Small Waterfall",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge:2"
+            ],
             "item_count": 1
           },
           {
             "name": "Above Key 3",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge:2"
+            ],
             "item_count": 1
           },
           {
             "name": "Freestanding Key 3",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge:2"
+            ],
             "hosted_item": "k_key_bridge"
           },
           {
             "name": "Feral Queen",
-            "access_rules": [],
+            "access_rules": [
+              "k_key_bridge:3"
+            ],
             "hosted_item": "boss_feral_queen"
           }
         ],

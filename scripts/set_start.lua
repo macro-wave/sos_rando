@@ -49,6 +49,15 @@ elseif variant == "v_vanilla" then
     -- Default starting items
     Tracker:FindObjectForCode("character_zale").Active = true
     Tracker:FindObjectForCode("character_valere").Active = true
+    Tracker:FindObjectForCode("character_arty").Active = true
+
+    -- TEMPORARY
+    Tracker:FindObjectForCode("k_mistral").Active = true
+    Tracker:FindObjectForCode("k_graplou").Active = true
+    Tracker:FindObjectForCode("k_seashell").CurrentStage = 2
+    Tracker:FindObjectForCode("k_dialocus").Active = true
+    Tracker:FindObjectForCode("a_dlc_access").Active = true
+    Tracker:FindObjectForCode("a_sailing").Active = true
 
     -- Default options
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 0
