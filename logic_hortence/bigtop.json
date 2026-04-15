@@ -51,34 +51,46 @@
           },
           {
             "name": "Pif & Pouf",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:6"
+            ],
             "hosted_item": "boss_pif_pouf_2"
           },
           {
             "name": "Pantouf",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:6"
+            ],
             "hosted_item": "boss_pantouf"
           },
           {
             "name": "Puppeteer",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:12"
+            ],
             "hosted_item": "boss_puppeteer"
           },
           {
             "name": "Defeat Puppeteer",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:12"
+            ],
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "item_count": 1
           },
           {
             "name": "Dweller of Scourge",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:12"
+            ],
             "hosted_item": "boss_dweller_scourge"
           },
           {
             "name": "Defeat Dweller",
-            "access_rules": [],
+            "access_rules": [
+              "k_stub:12"
+            ],
             "item_count": 1
           }
         ],
@@ -98,14 +110,18 @@
         "sections": [
           {
             "name": "Can",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Balloon",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "item_count": 1
           }
         ],
@@ -125,12 +141,16 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [],
+            "access_rules": [
+              "k_mistral"
+            ],
             "item_count": 1
           },
           {
             "name": "Balloon",
-            "access_rules": [],
+            "access_rules": [
+              "k_mistral,k_muledrone"
+            ],
             "item_count": 1
           }
         ],
@@ -155,12 +175,10 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Balloon",
-            "access_rules": [],
             "item_count": 1
           }
         ],
@@ -185,12 +203,13 @@
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [],
             "item_count": 1
           },
           {
             "name": "Balloon",
-            "access_rules": [],
+            "access_rules": [
+              "k_mistral"
+            ],
             "item_count": 1
           }
         ],
@@ -208,14 +227,12 @@
       {
         "name": "Big Top NW Tent",
         "access_rules": [
-          "k_stub:9,[]",
-          "k_stub:12",
+          "k_stub:6",
           "option_stubs_bigtop"
         ],
         "sections": [
           {
             "name": "Balloon",
-            "access_rules": [],
             "item_count": 1
           }
         ],
@@ -233,24 +250,26 @@
       {
         "name": "Big Top NE Tent",
         "access_rules": [
-          "k_stub:9,[]",
-          "k_stub:12",
+          "k_stub:6",
           "option_stubs_bigtop"
         ],
         "sections": [
           {
             "name": "Chest",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "item_count": 1
           },
           {
             "name": "Balloon",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "item_count": 1
           },
           {
             "name": "Checkerboard Puzzle",
-            "access_rules": [],
             "item_count": 1
           }
         ],

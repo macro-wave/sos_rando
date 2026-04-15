@@ -1,28 +1,26 @@
 [
   {
     "name": "Small Goodie Bag",
-    "type": "consumable",
-    "max_quantity": 2,
+    "type": "toggle",
     "img": "images/items/goodiebag_small.png",
-    "codes": "goodiebag_count,goodiebag_small"
+    "codes": "goodiebag_small"
   },
   {
     "name": "Medium Goodie Bag",
-    "type": "consumable",
-    "max_quantity": 2,
+    "type": "toggle",
     "img": "images/items/goodiebag_med.png",
-    "codes": "goodiebag_count,goodiebag_med"
+    "codes": "goodiebag_med"
   },
   {
     "name": "Big Goodie Bag (Red)",
     "type": "toggle",
     "img": "images/items/goodiebag_big_red.png",
-    "codes": "goodiebag_count,goodiebag_big,goodiebag_big_red"
+    "codes": "goodiebag_big,goodiebag_big_red"
   },
   {
     "name": "Big Goodie Bag (Gold)",
     "type": "toggle",
     "img": "images/items/goodiebag_big_gold.png",
-    "codes": "goodiebag_count,goodiebag_big,goodiebag_big_gold"
+    "codes": "goodiebag_big,goodiebag_big_gold"
   }
 ]

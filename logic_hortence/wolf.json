@@ -15,7 +15,7 @@
           {
             "name": "Master Angler",
             "access_rules": [
-              "goodiebag_count:6"
+              "goodiebag_small,goodiebag_med,goodiebag_big_red,goodiebag_big_gold"
             ],
             "item_count": 1
           },
@@ -64,36 +64,46 @@
           },
           {
             "name": "P'técass",
-            "access_rules": [],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Across Chasm",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone"
+            ],
             "item_count": 1
           },
           {
             "name": "Swim",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "item_count": 1
           },
           {
             "name": "River",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "chest_opened_img": "images/boxes/combo_scroll_open.png",
             "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "item_count": 1
           },
           {
             "name": "Campfire",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "item_count": 1
           },
           {
             "name": "Campfire Merchant",
             "item_count": 1,
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "clear_as_group": false,
             "visibility_rules": [
               "option_shopsanity_unique"
@@ -102,6 +112,9 @@
           {
             "name": "Campfire Merchant",
             "item_count": 8,
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "clear_as_group": false,
             "visibility_rules": [
               "option_shopsanity_all"
@@ -109,58 +122,78 @@
           },
           {
             "name": "Freestanding Key 1",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic"
+            ],
             "item_count": 1
           },
           {
             "name": "After Bridge",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_key_bridge"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Sliding Block Puzzle Box",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_key_bridge"
+            ],
             "item_count": 1
           },
           {
             "name": "Pond Outside",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_key_bridge"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Freestanding Key 2",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge"
+            ],
             "item_count": 1
           },
           {
             "name": "Let the Dogs Out",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+            ],
             "chest_opened_img": "images/boxes/circus_can_open.png",
             "chest_unopened_img": "images/boxes/circus_can_closed.png",
             "item_count": 1
           },
           {
             "name": "Small Waterfall",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+            ],
             "item_count": 1
           },
           {
             "name": "Above Key 3",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+            ],
             "item_count": 1
           },
           {
             "name": "Freestanding Key 3",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:2"
+            ],
             "item_count": 1
           },
           {
             "name": "Feral Queen",
-            "access_rules": [],
+            "access_rules": [
+              "k_muledrone,k_seashell_magic,k_mistral,k_key_bridge:3"
+            ],
             "hosted_item": "boss_feral_queen"
           }
         ],
