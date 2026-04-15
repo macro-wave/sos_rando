@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Juggler Zale",
+    "type": "toggle",
+    "img": "images/characters/character_juggler.png",
+    "codes": "character_juggler"
+  },
+  {
+    "name": "Acrobat Valere",
+    "type": "toggle",
+    "img": "images/characters/character_acrobat.png",
+    "codes": "character_acrobat"
+  },
+  {
+    "name": "Artificer",
+    "type": "toggle",
+    "img": "images/characters/character_arty.png",
+    "codes": "character_artificer,character_arty"
+  }
+]

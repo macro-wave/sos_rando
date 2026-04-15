@@ -188,7 +188,7 @@
             "map": "homeworld",
             "x": 273,
             "y": 203,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "a_sailing"
             ]
           },
@@ -196,7 +196,7 @@
             "map": "seraiworld",
             "x": 273,
             "y": 203,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "a_sailing"
             ]
           }

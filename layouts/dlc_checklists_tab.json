@@ -1,0 +1,41 @@
+{
+  "dlc_fishing_grid": {
+    "type": "array",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0,0",
+        "item_size": 50,
+        "rows": [
+          [
+            "goodiebag_small",
+            "goodiebag_med",
+            "goodiebag_big_red",
+            "goodiebag_big_gold"
+          ]
+        ]
+      }
+    ]
+  },
+  "dlc_recipes_grid": {
+    "type": "array",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 40,
+        "rows": [
+          [
+            "recipe_barbapapa",
+            "recipe_milkshake",
+            "recipe_caramelcorn",
+            "recipe_icecream",
+            "recipe_popcorn"
+          ]
+        ]
+      }
+    ]
+  }
+}

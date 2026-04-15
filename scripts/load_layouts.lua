@@ -1,6 +1,10 @@
 Tracker:AddLayouts("layouts/items_tab.json")
-Tracker:AddLayouts("layouts/characters_tab.json")
 Tracker:AddLayouts("layouts/checklists_tab.json")
+Tracker:AddLayouts("layouts/characters_tab.json")
+
+Tracker:AddLayouts("layouts/dlc_items_tab.json")
+Tracker:AddLayouts("layouts/dlc_checklists_tab.json")
+Tracker:AddLayouts("layouts/dlc_characters_tab.json")
 
 Tracker:AddLayouts("layouts/options_panel.json")
 Tracker:AddLayouts("layouts/compact.json")

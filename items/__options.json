@@ -240,6 +240,23 @@
     ]
   },
   {
+    "name": "Shuffle Ticket Stubs",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_stubs_anywhere.png",
+        "codes": "option_stubs,option_stubs_anywhere"
+      },
+      {
+        "img": "images/options/option_stubs_bigtop.png",
+        "codes": "option_stubs,option_stubs_bigtop",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Skip Prologue",
     "type": "progressive",
     "allow_disabled": false,

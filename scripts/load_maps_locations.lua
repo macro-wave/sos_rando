@@ -5,9 +5,13 @@ if loadmap then
     Tracker:AddLocations(logic_dir .. "/__rules.json")
     Tracker:AddLocations(logic_dir .. "/__region_logic.json")
     Tracker:AddLocations(logic_dir .. "/basalt.json")
+    Tracker:AddLocations(logic_dir .. "/bigtop.json")
     Tracker:AddLocations(logic_dir .. "/cerulean.json")
     Tracker:AddLocations(logic_dir .. "/evermist.json")
     Tracker:AddLocations(logic_dir .. "/home_overworld.json")
+    Tracker:AddLocations(logic_dir .. "/horloge.json")
+    Tracker:AddLocations(logic_dir .. "/ivory.json")
+    Tracker:AddLocations(logic_dir .. "/lost.json")
     Tracker:AddLocations(logic_dir .. "/mesa.json")
     Tracker:AddLocations(logic_dir .. "/sacrosanct.json")
     Tracker:AddLocations(logic_dir .. "/sea_nightmare.json")
@@ -18,6 +22,7 @@ if loadmap then
     Tracker:AddLocations(logic_dir .. "/sleeper.json")
     Tracker:AddLocations(logic_dir .. "/stillpond.json")
     Tracker:AddLocations(logic_dir .. "/watcher.json")
+    Tracker:AddLocations(logic_dir .. "/wolf.json")
     Tracker:AddLocations(logic_dir .. "/wraith.json")
 
 end
