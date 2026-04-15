@@ -37,6 +37,8 @@
           {
             "name": "Level Up",
             "item_count": 1,
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "access_rules": [
               "a_renown2"
             ]
@@ -58,7 +60,7 @@
         "sections": [
           {
             "name": "Level Up",
-            "item_count": 1,
+            "hosted_item": "s_toubibbim",
             "access_rules": [
               "a_renown3"
             ]
@@ -80,7 +82,7 @@
         "sections": [
           {
             "name": "Level Up",
-            "item_count": 1,
+            "hosted_item": "s_sunbalancing",
             "access_rules": [
               "a_renown4"
             ]
@@ -103,6 +105,8 @@
           {
             "name": "Level Up",
             "item_count": 1,
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "access_rules": [
               "a_renown5"
             ]
@@ -125,6 +129,8 @@
           {
             "name": "Level Up",
             "item_count": 1,
+            "chest_opened_img": "images/boxes/combo_scroll_open.png",
+            "chest_unopened_img": "images/boxes/combo_scroll_closed.png",
             "access_rules": [
               "a_renown6"
             ]
@@ -187,22 +193,22 @@
         ],
         "sections": [
           {
-            "name": "Crazy Train Defeated",
-            "item_count": 1,
+            "name": "Herald of High Importance",
+            "hosted_item": "k_ticket_silken",
             "visibility_rules": [
               "boss_train"
             ]
           },
           {
-            "name": "Narcis King Defeated",
-            "item_count": 1,
+            "name": "Feral Queen ",
+            "hosted_item": "k_ticket_were",
             "visibility_rules": [
               "boss_narcis_king"
             ]
           },
           {
-            "name": "Feral Queen Defeated",
-            "item_count": 1,
+            "name": "Twins Defeated",
+            "hosted_item": "k_ticket_tocket",
             "visibility_rules": [
               "boss_feral_queen"
             ]
@@ -241,7 +247,7 @@
             "access_rules": [
               "k_muledrone,k_mistral"
             ],
-            "item_count": 1
+            "hosted_item": "c_timerune_6"
           },
           {
             "name": "Test of Strength",
@@ -272,7 +278,8 @@
             "access_rules": [
               "w_figurine_mage,w_figurine_warlock"
             ],
-            "item_count": 3,
+            "item_count": 2,
+            "hosted_item": "c_timerune_1",
             "clear_as_group": false
           },
           {
@@ -416,9 +423,9 @@
             "item_count": 1
           },
           {
-            "name": "Rotating Arrows",
+            "name": "Rotating Arrows Puzzle Box",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "c_timerune_3"
           },
           {
             "name": "Puzzle Box Cave Ledge",

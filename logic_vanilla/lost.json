@@ -15,7 +15,7 @@
           {
             "name": "Graplou Puzzle",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "c_timerune_10"
           }
         ],
         "map_locations": [
@@ -35,7 +35,7 @@
           {
             "name": "Electricity Puzzle",
             "access_rules": [],
-            "item_count": 1
+            "hosted_item": "c_timerune_7"
           }
         ],
         "map_locations": [
@@ -71,7 +71,7 @@
             "access_rules": [
               "k_seashell_magic"
             ],
-            "item_count": 1
+            "hosted_item": "c_timerune_2"
           },
           {
             "name": "Goodiebag 1",
