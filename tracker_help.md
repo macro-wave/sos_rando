@@ -20,7 +20,7 @@ The options panel drops down from the gear icon in the top left tabbed section.
 - Malkomud: Requires defeating Malkomud to activate the elevator
 - Open: Elevator is active at start, and can be accessed from both Outpost and Coral Cascades
 
-*Skylands Bridge*
+*Hiker's Rest Bridge*
 - Dweller of Strife: Must defeat the dweller at Clockwork Castle to open up the water bridge and reach the sklyands warp. Skylands can still be accessed if Puntie's name is acquired, or if player can fly to the island.
 - Open: The bridge is open at the start.
 
@@ -34,8 +34,12 @@ The options panel drops down from the gear icon in the top left tabbed section.
 - Open: Speedballs are available from all stations at the start.
 
 *Infinite Abyss*
-- Catalyst: Must defeat Catalyst in Sky Base to open up the abyss
+- Catalyst: Must defeat Catalyst in Sky Base to open up the abyss.
 - Open: The abyss is open from the start. Like other whirlpools, the player needs the magic seashell to enter.
+
+*Ivory Bridges*
+- Vanilla: Must open each light bridge in Ivory Towers by climbing the tower and pressing the big rune button.
+- Open: All light bridges are on, and the player can complete towers out-of-order.
 
 **Shuffle Options**
 *Shopsanity*
@@ -55,17 +59,41 @@ Otherwise, the loremaster check alone is included and only requires one quiz.
 *Conch Rewards & Fishing Rewards*
 Adds the rewards given for collecting conches/discovering fish species as checks.
 
+*Bridge Keys and Entry Stubs*
+- Anywhere: the Keys and Stubs from Wolf Rock and Big Top are shuffled anywhere in the world.
+- Own Area: the keys and stubs are each contained within their respective areas and are guaranteed to be found in logically sufficient quantities before the associated locks are reached (think dungeon keys in Zelda, for comparison).
+
 **Sequence Skip Options**
 *Skip Prologue*
 Equivalent of using Solstice Diploma. Excludes all locations in the prologue up to the Forbidden Cavern.
 
+*Early Castle Teleporter*
+If turned on, the teleporter from Vespertine to Watchmaker's Workshop is available as soon as the Dialocus is found. If off, the player must be able to logically reach the workshop without it in order to get the checks or enter Horloge.
+
 *Fleshmancer's Lair Warp*
 Behaves as though the warp at the entrance to the lair is available from the start. Does not exclude any checks in the dungeon, but makes it possible to reach the final boss without going through the dungeon or getting items like the suspicious fish.
 
+**Difficulty Options**
+*Wheels Champions/Warlock Wheels Champions*
+- These set the minimum required level achieved in Wheels for certain champion games to be considered in-logic.
+The "difficult" wheels champions in the main world are Mooncradle, Mirth, Cloud Kingdom, and Repine.
+- Warlock Champions refers only to the three in the Warlock tent in Horloge. The Horloge Inn champion is not included.
+
+*Horloge Battle Tent Minimum Renown*
+This sets the minimum required player level stars ("Renown") to logically beat the battle challenge in Town of Horloge.
+
 **Logic Options**
+*Secret Passage w/out Hint*
+Allows logical entry to Romaya's Secret Passage without requiring access to the location of the hint in Flooded Graveyard.
+
+*Oasis w/out Hint*
+Allows logical access to the Oasis without first defeating the Dweller and revealing the path hint in Repine.
+
 *Throne w/out Belt Buckle*
 If turned on, the tracker will assume a player knows the path to Throne of the Queen without needing the story hint.
 Otherwise, if the player can access Cerulean Expanse but does not have Joce's Belt Buckle, the check will be marked yellow for "accessible out-of-logic"
+
+
 
 ****
 
@@ -88,6 +116,6 @@ The *Coral/Cobalt Hammer* and the *Seashell/Magic Seashell* have been respective
 ### Other Notes
 The names of *Travel Golems* (represented by their icons in the *Characters* tab) have been included as possible logical items, as they restrict travel between islands. Shuffling the names may be a possible feature in an implemented randomizer.
 
-The *Nightmare Vespertine* and *Cataclysm Brisk* areas are unique in that they cannot be revisited outside their respective chapters. Cataclysm Brisk is not currently implemented. Nightmare Vespertine will currently change to normal on the Home World map after obtaining the Map item. Frankly I have no idea how to deal with this logic.
+The *Nightmare Vespertine* and *Cataclysm Brisk* areas are unique in that they cannot be revisited outside their respective chapters. Cataclysm Brisk is not currently implemented. Nightmare Vespertine will currently sit in Sea of Nightmare only, while regular Vespertine is on the Home World and Serai World maps. Frankly I have no idea how to deal with this logic.
 
 ***

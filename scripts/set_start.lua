@@ -36,6 +36,9 @@ if variant == "standard" then
     Tracker:FindObjectForCode("option_skip_prologue").CurrentStage = 1
     Tracker:FindObjectForCode("option_totw_teleporter").CurrentStage = 1
     Tracker:FindObjectForCode("option_lair_warp").CurrentStage = 1
+    
+    -- Default options: Difficulty
+    Tracker:FindObjectForCode("option_diff_battle_tent").CurrentStage = 3
 
     -- Default options: Logic
     Tracker:FindObjectForCode("option_logic_secret_passage").Active = false

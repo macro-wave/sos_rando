@@ -362,9 +362,6 @@
       }
     ]
   },
-
-
-
   {
     "name": "Difficult Wheels Champions Minimum Level",
     "type": "progressive",
@@ -431,17 +428,40 @@
   },
   {
     "name": "Horloge Battle Tent Minimum Renown",
-    "type": "consumable",
+    "type": "progressive",
     "allow_disabled": false,
-    "img": "images/options/option_diff_battle_tent.png",
-    "codes": "option_diff_battle_tent",
-    "min_quantity": 1,
-    "max_quantity": 6,
-    "initial_quantity": 4
+    "stages": [
+      {
+        "img": "images/options/option_diff_battle_tent_1.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_1"
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_2.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_3.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_4.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_5.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_5",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_6.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_6",
+        "inherit_codes": false
+      }
+    ]
   },
-
-
-
   {
     "name": "Romaya's Secret Passage without Hint",
     "type": "toggle",

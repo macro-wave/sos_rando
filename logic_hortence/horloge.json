@@ -290,11 +290,11 @@
             "name": "Warlock Champions",
             "access_rules": [
               "w_figurine_warlock,option_diff_warlock_copper,w_figurine_mage",
-              "w_figurine_warlock,option_diff_warlock_bronze,w_wheel_bronze",
-              "w_figurine_warlock,option_diff_warlock_silver,w_wheel_silver",
-              "w_figurine_warlock,option_diff_warlock_gold,w_wheel_gold",
-              "w_figurine_warlock,option_diff_warlock_diamond,w_wheel_diamond",
-              "w_figurine_warlock,option_diff_warlock_platinum,w_wheel_platinum"
+              "w_figurine_warlock,option_diff_warlock_bronze,w_figurine_mage,[w_wheel_bronze]",
+              "w_figurine_warlock,option_diff_warlock_silver,w_figurine_mage,[w_wheel_silver]",
+              "w_figurine_warlock,option_diff_warlock_gold,w_figurine_mage,[w_wheel_gold]",
+              "w_figurine_warlock,option_diff_warlock_diamond,w_figurine_mage,[w_wheel_diamond]",
+              "w_figurine_warlock,option_diff_warlock_platinum,w_figurine_mage,[w_wheel_platinum]"
             ],
             "item_count": 3,
             "clear_as_group": false
@@ -309,7 +309,12 @@
           {
             "name": "Battle Challenge",
             "access_rules": [
-              "k_certificate,a_renown4"
+              "k_certificate,option_diff_battle_tent_1",
+              "k_certificate,option_diff_battle_tent_2,[a_renown2]",
+              "k_certificate,option_diff_battle_tent_3,[a_renown3]",
+              "k_certificate,option_diff_battle_tent_4,[a_renown4]",
+              "k_certificate,option_diff_battle_tent_5,[a_renown5]",
+              "k_certificate,option_diff_battle_tent_6,[a_renown6]"
             ],
             "item_count": 1
           }

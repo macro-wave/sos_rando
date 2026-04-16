@@ -1,5 +1,11 @@
 # RELEASES
 
+## Version 0.0.11 : 4/15/2026
+
+- ADDED THROES OF THE WATCHMAKER CONTENT
+- Added multiple new logical options for DLC areas
+- Added difficulty options for Wheels champions based on wheels pieces found
+
 ## Version 0.0.10 : 4/11/2026
 
 - Fixed a bug that prevented vanilla from loading a save

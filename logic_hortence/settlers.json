@@ -44,9 +44,9 @@
             "item_count": 1,
             "access_rules": [
               "option_diff_wheels_copper,w_figurine_mage",
-              "option_diff_wheels_bronze,w_wheel_bronze",
-              "option_diff_wheels_silver,w_wheel_silver",
-              "option_diff_wheels_gold,w_wheel_gold"
+              "option_diff_wheels_bronze,w_figurine_mage,[w_wheel_bronze]",
+              "option_diff_wheels_silver,w_figurine_mage,[w_wheel_silver]",
+              "option_diff_wheels_gold,w_figurine_mage,[w_wheel_gold]"
             ]
           },
           {

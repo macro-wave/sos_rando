@@ -190,10 +190,10 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "option_diff_wheels_copper,w_figurine_mage,k_wheelstable",
-              "option_diff_wheels_bronze,w_wheel_bronze,k_wheelstable",
-              "option_diff_wheels_silver,w_wheel_silver,k_wheelstable",
-              "option_diff_wheels_gold,w_wheel_gold,k_wheelstable"
+              "option_diff_wheels_copper,k_wheelstable,w_figurine_mage",
+              "option_diff_wheels_bronze,k_wheelstable,w_figurine_mage,[w_wheel_bronze]",
+              "option_diff_wheels_silver,k_wheelstable,w_figurine_mage,[w_wheel_silver]",
+              "option_diff_wheels_gold,k_wheelstable,w_figurine_mage,[w_wheel_gold]"
             ]
           }
         ],

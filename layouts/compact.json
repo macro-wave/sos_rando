@@ -98,6 +98,24 @@
             "k_crystalegg"
           ],
           [
+            "k_dialocus",
+            "k_key_lightbulb",
+            "k_certificate",
+            "k_muledrone",
+            "k_magnethook",
+            "k_key_bridge",
+            "w_figurine_warlock"
+          ],
+          [
+            "k_ticket_silken",
+            "k_ticket_were",
+            "k_ticket_tocket",
+            "k_stub",
+            "s_polevault",
+            "s_toubibbim",
+            "s_sunbalancing"
+          ],
+          [
             "c_qpack1",
             "c_qpack2",
             "c_qpack3",
@@ -114,6 +132,22 @@
             "c_rainbowconch",
             "c_datastrip",
             "c_flimsyhammer"
+          ],
+          [
+            "c_timerune_1",
+            "c_timerune_2",
+            "c_timerune_3",
+            "c_timerune_4",
+            "c_timerune_5",
+            "c_timerune_6"
+          ],
+          [
+            "c_timerune_7",
+            "c_timerune_8",
+            "c_timerune_9",
+            "c_timerune_10",
+            "c_timerune_11",
+            "c_timerune_12"
           ]
         ]
       }
