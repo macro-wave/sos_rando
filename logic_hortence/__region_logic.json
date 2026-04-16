@@ -45,8 +45,8 @@
   {
     "name": "reg_mesa",
     "access_rules": [
-      "@can_leave_cavern,a_sailing,k_vial",
-      "a_flight,k_vial"
+      "@can_leave_cavern,a_sailing",
+      "a_flight"
     ]
   },
   {
@@ -93,6 +93,47 @@
     "name": "reg_sky_base",
     "access_rules": [
       "@can_cross_sea_of_stars,@can_use_speedball"
+    ]
+  },
+  {
+    "name": "reg_dlc",
+    "access_rules": [
+      "option_totw_teleporter_on,k_dialocus",
+      "@can_leave_cavern,a_sailing,k_vial,k_graplou,k_mistral,k_seashell_magic,k_amulet,k_key_yomara,k_key_garden,k_dialocus",
+      "@can_leave_cavern,@can_use_mesa_shortcut,a_sailing,k_vial,k_graplou,k_mistral,k_key_garden,k_dialocus",
+      "a_flight,k_vial,k_key_garden,k_graplou,k_mistral,k_dialocus"
+    ],
+    "children": [
+      {
+        "name": "reg_horloge",
+        "access_rules": [
+          "k_dialocus,k_graplou"
+        ]
+      },
+      {
+        "name": "reg_ivory",
+        "access_rules": [
+          "k_dialocus,k_graplou,a_train"
+        ]
+      },
+      {
+        "name": "reg_wolf",
+        "access_rules": [
+          "k_dialocus,k_graplou,a_train"
+        ]
+      },
+      {
+        "name": "reg_lost",
+        "access_rules": [
+          "k_dialocus,k_graplou,a_train"
+        ]
+      },
+      {
+        "name": "reg_bigtop",
+        "access_rules": [
+          "k_dialocus,k_graplou,a_train,k_ticket_tocket"
+        ]
+      }
     ]
   }
 ]

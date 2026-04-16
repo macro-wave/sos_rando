@@ -163,6 +163,23 @@
     ]
   },
   {
+    "name": "Ivory Tower Light Bridges",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_ivory_vanilla.png",
+        "codes": "option_ivory,option_ivory_vanilla"
+      },
+      {
+        "img": "images/options/option_ivory_open.png",
+        "codes": "option_ivory,option_ivory_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Shopsanity",
     "type": "progressive",
     "allow_disabled": false,
@@ -240,6 +257,40 @@
     ]
   },
   {
+    "name": "Shuffle Bridge Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_bridgekeys_anywhere.png",
+        "codes": "option_bridgekeys,option_bridgekeys_anywhere"
+      },
+      {
+        "img": "images/options/option_bridgekeys_wolfrock.png",
+        "codes": "option_bridgekeys,option_bridgekeys_wolfrock",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Ticket Stubs",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_stubs_anywhere.png",
+        "codes": "option_stubs,option_stubs_anywhere"
+      },
+      {
+        "img": "images/options/option_stubs_bigtop.png",
+        "codes": "option_stubs,option_stubs_bigtop",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Skip Prologue",
     "type": "progressive",
     "allow_disabled": false,
@@ -276,6 +327,24 @@
     ]
   },
   {
+    "name": "Early Clockwork Castle Teleporter",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/options/option_totw_teleporter_off.png",
+        "codes": "option_totw_teleporter,option_totw_teleporter_off",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/options/option_totw_teleporter_on.png",
+        "codes": "option_totw_teleporter,option_totw_teleporter_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Fleshmancer's Lair Warp to End",
     "type": "progressive",
     "allow_disabled": false,
@@ -289,6 +358,106 @@
       {
         "img": "images/options/option_lair_warp_on.png",
         "codes": "option_lair_warp,option_lair_warp_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Difficult Wheels Champions Minimum Level",
+    "type": "progressive",
+    "initial_stage_idx": 3,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/options/option_diff_wheels_copper.png",
+        "codes": "option_diff_wheels,option_diff_wheels_copper"
+      },
+      {
+        "img": "images/options/option_diff_wheels_bronze.png",
+        "codes": "option_diff_wheels,option_diff_wheels_bronze",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_wheels_silver.png",
+        "codes": "option_diff_wheels,option_diff_wheels_silver",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_wheels_gold.png",
+        "codes": "option_diff_wheels,option_diff_wheels_gold",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Warlock Wheels Champions Minimum Level",
+    "type": "progressive",
+    "initial_stage_idx": 3,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/options/option_diff_warlock_copper.png",
+        "codes": "option_diff_warlock,option_diff_warlock_copper"
+      },
+      {
+        "img": "images/options/option_diff_warlock_bronze.png",
+        "codes": "option_diff_warlock,option_diff_warlock_bronze",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_warlock_silver.png",
+        "codes": "option_diff_warlock,option_diff_warlock_silver",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_warlock_gold.png",
+        "codes": "option_diff_warlock,option_diff_warlock_gold",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_warlock_diamond.png",
+        "codes": "option_diff_warlock,option_diff_warlock_diamond",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_warlock_platinum.png",
+        "codes": "option_diff_warlock,option_diff_warlock_platinum",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Horloge Battle Tent Minimum Renown",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/options/option_diff_battle_tent_1.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_1"
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_2.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_3.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_4.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_5.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_5",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/options/option_diff_battle_tent_6.png",
+        "codes": "option_diff_battle_tent,option_diff_battle_tent_6",
         "inherit_codes": false
       }
     ]

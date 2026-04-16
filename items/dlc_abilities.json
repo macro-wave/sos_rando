@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Enable DLC",
+    "type": "toggle",
+    "img": "images/items/a_dlc_access.png",
+    "codes": "a_dlc_access"
+  },
+  {
+    "name": "Fardush's Train",
+    "type": "toggle",
+    "img": "images/items/a_train.png",
+    "codes": "a_train, a_railing"
+  },
+  {
+    "name": "Circus Magic",
+    "type": "toggle",
+    "img": "images/items/a_circus.png",
+    "codes": "a_circus"
+  },  
+  {
+    "name": "Renown",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/a_renown1.png",
+        "codes": "a_renown,a_renown1"
+      },
+      {
+        "img": "images/items/a_renown2.png",
+        "codes": "a_renown2"
+      },
+      {
+        "img": "images/items/a_renown3.png",
+        "codes": "a_renown3"
+      },
+      {
+        "img": "images/items/a_renown4.png",
+        "codes": "a_renown4"
+      },
+      {
+        "img": "images/items/a_renown5.png",
+        "codes": "a_renown5"
+      },
+      {
+        "img": "images/items/a_renown6.png",
+        "codes": "a_renown6"
+      }
+    ]
+  }
+]

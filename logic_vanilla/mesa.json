@@ -334,6 +334,16 @@
             ]
           },
           {
+            "name": "Dialocus",
+            "hosted_item": "k_dialocus",
+            "access_rules": [
+              "boss_elysandarelle"
+            ],
+            "visibility_rules": [
+              "a_dlc_access"
+            ]
+          },
+          {
             "name": "Buy From Watchmaker",
             "hosted_item": "k_wheelstable",
             "access_rules": [

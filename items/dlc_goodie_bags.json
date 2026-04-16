@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Small Goodie Bag",
+    "type": "toggle",
+    "img": "images/items/goodiebag_small.png",
+    "codes": "goodiebag_small"
+  },
+  {
+    "name": "Medium Goodie Bag",
+    "type": "toggle",
+    "img": "images/items/goodiebag_med.png",
+    "codes": "goodiebag_med"
+  },
+  {
+    "name": "Big Goodie Bag (Red)",
+    "type": "toggle",
+    "img": "images/items/goodiebag_big_red.png",
+    "codes": "goodiebag_big,goodiebag_big_red"
+  },
+  {
+    "name": "Big Goodie Bag (Gold)",
+    "type": "toggle",
+    "img": "images/items/goodiebag_big_gold.png",
+    "codes": "goodiebag_big,goodiebag_big_gold"
+  }
+]

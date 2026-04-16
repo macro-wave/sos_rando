@@ -86,5 +86,41 @@
     "access_rules": [
       "@can_cross_sea_of_stars,@can_use_speedball"
     ]
+  },
+  {
+    "name": "reg_sky_base",
+    "access_rules": [
+      "@rule_can_cross_sea_of_stars,@rule_can_use_speedball"
+    ]
+  },
+  {
+    "name": "reg_horloge",
+    "access_rules": [
+      "a_dlc_access,a_sailing,k_dialocus,k_mistral,k_seashell_magic,k_graplou"
+    ]
+  },
+  {
+    "name": "reg_ivory",
+    "access_rules": [
+      "boss_train,k_ticket_silken"
+    ]
+  },
+  {
+    "name": "reg_wolf",
+    "access_rules": [
+      "boss_train,k_ticket_silken"
+    ]
+  },
+  {
+    "name": "reg_lost",
+    "access_rules": [
+      "boss_train,k_ticket_silken"
+    ]
+  },
+  {
+    "name": "reg_bigtop",
+    "access_rules": [
+      "boss_train,k_ticket_tocket"
+    ]
   }
 ]

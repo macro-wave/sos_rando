@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Recipe: Barbapapa",
+    "type": "toggle",
+    "img": "images/items/recipe_barbapapa.png",
+    "codes": "recipe_barbapapa"
+  },
+  {
+    "name": "Recipe: Milkshake",
+    "type": "toggle",
+    "img": "images/items/recipe_milkshake.png",
+    "codes": "recipe_milkshake"
+  },
+  {
+    "name": "Recipe: Caramel Corn",
+    "type": "toggle",
+    "img": "images/items/recipe_caramelcorn.png",
+    "codes": "recipe_caramelcorn"
+  },
+  {
+    "name": "Recipe: Ice Cream",
+    "type": "toggle",
+    "img": "images/items/recipe_icecream.png",
+    "codes": "recipe_icecream"
+  },
+  {
+    "name": "Recipe: Popcorn",
+    "type": "toggle",
+    "img": "images/items/recipe_popcorn.png",
+    "codes": "recipe_popcorn"
+  }
+]

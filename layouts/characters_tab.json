@@ -6,7 +6,7 @@
     "content": [
       {
         "type": "itemgrid",
-        "item_margin": "2,1",
+        "item_margin": "2,0",
         "item_size": 50,
         "rows": [
           [
@@ -54,8 +54,7 @@
         "type": "itemgrid",
         "item_margin": "2,2",
         "item_size": 57.5,
-        "h_alignment": "left",
-        "item_height": 60,
+        "h_alignment": "center",
         "dropshadow": false,
         "rows": [
           [

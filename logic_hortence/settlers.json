@@ -43,7 +43,10 @@
             "name": "Wheels Champion",
             "item_count": 1,
             "access_rules": [
-              "w_figurine_mage,k_plan_inn"
+              "option_diff_wheels_copper,w_figurine_mage",
+              "option_diff_wheels_bronze,w_figurine_mage,[w_wheel_bronze]",
+              "option_diff_wheels_silver,w_figurine_mage,[w_wheel_silver]",
+              "option_diff_wheels_gold,w_figurine_mage,[w_wheel_gold]"
             ]
           },
           {
@@ -137,7 +140,7 @@
             "map": "homeworld",
             "x": 418,
             "y": 81,
-            "restrict_visibility_rules": [
+            "visibility_rules": [
               "option_fishing_rewards_on"
             ]
           }

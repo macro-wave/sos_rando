@@ -1,0 +1,46 @@
+{
+  "dlc_party_grid": {
+    "type": "container",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,0",
+        "item_size": 50,
+        "rows": [
+          [
+            "character_juggler",
+            "character_acrobat",
+            "character_arty"
+          ]
+        ]
+      }
+    ]
+  },
+  "dlc_boss_grid": {
+    "type": "container",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": 57.5,
+        "h_alignment": "center",
+        "rows": [
+          [
+            "boss_train",
+            "boss_narcis_king",
+            "boss_feral_queen",
+            "boss_tendu"
+          ],
+          [
+            "boss_pif_pouf",
+            "boss_pantouf",
+            "boss_puppeteer",
+            "boss_dweller_scourge"
+          ]
+        ]
+      }
+    ]
+  }
+}

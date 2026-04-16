@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Time Rune I",
+    "type": "toggle",
+    "img": "images/items/c_timerune_1.png",
+    "codes": "c_timerune_1"
+  },
+  {
+    "name": "Time Rune II",
+    "type": "toggle",
+    "img": "images/items/c_timerune_2.png",
+    "codes": "c_timerune_2"
+  },
+  {
+    "name": "Time Rune III",
+    "type": "toggle",
+    "img": "images/items/c_timerune_3.png",
+    "codes": "c_timerune_3"
+  },
+  {
+    "name": "Time Rune IV",
+    "type": "toggle",
+    "img": "images/items/c_timerune_4.png",
+    "codes": "c_timerune_4"
+  },
+  {
+    "name": "Time Rune V",
+    "type": "toggle",
+    "img": "images/items/c_timerune_5.png",
+    "codes": "c_timerune_5"
+  },
+  {
+    "name": "Time Rune VI",
+    "type": "toggle",
+    "img": "images/items/c_timerune_6.png",
+    "codes": "c_timerune_6"
+  },
+  {
+    "name": "Time Rune VII",
+    "type": "toggle",
+    "img": "images/items/c_timerune_7.png",
+    "codes": "c_timerune_7"
+  },
+  {
+    "name": "Time Rune VIII",
+    "type": "toggle",
+    "img": "images/items/c_timerune_8.png",
+    "codes": "c_timerune_8"
+  },
+  {
+    "name": "Time Rune IX",
+    "type": "toggle",
+    "img": "images/items/c_timerune_9.png",
+    "codes": "c_timerune_9"
+  },
+  {
+    "name": "Time Rune X",
+    "type": "toggle",
+    "img": "images/items/c_timerune_10.png",
+    "codes": "c_timerune_10"
+  },
+  {
+    "name": "Time Rune XI",
+    "type": "toggle",
+    "img": "images/items/c_timerune_11.png",
+    "codes": "c_timerune_11"
+  },
+  {
+    "name": "Time Rune XII",
+    "type": "toggle",
+    "img": "images/items/c_timerune_12.png",
+    "codes": "c_timerune_12"
+  }
+]
