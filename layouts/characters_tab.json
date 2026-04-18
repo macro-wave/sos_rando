@@ -26,6 +26,7 @@
   "golem_grid": {
     "type": "container",
     "margin": "0,0",
+    "min_width": 138,
     "dropshadow": false,
     "content": [
       {

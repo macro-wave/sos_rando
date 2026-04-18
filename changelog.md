@@ -1,5 +1,9 @@
 # RELEASES
 
+## Version 0.0.11.1 : 4/18/2026
+
+- Updated for hosting to the Community Edition (EmoTracker 3.0+)
+
 ## Version 0.0.11 : 4/15/2026
 
 - ADDED THROES OF THE WATCHMAKER CONTENT

@@ -2,16 +2,14 @@
 ***
 
 ### VANILLA TRACKER MODE
-To open the vanilla (non-randomizer) version of the tracker, go to `Settings > Installed Packages > Other > SoS Randomizer Tracker > Vanilla Map Tracker`.
+To open the vanilla (non-randomizer) version of the tracker, click the folder icon in the bottom right corner. You may need to enable `Variant Switcher` in `Settings -> Extensions` (bottom left corner). Alternatively, you can enable `Ignore Logic` to remove all access rules.
 
 This version is for players who want to use the pack with a normal playthrough of Sea of Stars and track all the treasure chests and progression items as they go. It strictly follows the progression of the game starting from Zenith Academy, with a smaller set of special options.
-
-**Important:** The options in the options panel will *break* the vanilla logic, with the exception of Skip Prologue.
 
 ### RANDOMIZER OPTIONS PANEL
 The options panel drops down from the gear icon in the top left tabbed section.
 
-**World Access Options**
+**World Access Options**<br/>
 *Forbidden Cavern*
 - Closed: Vanilla; both the cavern key and bosslug block progress to the rest of the world
 - Open: Behaves as though the wall in the central room is open and the laser bridge is on from the start. Key is still needed for a few checks.
@@ -41,8 +39,8 @@ The options panel drops down from the gear icon in the top left tabbed section.
 - Vanilla: Must open each light bridge in Ivory Towers by climbing the tower and pressing the big rune button.
 - Open: All light bridges are on, and the player can complete towers out-of-order.
 
-**Shuffle Options**
-*Shopsanity*
+**Shuffle Options**<br/>
+*Shopsanity*<br/>
 This mode adds slots from the various merchants and shopkeepers to the shuffled locations.
 - *"Unique"* will only add one-time purchase slots as checks. These include recipes, music sheets, and relics (alumni tokens).
 - *"All"* will add every shop slot, including ingredients, snacks, and equipment slots.
@@ -56,40 +54,40 @@ This mode adds slots from the various merchants and shopkeepers to the shuffled 
 If turned on, the reward for every quiz, both casual and expert, is included as a location, and the loremaster location requires passing all quizzes.
 Otherwise, the loremaster check alone is included and only requires one quiz.
 
-*Conch Rewards & Fishing Rewards*
+*Conch Rewards & Fishing Rewards*<br/>
 Adds the rewards given for collecting conches/discovering fish species as checks.
 
 *Bridge Keys and Entry Stubs*
 - Anywhere: the Keys and Stubs from Wolf Rock and Big Top are shuffled anywhere in the world.
 - Own Area: the keys and stubs are each contained within their respective areas and are guaranteed to be found in logically sufficient quantities before the associated locks are reached (think dungeon keys in Zelda, for comparison).
 
-**Sequence Skip Options**
+**Sequence Skip Options**<br/>
 *Skip Prologue*
 Equivalent of using Solstice Diploma. Excludes all locations in the prologue up to the Forbidden Cavern.
 
-*Early Castle Teleporter*
+*Early Castle Teleporter*<br/>
 If turned on, the teleporter from Vespertine to Watchmaker's Workshop is available as soon as the Dialocus is found. If off, the player must be able to logically reach the workshop without it in order to get the checks or enter Horloge.
 
-*Fleshmancer's Lair Warp*
+*Fleshmancer's Lair Warp*<br/>
 Behaves as though the warp at the entrance to the lair is available from the start. Does not exclude any checks in the dungeon, but makes it possible to reach the final boss without going through the dungeon or getting items like the suspicious fish.
 
-**Difficulty Options**
+**Difficulty Options**<br/>
 *Wheels Champions/Warlock Wheels Champions*
 - These set the minimum required level achieved in Wheels for certain champion games to be considered in-logic.
 The "difficult" wheels champions in the main world are Mooncradle, Mirth, Cloud Kingdom, and Repine.
 - Warlock Champions refers only to the three in the Warlock tent in Horloge. The Horloge Inn champion is not included.
 
-*Horloge Battle Tent Minimum Renown*
+*Horloge Battle Tent Minimum Renown*<br/>
 This sets the minimum required player level stars ("Renown") to logically beat the battle challenge in Town of Horloge.
 
-**Logic Options**
-*Secret Passage w/out Hint*
+**Logic Options**<br/>
+*Secret Passage w/out Hint*<br/>
 Allows logical entry to Romaya's Secret Passage without requiring access to the location of the hint in Flooded Graveyard.
 
-*Oasis w/out Hint*
+*Oasis w/out Hint*<br/>
 Allows logical access to the Oasis without first defeating the Dweller and revealing the path hint in Repine.
 
-*Throne w/out Belt Buckle*
+*Throne w/out Belt Buckle*<br/>
 If turned on, the tracker will assume a player knows the path to Throne of the Queen without needing the story hint.
 Otherwise, if the player can access Cerulean Expanse but does not have Joce's Belt Buckle, the check will be marked yellow for "accessible out-of-logic"
 
@@ -99,12 +97,12 @@ Otherwise, if the player can access Cerulean Expanse but does not have Joce's Be
 
 ### SPECIAL ITEMS
 
-**Fishing and Recipes**
+**Fishing and Recipes**<br/>
 The *Checklists* tab has item grids for fish discovered and for recipes obtained.
 Fish clicked counts towards the fishing lodge checks on Settlers Island (only visible with *Shuffle Fishing Rewards* active).
 Recipes only affect logic for the robot in repine (unofficially) named *Chomper*. To access that check, at least one recipe must be obtained for each of 5 categories: Sweet, Warming, Meaty, Light, and From the Water. Some foods match 2 of these, some none. A table showing the recipes for each category can be found in the [compendium document](https://docs.google.com/spreadsheets/d/1pMN6Ia4cQehQ_SDULeH43F3FtbKHTe2eAo8T-NpG1K8/edit#gid=0).
 
-**Progressive Items**
+**Progressive Items**<br/>
 Wheels items (figurines and leveled wheels) are treated as one progressive item, as the order they are obtained in the vanilla game is fixed. Progressing the item to the *Mage Figurine* is the minimum to unlock regular wheels champions, with the exception of the Repine champion which requires the *Deployable wheels table*. The *Watchmaker* requires defeating all champions, which in vanilla logic coincides with progressing this item to the *Platinum Wheel*.
 
 The *Coral/Cobalt Hammer* and the *Seashell/Magic Seashell* have been respectively treated as progressive items.
