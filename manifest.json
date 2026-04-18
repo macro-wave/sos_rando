@@ -2,8 +2,8 @@
   "name": "SoS Randomizer Tracker",
   "author": "Macrowave",
   "game_name": "Sea of Stars",
-  "version": "0.0.11",
-  "uid": "sos_macrowave",
+  "version": "0.0.11.1",
+  "uid": "sos_maptracker_macrowave",
   "layout_engine_version": "1.0",
   "variants": {
     "standard": {

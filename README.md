@@ -16,12 +16,10 @@ Design of this pack, if a randomizer mod is ever developed, is subject to the im
 
 ## View this prototype pack in EmoTracker
 
-1. If you don't already have EmoTracker, get it from the developer's [site](https://emotracker.net/)
-2. Grab the latest prototype from [releases](https://github.com/macro-wave/sos_rando/releases)
-3. Place the zipped folder inside your local EmoTracker installation at `EmoTracker/packs/`
-4. Run EmoTracker. Select `Settings > Installed Packages > Other > SoS Randomizer Tracker > Map Tracker`
-5. Alternatively, you can use the vanilla mode to track treasure chests in a regular playthrough! Select `Settings > Installed Packages > Other > SoS Randomizer Tracker > Vanilla Map Tracker`.
-6. See [tracker_help.md](tracker_help.md) for more info.
+1. Open EmoTracker's settings.
+2. Find the Additional Repositories section.
+3. Paste this URL: https://macro-wave.github.io/sos_maptracker_macrowave/sos.zip
+4. Reload the package list from the Package Manager.
 
 ## Credits
-Macrowave/The Cartographer: Pack Designer
+Macrowave/The Cartographer
