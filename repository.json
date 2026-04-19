@@ -1,0 +1,36 @@
+{
+  "name": "Macrowave's Trackers",
+  "packages": [
+    {
+      "name": "SoS Randomizer Tracker",
+      "author": "Macrowave",
+      "game_name": "Sea of Stars",
+      "version": "0.0.11.2",
+      "uid": "sos_maptracker_macrowave",
+      "link": "https://github.com/macro-wave/SoS-MapTracker/releases/download/v0.0.11.2-prototype/SoS-MapTracker.zip",
+      "flags": [
+        "map",
+        "pins"
+      ],
+      "variants": [
+        {
+          "name": "Map Tracker",
+          "flags": [
+            "map",
+            "pins"
+          ]
+        },
+        {
+          "name": "Vanilla Map Tracker",
+          "flags": [
+            "map",
+            "pins"
+          ]
+        },
+        {
+          "name": "Items Only"
+        }
+      ]
+    }
+  ]
+}

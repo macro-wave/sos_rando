@@ -18,7 +18,7 @@ Design of this pack, if a randomizer mod is ever developed, is subject to the im
 
 1. Open EmoTracker's settings.
 2. Find the Additional Repositories section.
-3. Paste this URL: https://macro-wave.github.io/sos_maptracker_macrowave/sos.zip
+3. Paste this URL: https://macro-wave.github.io/SoS-MapTracker/repository.json
 4. Reload the package list from the Package Manager.
 
 ## Credits
